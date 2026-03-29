@@ -1,0 +1,1354 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "rug",
+    "describe": "A rectangular, dark brown rug with a slightly textured surface and a thin, lighter brown border along the edge.",
+    "class_id": -1,
+    "bbox_min": [
+      0.10994601994752884,
+      -0.5420227646827698,
+      -1.4098098278045654
+    ],
+    "bbox_max": [
+      0.988438606262207,
+      1.8082242012023926,
+      -1.305910587310791
+    ],
+    "bbox_center": [
+      0.5491923131048679,
+      0.6331007182598114,
+      -1.3578602075576782
+    ],
+    "bbox_size": [
+      0.8784925863146782,
+      2.3502469658851624,
+      0.10389924049377441
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "door",
+    "describe": "A white door with a vertical handle on the right side, featuring a raised panel design with a recessed central panel bordered by a raised frame.",
+    "class_id": 5,
+    "bbox_min": [
+      -0.6195405721664429,
+      -0.7824886441230774,
+      -0.6494335532188416
+    ],
+    "bbox_max": [
+      0.1953231394290924,
+      -0.6981931328773499,
+      0.4570685923099518
+    ],
+    "bbox_center": [
+      -0.21210871636867523,
+      -0.7403408885002136,
+      -0.09618248045444489
+    ],
+    "bbox_size": [
+      0.8148637115955353,
+      0.08429551124572754,
+      1.1065021455287933
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "box",
+    "describe": "A rectangular, dark-colored box with a glossy finish and a visible front-facing label area in the center, featuring a white label with black text.",
+    "class_id": 26,
+    "bbox_min": [
+      1.364021897315979,
+      -0.4548437297344208,
+      -1.4163782596588135
+    ],
+    "bbox_max": [
+      1.5562065839767456,
+      -0.08028580248355865,
+      -0.9316360950469971
+    ],
+    "bbox_center": [
+      1.4601142406463623,
+      -0.2675647661089897,
+      -1.1740071773529053
+    ],
+    "bbox_size": [
+      0.1921846866607666,
+      0.3745579272508621,
+      0.4847421646118164
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "bookshelf",
+    "describe": "A dark wooden bookcase with a flat top and a slightly recessed panel design on the upper section. It features three visible shelves, with the top shelf partially filled with books. The middle shelf contains a stack of books, and the bottom shelf is empty. The bookcase has a solid, sturdy appearance with a smooth finish.",
+    "class_id": 18,
+    "bbox_min": [
+      1.2840003967285156,
+      -0.5982387661933899,
+      -1.4174808263778687
+    ],
+    "bbox_max": [
+      1.825408935546875,
+      0.4702165126800537,
+      -0.06865498423576355
+    ],
+    "bbox_center": [
+      1.5547046661376953,
+      -0.06401112675666809,
+      -0.7430679053068161
+    ],
+    "bbox_size": [
+      0.5414085388183594,
+      1.0684552788734436,
+      1.348825842142105
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "dresser",
+    "describe": "A dark wooden chest of drawers with a polished finish, featuring three drawers on the top row and two on the bottom. Each drawer has a single metal handle centered horizontally.",
+    "class_id": 36,
+    "bbox_min": [
+      1.2540364265441895,
+      0.3976137340068817,
+      -1.3873263597488403
+    ],
+    "bbox_max": [
+      1.767525553703308,
+      1.3698899745941162,
+      -0.45156291127204895
+    ],
+    "bbox_center": [
+      1.5107809901237488,
+      0.883751854300499,
+      -0.9194446355104446
+    ],
+    "bbox_size": [
+      0.5134891271591187,
+      0.9722762405872345,
+      0.9357634484767914
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "box",
+    "describe": "A rectangular, dark-colored box with a glossy finish and a visible metallic latch on the front.",
+    "class_id": 26,
+    "bbox_min": [
+      1.3517931699752808,
+      -0.08684490621089935,
+      -1.323978304862976
+    ],
+    "bbox_max": [
+      1.499895453453064,
+      0.29594892263412476,
+      -0.9278272986412048
+    ],
+    "bbox_center": [
+      1.4258443117141724,
+      0.1045520082116127,
+      -1.1259028017520905
+    ],
+    "bbox_size": [
+      0.1481022834777832,
+      0.3827938288450241,
+      0.39615100622177124
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow black cabinet with a smooth finish and a single visible door featuring a vertical handle on the right side.",
+    "class_id": 7,
+    "bbox_min": [
+      -0.1254330277442932,
+      -0.9033852815628052,
+      -1.2508867979049683
+    ],
+    "bbox_max": [
+      1.154675006866455,
+      -0.49426284432411194,
+      0.24893957376480103
+    ],
+    "bbox_center": [
+      0.5146209895610809,
+      -0.6988240629434586,
+      -0.5009736120700836
+    ],
+    "bbox_size": [
+      1.2801080346107483,
+      0.40912243723869324,
+      1.4998263716697693
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "speaker",
+    "describe": "Black portable speaker with a rectangular body, featuring a prominent front grille covering the speaker components, rounded edges, and a visible control panel on the top with buttons and possibly LED indicators.",
+    "class_id": 118,
+    "bbox_min": [
+      0.32934820652008057,
+      -0.9023823142051697,
+      -0.08394108712673187
+    ],
+    "bbox_max": [
+      1.1214324235916138,
+      -0.5684252977371216,
+      0.36982056498527527
+    ],
+    "bbox_center": [
+      0.7253903150558472,
+      -0.7354038059711456,
+      0.1429397389292717
+    ],
+    "bbox_size": [
+      0.7920842170715332,
+      0.3339570164680481,
+      0.45376165211200714
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "picture",
+    "describe": "A painting depicting a serene blue sky with scattered white clouds above a calm body of water, reflecting the sky's hues. The water surface is dotted with several white boats, suggesting a peaceful maritime scene.",
+    "class_id": 15,
+    "bbox_min": [
+      1.7908852100372314,
+      -0.3203206956386566,
+      0.19259628653526306
+    ],
+    "bbox_max": [
+      1.8714251518249512,
+      0.28402256965637207,
+      0.6612473726272583
+    ],
+    "bbox_center": [
+      1.8311551809310913,
+      -0.018149062991142273,
+      0.4269218295812607
+    ],
+    "bbox_size": [
+      0.08053994178771973,
+      0.6043432652950287,
+      0.46865108609199524
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "printer",
+    "describe": "A modern, black inkjet printer with a glossy finish, featuring a flatbed scanner on top with a closed lid. The front panel includes a control interface with a small display screen and several buttons, and there is a prominent brand logo on the lower right corner. The printer has a curved design with a slightly raised rear section, and it appears to be a compact, desktop model suitable for home or small office use.",
+    "class_id": 50,
+    "bbox_min": [
+      1.2543339729309082,
+      0.6376189589500427,
+      -0.6237499713897705
+    ],
+    "bbox_max": [
+      1.7797479629516602,
+      1.2459176778793335,
+      -0.38720911741256714
+    ],
+    "bbox_center": [
+      1.5170409679412842,
+      0.9417683184146881,
+      -0.5054795444011688
+    ],
+    "bbox_size": [
+      0.525413990020752,
+      0.6082987189292908,
+      0.23654085397720337
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "file cabinet",
+    "describe": "A dark-colored, vertical filing cabinet with a series of drawers, each featuring a silver-colored handle centered on the drawer face.",
+    "class_id": 75,
+    "bbox_min": [
+      1.0073076486587524,
+      1.2786847352981567,
+      -1.3788716793060303
+    ],
+    "bbox_max": [
+      1.430073857307434,
+      2.2671520709991455,
+      -0.6307432055473328
+    ],
+    "bbox_center": [
+      1.2186907529830933,
+      1.7729184031486511,
+      -1.0048074424266815
+    ],
+    "bbox_size": [
+      0.42276620864868164,
+      0.9884673357009888,
+      0.7481284737586975
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "printer",
+    "describe": "A modern office printer with a white and gray color scheme, featuring a flatbed scanner on top with a closed lid, a control panel with buttons and a small display screen on the front right side, and a paper output tray at the bottom.",
+    "class_id": 50,
+    "bbox_min": [
+      1.4325557947158813,
+      1.5100159645080566,
+      -0.51775723695755
+    ],
+    "bbox_max": [
+      1.7255980968475342,
+      1.9134750366210938,
+      -0.3600280284881592
+    ],
+    "bbox_center": [
+      1.5790769457817078,
+      1.7117455005645752,
+      -0.4388926327228546
+    ],
+    "bbox_size": [
+      0.29304230213165283,
+      0.4034590721130371,
+      0.15772920846939087
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "telephone",
+    "describe": "A black, corded, landline telephone with a rectangular base and a curved handset resting on top. The base features a numeric keypad with white buttons, a display screen above the keypad, and function buttons between the screen and the keypad. The handset has a slightly textured surface and a visible earpiece at one end.",
+    "class_id": 101,
+    "bbox_min": [
+      1.3644938468933105,
+      1.9427388906478882,
+      -0.6498026847839355
+    ],
+    "bbox_max": [
+      1.6507439613342285,
+      2.3846635818481445,
+      -0.5073356032371521
+    ],
+    "bbox_center": [
+      1.5076189041137695,
+      2.1637012362480164,
+      -0.5785691440105438
+    ],
+    "bbox_size": [
+      0.28625011444091797,
+      0.44192469120025635,
+      0.14246708154678345
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "printer",
+    "describe": "A modern office printer with a white and gray color scheme, featuring a flatbed scanner on top with a closed lid, a control panel with buttons and a small display screen on the front right side, and a paper output tray at the bottom.",
+    "class_id": 50,
+    "bbox_min": [
+      1.5276978015899658,
+      1.6560271978378296,
+      -0.4830382764339447
+    ],
+    "bbox_max": [
+      1.6992828845977783,
+      2.024481773376465,
+      -0.29290035367012024
+    ],
+    "bbox_center": [
+      1.613490343093872,
+      1.8402544856071472,
+      -0.38796931505203247
+    ],
+    "bbox_size": [
+      0.1715850830078125,
+      0.36845457553863525,
+      0.19013792276382446
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "desk",
+    "describe": "A modern, black, L-shaped office desk with a smooth surface and rounded corners. The desk features a sleek, flat tabletop with a thin profile and is supported by a single, central pedestal base that flares out into a stable, four-pointed foot at the bottom.",
+    "class_id": 9,
+    "bbox_min": [
+      0.4336453080177307,
+      1.3184571266174316,
+      -1.3799411058425903
+    ],
+    "bbox_max": [
+      1.6641812324523926,
+      3.115086793899536,
+      -0.5228695869445801
+    ],
+    "bbox_center": [
+      1.0489132702350616,
+      2.216771960258484,
+      -0.9514053463935852
+    ],
+    "bbox_size": [
+      1.2305359244346619,
+      1.7966296672821045,
+      0.8570715188980103
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "desk",
+    "describe": "A black, L-shaped office desk with a smooth surface, featuring a flat main work area and an elevated monitor shelf on the left side. The desk has a modesty panel and is supported by two visible metal legs on the right side, with a third leg partially visible on the left. There is a black, three-drawer filing cabinet on the left side of the desk.",
+    "class_id": 9,
+    "bbox_min": [
+      -0.8220741152763367,
+      2.476619243621826,
+      -1.3899835348129272
+    ],
+    "bbox_max": [
+      0.07376483827829361,
+      3.159262180328369,
+      -0.46772024035453796
+    ],
+    "bbox_center": [
+      -0.37415463849902153,
+      2.8179407119750977,
+      -0.9288518875837326
+    ],
+    "bbox_size": [
+      0.8958389535546303,
+      0.682642936706543,
+      0.9222632944583893
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "mirror",
+    "describe": "A rectangular mirror with a thick, ornate wooden frame featuring intricate carvings and a glossy finish.",
+    "class_id": 71,
+    "bbox_min": [
+      1.6660405397415161,
+      1.5440847873687744,
+      -0.40693387389183044
+    ],
+    "bbox_max": [
+      1.7501672506332397,
+      2.0542540550231934,
+      0.2000867873430252
+    ],
+    "bbox_center": [
+      1.708103895187378,
+      1.7991694211959839,
+      -0.10342354327440262
+    ],
+    "bbox_size": [
+      0.08412671089172363,
+      0.510169267654419,
+      0.6070206612348557
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "trash can",
+    "describe": "A tall, cylindrical blue trash can with a slightly domed lid and a flat base.",
+    "class_id": 56,
+    "bbox_min": [
+      1.2911306619644165,
+      1.2712401151657104,
+      -1.3720847368240356
+    ],
+    "bbox_max": [
+      1.4072089195251465,
+      1.4709405899047852,
+      -0.8477075695991516
+    ],
+    "bbox_center": [
+      1.3491697907447815,
+      1.3710903525352478,
+      -1.1098961532115936
+    ],
+    "bbox_size": [
+      0.11607825756072998,
+      0.1997004747390747,
+      0.524377167224884
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "bulletin board",
+    "describe": "A vertical, rectangular, orange bulletin board with a smooth surface and a slightly darker orange border.",
+    "class_id": 154,
+    "bbox_min": [
+      1.6372997760772705,
+      1.9683759212493896,
+      -0.4780937731266022
+    ],
+    "bbox_max": [
+      1.7216567993164062,
+      2.6204934120178223,
+      0.20039136707782745
+    ],
+    "bbox_center": [
+      1.6794782876968384,
+      2.294434666633606,
+      -0.13885120302438736
+    ],
+    "bbox_size": [
+      0.08435702323913574,
+      0.6521174907684326,
+      0.6784851402044296
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "speaker",
+    "describe": "A black, rectangular floor-standing speaker with a flat front panel, featuring a grille covering the drivers, and a visible side panel that appears to be made of a matte material.",
+    "class_id": 118,
+    "bbox_min": [
+      1.2479140758514404,
+      2.068718433380127,
+      -1.2447181940078735
+    ],
+    "bbox_max": [
+      1.4191616773605347,
+      2.4620754718780518,
+      -0.9340524077415466
+    ],
+    "bbox_center": [
+      1.3335378766059875,
+      2.2653969526290894,
+      -1.08938530087471
+    ],
+    "bbox_size": [
+      0.17124760150909424,
+      0.3933570384979248,
+      0.3106657862663269
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "book",
+    "describe": "A hardcover book with a black spine and possibly dark-colored front and back covers, featuring gold or light-colored lettering along the spine.",
+    "class_id": 22,
+    "bbox_min": [
+      0.8911845088005066,
+      -0.5614033937454224,
+      -1.3006588220596313
+    ],
+    "bbox_max": [
+      1.3470298051834106,
+      -0.4887262284755707,
+      -0.767130434513092
+    ],
+    "bbox_center": [
+      1.1191071569919586,
+      -0.5250648111104965,
+      -1.0338946282863617
+    ],
+    "bbox_size": [
+      0.45584529638290405,
+      0.07267716526985168,
+      0.5335283875465393
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "keyboard",
+    "describe": "A black mechanical keyboard with elevated keycaps, featuring a mix of dark and light gray keycaps, some with translucent legends for backlighting. The keyboard includes a number pad on the right side, function keys across the top, and a standard QWERTY layout. The keys have a cylindrical contour for ergonomics, and there is a visible USB cable extending from the top right corner.",
+    "class_id": 46,
+    "bbox_min": [
+      0.7623208165168762,
+      2.2204325199127197,
+      -0.661700427532196
+    ],
+    "bbox_max": [
+      1.2135385274887085,
+      2.725966215133667,
+      -0.5980057120323181
+    ],
+    "bbox_center": [
+      0.9879296720027924,
+      2.4731993675231934,
+      -0.6298530697822571
+    ],
+    "bbox_size": [
+      0.4512177109718323,
+      0.5055336952209473,
+      0.06369471549987793
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "office chair",
+    "describe": "An office chair with a high backrest, upholstered in black fabric, featuring a contoured design for ergonomic support. The chair includes adjustable armrests and a five-point wheeled base for mobility.",
+    "class_id": 10,
+    "bbox_min": [
+      0.12684224545955658,
+      1.760083794593811,
+      -1.3889209032058716
+    ],
+    "bbox_max": [
+      0.9184109568595886,
+      2.494392156600952,
+      -0.23777133226394653
+    ],
+    "bbox_center": [
+      0.5226266011595726,
+      2.1272379755973816,
+      -0.8133461177349091
+    ],
+    "bbox_size": [
+      0.791568711400032,
+      0.7343083620071411,
+      1.151149570941925
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "laptop",
+    "describe": "A black laptop computer with a visible keyboard and trackpad, featuring a glossy screen with a thick bezel, and a visible hinge mechanism connecting the screen to the keyboard base.",
+    "class_id": 77,
+    "bbox_min": [
+      0.9812780618667603,
+      2.4849843978881836,
+      -0.5969800353050232
+    ],
+    "bbox_max": [
+      1.5134928226470947,
+      2.9640634059906006,
+      -0.28769370913505554
+    ],
+    "bbox_center": [
+      1.2473854422569275,
+      2.724523901939392,
+      -0.44233687222003937
+    ],
+    "bbox_size": [
+      0.5322147607803345,
+      0.479079008102417,
+      0.30928632616996765
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "window",
+    "describe": "The painting depicts a serene landscape at dusk or dawn, with a soft, warm light illuminating the scene. In the foreground, a small, white-framed window with a dark interior is centered, suggesting a tranquil indoor setting. The window is set against a backdrop of a dark, indistinct landscape that transitions from a deep black at the top to a lighter, muted tone at the bottom. The lower portion of the painting features a horizontal band of lighter color, possibly indicating a distant horizon or a reflection on a surface.",
+    "class_id": 16,
+    "bbox_min": [
+      0.8370479345321655,
+      3.121722459793091,
+      -0.1611025184392929
+    ],
+    "bbox_max": [
+      1.4765534400939941,
+      3.1568946838378906,
+      0.361121267080307
+    ],
+    "bbox_center": [
+      1.1568006873130798,
+      3.1393085718154907,
+      0.10000937432050705
+    ],
+    "bbox_size": [
+      0.6395055055618286,
+      0.035172224044799805,
+      0.5222237855195999
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "printer",
+    "describe": "A black multifunction printer with a flatbed scanner on top, featuring a control panel with several buttons and a small display screen on the front right side. The printer has a paper output tray at the bottom with an extendable support flap.",
+    "class_id": 50,
+    "bbox_min": [
+      1.3769242763519287,
+      1.3828234672546387,
+      -0.609346330165863
+    ],
+    "bbox_max": [
+      1.751577615737915,
+      1.7574352025985718,
+      -0.4055498540401459
+    ],
+    "bbox_center": [
+      1.5642509460449219,
+      1.5701293349266052,
+      -0.5074480921030045
+    ],
+    "bbox_size": [
+      0.37465333938598633,
+      0.3746117353439331,
+      0.20379647612571716
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "book",
+    "describe": "A hardcover book with a dust jacket featuring a predominantly white and gray color scheme. The spine of the book is visible, showing a gray background with white text aligned vertically. The front cover is partially visible, displaying a grayscale image with a white border along the top edge.",
+    "class_id": 22,
+    "bbox_min": [
+      0.15259742736816406,
+      -0.5749393105506897,
+      -0.4110327959060669
+    ],
+    "bbox_max": [
+      0.2503208518028259,
+      -0.5545224547386169,
+      -0.2205403745174408
+    ],
+    "bbox_center": [
+      0.201459139585495,
+      -0.5647308826446533,
+      -0.31578658521175385
+    ],
+    "bbox_size": [
+      0.09772342443466187,
+      0.020416855812072754,
+      0.1904924213886261
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "box",
+    "describe": "A rectangular box with a predominantly teal color scheme, featuring a white label with black text in the center. The box has a visible flap on the top, suggesting it is a lid, and the edges of the box appear to be slightly worn or frayed.",
+    "class_id": 26,
+    "bbox_min": [
+      0.7884014248847961,
+      -0.6670297384262085,
+      -0.47762230038642883
+    ],
+    "bbox_max": [
+      0.915372371673584,
+      -0.5861536860466003,
+      -0.3497042655944824
+    ],
+    "bbox_center": [
+      0.8518868982791901,
+      -0.6265917122364044,
+      -0.4136632829904556
+    ],
+    "bbox_size": [
+      0.12697094678878784,
+      0.08087605237960815,
+      0.1279180347919464
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "laptop",
+    "describe": "A laptop computer with a black keyboard featuring white lettering on the keys, a large touchpad centered below the keyboard, and a display screen with a thick bezel. The laptop has a silver or light-colored body with visible ports on the side.",
+    "class_id": 77,
+    "bbox_min": [
+      0.23671773076057434,
+      2.657618284225464,
+      -0.7759209275245667
+    ],
+    "bbox_max": [
+      0.7082127928733826,
+      3.067540407180786,
+      -0.28557997941970825
+    ],
+    "bbox_center": [
+      0.47246526181697845,
+      2.862579345703125,
+      -0.5307504534721375
+    ],
+    "bbox_size": [
+      0.4714950621128082,
+      0.40992212295532227,
+      0.4903409481048584
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "curtain",
+    "describe": "A pair of dark brown curtains with a smooth texture, hanging from a curtain rod with evenly spaced grommets. The curtains are full-length, reaching down to the floor, and exhibit a slight sheen, suggesting a silky or satiny material.",
+    "class_id": 21,
+    "bbox_min": [
+      -0.8375222682952881,
+      2.9037625789642334,
+      -0.6105940937995911
+    ],
+    "bbox_max": [
+      0.7801176905632019,
+      3.297445774078369,
+      1.1416468620300293
+    ],
+    "bbox_center": [
+      -0.02870228886604309,
+      3.1006041765213013,
+      0.2655263841152191
+    ],
+    "bbox_size": [
+      1.61763995885849,
+      0.39368319511413574,
+      1.7522409558296204
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "desk",
+    "describe": "A rectangular desk with a smooth, flat surface and rounded corners, supported by a single central leg that flares out into a four-pointed base for stability.",
+    "class_id": 9,
+    "bbox_min": [
+      -0.4643831253051758,
+      2.3543148040771484,
+      -1.393702507019043
+    ],
+    "bbox_max": [
+      0.28189876675605774,
+      3.1766228675842285,
+      -0.3687205910682678
+    ],
+    "bbox_center": [
+      -0.09124217927455902,
+      2.7654688358306885,
+      -0.8812115490436554
+    ],
+    "bbox_size": [
+      0.7462818920612335,
+      0.8223080635070801,
+      1.0249819159507751
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "telephone",
+    "describe": "A black, corded, landline telephone with a rectangular base and a curved handset resting on top. The base features a numeric keypad with white buttons, a display screen above the keypad, and function buttons between the screen and the keypad. The handset has a slightly textured surface and appears to be designed for ergonomic handling.",
+    "class_id": 101,
+    "bbox_min": [
+      0.059719882905483246,
+      2.6918346881866455,
+      -0.7477045655250549
+    ],
+    "bbox_max": [
+      0.2153402864933014,
+      2.8800344467163086,
+      -0.6055430173873901
+    ],
+    "bbox_center": [
+      0.13753008469939232,
+      2.785934567451477,
+      -0.6766237914562225
+    ],
+    "bbox_size": [
+      0.15562040358781815,
+      0.18819975852966309,
+      0.1421615481376648
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "blinds",
+    "describe": "A white, horizontal window blind with evenly spaced slats, partially open, allowing light to filter through. The blind is mounted within a white frame, and the slats are aligned in a straight, parallel fashion.",
+    "class_id": 86,
+    "bbox_min": [
+      -0.548271656036377,
+      3.0592923164367676,
+      -0.38676658272743225
+    ],
+    "bbox_max": [
+      0.40662798285484314,
+      3.303101062774658,
+      0.9693835377693176
+    ],
+    "bbox_center": [
+      -0.0708218365907669,
+      3.181196689605713,
+      0.2913084775209427
+    ],
+    "bbox_size": [
+      0.9548996388912201,
+      0.24380874633789062,
+      1.3561501204967499
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "vent",
+    "describe": "A rectangular vent with a series of parallel, horizontal slats, each with a slight curvature, allowing for airflow through the gaps. The vent has a metallic finish and is designed to be mounted on a surface.",
+    "class_id": 408,
+    "bbox_min": [
+      -0.27472999691963196,
+      2.856823682785034,
+      -1.4263826608657837
+    ],
+    "bbox_max": [
+      0.015193524770438671,
+      3.023656129837036,
+      -1.3967300653457642
+    ],
+    "bbox_center": [
+      -0.12976823607459664,
+      2.940239906311035,
+      -1.411556363105774
+    ],
+    "bbox_size": [
+      0.28992352169007063,
+      0.16683244705200195,
+      0.02965259552001953
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "mouse",
+    "describe": "A rectangular mousepad with rounded corners, featuring a printed design with a mix of dark and light brown tones, resembling a natural wood grain pattern.",
+    "class_id": 202,
+    "bbox_min": [
+      0.9226347804069519,
+      2.581524610519409,
+      -0.617279052734375
+    ],
+    "bbox_max": [
+      1.0639089345932007,
+      2.748854398727417,
+      -0.5642440319061279
+    ],
+    "bbox_center": [
+      0.9932718575000763,
+      2.665189504623413,
+      -0.5907615423202515
+    ],
+    "bbox_size": [
+      0.14127415418624878,
+      0.1673297882080078,
+      0.05303502082824707
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "book",
+    "describe": "A hardcover book with a black spine and corners, featuring gold lettering and detailing.",
+    "class_id": 22,
+    "bbox_min": [
+      1.3778252601623535,
+      1.605898380279541,
+      -0.60774165391922
+    ],
+    "bbox_max": [
+      1.4326704740524292,
+      1.8296020030975342,
+      -0.49321699142456055
+    ],
+    "bbox_center": [
+      1.4052478671073914,
+      1.7177501916885376,
+      -0.5504793226718903
+    ],
+    "bbox_size": [
+      0.054845213890075684,
+      0.22370362281799316,
+      0.11452466249465942
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "shelf",
+    "describe": "A tall, narrow, dark-colored cabinet with a vertical handle on the right side, featuring a series of horizontal shelves visible through a glass door.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.32944732904434204,
+      2.907224655151367,
+      -1.393246054649353
+    ],
+    "bbox_max": [
+      0.027917230501770973,
+      3.1722655296325684,
+      -0.7844074368476868
+    ],
+    "bbox_center": [
+      -0.15076504927128553,
+      3.0397450923919678,
+      -1.08882674574852
+    ],
+    "bbox_size": [
+      0.357364559546113,
+      0.26504087448120117,
+      0.6088386178016663
+    ]
+  },
+  {
+    "instance_id": "40",
+    "class_name": "keyboard",
+    "describe": "A black, rectangular computer keyboard with a standard QWERTY layout, including a number pad on the right side. The keys appear to have a chiclet design with a flat surface and rounded edges, and the keyboard has a slight ergonomic tilt for comfortable typing.",
+    "class_id": 46,
+    "bbox_min": [
+      0.8957437872886658,
+      2.5334577560424805,
+      -0.6324156522750854
+    ],
+    "bbox_max": [
+      1.1058223247528076,
+      2.7659199237823486,
+      -0.5702430009841919
+    ],
+    "bbox_center": [
+      1.0007830560207367,
+      2.6496888399124146,
+      -0.6013293266296387
+    ],
+    "bbox_size": [
+      0.21007853746414185,
+      0.23246216773986816,
+      0.062172651290893555
+    ]
+  },
+  {
+    "instance_id": "41",
+    "class_name": "book",
+    "describe": "A hardcover book with a dust jacket featuring a predominantly white and black color scheme. The spine of the book is visible, showing a black background with white text, and the pages appear to be white with black text.",
+    "class_id": 22,
+    "bbox_min": [
+      1.3856463432312012,
+      1.565064549446106,
+      -0.5082341432571411
+    ],
+    "bbox_max": [
+      1.4916088581085205,
+      1.860649824142456,
+      -0.4340541958808899
+    ],
+    "bbox_center": [
+      1.4386276006698608,
+      1.712857186794281,
+      -0.4711441695690155
+    ],
+    "bbox_size": [
+      0.10596251487731934,
+      0.2955852746963501,
+      0.07417994737625122
+    ]
+  },
+  {
+    "instance_id": "42",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a slightly angled top surface, featuring a visible front-facing grille covering the speaker components. The grille has a fine mesh texture, and the speaker appears to have a sturdy build with a solid frame.",
+    "class_id": 118,
+    "bbox_min": [
+      1.4872174263000488,
+      2.6841342449188232,
+      -0.5946149230003357
+    ],
+    "bbox_max": [
+      1.6985490322113037,
+      2.882828712463379,
+      -0.31654059886932373
+    ],
+    "bbox_center": [
+      1.5928832292556763,
+      2.783481478691101,
+      -0.4555777609348297
+    ],
+    "bbox_size": [
+      0.21133160591125488,
+      0.19869446754455566,
+      0.27807432413101196
+    ]
+  },
+  {
+    "instance_id": "43",
+    "class_name": "book",
+    "describe": "A hardcover book with a dust jacket featuring a predominantly white and black color scheme, with text and graphics in black and white. The spine of the book is visible, showing a black background with white text aligned vertically. The pages of the book appear to be white with black text, and the book is closed, showing the edges of the pages.",
+    "class_id": 22,
+    "bbox_min": [
+      1.5370527505874634,
+      1.4910765886306763,
+      -0.42787060141563416
+    ],
+    "bbox_max": [
+      1.747982382774353,
+      1.577526330947876,
+      -0.41002002358436584
+    ],
+    "bbox_center": [
+      1.6425175666809082,
+      1.5343014597892761,
+      -0.4189453125
+    ],
+    "bbox_size": [
+      0.21092963218688965,
+      0.08644974231719971,
+      0.01785057783126831
+    ]
+  },
+  {
+    "instance_id": "44",
+    "class_name": "monitor",
+    "describe": "A flat-screen computer monitor with a thin black bezel and a visible power button on the bottom right corner.",
+    "class_id": 19,
+    "bbox_min": [
+      -0.427807092666626,
+      3.079542636871338,
+      -0.5255566239356995
+    ],
+    "bbox_max": [
+      0.2880558371543884,
+      3.1924843788146973,
+      -0.2944595515727997
+    ],
+    "bbox_center": [
+      -0.06987562775611877,
+      3.1360135078430176,
+      -0.4100080877542496
+    ],
+    "bbox_size": [
+      0.7158629298210144,
+      0.11294174194335938,
+      0.23109707236289978
+    ]
+  },
+  {
+    "instance_id": "45",
+    "class_name": "paper towel",
+    "describe": "A white, rectangular paper towel with a textured pattern, consisting of small, embossed dots evenly distributed across its surface.",
+    "class_id": -1,
+    "bbox_min": [
+      1.5436809062957764,
+      1.6456001996994019,
+      -0.3692827522754669
+    ],
+    "bbox_max": [
+      1.700730323791504,
+      1.7964457273483276,
+      -0.2833981513977051
+    ],
+    "bbox_center": [
+      1.6222056150436401,
+      1.7210229635238647,
+      -0.326340451836586
+    ],
+    "bbox_size": [
+      0.15704941749572754,
+      0.15084552764892578,
+      0.08588460087776184
+    ]
+  },
+  {
+    "instance_id": "46",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow, black cabinet with a glossy finish and a vertical handle on the right side.",
+    "class_id": 7,
+    "bbox_min": [
+      -0.37791094183921814,
+      2.844540596008301,
+      -1.3592857122421265
+    ],
+    "bbox_max": [
+      -0.29222506284713745,
+      3.098679542541504,
+      -0.7754897475242615
+    ],
+    "bbox_center": [
+      -0.3350680023431778,
+      2.9716100692749023,
+      -1.067387729883194
+    ],
+    "bbox_size": [
+      0.08568587899208069,
+      0.2541389465332031,
+      0.583795964717865
+    ]
+  },
+  {
+    "instance_id": "47",
+    "class_name": "plant",
+    "describe": "A cylindrical flowerpot with a textured surface, featuring a gradient from dark at the top to light at the bottom, and a rolled rim at the top edge.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.6901922225952148,
+      2.5756287574768066,
+      -0.6476538181304932
+    ],
+    "bbox_max": [
+      -0.4678143262863159,
+      2.7323036193847656,
+      -0.5554672479629517
+    ],
+    "bbox_center": [
+      -0.5790032744407654,
+      2.653966188430786,
+      -0.6015605330467224
+    ],
+    "bbox_size": [
+      0.22237789630889893,
+      0.15667486190795898,
+      0.0921865701675415
+    ]
+  },
+  {
+    "instance_id": "48",
+    "class_name": "knob",
+    "describe": "A cylindrical, metallic knob with a reflective surface and a slightly tapered top, featuring a central, circular indentation and a ridged circumference for grip.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.5007188320159912,
+      2.7666079998016357,
+      -0.6503657102584839
+    ],
+    "bbox_max": [
+      -0.45016810297966003,
+      2.9201114177703857,
+      -0.6350269913673401
+    ],
+    "bbox_center": [
+      -0.4754434674978256,
+      2.8433597087860107,
+      -0.642696350812912
+    ],
+    "bbox_size": [
+      0.05055072903633118,
+      0.15350341796875,
+      0.015338718891143799
+    ]
+  },
+  {
+    "instance_id": "49",
+    "class_name": "plant",
+    "describe": "A lush, green potted plant with long, slender leaves radiating outward from a central point, housed in a red, cylindrical pot with a visible white rim at the base.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.8773244619369507,
+      2.541940689086914,
+      -0.6359328627586365
+    ],
+    "bbox_max": [
+      -0.4266637861728668,
+      3.023918628692627,
+      -0.09863154590129852
+    ],
+    "bbox_center": [
+      -0.6519941240549088,
+      2.7829296588897705,
+      -0.3672822043299675
+    ],
+    "bbox_size": [
+      0.45066067576408386,
+      0.4819779396057129,
+      0.537301316857338
+    ]
+  },
+  {
+    "instance_id": "50",
+    "class_name": "curtain",
+    "describe": "A long, dark-colored curtain with a smooth texture and a slight sheen, hanging vertically with a gentle inward curve at the bottom, attached to a curtain rod with visible rings at the top.",
+    "class_id": 21,
+    "bbox_min": [
+      -0.8086305856704712,
+      2.930727243423462,
+      -0.5469563007354736
+    ],
+    "bbox_max": [
+      -0.4262653887271881,
+      3.303074598312378,
+      1.1267470121383667
+    ],
+    "bbox_center": [
+      -0.6174479871988297,
+      3.11690092086792,
+      0.28989535570144653
+    ],
+    "bbox_size": [
+      0.3823651969432831,
+      0.372347354888916,
+      1.6737033128738403
+    ]
+  },
+  {
+    "instance_id": "51",
+    "class_name": "blinds",
+    "describe": "A white, vertical window blind with evenly spaced, thin slats. The blind is partially open, allowing light to filter through the gaps between the slats. The slats are uniformly aligned, creating a consistent pattern across the blind.",
+    "class_id": 86,
+    "bbox_min": [
+      -0.9070886373519897,
+      1.8392845392227173,
+      -0.0980866476893425
+    ],
+    "bbox_max": [
+      -0.8683233857154846,
+      2.382150173187256,
+      0.5010236501693726
+    ],
+    "bbox_center": [
+      -0.8877060115337372,
+      2.1107173562049866,
+      0.20146850124001503
+    ],
+    "bbox_size": [
+      0.03876525163650513,
+      0.5428656339645386,
+      0.5991102978587151
+    ]
+  },
+  {
+    "instance_id": "52",
+    "class_name": "door",
+    "describe": "A white, single-panel door featuring a raised, rectangular central panel with a recessed border and a smaller, square recessed panel above it. The door has a visible round knob located towards the bottom of the central panel.",
+    "class_id": 5,
+    "bbox_min": [
+      -1.0037219524383545,
+      0.2208607941865921,
+      -1.385076880455017
+    ],
+    "bbox_max": [
+      -0.8657365441322327,
+      1.6998622417449951,
+      0.7962444424629211
+    ],
+    "bbox_center": [
+      -0.9347292482852936,
+      0.9603615179657936,
+      -0.294416218996048
+    ],
+    "bbox_size": [
+      0.13798540830612183,
+      1.479001447558403,
+      2.1813213229179382
+    ]
+  },
+  {
+    "instance_id": "53",
+    "class_name": "rug",
+    "describe": "A dark brown, rectangular rug with a slightly textured surface and a neatly stitched edge.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.7825046181678772,
+      1.4325345754623413,
+      -1.3945741653442383
+    ],
+    "bbox_max": [
+      -0.326013445854187,
+      1.7608342170715332,
+      -1.3394968509674072
+    ],
+    "bbox_center": [
+      -0.5542590320110321,
+      1.5966843962669373,
+      -1.3670355081558228
+    ],
+    "bbox_size": [
+      0.4564911723136902,
+      0.3282996416091919,
+      0.055077314376831055
+    ]
+  },
+  {
+    "instance_id": "54",
+    "class_name": "light switch",
+    "describe": "A single, rectangular, white light switch with a slightly curved top and a flat bottom. The switch is mounted on a light-colored surface with a visible screw at the top center.",
+    "class_id": 232,
+    "bbox_min": [
+      -0.9847224354743958,
+      -0.011607061140239239,
+      -0.2966950833797455
+    ],
+    "bbox_max": [
+      -0.7751927375793457,
+      0.4239651560783386,
+      0.410514235496521
+    ],
+    "bbox_center": [
+      -0.8799575865268707,
+      0.2061790474690497,
+      0.056909576058387756
+    ],
+    "bbox_size": [
+      0.20952969789505005,
+      0.43557221721857786,
+      0.7072093188762665
+    ]
+  }
+]

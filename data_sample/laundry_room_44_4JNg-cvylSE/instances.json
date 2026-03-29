@@ -1,0 +1,470 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "counter",
+    "describe": "A long, narrow, rectangular counter with a speckled gray and white marble top, featuring a slightly raised edge along its length.",
+    "class_id": 35,
+    "bbox_min": [
+      -0.7407088141434037,
+      2.96483592049207,
+      -0.5472508391610537
+    ],
+    "bbox_max": [
+      1.387704477558365,
+      3.50141893842727,
+      -0.18819718287625303
+    ],
+    "bbox_center": [
+      0.3234978317074806,
+      3.23312742945967,
+      -0.3677240110186534
+    ],
+    "bbox_size": [
+      2.1284132917017686,
+      0.5365830179351998,
+      0.3590536562848006
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "counter",
+    "describe": "A long, narrow, rectangular counter with a speckled beige and white marble top, featuring a slightly raised edge along its length.",
+    "class_id": 35,
+    "bbox_min": [
+      -0.7732422060090804,
+      3.4714154147225504,
+      -0.21819801189452698
+    ],
+    "bbox_max": [
+      1.348027109953312,
+      3.8408776794848447,
+      -0.09850291566581605
+    ],
+    "bbox_center": [
+      0.2873924519721158,
+      3.6561465471036976,
+      -0.1583504637801715
+    ],
+    "bbox_size": [
+      2.1212693159623925,
+      0.36946226476229427,
+      0.11969509622871093
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "lamp",
+    "describe": "A modern, wall-mounted lamp with a sleek, metallic finish and a rectangular, flat-panel LED light source. The lamp has a minimalist design with clean lines and a slightly angled top, which houses the light source. The fixture is attached to the wall via a short, cylindrical arm that connects to the back of the lamp.",
+    "class_id": 28,
+    "bbox_min": [
+      -0.6767784641463673,
+      1.9252841272863297,
+      0.805918617352363
+    ],
+    "bbox_max": [
+      -0.5354035898753592,
+      2.4795796811994895,
+      1.153665731285365
+    ],
+    "bbox_center": [
+      -0.6060910270108633,
+      2.2024319042429097,
+      0.979792174318864
+    ],
+    "bbox_size": [
+      0.14137487427100814,
+      0.5542955539131598,
+      0.34774711393300206
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "cabinet",
+    "describe": "A freestanding, rectangular, gray cabinet with a flat top surface and a single visible door featuring a vertical handle on the right side. The cabinet has a smooth finish and appears to be made of a solid material.",
+    "class_id": 7,
+    "bbox_min": [
+      -0.6683240664105475,
+      1.625546834077749,
+      -1.4060883524340184
+    ],
+    "bbox_max": [
+      -0.10316434113383055,
+      2.433777251085001,
+      -0.2615971838917878
+    ],
+    "bbox_center": [
+      -0.38574420377218904,
+      2.029662042581375,
+      -0.8338427681629031
+    ],
+    "bbox_size": [
+      0.565159725276717,
+      0.8082304170072518,
+      1.1444911685422305
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "trash can",
+    "describe": "A tall, narrow, black trash can with a slightly tapered design, featuring a flat lid with a central, circular depression and a small, rectangular opening on the front for waste disposal.",
+    "class_id": 56,
+    "bbox_min": [
+      -0.4096391548397499,
+      2.4827875646454527,
+      -1.3823786510047738
+    ],
+    "bbox_max": [
+      -0.27982040317033885,
+      3.0131703906043525,
+      -0.716310720875379
+    ],
+    "bbox_center": [
+      -0.34472977900504437,
+      2.7479789776249026,
+      -1.0493446859400763
+    ],
+    "bbox_size": [
+      0.12981875166941104,
+      0.5303828259588999,
+      0.6660679301293948
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "door",
+    "describe": "A white door with a vertical rectangular panel design, featuring a black metal handle on the left side and a black metal hinge on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      -0.6056958934738164,
+      -0.4433907862939198,
+      -1.3099631758026007
+    ],
+    "bbox_max": [
+      -0.394568658373434,
+      0.9505074481686363,
+      1.0228469895199321
+    ],
+    "bbox_center": [
+      -0.5001322759236252,
+      0.25355833093735825,
+      -0.14355809314133428
+    ],
+    "bbox_size": [
+      0.21112723510038234,
+      1.3938982344625561,
+      2.332810165322533
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "washing machine",
+    "describe": "Front-loading automatic washer with a white exterior finish, featuring a circular glass door with a black rim. The control panel is located at the top front, displaying a digital screen and multiple control buttons. The brand logo is visible on the upper left corner of the front panel.",
+    "class_id": 70,
+    "bbox_min": [
+      -0.36453010374492545,
+      2.514580842780279,
+      -1.3874028335532906
+    ],
+    "bbox_max": [
+      0.5365713945862041,
+      3.057910872944177,
+      -0.23972549993346237
+    ],
+    "bbox_center": [
+      0.08602064542063931,
+      2.786245857862228,
+      -0.8135641667433765
+    ],
+    "bbox_size": [
+      0.9011014983311295,
+      0.5433300301638981,
+      1.1476773336198283
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "lamp",
+    "describe": "A modern, wall-mounted light fixture with a sleek, metallic finish, featuring a series of horizontal, cylindrical light bars arranged in a staggered pattern, each bar emitting a soft, diffused light.",
+    "class_id": 28,
+    "bbox_min": [
+      -0.5545001892062023,
+      0.19666010708261633,
+      0.7189105704455137
+    ],
+    "bbox_max": [
+      -0.31779836877960416,
+      1.0260011401137912,
+      1.20810129326348
+    ],
+    "bbox_center": [
+      -0.43614927899290323,
+      0.6113306235982038,
+      0.9635059318544968
+    ],
+    "bbox_size": [
+      0.2367018204265981,
+      0.8293410330311748,
+      0.4891907228179664
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "mirror",
+    "describe": "A tall, rectangular mirror with a thick, ornate frame featuring intricate detailing and a distressed finish, giving it an antique appearance. The frame has a beveled edge, adding depth and elegance to the mirror's design.",
+    "class_id": 71,
+    "bbox_min": [
+      -0.7722324627568945,
+      1.5879956142972624,
+      -0.38125787259432
+    ],
+    "bbox_max": [
+      -0.5166914458837836,
+      2.598364355492085,
+      0.9462426041288932
+    ],
+    "bbox_center": [
+      -0.644461954320339,
+      2.093179984894674,
+      0.2824923657672866
+    ],
+    "bbox_size": [
+      0.2555410168731109,
+      1.0103687411948228,
+      1.327500476723213
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "washing machine",
+    "describe": "Front-loading automatic washer with a circular glass door, featuring a control panel with a rotary dial and a digital display on the top right corner. The body is a light color, possibly white or beige, with a smooth finish.",
+    "class_id": 70,
+    "bbox_min": [
+      0.5304993007640593,
+      2.8696213065639697,
+      -1.3921236024519033
+    ],
+    "bbox_max": [
+      1.3784069244995614,
+      3.0571734136805713,
+      -0.24422240876110937
+    ],
+    "bbox_center": [
+      0.9544531126318103,
+      2.9633973601222703,
+      -0.8181730056065063
+    ],
+    "bbox_size": [
+      0.8479076237355021,
+      0.18755210711660153,
+      1.147901193690794
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "sink",
+    "describe": "Chrome-finished faucet with a single lever handle mounted on the right side, a high arc spout with a downward-facing nozzle, and a reflective surface.",
+    "class_id": 14,
+    "bbox_min": [
+      -0.5747138768358369,
+      1.8912686578757214,
+      -0.3705299638826551
+    ],
+    "bbox_max": [
+      -0.41995344929165696,
+      2.1893407152994895,
+      -0.21748914848260248
+    ],
+    "bbox_center": [
+      -0.49733366306374693,
+      2.0403046865876053,
+      -0.2940095561826288
+    ],
+    "bbox_size": [
+      0.1547604275441799,
+      0.2980720574237681,
+      0.1530408154000526
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "ceiling light",
+    "describe": "A rectangular ceiling light with a flat, smooth, and slightly reflective surface, featuring two circular recessed lights positioned symmetrically along the centerline.",
+    "class_id": 1168,
+    "bbox_min": [
+      -0.7758923295800608,
+      1.43850374116491,
+      1.0037633005525064
+    ],
+    "bbox_max": [
+      1.421965927600311,
+      3.898480905708246,
+      1.3626495243048904
+    ],
+    "bbox_center": [
+      0.32303679901012505,
+      2.668492323436578,
+      1.1832064124286985
+    ],
+    "bbox_size": [
+      2.1978582571803718,
+      2.4599771645433357,
+      0.358886223752384
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "sink",
+    "describe": "A modern, single-handle faucet with a high-arc spout and a reflective chrome finish. The handle is mounted on the right side of the base, which has a flat, rectangular shape with rounded edges. The spout has a slight flare at the end and a lever-style handle that extends horizontally from the base.",
+    "class_id": 14,
+    "bbox_min": [
+      -0.5845088609686081,
+      1.6817819639709364,
+      -0.38293891452499845
+    ],
+    "bbox_max": [
+      -0.4533287094658956,
+      2.04162701346745,
+      -0.19528541480349126
+    ],
+    "bbox_center": [
+      -0.5189187852172519,
+      1.8617044887191931,
+      -0.28911216466424483
+    ],
+    "bbox_size": [
+      0.1311801515027125,
+      0.3598450494965135,
+      0.1876534997215072
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "toilet paper dispenser",
+    "describe": "A rectangular, wall-mounted dispenser with a matte finish and a flat front surface. It features a push-button mechanism on the bottom for dispensing contents, and a transparent window on the front to indicate the level of contents inside.",
+    "class_id": 163,
+    "bbox_min": [
+      -0.6559351851493417,
+      1.1853956239599253,
+      -0.015511766453938937
+    ],
+    "bbox_max": [
+      -0.627983645063141,
+      1.4089033747277726,
+      0.13421487118016256
+    ],
+    "bbox_center": [
+      -0.6419594151062413,
+      1.297149499343849,
+      0.05935155236311181
+    ],
+    "bbox_size": [
+      0.02795154008620071,
+      0.22350775076784735,
+      0.1497266376341015
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "ceiling light",
+    "describe": "A circular, flat, white ceiling light with a central, slightly recessed, circular light source.",
+    "class_id": 1168,
+    "bbox_min": [
+      -0.19841579584975053,
+      2.9854841363658142,
+      1.1021793628544614
+    ],
+    "bbox_max": [
+      -0.07925681151125809,
+      3.1034447996749486,
+      1.1078895240897177
+    ],
+    "bbox_center": [
+      -0.1388363036805043,
+      3.044464468020381,
+      1.1050344434720896
+    ],
+    "bbox_size": [
+      0.11915898433849244,
+      0.11796066330913435,
+      0.005710161235256361
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "toilet paper",
+    "describe": "A roll of white toilet tissue with a hollow cardboard tube at its core, displaying a textured pattern on each sheet.",
+    "class_id": 49,
+    "bbox_min": [
+      1.1491279597498305,
+      1.9475095793338062,
+      -0.7756663781106599
+    ],
+    "bbox_max": [
+      1.3953847361195622,
+      2.1351800917771997,
+      -0.528839373913736
+    ],
+    "bbox_center": [
+      1.2722563479346962,
+      2.041344835555503,
+      -0.652252876012198
+    ],
+    "bbox_size": [
+      0.24625677636973164,
+      0.1876705124433935,
+      0.24682700419692383
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "pipe",
+    "describe": "A cylindrical, vertical pipe with a flared top end, transitioning into a narrower section with a visible flange connection, followed by a wider cylindrical section with a ribbed surface, and a narrower section with a smooth finish.",
+    "class_id": 107,
+    "bbox_min": [
+      1.2292006076920128,
+      1.716985669446333,
+      -1.1119342886633587
+    ],
+    "bbox_max": [
+      1.3967369056463084,
+      2.082229583564866,
+      -0.5660303905329632
+    ],
+    "bbox_center": [
+      1.3129687566691606,
+      1.8996076265055994,
+      -0.838982339598161
+    ],
+    "bbox_size": [
+      0.1675362979542956,
+      0.3652439141185331,
+      0.5459038981303955
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "picture",
+    "describe": "The painting features a textured surface with a series of parallel, diagonal lines that create a sense of movement and depth. The lines are rendered in a monochromatic palette, with varying shades of gray that suggest a three-dimensional quality. The lines converge towards the center, creating a focal point that draws the viewer's eye.",
+    "class_id": 15,
+    "bbox_min": [
+      1.4782602601568942,
+      1.561312909554006,
+      0.11028410491439922
+    ],
+    "bbox_max": [
+      1.54992508419764,
+      1.8738315429839942,
+      0.6247275790147674
+    ],
+    "bbox_center": [
+      1.514092672177267,
+      1.717572226269,
+      0.3675058419645833
+    ],
+    "bbox_size": [
+      0.07166482404074581,
+      0.3125186334299883,
+      0.5144434741003682
+    ]
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "pred_class_name": {
+    "0": "cabinet",
+    "1": "shelf",
+    "2": "shelf",
+    "3": "wall",
+    "4": "window",
+    "5": "window",
+    "6": "book",
+    "7": "wall",
+    "8": "mirror",
+    "9": "ceiling",
+    "10": "cabinet",
+    "11": "lamp",
+    "12": "floor",
+    "13": "coat",
+    "14": "towel"
+  },
+  "pred_describ": {
+    "0": "A white, rectangular drawer with a flat front surface and a black, horizontal pull handle centered at the top.",
+    "1": "A modern, wall-mounted shelf with a sleek, metallic finish, featuring a minimalist design with clean lines and a flat, horizontal surface. The shelf has a rectangular profile with a slight overhang on the top edge, and it is supported by a vertical back panel that is flush with the wall.",
+    "2": "A vertical, narrow, dark-colored shelf with a flat top surface and a visible side panel, extending downwards with a slight outward flare at the bottom.",
+    "3": "The wall is smooth and painted in a light, neutral color. It features a vertical, narrow, white trim running along its left edge. The wall has a clean, unblemished surface with no visible textures or patterns.",
+    "4": "The wall is a smooth, light gray concrete surface. It features a rectangular window with a white frame and a white sill. The wall extends vertically and horizontally, with a slight shadow cast on the right side.",
+    "5": "A rectangular window with a white frame and a single horizontal divider in the middle, creating two sections. The upper section is larger than the lower section.",
+    "6": "A hardcover book with a black spine and possibly dark-colored cover, featuring white text on the spine that is partially visible, with the letters \"A\" and \"N\" discernible.",
+    "7": "The wall (panel) is a smooth, light-colored surface with a vertical orientation. It has a clean, unblemished appearance with a slight shadow on the left side, indicating a light source from the right. The wall (panel) is positioned adjacent to a door frame, with the right edge of the wall (panel) aligning with the right edge of the door frame.",
+    "8": "A tall, narrow, rectangular mirror with a simple, thin frame, positioned vertically.",
+    "9": "The ceiling is smooth and painted in a light gray color. It features a central light fixture with a white, cylindrical shade that emits a bright light. The ceiling has a slight slope and is intersected by a white, ornate crown molding along the edges.",
+    "10": "A white, freestanding cabinet with a classic design, featuring a combination of closed compartments and open shelving. The cabinet has a cornice top, decorative molding, and a base with a recessed panel. It includes a full-length glass door with a metal handle on the right side, revealing interior shelving. Below the glass door, there are two sets of drawers with metal handles, and to the left, a solid door with a metal handle. The cabinet's design is symmetrical, with a consistent color and style throughout.",
+    "11": "A cylindrical lampshade with a textured surface, featuring a series of vertical ridges that create a pleated effect. The top and bottom edges are trimmed with a smooth, darker band that contrasts with the lighter body of the shade.",
+    "12": "The floor is composed of dark, polished wooden planks with a smooth, glossy finish. The planks are laid out in a parallel arrangement, running lengthwise from the bottom left to the top right of the image. The wood grain is subtly visible, adding a natural texture to the surface. The color of the wood is a deep, rich brown, with slight variations in tone that enhance its natural appearance.",
+    "13": "A black coat with a textured surface, featuring a notched lapel and a visible buttonhole on the left lapel.",
+    "14": "A dark-colored towel with a textured pattern, featuring a series of parallel ridges and valleys running along its length."
+  },
+  "pred_class_id": {
+    "0": 7,
+    "1": 8,
+    "2": 8,
+    "3": 1,
+    "4": 16,
+    "5": 16,
+    "6": 22,
+    "7": 1,
+    "8": 71,
+    "9": 41,
+    "10": 7,
+    "11": 28,
+    "12": 3,
+    "13": -1,
+    "14": 31
+  }
+}

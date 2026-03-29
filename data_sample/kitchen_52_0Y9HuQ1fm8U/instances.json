@@ -1,0 +1,626 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "door",
+    "describe": "A white, single-panel door with a raised, rectangular panel design and a brass-colored knob on the right side. The door has a visible hinge on the left side and a shadow cast across it, indicating a light source from the left.",
+    "class_id": 5,
+    "bbox_min": [
+      2.335803985595703,
+      -0.8605112433433533,
+      -1.0641354322433472
+    ],
+    "bbox_max": [
+      2.5811846256256104,
+      0.09206024557352066,
+      0.8584976196289062
+    ],
+    "bbox_center": [
+      2.4584943056106567,
+      -0.3842254988849163,
+      -0.10281890630722046
+    ],
+    "bbox_size": [
+      0.24538064002990723,
+      0.9525714889168739,
+      1.9226330518722534
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "door",
+    "describe": "A tall, narrow, white door with a raised panel design and a visible metallic handle on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      1.6451159715652466,
+      -1.9609084129333496,
+      -1.0687609910964966
+    ],
+    "bbox_max": [
+      2.3306851387023926,
+      -1.6817163228988647,
+      0.8487603664398193
+    ],
+    "bbox_center": [
+      1.9879005551338196,
+      -1.8213123679161072,
+      -0.11000031232833862
+    ],
+    "bbox_size": [
+      0.685569167137146,
+      0.27919209003448486,
+      1.917521357536316
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "cabinet",
+    "describe": "A wooden cabinet with a flat top surface and a visible side panel, featuring a light brown finish and a smooth, unadorned design.",
+    "class_id": 7,
+    "bbox_min": [
+      1.4471917152404785,
+      0.04893282428383827,
+      -0.43470755219459534
+    ],
+    "bbox_max": [
+      2.4768362045288086,
+      0.6495620608329773,
+      -0.09235890954732895
+    ],
+    "bbox_center": [
+      1.9620139598846436,
+      0.3492474425584078,
+      -0.26353323087096214
+    ],
+    "bbox_size": [
+      1.02964448928833,
+      0.600629236549139,
+      0.3423486426472664
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "table",
+    "describe": "A rectangular wooden table with a smooth surface and rounded corners, supported by a single central pedestal base that flares out into a stable, four-pointed foot.",
+    "class_id": 4,
+    "bbox_min": [
+      0.40639644861221313,
+      -0.16234976053237915,
+      -1.1071943044662476
+    ],
+    "bbox_max": [
+      1.9269105195999146,
+      0.5998555421829224,
+      -0.4062579572200775
+    ],
+    "bbox_center": [
+      1.1666534841060638,
+      0.2187528908252716,
+      -0.7567261308431625
+    ],
+    "bbox_size": [
+      1.5205140709877014,
+      0.7622053027153015,
+      0.70093634724617
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "stove",
+    "describe": "A white electric stove with a smooth ceramic cooktop featuring four black coil burners, two of which are visible. The control panel is located at the back, displaying a digital clock and several control knobs for adjusting the temperature of the burners.",
+    "class_id": 62,
+    "bbox_min": [
+      -0.6404885053634644,
+      -1.3405300378799438,
+      -0.8462240695953369
+    ],
+    "bbox_max": [
+      0.13457898795604706,
+      -0.39696723222732544,
+      0.0016742476727813482
+    ],
+    "bbox_center": [
+      -0.25295475870370865,
+      -0.8687486350536346,
+      -0.4222749109612778
+    ],
+    "bbox_size": [
+      0.7750674933195114,
+      0.9435628056526184,
+      0.8478983172681183
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "refrigerator",
+    "describe": "A two-door refrigerator with a top freezer compartment. The upper door has a recessed handle on the right side, while the lower door has a similar handle positioned towards the bottom. Both doors have a smooth finish with a slight reflective surface, suggesting a metallic or stainless steel material. The refrigerator's design is modern and minimalist, with no visible branding or external controls on the doors.",
+    "class_id": 27,
+    "bbox_min": [
+      1.8177049160003662,
+      -1.7557291984558105,
+      -1.134758472442627
+    ],
+    "bbox_max": [
+      2.5639796257019043,
+      -0.827873170375824,
+      0.6505216360092163
+    ],
+    "bbox_center": [
+      2.1908422708511353,
+      -1.2918011844158173,
+      -0.24211841821670532
+    ],
+    "bbox_size": [
+      0.7462747097015381,
+      0.9278560280799866,
+      1.7852801084518433
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "cabinet",
+    "describe": "A wooden cabinet with a flat top surface and a visible side panel, featuring a vertical grain pattern and a warm brown finish. The cabinet has a simple, clean design with no visible handles or hardware on the side.",
+    "class_id": 7,
+    "bbox_min": [
+      2.0244154930114746,
+      -1.7740503549575806,
+      0.5723773241043091
+    ],
+    "bbox_max": [
+      2.4993865489959717,
+      -0.8058589696884155,
+      1.0236170291900635
+    ],
+    "bbox_center": [
+      2.261901021003723,
+      -1.289954662322998,
+      0.7979971766471863
+    ],
+    "bbox_size": [
+      0.47497105598449707,
+      0.968191385269165,
+      0.4512397050857544
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow wooden cabinet with a smooth finish and a visible vertical handle on the right side, suggesting a door that likely swings open to the right.",
+    "class_id": 7,
+    "bbox_min": [
+      1.5618791580200195,
+      0.3144325613975525,
+      0.10307300090789795
+    ],
+    "bbox_max": [
+      2.3879425525665283,
+      0.5805948972702026,
+      0.8510061502456665
+    ],
+    "bbox_center": [
+      1.974910855293274,
+      0.44751372933387756,
+      0.4770395755767822
+    ],
+    "bbox_size": [
+      0.8260633945465088,
+      0.26616233587265015,
+      0.7479331493377686
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "vent",
+    "describe": "A rectangular vent with a series of horizontal slats, finished in a light color, possibly white or beige, with a visible frame that suggests a flush mount design.",
+    "class_id": 408,
+    "bbox_min": [
+      1.9259042739868164,
+      -0.5433545708656311,
+      1.0266581773757935
+    ],
+    "bbox_max": [
+      2.2042086124420166,
+      -0.40826839208602905,
+      1.0459754467010498
+    ],
+    "bbox_center": [
+      2.0650564432144165,
+      -0.4758114814758301,
+      1.0363168120384216
+    ],
+    "bbox_size": [
+      0.2783043384552002,
+      0.13508617877960205,
+      0.019317269325256348
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "lamp",
+    "describe": "A modern chandelier featuring a sleek, metallic finish with a central, elongated, and slightly curved arm extending horizontally. The arm supports a series of downward-facing, rectangular light fixtures with a frosted glass cover, each emitting a soft, diffused glow. The fixtures are arranged in a linear fashion, creating a linear pattern along the length of the arm.",
+    "class_id": 28,
+    "bbox_min": [
+      1.0960562229156494,
+      -1.5133402347564697,
+      0.9004567861557007
+    ],
+    "bbox_max": [
+      1.6066159009933472,
+      -1.0904682874679565,
+      1.0619902610778809
+    ],
+    "bbox_center": [
+      1.3513360619544983,
+      -1.3019042611122131,
+      0.9812235236167908
+    ],
+    "bbox_size": [
+      0.5105596780776978,
+      0.4228719472885132,
+      0.16153347492218018
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "kitchen cabinet",
+    "describe": "A wooden kitchen cabinet with a natural finish featuring a countertop with a speckled pattern. The cabinet has a flat top surface and is equipped with two doors, each with a vertical wood grain design and a round knob in the center. Below the doors, there are two drawers with matching round knobs, aligned horizontally. The cabinet's right side extends into a vertical panel with a recessed area, possibly for additional storage or decorative purposes.",
+    "class_id": 29,
+    "bbox_min": [
+      -0.5237590670585632,
+      -2.402573823928833,
+      -1.1496589183807373
+    ],
+    "bbox_max": [
+      1.7454813718795776,
+      -1.1290035247802734,
+      -0.1337195485830307
+    ],
+    "bbox_center": [
+      0.6108611524105072,
+      -1.7657886743545532,
+      -0.641689233481884
+    ],
+    "bbox_size": [
+      2.269240438938141,
+      1.2735702991485596,
+      1.0159393697977066
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "cabinet",
+    "describe": "A wooden cabinet with a smooth finish, featuring two doors with vertical paneling and round knobs in the center. The cabinet has a flat top and a visible side panel with a matching finish and color.",
+    "class_id": 7,
+    "bbox_min": [
+      0.9460471272468567,
+      -2.354872703552246,
+      0.18721958994865417
+    ],
+    "bbox_max": [
+      1.617209792137146,
+      -2.0094807147979736,
+      0.9406675696372986
+    ],
+    "bbox_center": [
+      1.2816284596920013,
+      -2.18217670917511,
+      0.5639435797929764
+    ],
+    "bbox_size": [
+      0.6711626648902893,
+      0.34539198875427246,
+      0.7534479796886444
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "power strip",
+    "describe": "A black, rectangular power strip with multiple outlets, each with a pair of parallel slots above a round grounding hole, and a visible power switch on the top.",
+    "class_id": 1186,
+    "bbox_min": [
+      2.3869307041168213,
+      0.5484735369682312,
+      -0.04372517019510269
+    ],
+    "bbox_max": [
+      2.436875104904175,
+      0.6097747087478638,
+      0.0692456066608429
+    ],
+    "bbox_center": [
+      2.411902904510498,
+      0.5791241228580475,
+      0.012760218232870102
+    ],
+    "bbox_size": [
+      0.049944400787353516,
+      0.06130117177963257,
+      0.11297077685594559
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "bottle",
+    "describe": "A cylindrical saltshaker with a textured surface, featuring a gradient from yellow at the base to green at the top, capped with a black, dome-shaped lid.",
+    "class_id": 65,
+    "bbox_min": [
+      2.283505439758301,
+      0.5421416163444519,
+      -0.20672492682933807
+    ],
+    "bbox_max": [
+      2.3934290409088135,
+      0.634152889251709,
+      -0.04713241383433342
+    ],
+    "bbox_center": [
+      2.338467240333557,
+      0.5881472527980804,
+      -0.12692867033183575
+    ],
+    "bbox_size": [
+      0.1099236011505127,
+      0.09201127290725708,
+      0.15959251299500465
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "lamp",
+    "describe": "A modern, sleek, white ceiling lamp with a streamlined, elongated design, featuring a smooth, curved surface and a minimalist aesthetic.",
+    "class_id": 28,
+    "bbox_min": [
+      1.8178871870040894,
+      -1.3770225048065186,
+      0.9972776770591736
+    ],
+    "bbox_max": [
+      1.9396159648895264,
+      -1.2338500022888184,
+      1.030373215675354
+    ],
+    "bbox_center": [
+      1.8787515759468079,
+      -1.3054362535476685,
+      1.0138254463672638
+    ],
+    "bbox_size": [
+      0.12172877788543701,
+      0.1431725025177002,
+      0.03309553861618042
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "sink",
+    "describe": "A modern, undermount kitchen sink with a deep, single basin, featuring a stainless steel finish and a gently curved rear edge. The sink is equipped with a centrally located, single-handle faucet with a high-arc spout and a pull-down spray head. The faucet has a metallic finish, complementing the sink's material.",
+    "class_id": 14,
+    "bbox_min": [
+      2.3128795623779297,
+      0.3545109033584595,
+      -0.22581496834754944
+    ],
+    "bbox_max": [
+      2.4414985179901123,
+      0.5552457571029663,
+      -0.20400747656822205
+    ],
+    "bbox_center": [
+      2.377189040184021,
+      0.4548783302307129,
+      -0.21491122245788574
+    ],
+    "bbox_size": [
+      0.12861895561218262,
+      0.20073485374450684,
+      0.021807491779327393
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "sink",
+    "describe": "A stainless steel double-basin kitchen sink with a brushed finish, featuring a central divider and equipped with a modern, single-handle faucet with an integrated pull-down sprayer.",
+    "class_id": 14,
+    "bbox_min": [
+      0.2887493073940277,
+      -2.361760139465332,
+      -0.30454903841018677
+    ],
+    "bbox_max": [
+      1.1635524034500122,
+      -2.02602219581604,
+      -0.23079271614551544
+    ],
+    "bbox_center": [
+      0.72615085542202,
+      -2.193891167640686,
+      -0.2676708772778511
+    ],
+    "bbox_size": [
+      0.8748030960559845,
+      0.335737943649292,
+      0.07375632226467133
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "cabinet",
+    "describe": "A wooden cabinet with a smooth finish, featuring two doors with vertical paneling and round knobs. The cabinet has a flat top and a visible side panel with a recessed area, suggesting a possible drawer or storage compartment.",
+    "class_id": 7,
+    "bbox_min": [
+      -0.5532341003417969,
+      -2.3124287128448486,
+      0.17216959595680237
+    ],
+    "bbox_max": [
+      0.5668108463287354,
+      -1.3411434888839722,
+      0.942639946937561
+    ],
+    "bbox_center": [
+      0.006788372993469238,
+      -1.8267861008644104,
+      0.5574047714471817
+    ],
+    "bbox_size": [
+      1.1200449466705322,
+      0.9712852239608765,
+      0.7704703509807587
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "sink",
+    "describe": "Chrome-finished, single-handle faucet with a high-arc spout and a lever-style handle mounted on the right side.",
+    "class_id": 14,
+    "bbox_min": [
+      0.6628285646438599,
+      -2.383441209793091,
+      -0.2476109117269516
+    ],
+    "bbox_max": [
+      0.8842080235481262,
+      -2.259871482849121,
+      -0.01813451573252678
+    ],
+    "bbox_center": [
+      0.773518294095993,
+      -2.321656346321106,
+      -0.1328727137297392
+    ],
+    "bbox_size": [
+      0.22137945890426636,
+      0.12356972694396973,
+      0.22947639599442482
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      -0.479949027299881,
+      -2.2323617935180664,
+      -0.08656051009893417
+    ],
+    "bbox_max": [
+      -0.47157034277915955,
+      -2.1371421813964844,
+      0.006337712053209543
+    ],
+    "bbox_center": [
+      -0.47575968503952026,
+      -2.1847519874572754,
+      -0.040111399022862315
+    ],
+    "bbox_size": [
+      0.008378684520721436,
+      0.09521961212158203,
+      0.09289822215214372
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "fume hood",
+    "describe": "A beige fume hood featuring a sloped front panel with two circular ventilation grilles, one above the other, and a rectangular control panel with buttons and indicator lights on the right side.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.6686879992485046,
+      -1.5092368125915527,
+      0.27780789136886597
+    ],
+    "bbox_max": [
+      0.07556907087564468,
+      -0.5482988357543945,
+      0.5368611216545105
+    ],
+    "bbox_center": [
+      -0.29655946418643,
+      -1.0287678241729736,
+      0.40733450651168823
+    ],
+    "bbox_size": [
+      0.7442570701241493,
+      0.9609379768371582,
+      0.25905323028564453
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "door",
+    "describe": "A rectangular, dark brown doormat with a textured surface and slightly frayed edges.",
+    "class_id": 5,
+    "bbox_min": [
+      0.13506993651390076,
+      -1.8657985925674438,
+      -1.1512994766235352
+    ],
+    "bbox_max": [
+      1.0852998495101929,
+      -1.6883662939071655,
+      -1.085715889930725
+    ],
+    "bbox_center": [
+      0.6101848930120468,
+      -1.7770824432373047,
+      -1.1185076832771301
+    ],
+    "bbox_size": [
+      0.9502299129962921,
+      0.17743229866027832,
+      0.06558358669281006
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "fan",
+    "describe": "A dark-colored, circular ceiling fan with a series of evenly spaced, vertical slats and a visible central hub.",
+    "class_id": 76,
+    "bbox_min": [
+      -0.38601839542388916,
+      -0.968963623046875,
+      0.3296564817428589
+    ],
+    "bbox_max": [
+      -0.10451140254735947,
+      -0.5583637952804565,
+      0.4764889180660248
+    ],
+    "bbox_center": [
+      -0.2452648989856243,
+      -0.7636637091636658,
+      0.40307269990444183
+    ],
+    "bbox_size": [
+      0.2815069928765297,
+      0.41059982776641846,
+      0.1468324363231659
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "column",
+    "describe": "A tall, narrow, vertical structure with a smooth, light-colored surface. The structure has a consistent width and appears to be made of a solid material. The top of the structure is not visible, and the bottom part is partially obscured.",
+    "class_id": 120,
+    "bbox_min": [
+      -0.765095055103302,
+      -0.47828108072280884,
+      -0.27975213527679443
+    ],
+    "bbox_max": [
+      -0.5716432332992554,
+      -0.39841940999031067,
+      0.2891424298286438
+    ],
+    "bbox_center": [
+      -0.6683691442012787,
+      -0.43835024535655975,
+      0.004695147275924683
+    ],
+    "bbox_size": [
+      0.19345182180404663,
+      0.07986167073249817,
+      0.5688945651054382
+    ]
+  }
+]

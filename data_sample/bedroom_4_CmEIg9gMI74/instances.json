@@ -1,0 +1,418 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "picture",
+    "describe": "A monochromatic painting depicting a cluster of delicate, pale flowers with soft, rounded petals and prominent stamens, set against a neutral background. The flowers are rendered with a sense of depth and texture, suggesting a three-dimensional form. The brushwork is loose and expressive, giving the flowers a natural, organic appearance.",
+    "class_id": 15,
+    "bbox_min": [
+      0.95705646276474,
+      2.69319486618042,
+      0.6220021843910217
+    ],
+    "bbox_max": [
+      1.4968984127044678,
+      2.8278846740722656,
+      1.322157859802246
+    ],
+    "bbox_center": [
+      1.2269774377346039,
+      2.7605397701263428,
+      0.9720800220966339
+    ],
+    "bbox_size": [
+      0.5398419499397278,
+      0.1346898078918457,
+      0.7001556754112244
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "bed",
+    "describe": "A traditional-style wooden bed frame with a curved headboard, adorned with a white quilt and a decorative throw blanket with a floral pattern. The bed is dressed with a white fitted sheet, a white flat sheet, and a white pillowcase on the pillow.",
+    "class_id": 11,
+    "bbox_min": [
+      -0.20351845026016235,
+      0.3307022452354431,
+      -1.0121527910232544
+    ],
+    "bbox_max": [
+      2.002790927886963,
+      2.724473476409912,
+      0.5667718648910522
+    ],
+    "bbox_center": [
+      0.8996362388134003,
+      1.5275878608226776,
+      -0.22269046306610107
+    ],
+    "bbox_size": [
+      2.2063093781471252,
+      2.393771231174469,
+      1.5789246559143066
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "plant",
+    "describe": "A lush bouquet of green hydrangeas with varying shades from light to dark green, tightly clustered together to form a dome-like shape, with some individual blossoms visible at the edges, all nestled in a reflective, metallic vase.",
+    "class_id": 40,
+    "bbox_min": [
+      1.7898783683776855,
+      2.139120578765869,
+      -0.3406471610069275
+    ],
+    "bbox_max": [
+      2.2197160720825195,
+      2.4909610748291016,
+      -0.15811839699745178
+    ],
+    "bbox_center": [
+      2.0047972202301025,
+      2.3150408267974854,
+      -0.24938277900218964
+    ],
+    "bbox_size": [
+      0.429837703704834,
+      0.3518404960632324,
+      0.1825287640094757
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a white base color, adorned with a floral pattern featuring shades of beige and brown. The pillow has a visible piped edge, suggesting a structured and finished look.",
+    "class_id": 13,
+    "bbox_min": [
+      0.7934206128120422,
+      1.6722028255462646,
+      -0.310249000787735
+    ],
+    "bbox_max": [
+      1.511413812637329,
+      2.3716964721679688,
+      0.11379164457321167
+    ],
+    "bbox_center": [
+      1.1524172127246857,
+      2.0219496488571167,
+      -0.09822867810726166
+    ],
+    "bbox_size": [
+      0.7179931998252869,
+      0.6994936466217041,
+      0.42404064536094666
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "pillow",
+    "describe": "A white, square-shaped pillow with a smooth, plain surface and a flange seam around the edges.",
+    "class_id": 13,
+    "bbox_min": [
+      0.6055952310562134,
+      1.4543120861053467,
+      -0.31653887033462524
+    ],
+    "bbox_max": [
+      1.119969367980957,
+      2.0717427730560303,
+      0.028165634721517563
+    ],
+    "bbox_center": [
+      0.8627822995185852,
+      1.7630274295806885,
+      -0.14418661780655384
+    ],
+    "bbox_size": [
+      0.5143741369247437,
+      0.6174306869506836,
+      0.3447045050561428
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "window",
+    "describe": "A double-hung window with two vertically aligned sashes, each containing horizontal blinds. The window frame is white, and the blinds are white with a slight sheen, allowing light to filter through. The window is divided into two equal sections by a vertical white muntin.",
+    "class_id": 16,
+    "bbox_min": [
+      2.118049144744873,
+      1.3613048791885376,
+      -0.8082606196403503
+    ],
+    "bbox_max": [
+      2.6973624229431152,
+      2.6242258548736572,
+      1.305348515510559
+    ],
+    "bbox_center": [
+      2.407705783843994,
+      1.9927653670310974,
+      0.24854394793510437
+    ],
+    "bbox_size": [
+      0.5793132781982422,
+      1.2629209756851196,
+      2.1136091351509094
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      2.5274033546447754,
+      0.8656526803970337,
+      -0.7941310405731201
+    ],
+    "bbox_max": [
+      2.614616632461548,
+      0.9267832636833191,
+      -0.6582772731781006
+    ],
+    "bbox_center": [
+      2.5710099935531616,
+      0.8962179720401764,
+      -0.7262041568756104
+    ],
+    "bbox_size": [
+      0.08721327781677246,
+      0.0611305832862854,
+      0.13585376739501953
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "lamp",
+    "describe": "The lamp features a cylindrical shade with a gradient from a lighter shade at the top to a darker shade at the bottom. Below the shade, a decorative, bulbous body with a textured surface and a series of stacked, diminishing spherical elements culminates in a narrower base.",
+    "class_id": 28,
+    "bbox_min": [
+      1.6026241779327393,
+      2.1475422382354736,
+      -0.30352574586868286
+    ],
+    "bbox_max": [
+      2.0363965034484863,
+      2.588770866394043,
+      0.06960169970989227
+    ],
+    "bbox_center": [
+      1.8195103406906128,
+      2.3681565523147583,
+      -0.1169620230793953
+    ],
+    "bbox_size": [
+      0.43377232551574707,
+      0.44122862815856934,
+      0.37312744557857513
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "picture",
+    "describe": "The painting depicts a serene landscape with a large, leafy tree in the foreground, its branches spreading outwards. Below the tree, a body of water reflects the tree's foliage, creating a mirror image. The water's surface is calm, suggesting a tranquil setting. The color palette consists of muted earth tones, with the tree's leaves rendered in various shades of green and brown, while the water and the sky are rendered in soft, neutral hues. The brushwork is loose and impressionistic, giving the painting a sense of movement and the impression of a gentle breeze.",
+    "class_id": 15,
+    "bbox_min": [
+      0.34056025743484497,
+      2.7027220726013184,
+      0.6310832500457764
+    ],
+    "bbox_max": [
+      0.9276584982872009,
+      2.8085689544677734,
+      1.3082811832427979
+    ],
+    "bbox_center": [
+      0.634109377861023,
+      2.755645513534546,
+      0.9696822166442871
+    ],
+    "bbox_size": [
+      0.587098240852356,
+      0.10584688186645508,
+      0.6771979331970215
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a beige or light tan cover, featuring a subtle textured pattern that gives the appearance of a woven fabric. The pillow appears plush and soft, with a slightly darker shaded piping along the edges, suggesting a well-stuffed and comfortable design.",
+    "class_id": 13,
+    "bbox_min": [
+      0.30971381068229675,
+      2.024801015853882,
+      -0.03524181619286537
+    ],
+    "bbox_max": [
+      0.8626004457473755,
+      2.2570509910583496,
+      0.15554679930210114
+    ],
+    "bbox_center": [
+      0.5861571282148361,
+      2.1409260034561157,
+      0.06015249155461788
+    ],
+    "bbox_size": [
+      0.5528866350650787,
+      0.23224997520446777,
+      0.1907886154949665
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "pillow",
+    "describe": "A square-shaped pillow with a floral pattern featuring shades of brown and beige, with a visible piped edge.",
+    "class_id": 13,
+    "bbox_min": [
+      0.1350974142551422,
+      0.9168269038200378,
+      -0.3409891128540039
+    ],
+    "bbox_max": [
+      0.6717859506607056,
+      2.1576147079467773,
+      -0.011394260451197624
+    ],
+    "bbox_center": [
+      0.4034416824579239,
+      1.5372208058834076,
+      -0.17619168665260077
+    ],
+    "bbox_size": [
+      0.5366885364055634,
+      1.2407878041267395,
+      0.3295948524028063
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "table",
+    "describe": "A dark brown wooden table with a glossy finish, featuring a rectangular top with rounded corners and a visible grain pattern. The table has at least one visible sturdy leg, which is straight and appears to be square in profile, supporting the table's structure.",
+    "class_id": 4,
+    "bbox_min": [
+      -0.6230659484863281,
+      1.5312694311141968,
+      -0.9862774610519409
+    ],
+    "bbox_max": [
+      0.2198595255613327,
+      2.7718348503112793,
+      -0.2895210385322571
+    ],
+    "bbox_center": [
+      -0.2016032114624977,
+      2.151552140712738,
+      -0.637899249792099
+    ],
+    "bbox_size": [
+      0.8429254740476608,
+      1.2405654191970825,
+      0.6967564225196838
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "lamp",
+    "describe": "A table lamp with a conical shade that tapers towards the top, featuring a warm, translucent material that diffuses light. The lamp base is bulbous with a glossy finish, narrowing towards the middle before expanding again at the bottom, and resting on a flat, circular platform.",
+    "class_id": 28,
+    "bbox_min": [
+      -0.24837419390678406,
+      2.29496431350708,
+      -0.3447338342666626
+    ],
+    "bbox_max": [
+      -0.01614491455256939,
+      2.7390670776367188,
+      0.06667689234018326
+    ],
+    "bbox_center": [
+      -0.13225955422967672,
+      2.5170156955718994,
+      -0.13902847096323967
+    ],
+    "bbox_size": [
+      0.23222927935421467,
+      0.44410276412963867,
+      0.41141072660684586
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "plant",
+    "describe": "A lush bouquet of green hydrangeas with varying shades from light to dark green, tightly clustered to form a dome-like shape, complemented by a few visible green leaves at the base.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.3588549494743347,
+      2.2554521560668945,
+      -0.39986565709114075
+    ],
+    "bbox_max": [
+      -0.1839379370212555,
+      2.6211156845092773,
+      -0.1722928285598755
+    ],
+    "bbox_center": [
+      -0.2713964432477951,
+      2.438283920288086,
+      -0.2860792428255081
+    ],
+    "bbox_size": [
+      0.17491701245307922,
+      0.3656635284423828,
+      0.22757282853126526
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "table",
+    "describe": "A dark brown wooden table with a glossy finish, featuring a rectangular top with rounded corners and a beveled edge. The table has a visible single drawer with a round knob on the right side, and a sturdy, straight leg on the left, suggesting a traditional design.",
+    "class_id": 4,
+    "bbox_min": [
+      1.391766905784607,
+      1.2889046669006348,
+      -0.6710559129714966
+    ],
+    "bbox_max": [
+      2.427985191345215,
+      2.2934138774871826,
+      -0.22550305724143982
+    ],
+    "bbox_center": [
+      1.9098760485649109,
+      1.7911592721939087,
+      -0.4482794851064682
+    ],
+    "bbox_size": [
+      1.036218285560608,
+      1.0045092105865479,
+      0.44555285573005676
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "mat",
+    "describe": "A rectangular place mat with a dark green border and a central design featuring a pattern of green leaves and possibly floral elements in shades of green and white.",
+    "class_id": 140,
+    "bbox_min": [
+      1.5629098415374756,
+      1.9250785112380981,
+      -0.37277042865753174
+    ],
+    "bbox_max": [
+      1.900799036026001,
+      2.2027525901794434,
+      -0.2904074192047119
+    ],
+    "bbox_center": [
+      1.7318544387817383,
+      2.0639155507087708,
+      -0.3315889239311218
+    ],
+    "bbox_size": [
+      0.3378891944885254,
+      0.2776740789413452,
+      0.08236300945281982
+    ]
+  }
+]

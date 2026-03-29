@@ -1,1 +1,1175 @@
-<h1>Welcome to SV++</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SceneVerse++ | CVPR 2026</title>
+  <meta name="description" content="Lifting Unlabeled Internet-level Data for 3D Scene Understanding">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+      }
+    }
+  </script>
+  <style>
+    :root {
+      --bg: #060504;
+      --bg-card: rgba(255,255,255,0.035);
+      --bg-card-hover: rgba(255,255,255,0.06);
+      --border: rgba(255,255,255,0.10);
+      --text: #f0ece4;
+      --text-muted: rgba(255,255,255,0.50);
+      --accent: #6cb4ee;
+      --accent2: #a78bfa;
+      --radius: 1.25rem;
+      --radius-lg: 1.75rem;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ── Nav ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      background: rgba(6,5,4,0.8);
+      border-bottom: 1px solid var(--border);
+    }
+    nav .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    nav .logo {
+      font-weight: 700;
+      font-size: 1.1rem;
+      letter-spacing: -0.02em;
+    }
+    nav .nav-links { display: flex; gap: 1.5rem; }
+    nav .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    nav .nav-links a:hover { color: var(--text); }
+
+    /* ── Hero ── */
+    .hero {
+      padding: 5rem 0 3rem;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #000;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 0.3rem 1rem;
+      border-radius: 100px;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+    .hero h1 {
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.03em;
+      max-width: 900px;
+      margin: 0 auto 2rem;
+    }
+
+    /* Authors */
+    .authors {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.25rem 1.2rem;
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+    }
+    .authors a {
+      color: var(--accent);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    .authors a:hover { color: #fff; text-decoration: underline; }
+    .authors sup {
+      font-size: 0.65em;
+      color: var(--text-muted);
+    }
+    .affiliations {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
+    }
+    .affiliations span { margin: 0 0.6rem; }
+
+    /* Action buttons */
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+    .actions a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.6rem 1.4rem;
+      border-radius: 100px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .actions .btn-primary {
+      background: var(--text);
+      color: var(--bg);
+    }
+    .actions .btn-primary:hover { background: #fff; }
+    .actions .btn-outline {
+      border: 1px solid var(--border);
+      color: var(--text);
+      background: transparent;
+    }
+    .actions .btn-outline:hover {
+      background: var(--bg-card-hover);
+      border-color: rgba(255,255,255,0.25);
+    }
+
+    /* ── Sections ── */
+    section { padding: 3.5rem 0; }
+    section h2 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 1.5rem;
+    }
+    .section-label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.5rem;
+    }
+
+    /* ── Nuggets ── */
+    .nuggets {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .nugget-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      transition: background 0.2s;
+    }
+    .nugget-card:hover { background: var(--bg-card-hover); }
+    .nugget-card .icon {
+      font-size: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .nugget-card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .nugget-card p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* ── Abstract ── */
+    .abstract-card {
+      max-width: 800px;
+      margin: 0 auto;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 2rem;
+      background: var(--bg-card);
+    }
+    .abstract-card p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.70);
+      line-height: 1.85;
+      text-align: left;
+    }
+
+    /* ── Demo Video ── */
+    .video-wrapper {
+      max-width: 800px;
+      margin: 0 auto;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #000;
+    }
+    .video-wrapper video {
+      width: 100%;
+      display: block;
+    }
+
+    /* ── Results ── */
+    .results-layout {
+      display: grid;
+      grid-template-columns: 1fr 2.8fr;
+      gap: 2.5rem;
+      align-items: center;
+    }
+    .results-visual {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #000;
+    }
+    .results-visual img {
+      width: 100%;
+      display: block;
+    }
+    .results-points {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+    .result-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem 1.5rem;
+    }
+    .result-item h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      margin-bottom: 0.4rem;
+    }
+    .result-item p {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.6;
+    }
+    .result-item strong {
+      color: var(--accent);
+      font-weight: 700;
+    }
+    @media (max-width: 768px) {
+      .results-layout { grid-template-columns: 1fr; }
+    }
+
+    /* ── Explorer ── */
+    .explorer-layout {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 1.25rem;
+      align-items: start;
+    }
+    .explorer-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .explorer-card-header {
+      padding: 0.85rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* 3D Viewer area */
+    .viewer-pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      background: var(--border);
+    }
+    .viewer-panel {
+      position: relative;
+      background: #0a0a0a;
+    }
+    .viewer-panel .panel-label {
+      position: absolute;
+      top: 12px;
+      left: 14px;
+      z-index: 10;
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.5);
+      background: rgba(0,0,0,0.6);
+      padding: 0.25rem 0.6rem;
+      border-radius: 6px;
+      pointer-events: none;
+    }
+    .viewer-canvas {
+      width: 100%;
+      height: 420px;
+      cursor: grab;
+    }
+    .viewer-canvas:active { cursor: grabbing; }
+
+    /* Instance Info */
+    .instance-bar {
+      padding: 1rem 1.25rem;
+      border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: 1rem;
+      align-items: start;
+    }
+    .instance-bar select {
+      width: 100%;
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      color: var(--text);
+      font-size: 0.85rem;
+      font-family: inherit;
+      cursor: pointer;
+      outline: none;
+    }
+    .instance-bar select:focus { border-color: var(--accent); }
+    .instance-bar select option { background: #1a1a1a; }
+    #scene-select option { background: #1a1a1a; }
+    .describe-box {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.6;
+      min-height: 2.5rem;
+    }
+
+    /* YouTube column */
+    .yt-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .yt-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
+    }
+    .yt-wrapper iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      border: 0;
+    }
+
+    /* Scene info card */
+    .scene-info {
+      padding: 1.25rem;
+    }
+    .scene-info .info-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.4rem 0;
+      font-size: 0.82rem;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .scene-info .info-row:last-child { border: none; }
+    .scene-info .info-label { color: var(--text-muted); }
+    .scene-info .info-value { font-weight: 500; }
+
+    /* ── Loading ── */
+    .loader-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #0a0a0a;
+      z-index: 20;
+      transition: opacity 0.4s;
+    }
+    .loader-overlay.hidden {
+      opacity: 0;
+      pointer-events: none;
+    }
+    .loader-bar {
+      width: 120px;
+      height: 3px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 2px;
+      overflow: hidden;
+      margin-top: 0.75rem;
+    }
+    .loader-bar-inner {
+      height: 100%;
+      width: 0%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width 0.3s;
+    }
+    .loader-text {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* ── Citation ── */
+    .bibtex-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      position: relative;
+    }
+    .bibtex-block pre {
+      font-family: "SF Mono", "Fira Code", "Cascadia Code", monospace;
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.65);
+      overflow-x: auto;
+      white-space: pre;
+      line-height: 1.6;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      padding: 0.35rem 0.7rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .copy-btn:hover { background: rgba(255,255,255,0.15); color: var(--text); }
+
+    /* ── Footer ── */
+    footer {
+      padding: 2rem 0;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 1024px) {
+      .explorer-layout {
+        grid-template-columns: 1fr;
+      }
+      .viewer-canvas { height: 320px; }
+    }
+    @media (max-width: 640px) {
+      .viewer-pair { grid-template-columns: 1fr; }
+      .viewer-canvas { height: 280px; }
+      .instance-bar {
+        grid-template-columns: 1fr;
+      }
+      .hero h1 { font-size: 1.6rem; }
+      .authors { font-size: 0.9rem; }
+      nav .nav-links { gap: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+  <div class="container">
+    <div class="logo">SceneVerse++</div>
+    <div class="nav-links">
+      <a href="#nuggets">Overview</a>
+      <a href="#demo">Demo</a>
+      <a href="#explorer">Explorer</a>
+      <a href="#results">Results</a>
+      <a href="#findings">Findings</a>
+      <a href="#citation">Citation</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="badge">CVPR 2026</div>
+    <h1>Lifting Unlabeled Internet-level Data for 3D Scene Understanding</h1>
+
+    <div class="authors">
+      <span><a href="#">Yixin Chen</a><sup>1</sup></span>
+      <span><a href="#">Yaowei Zhang</a><sup>1</sup></span>
+      <span><a href="#">Huangyue Yu</a><sup>1</sup></span>
+      <span><a href="#">Junchao He</a><sup>1,2</sup></span>
+      <span><a href="#">Yan Wang</a><sup>1</sup></span>
+      <span><a href="#">Jiangyong Huang</a><sup>1,3</sup></span>
+      <span><a href="#">Hongyu Shen</a><sup>1,4</sup></span>
+      <span><a href="#">Junfeng Ni</a><sup>1,5</sup></span>
+      <span><a href="#">Shaofei Wang</a><sup>1</sup></span>
+      <span><a href="#">Baoxiong Jia</a><sup>1</sup></span>
+      <span><a href="#">Song-Chun Zhu</a><sup>1,3,5</sup></span>
+      <span><a href="#">Siyuan Huang</a><sup>1</sup></span>
+    </div>
+
+    <div class="affiliations">
+      <span><sup>1</sup> BIGAI</span>
+      <span><sup>2</sup> BUPT</span>
+      <span><sup>3</sup> Peking University</span>
+      <span><sup>4</sup> BIT</span>
+      <span><sup>5</sup> Tsinghua University</span>
+    </div>
+
+    <div class="actions">
+      <a href="assets/CVPR26_SVPP.pdf" class="btn-outline"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>Paper</a>
+      <a href="#" class="btn-outline"><svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>Code</a>
+      <a href="#" class="btn-outline"><svg width="16" height="16" viewBox="0 0 95 88" fill="none"><path fill="#FFD21E" d="M47.21 76.5a34.75 34.75 0 1 0 0-69.5 34.75 34.75 0 0 0 0 69.5Z"/><path fill="#FF9D0B" d="M81.96 41.75a34.75 34.75 0 1 0-69.5 0 34.75 34.75 0 0 0 69.5 0Zm-73.5 0a38.75 38.75 0 1 1 77.5 0 38.75 38.75 0 0 1-77.5 0Z"/><path fill="#3A3B45" d="M58.5 32.3c1.28.44 1.78 3.06 3.07 2.38a5 5 0 1 0-6.76-2.07c.61 1.15 2.55-.72 3.7-.32ZM34.95 32.3c-1.28.44-1.79 3.06-3.07 2.38a5 5 0 1 1 6.76-2.07c-.61 1.15-2.56-.72-3.7-.32Z"/><path fill="#FF323D" d="M46.96 56.29c9.83 0 13-8.76 13-13.26 0-2.34-1.57-1.6-4.09-.36-2.33 1.15-5.46 2.74-8.9 2.74-7.19 0-13-6.88-13-2.38s3.16 13.26 13 13.26Z"/><path fill="#3A3B45" fill-rule="evenodd" d="M39.43 54a8.7 8.7 0 0 1 5.3-4.49c.4-.12.81.57 1.24 1.28.4.68.82 1.37 1.24 1.37.45 0 .9-.68 1.33-1.35.45-.7.89-1.38 1.32-1.25a8.61 8.61 0 0 1 5 4.17c3.73-2.94 5.1-7.74 5.1-10.7 0-2.34-1.57-1.6-4.09-.36l-.14.07c-2.31 1.15-5.39 2.67-8.77 2.67s-6.45-1.52-8.77-2.67c-2.6-1.29-4.23-2.1-4.23.29 0 3.05 1.46 8.06 5.47 10.97Z" clip-rule="evenodd"/><path fill="#FF9D0B" d="M70.71 37a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5ZM24.21 37a3.25 3.25 0 1 0 0-6.5 3.25 3.25 0 0 0 0 6.5Z"/></svg>Data</a>
+      <a href="#" class="btn-outline"><svg width="36" height="16" viewBox="0 0 246.978 110.119" fill="currentColor"><path d="M492.976,269.5l24.36-29.89c1.492-1.989,2.2-3.03,1.492-4.723a5.142,5.142,0,0,0-4.481-3.161h0a4.024,4.024,0,0,0-3.008,1.108L485.2,261.094Z" transform="translate(-358.165 -223.27)"/><path d="M526.273,325.341,493.91,287.058l-.972,1.033-7.789-9.214-7.743-9.357-4.695,5.076a4.769,4.769,0,0,0,.015,6.53L520.512,332.2a3.913,3.913,0,0,0,3.137,1.192,4.394,4.394,0,0,0,4.027-2.818C528.4,328.844,527.6,327.133,526.273,325.341Z" transform="translate(-358.165 -223.27)"/><path d="M479.215,288.087l6.052,6.485L458.714,322.7a2.98,2.98,0,0,1-2.275,1.194a3.449,3.449,0,0,1-3.241-2.144c-.513-1.231.166-3.15,1.122-4.168l.023-.024.021-.026,24.851-29.448m-.047-1.882-25.76,30.524c-1.286,1.372-2.084,3.777-1.365,5.5a4.705,4.705,0,0,0,4.4,2.914,4.191,4.191,0,0,0,3.161-1.563l27.382-29.007-7.814-8.372Z" transform="translate(-358.165 -223.27)"/><path d="M427.571,255.154c1.859,0,3.1,1.24,3.985,3.453c1.062-2.213,2.568-3.453,4.694-3.453h14.878a4.062,4.062,0,0,1,4.074,4.074v7.828c0,2.656-1.327,4.074-4.074,4.074-2.656,0-4.074-1.418-4.074-4.074V263.3H436.515a2.411,2.411,0,0,0-2.656,2.745v27.188h10.007c2.658,0,4.074,1.329,4.074,4.074s-1.416,4.074-4.074,4.074h-26.39c-2.659,0-3.986-1.328-3.986-4.074s1.327-4.074,3.986-4.074h8.236V263.3h-7.263c-2.656,0-3.985-1.329-3.985-4.074,0-2.658,1.329-4.074,3.985-4.074Z" transform="translate(-358.165 -223.27)"/><path d="M539.233,255.154c2.656,0,4.074,1.416,4.074,4.074v34.007h10.1c2.746,0,4.074,1.329,4.074,4.074s-1.328,4.074-4.074,4.074H524.8c-2.656,0-4.074-1.328-4.074-4.074s1.418-4.074,4.074-4.074h10.362V263.3h-8.533c-2.744,0-4.073-1.329-4.073-4.074,0-2.658,1.329-4.074,4.073-4.074Zm4.22-17.615a5.859,5.859,0,1,1-5.819-5.819A5.9,5.9,0,0,1,543.453,237.539Z" transform="translate(-358.165 -223.27)"/><path d="M605.143,259.228a4.589,4.589,0,0,1-.267,1.594L590,298.9a3.722,3.722,0,0,1-3.721,2.48h-5.933a3.689,3.689,0,0,1-3.808-2.48l-15.055-38.081a3.23,3.23,0,0,1-.355-1.594,4.084,4.084,0,0,1,4.164-4.074,3.8,3.8,0,0,1,3.718,2.656l14.348,36.134,13.9-36.134a3.8,3.8,0,0,1,3.72-2.656A4.084,4.084,0,0,1,605.143,259.228Z" transform="translate(-358.165 -223.27)"/><path d="M390.61,255.154c5.018,0,8.206,3.312,8.206,8.4v37.831H363.308a4.813,4.813,0,0,1-5.143-4.929V283.427a8.256,8.256,0,0,1,7-8.148l25.507-3.572v-8.4H362.306a4.014,4.014,0,0,1-4.141-4.074c0-2.87,2.143-4.074,4.355-4.074Zm.059,38.081V279.942l-24.354,3.4v9.9Z" transform="translate(-358.165 -223.27)"/><path d="M448.538,224.52h.077c1,.024,2.236,1.245,2.589,1.669l.023.028.024.026,46.664,50.433a3.173,3.173,0,0,1-.034,4.336l-4.893,5.2-6.876-8.134L446.652,230.4c-1.508-2.166-1.617-2.836-1.191-3.858a3.353,3.353,0,0,1,3.077-2.02m0-1.25a4.606,4.606,0,0,0-4.231,2.789c-.705,1.692-.2,2.88,1.349,5.1l39.493,47.722,7.789,9.214,5.853-6.221a4.417,4.417,0,0,0,.042-6.042L452.169,225.4s-1.713-2.08-3.524-2.124Z" transform="translate(-358.165 -223.27)"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- Key Nuggets -->
+<section id="nuggets">
+  <div class="container">
+    <div class="section-label">Key Takeaways</div>
+    <h2>What We Contribute</h2>
+    <div class="nuggets">
+      <div class="nugget-card">
+        <div class="icon">&#128269;</div>
+        <h3>Find Where Do We Stand</h3>
+        <p>How far can unlabeled internet video take us toward closing the gap with human-annotated 3D data — and what are the real bottlenecks?</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#127758;</div>
+        <h3>Internet-Scale Data Engine</h3>
+        <p>Automated pipeline that transforms unlabeled internet videos into high-quality 3D training data for scene understanding, without manual annotation.</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#127919;</div>
+        <h3>Multi-Task Validation</h3>
+        <p>Validated across low-level tasks, e.g., 3D object detection, segmentation, and high-level reasoning, e.g., spatial VQA, and vision-language navigation.</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#128640;</div>
+        <h3>Empirical Tasks Improvement</h3>
+        <p>Models trained on generated data achieve strong zero-shot performance on multiple tasks and further improve with finetuning.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Demo Video -->
+<section id="demo">
+  <div class="container">
+    <div class="section-label">Demo</div>
+    <h2>Video Overview</h2>
+    <div class="video-wrapper">
+      <video controls muted playsinline preload="metadata">
+        <source src="assets/demo_v2_h264.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<!-- Abstract -->
+<section id="abstract">
+  <div class="container">
+    <div class="section-label">Abstract</div>
+    <div class="abstract-card">
+      <p>Annotated 3D scene data is scarce and expensive to acquire, while abundant unlabeled videos are readily available on the internet. In this paper, we demonstrate that carefully designed data engines can leverage web-unlabeled videos to automatically generate training data, to facilitate end-to-end models in 3D scene understanding alongside human-annotated datasets. We identify and analyze bottlenecks in automated data generation, revealing critical factors that determine the efficiency and effectiveness of learning from unlabeled data. To validate our approach across different perception granularities, we evaluate on three tasks spanning low-level perception, i.e., 3D object detection and instance segmentation, to high-level reasoning, i.e., 3D spatial Visual Question Answering (VQA) and Vision-Language Navigation (VLN). Models trained on our generated data demonstrate strong zero-shot performance and show further improvement after finetuning. This demonstrates the viability of leveraging readily available web data as a path toward more capable scene understanding systems.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Dataset Explorer -->
+<section id="explorer">
+  <div class="container">
+    <div class="section-label">Interactive</div>
+    <h2>Dataset Explorer</h2>
+    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+      <p style="color: var(--text-muted); font-size: 0.9rem; margin: 0;">
+        Explore reconstructed 3D scenes alongside their source videos. Double-click a bounding box to inspect instance details.
+      </p>
+      <select id="scene-select" style="background: rgba(255,255,255,0.06); border: 1px solid var(--border); border-radius: 8px; padding: 0.5rem 0.75rem; color: var(--text); font-size: 0.85rem; font-family: inherit; cursor: pointer; outline: none; min-width: 200px;">
+        <option value="">Loading scenes...</option>
+      </select>
+    </div>
+
+    <div class="explorer-layout">
+      <!-- Left: 3D Viewer -->
+      <div class="explorer-card">
+        <div class="explorer-card-header">3D Scene Viewer</div>
+        <div class="viewer-pair">
+          <div class="viewer-panel">
+            <span class="panel-label">Reconstructed Mesh</span>
+            <div id="left-viewer" class="viewer-canvas">
+              <div class="loader-overlay" id="left-loader">
+                <span class="loader-text">Loading mesh...</span>
+                <div class="loader-bar"><div class="loader-bar-inner" id="left-progress"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="viewer-panel">
+            <span class="panel-label">Instance Segmentation</span>
+            <div id="right-viewer" class="viewer-canvas">
+              <div class="loader-overlay" id="right-loader">
+                <span class="loader-text">Loading mesh...</span>
+                <div class="loader-bar"><div class="loader-bar-inner" id="right-progress"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="instance-bar">
+          <select id="instance-select">
+            <option value="">Select an instance</option>
+          </select>
+          <div class="describe-box" id="description-box">Double-click a bounding box to inspect instance details.</div>
+        </div>
+      </div>
+
+      <!-- Right: Video + Info -->
+      <div class="yt-col">
+        <div class="explorer-card">
+          <div class="explorer-card-header">Source Video</div>
+          <div class="yt-wrapper">
+            <div id="yt-player"></div>
+          </div>
+        </div>
+        <div class="explorer-card">
+          <div class="explorer-card-header">Scene Information</div>
+          <div class="scene-info" id="scene-info">
+            <div class="info-row"><span class="info-label">Scene</span><span class="info-value" id="info-scene">Loading...</span></div>
+            <div class="info-row"><span class="info-label">Room Type</span><span class="info-value" id="info-room">-</span></div>
+            <div class="info-row"><span class="info-label">Frames</span><span class="info-value" id="info-frames">-</span></div>
+            <div class="info-row"><span class="info-label">Video Interval</span><span class="info-value" id="info-interval">-</span></div>
+            <div class="info-row"><span class="info-label">Instances</span><span class="info-value" id="info-instances">-</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experiment Results -->
+<section id="results">
+  <div class="container">
+    <div class="section-label">Experiments</div>
+    <h2>Experiment Results</h2>
+    <div class="results-layout">
+      <div class="results-visual">
+        <img src="assets/tasks_plot.gif" alt="Task performance plots across detection, VQA, and navigation">
+      </div>
+      <div class="results-points">
+        <div class="result-item">
+          <h3>3D Detection &amp; Segmentation</h3>
+          <p>Models trained on SceneVerse++ achieve strong zero-shot performance on ScanNet and ARKitScenes, and further significantly improve after finetuning (<strong>+20.6 F1@0.25</strong>).</p>
+        </div>
+        <div class="result-item">
+          <h3>3D Spatial VQA</h3>
+          <p>Training on SceneVerse++ significantly improves the spatial reasoning performance of Vision-Language Models, achieving zero-shot performance <strong>comparable to models trained on ground-truth 3D scenes</strong>.</p>
+        </div>
+        <div class="result-item">
+          <h3>3D Vision-Language Navigation</h3>
+          <p>From real-world videos to simulated navigation, SceneVerse++ brings an extra <strong>14% navigation success rate</strong> after finetuning.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Findings -->
+<section id="findings">
+  <div class="container">
+    <div class="section-label">Conclusions</div>
+    <h2>Key Findings</h2>
+    <div class="nuggets">
+      <div class="nugget-card">
+        <div class="icon">&#9878;</div>
+        <h3>Scaling Capability of Models</h3>
+        <p>We observe clear differences in how models scale: models operating on raw modalities like 3D voxels or RGB inputs exhibit robust scaling behavior, while models depending on task-specific representations are sensitive to data distribution shifts and hyperparameter changes, e.g, pre-computed segments resulting in limited scalability for 3D instance segmentation. This contrast is less evident in 2D but becomes increasingly pronounced in 3D.</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#9881;</div>
+        <h3>Fair Evaluation of Capability and Benchmarks</h3>
+        <p>Existing benchmarks may not fully reflect a model's true capability. For example, VSI-Bench exhibits strong QA distribution bias, and VLMs overfit to data-specific cues during in-domain evaluation. Future evaluation should emphasize zero-shot testing on existing benchmarks, avoiding data contamination and minimizing distribution gaps.</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#128270;</div>
+        <h3>Understanding Data and Task-Specific Biases</h3>
+        <p>Performance is strongly affected by hidden factors that only surface through deeper analysis — for instance, the discrepancy between natural camera motion in real-world videos and goal-directed navigation trajectories. Identifying such mismatches is essential to avoid biases and ensure scaled data provides meaningful improvements.</p>
+      </div>
+      <div class="nugget-card">
+        <div class="icon">&#128295;</div>
+        <h3>Advancing Automated Data Generation</h3>
+        <p>Core modules such as SfM, instance segmentation, and language grounding are typically trained on task-specific or small-scale benchmarks, limiting their generalization and introducing cascading errors when combined for in-the-wild spatial understanding. Future development should align these sub-modules with the broader goal of enabling robust in-the-wild 3D understanding.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Citation -->
+<section id="citation">
+  <div class="container">
+    <div class="section-label">Reference</div>
+    <h2>Citation</h2>
+    <div class="bibtex-block">
+      <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('bibtex').textContent).then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy',1500)})">Copy</button>
+      <pre id="bibtex">@inproceedings{chen2026lifting,
+  title     = {Lifting Unlabeled Internet-level Data for 3D Scene Understanding},
+  author    = {Chen, Yixin and Zhang, Yaowei and Yu, Huangyue and He, Junchao and Wang, Yan and Huang, Jiangyong and Shen, Hongyu and Ni, Junfeng and Wang, Shaofei and Jia, Baoxiong and Zhu, Song-Chun and Huang, Siyuan},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year      = {2026}
+}</pre>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    SceneVerse++ &middot; CVPR 2026 &middot; State Key Laboratory of General Artificial Intelligence, BIGAI
+  </div>
+</footer>
+
+<!-- YouTube IFrame API -->
+<script>
+  window._VIDEO_FPS = 60;
+  window._ytPlayer = null;
+  window._ytReady = false;
+  window._ytStart = 0;
+  window._ytEnd = 0;
+
+  // Load YouTube API
+  const ytTag = document.createElement('script');
+  ytTag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(ytTag);
+
+  window.onYouTubeIframeAPIReady = function () {
+    window._ytReady = true;
+  };
+
+  window.loadYouTubeVideo = function(info) {
+    const frames = info.data_frames;
+    var s = Math.floor(frames[0] / window._VIDEO_FPS);
+    var e = Math.ceil(frames[frames.length - 1] / window._VIDEO_FPS);
+    window._ytStart = s;
+    window._ytEnd = e;
+
+    const url = new URL(info.video_url);
+    const videoId = url.searchParams.get('v');
+
+    // Update scene info panel
+    document.getElementById('info-scene').textContent = info.scene_name;
+    document.getElementById('info-room').textContent = info.room_type;
+    document.getElementById('info-frames').textContent = info.num_frames + ' frames';
+    document.getElementById('info-interval').textContent = s + 's – ' + e + 's';
+
+    // Always destroy and recreate player so start/end playerVars take effect
+    if (window._ytPlayer && window._ytPlayer.destroy) {
+      window._ytPlayer.destroy();
+      window._ytPlayer = null;
+    }
+
+    // Recreate the container div
+    const wrapper = document.querySelector('.yt-wrapper');
+    const oldEl = document.getElementById('yt-player');
+    if (oldEl) oldEl.remove();
+    const div = document.createElement('div');
+    div.id = 'yt-player';
+    wrapper.appendChild(div);
+
+    window._ytPlayer = new YT.Player('yt-player', {
+      videoId: videoId,
+      playerVars: {
+        start: s, end: e,
+        autoplay: 0, modestbranding: 1, rel: 0, fs: 1,
+      },
+      events: {
+        onStateChange: function (event) {
+          if (event.data === YT.PlayerState.ENDED) {
+            window._ytPlayer.seekTo(window._ytStart);
+            window._ytPlayer.playVideo();
+          }
+        }
+      }
+    });
+  };
+</script>
+
+<!-- THREE.js 3D Viewer -->
+<script type="module">
+  import * as THREE from "three";
+  import { TrackballControls } from "three/addons/controls/TrackballControls.js";
+  import { PLYLoader } from "three/addons/loaders/PLYLoader.js";
+
+  const DATA_ROOT = 'data_sample';
+  const sceneSelect = document.getElementById('scene-select');
+  const instanceSelect = document.getElementById('instance-select');
+  const descriptionBox = document.getElementById('description-box');
+  const defaultDescription = 'Double-click a bounding box to inspect instance details.';
+
+  let instances = [];
+  let currentSelection = null;
+  let syncingControls = false;
+  let loading = false;
+
+  // ── Viewer factory ──
+  function createViewer(containerId, meshTint) {
+    const container = document.getElementById(containerId);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+    renderer.setSize(container.clientWidth, container.clientHeight);
+    renderer.outputColorSpace = THREE.SRGBColorSpace;
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.0;
+    container.appendChild(renderer.domElement);
+
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x111111);
+
+    const camera = new THREE.PerspectiveCamera(55, container.clientWidth / container.clientHeight, 0.01, 2000);
+    camera.up.set(0, 0, 1);
+    camera.position.set(0, 1.5, 2.5);
+
+    const controls = new TrackballControls(camera, renderer.domElement);
+    controls.rotateSpeed = 4.0;
+    controls.zoomSpeed = 1.5;
+    controls.panSpeed = 1.0;
+    controls.dynamicDampingFactor = 0.12;
+    controls.noPan = false;
+    controls.staticMoving = false;
+
+    scene.add(new THREE.AmbientLight(0xffffff, 1.0));
+    const dir1 = new THREE.DirectionalLight(0xffffff, 1.8);
+    dir1.position.set(4, 6, 5);
+    scene.add(dir1);
+    const hemi = new THREE.HemisphereLight(0xffffff, 0x444444, 0.8);
+    hemi.position.set(0, 1, 0);
+    scene.add(hemi);
+    const dir2 = new THREE.DirectionalLight(0xffffff, 0.6);
+    dir2.position.set(-3, -2, 4);
+    scene.add(dir2);
+
+    const root = new THREE.Group();
+    const bboxGroup = new THREE.Group();
+    scene.add(root);
+    scene.add(bboxGroup);
+
+    const raycaster = new THREE.Raycaster();
+    raycaster.params.Line = { threshold: 0.08 };
+    const pointer = new THREE.Vector2();
+    const bboxObjects = [];
+
+    const resize = () => {
+      const w = container.clientWidth || 1;
+      const h = container.clientHeight || 1;
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+      renderer.setSize(w, h);
+    };
+    window.addEventListener('resize', resize);
+
+    renderer.domElement.addEventListener('dblclick', (event) => {
+      const rect = renderer.domElement.getBoundingClientRect();
+      pointer.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
+      pointer.y = -((event.clientY - rect.top) / rect.height) * 2 + 1;
+      raycaster.setFromCamera(pointer, camera);
+      const hits = raycaster.intersectObjects(bboxObjects, true);
+      const target = hits.find(h => h.object.userData?.instanceId || h.object.parent?.userData?.instanceId);
+      if (!target) return;
+      const id = target.object.userData.instanceId || target.object.parent.userData.instanceId;
+      selectInstance(id);
+    });
+
+    const animate = () => {
+      controls.update();
+      renderer.render(scene, camera);
+      requestAnimationFrame(animate);
+    };
+    animate();
+
+    return {
+      container, renderer, scene, camera, controls,
+      root, bboxGroup, bboxObjects, meshTint,
+      fitToObject(mesh) {
+        const box = new THREE.Box3().setFromObject(mesh);
+        const size = box.getSize(new THREE.Vector3());
+        const center = box.getCenter(new THREE.Vector3());
+        controls.target.copy(center);
+        const radius = Math.max(size.x, size.y, size.z, 1e-3);
+        camera.position.copy(center.clone().add(new THREE.Vector3(0, radius * 1.6, radius * 2.2)));
+        camera.up.set(0, 0, 1);
+        camera.near = radius / 200;
+        camera.far = radius * 50;
+        camera.updateProjectionMatrix();
+        controls.update();
+      },
+    };
+  }
+
+  const leftViewer = createViewer('left-viewer', 0xc7c7c7);
+  const rightViewer = createViewer('right-viewer', 0x79aefc);
+
+  // ── Camera sync ──
+  function syncViewerState(source, target) {
+    if (syncingControls) return;
+    syncingControls = true;
+    target.camera.position.copy(source.camera.position);
+    target.camera.quaternion.copy(source.camera.quaternion);
+    target.camera.up.copy(source.camera.up);
+    target.controls.target.copy(source.controls.target);
+    target.controls.update();
+    syncingControls = false;
+  }
+  leftViewer.controls.addEventListener('change', () => syncViewerState(leftViewer, rightViewer));
+  rightViewer.controls.addEventListener('change', () => syncViewerState(rightViewer, leftViewer));
+
+  // ── PLY loader ──
+  async function loadPlyMesh(url, tint, progressId) {
+    const loader = new PLYLoader();
+    const progressBar = document.getElementById(progressId);
+    return new Promise((resolve, reject) => {
+      loader.load(
+        url,
+        (geometry) => {
+          geometry.computeVertexNormals();
+          let material;
+          if (geometry.hasAttribute('color')) {
+            material = new THREE.MeshStandardMaterial({
+              color: 0xffffff, vertexColors: true,
+              metalness: 0.5, roughness: 0.5, side: THREE.FrontSide,
+            });
+          } else {
+            material = new THREE.MeshStandardMaterial({
+              color: tint, metalness: 0.18, roughness: 0.48, side: THREE.FrontSide,
+            });
+          }
+          resolve(new THREE.Mesh(geometry, material));
+        },
+        (xhr) => {
+          if (xhr.total > 0 && progressBar) {
+            progressBar.style.width = Math.round((xhr.loaded / xhr.total) * 100) + '%';
+          }
+        },
+        reject
+      );
+    });
+  }
+
+  // ── Bounding boxes ──
+  function makeBboxGroup(instance) {
+    const size = new THREE.Vector3(...instance.bbox_size);
+    const center = new THREE.Vector3(...instance.bbox_center);
+    const group = new THREE.Group();
+    group.userData.instanceId = instance.instance_id;
+
+    const solid = new THREE.Mesh(
+      new THREE.BoxGeometry(size.x, size.y, size.z),
+      new THREE.MeshBasicMaterial({ color: 0x00e5ff, transparent: true, opacity: 0.05, depthWrite: false })
+    );
+    solid.position.copy(center);
+    solid.userData.instanceId = instance.instance_id;
+    solid.raycast = () => null;
+    group.add(solid);
+
+    const edges = new THREE.LineSegments(
+      new THREE.EdgesGeometry(new THREE.BoxGeometry(size.x, size.y, size.z)),
+      new THREE.LineBasicMaterial({ color: 0x00e5ff, linewidth: 2 })
+    );
+    edges.position.copy(center);
+    edges.userData.instanceId = instance.instance_id;
+    group.add(edges);
+    group.userData.edgeMaterial = edges.material;
+    return group;
+  }
+
+  function applySelectionStyles(instanceId) {
+    [leftViewer, rightViewer].forEach(viewer => {
+      viewer.bboxGroup.children.forEach(group => {
+        const selected = group.userData.instanceId === instanceId;
+        group.userData.edgeMaterial.color.set(selected ? 0xef4444 : 0x00e5ff);
+        group.userData.edgeMaterial.linewidth = selected ? 4 : 2;
+        const solid = group.children[0];
+        solid.material.color.set(selected ? 0xef4444 : 0x00e5ff);
+        solid.material.opacity = selected ? 0.12 : 0.05;
+      });
+    });
+  }
+
+  function selectInstance(instanceId) {
+    currentSelection = instanceId || null;
+    if (!instanceId) {
+      instanceSelect.value = '';
+      descriptionBox.textContent = defaultDescription;
+      applySelectionStyles(null);
+      return;
+    }
+    const inst = instances.find(i => i.instance_id === instanceId);
+    if (!inst) return;
+    instanceSelect.value = instanceId;
+    descriptionBox.textContent = inst.describe || '(No description available.)';
+    applySelectionStyles(instanceId);
+  }
+
+  instanceSelect.addEventListener('change', () => selectInstance(instanceSelect.value || null));
+
+  // ── Reset viewers ──
+  function resetViewer(viewer) {
+    while (viewer.root.children.length) viewer.root.remove(viewer.root.children[0]);
+    while (viewer.bboxGroup.children.length) viewer.bboxGroup.remove(viewer.bboxGroup.children[0]);
+    viewer.bboxObjects.length = 0;
+  }
+
+  // ── Load a scene ──
+  let loadGeneration = 0;
+  async function loadScene(sceneId) {
+    const gen = ++loadGeneration;
+    loading = true;
+    const sceneDir = DATA_ROOT + '/' + sceneId;
+
+    // Show loaders
+    const leftLoader = document.getElementById('left-loader');
+    const rightLoader = document.getElementById('right-loader');
+    leftLoader.classList.remove('hidden');
+    rightLoader.classList.remove('hidden');
+    document.getElementById('left-progress').style.width = '0%';
+    document.getElementById('right-progress').style.width = '0%';
+
+    // Reset
+    resetViewer(leftViewer);
+    resetViewer(rightViewer);
+    currentSelection = null;
+    instanceSelect.innerHTML = '<option value="">Select an instance</option>';
+    descriptionBox.textContent = defaultDescription;
+
+    try {
+      // Load instances + data_info in parallel
+      const [instResp, infoResp] = await Promise.all([
+        fetch(sceneDir + '/instances.json'),
+        fetch(sceneDir + '/data_info.json'),
+      ]);
+      instances = await instResp.json();
+      const info = await infoResp.json();
+
+      // Populate instance selector
+      for (const inst of instances) {
+        const opt = document.createElement('option');
+        opt.value = inst.instance_id;
+        opt.textContent = inst.instance_id + ' | ' + inst.class_name;
+        instanceSelect.appendChild(opt);
+      }
+      document.getElementById('info-instances').textContent = instances.length + ' objects';
+
+      // Load YouTube video
+      if (window._ytReady || window._ytPlayer) {
+        window.loadYouTubeVideo(info);
+      } else {
+        // Wait for YT API
+        const waitYT = setInterval(() => {
+          if (window._ytReady || window._ytPlayer) {
+            clearInterval(waitYT);
+            window.loadYouTubeVideo(info);
+          }
+        }, 200);
+      }
+
+      // Load meshes in parallel
+      const [leftMesh, rightMesh] = await Promise.all([
+        loadPlyMesh(sceneDir + '/mesh.ply', leftViewer.meshTint, 'left-progress'),
+        loadPlyMesh(sceneDir + '/instance_seg_mesh.ply', rightViewer.meshTint, 'right-progress'),
+      ]);
+
+      // Bail if user switched scenes while loading
+      if (gen !== loadGeneration) return;
+
+      leftViewer.root.add(leftMesh);
+      rightViewer.root.add(rightMesh);
+      leftViewer.fitToObject(leftMesh);
+      syncViewerState(leftViewer, rightViewer);
+
+      // Add bboxes
+      for (const inst of instances) {
+        const lBox = makeBboxGroup(inst);
+        const rBox = makeBboxGroup(inst);
+        leftViewer.bboxGroup.add(lBox);
+        rightViewer.bboxGroup.add(rBox);
+        leftViewer.bboxObjects.push(lBox.children[1]);
+        rightViewer.bboxObjects.push(rBox.children[1]);
+      }
+
+      leftLoader.classList.add('hidden');
+      rightLoader.classList.add('hidden');
+    } catch (err) {
+      if (gen !== loadGeneration) return;
+      console.error('Scene load failed:', err);
+      leftLoader.querySelector('.loader-text').textContent = 'Failed to load — try again';
+      rightLoader.querySelector('.loader-text').textContent = 'Failed to load — try again';
+    }
+    loading = false;
+  }
+
+  // ── Scene selector ──
+  sceneSelect.addEventListener('change', () => {
+    if (sceneSelect.value) loadScene(sceneSelect.value);
+  });
+
+  // ── Init: load scene list, then first scene ──
+  async function init() {
+    try {
+      const resp = await fetch(DATA_ROOT + '/scenes.json');
+      const scenes = await resp.json();
+      sceneSelect.innerHTML = '';
+      for (const s of scenes) {
+        const opt = document.createElement('option');
+        opt.value = s;
+        // Display friendly name: "bedroom_4_CmEIg9gMI74" → "bedroom 4"
+        const parts = s.split('_');
+        const roomType = parts.slice(0, -1).filter(p => isNaN(p)).join(' ');
+        const roomId = parts.find(p => !isNaN(p) && p.length <= 3) || '';
+        opt.textContent = roomType + (roomId ? ' ' + roomId : '') + ' (' + s + ')';
+        sceneSelect.appendChild(opt);
+      }
+      if (scenes.length > 0) {
+        sceneSelect.value = scenes[0];
+        await loadScene(scenes[0]);
+      }
+    } catch (err) {
+      console.error('Init failed:', err);
+      sceneSelect.innerHTML = '<option value="">Failed to load scenes</option>';
+    }
+  }
+
+  // Lazy-load when explorer section scrolls into view
+  const explorerSection = document.getElementById('explorer');
+  let initialized = false;
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && !initialized) {
+      initialized = true;
+      observer.disconnect();
+      init();
+    }
+  }, { rootMargin: '200px' });
+  observer.observe(explorerSection);
+</script>
+
+</body>
+</html>

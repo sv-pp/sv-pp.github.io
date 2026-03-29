@@ -1,0 +1,1042 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "rail",
+    "describe": "The railing consists of a smooth, curved wooden handrail with a light brown finish, transitioning into vertical white balusters. The balusters are evenly spaced and connected to a white base rail. The handrail is mounted on a wooden post with a rounded top, also finished in light brown.",
+    "class_id": 95,
+    "bbox_min": [
+      1.0593018519365578,
+      0.9853777415961138,
+      -0.8192330444940166
+    ],
+    "bbox_max": [
+      2.457020577454775,
+      1.76457479596917,
+      1.1728087920386003
+    ],
+    "bbox_center": [
+      1.7581612146956664,
+      1.374976268782642,
+      0.17678787377229188
+    ],
+    "bbox_size": [
+      1.3977187255182173,
+      0.7791970543730562,
+      1.992041836532617
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "stairs",
+    "describe": "A wooden staircase with six steps, each step featuring a light brown finish and a white baseboard. The staircase has a slight incline and is bordered by white balusters on both sides.",
+    "class_id": 58,
+    "bbox_min": [
+      0.7860560543754358,
+      0.4427412246318165,
+      -1.0108525285492456
+    ],
+    "bbox_max": [
+      2.4200727787297645,
+      1.9497620426905447,
+      0.5337501827664642
+    ],
+    "bbox_center": [
+      1.6030644165526002,
+      1.1962516336611806,
+      -0.23855117289139066
+    ],
+    "bbox_size": [
+      1.6340167243543287,
+      1.5070208180587281,
+      1.5446027113157097
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "couch",
+    "describe": "A contemporary three-seater sofa upholstered in a light grey fabric, featuring a streamlined design with a low backrest and three seat cushions. The sofa has wide, flat armrests and is adorned with two patterned throw pillows, one on each end. The base of the sofa is skirted, concealing the legs, and the overall silhouette suggests a modern, minimalist aesthetic.",
+    "class_id": 6,
+    "bbox_min": [
+      -0.10448269489118489,
+      -2.7934344416362236,
+      -0.9849051214005583
+    ],
+    "bbox_max": [
+      1.9765893728671187,
+      -1.6829533051183336,
+      -0.13214256762491378
+    ],
+    "bbox_center": [
+      0.9360533389879668,
+      -2.238193873377279,
+      -0.5585238445127361
+    ],
+    "bbox_size": [
+      2.0810720677583037,
+      1.11048113651789,
+      0.8527625537756445
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "cushion",
+    "describe": "A square-shaped, dark-colored cushion with a textured surface that appears to have a series of horizontal ridges or pleats.",
+    "class_id": 39,
+    "bbox_min": [
+      1.3243696956412876,
+      -2.5194382558698774,
+      -0.5520269032235378
+    ],
+    "bbox_max": [
+      1.7582594868684445,
+      -2.217302639319604,
+      -0.22543023027384698
+    ],
+    "bbox_center": [
+      1.541314591254866,
+      -2.3683704475947405,
+      -0.3887285667486924
+    ],
+    "bbox_size": [
+      0.4338897912271569,
+      0.3021356165502733,
+      0.32659667294969075
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "ottoman",
+    "describe": "A rectangular ottoman upholstered in a light grey fabric with a textured, wavy pattern. The ottoman features a flat, cushioned top and a solid, smooth base, both in the same grey fabric.",
+    "class_id": 67,
+    "bbox_min": [
+      0.5070858498700078,
+      -1.6680826059470424,
+      -0.9756138110899386
+    ],
+    "bbox_max": [
+      1.4846083324586103,
+      -0.8927052635948505,
+      -0.5982935098537895
+    ],
+    "bbox_center": [
+      0.9958470911643091,
+      -1.2803939347709465,
+      -0.7869536604718641
+    ],
+    "bbox_size": [
+      0.9775224825886025,
+      0.7753773423521919,
+      0.3773203012361491
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "picture",
+    "describe": "A rectangular picture frame with a dark brown wooden border, featuring a white matting that surrounds a central artwork. The artwork appears to be a monochromatic piece with a blend of gray tones, possibly depicting a landscape or abstract design.",
+    "class_id": 15,
+    "bbox_min": [
+      0.9171534172767917,
+      -2.8041036775653208,
+      0.06401195722326117
+    ],
+    "bbox_max": [
+      1.603279320830565,
+      -2.7796215114740326,
+      0.8423800119984697
+    ],
+    "bbox_center": [
+      1.2602163690536783,
+      -2.7918625945196767,
+      0.4531959846108654
+    ],
+    "bbox_size": [
+      0.6861259035537732,
+      0.02448216609128817,
+      0.7783680547752085
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "table",
+    "describe": "A dark brown wooden table with a rectangular top and four sturdy legs, each leg featuring a slight taper towards the bottom.",
+    "class_id": 4,
+    "bbox_min": [
+      1.9356408010366595,
+      -2.582877829509097,
+      -0.9659767925589394
+    ],
+    "bbox_max": [
+      2.6971014838389498,
+      -2.066776237530568,
+      -0.44032672430409275
+    ],
+    "bbox_center": [
+      2.316371142437805,
+      -2.324827033519832,
+      -0.7031517584315161
+    ],
+    "bbox_size": [
+      0.7614606828022903,
+      0.5161015919785288,
+      0.5256500682548466
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "rug",
+    "describe": "A rectangular rug with a light beige base color, featuring two darker beige rectangular patches positioned towards the center and towards the right side.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.21360095543565313,
+      -1.8782155012930482,
+      -1.0463144418688952
+    ],
+    "bbox_max": [
+      2.112642394575148,
+      -0.20373344360573845,
+      -0.699208328386851
+    ],
+    "bbox_center": [
+      0.9495207195697474,
+      -1.0409744724493932,
+      -0.872761385127873
+    ],
+    "bbox_size": [
+      2.326243350010801,
+      1.6744820576873096,
+      0.34710611348204423
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "lamp",
+    "describe": "A traditional table lamp with a conical lampshade that tapers towards the top, featuring a warm, creamy color. The lampshade is attached to a slender, ornate metallic neck with a flared base, which narrows into a decorative, bulbous section before connecting to a slender, vertical stem. The stem leads to a circular, flat-topped base with a visible screw in the center for stability.",
+    "class_id": 28,
+    "bbox_min": [
+      1.9757825511369331,
+      -2.764622715815797,
+      -0.48773727317458937
+    ],
+    "bbox_max": [
+      2.423387888737329,
+      -2.375731426762933,
+      0.09947464259075992
+    ],
+    "bbox_center": [
+      2.199585219937131,
+      -2.570177071289365,
+      -0.19413131529191474
+    ],
+    "bbox_size": [
+      0.4476053376003959,
+      0.38889128905286396,
+      0.5872119157653493
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "picture",
+    "describe": "A rectangular picture frame with a wide, dark brown border and a white matting. The artwork within the frame appears to be a monochromatic image with a central figure that could be a person or object, surrounded by a lighter, possibly textured background.",
+    "class_id": 15,
+    "bbox_min": [
+      0.14568569350387836,
+      -2.805957946130626,
+      -0.13134974851598918
+    ],
+    "bbox_max": [
+      0.8214089926124011,
+      -2.781082352916292,
+      0.6629486040872531
+    ],
+    "bbox_center": [
+      0.48354734305813973,
+      -2.793520149523459,
+      0.2657994277856319
+    ],
+    "bbox_size": [
+      0.6757232991085227,
+      0.0248755932143343,
+      0.7942983526032423
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "ceiling light",
+    "describe": "A rectangular ceiling light with a beige or light brown frame and a frosted glass diffuser, emitting a soft, diffused light.",
+    "class_id": 1168,
+    "bbox_min": [
+      2.301189255103382,
+      -2.7968341596272386,
+      0.9529667921596955
+    ],
+    "bbox_max": [
+      3.486791789535526,
+      -2.4438322234264174,
+      1.2020097991908834
+    ],
+    "bbox_center": [
+      2.893990522319454,
+      -2.6203331915268278,
+      1.0774882956752894
+    ],
+    "bbox_size": [
+      1.1856025344321441,
+      0.3530019362008212,
+      0.24904300703118787
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "coffee table",
+    "describe": "A rectangular wooden coffee table with a glass inset top, featuring a lower shelf of the same material and color. The table has four sturdy legs, each with a slight taper towards the bottom.",
+    "class_id": 24,
+    "bbox_min": [
+      -0.9761669780857392,
+      -2.781430260944241,
+      -0.9861657803539734
+    ],
+    "bbox_max": [
+      -0.11167985185142099,
+      -1.8787959120595197,
+      -0.4481898941580567
+    ],
+    "bbox_center": [
+      -0.5439234149685801,
+      -2.33011308650188,
+      -0.717177837256015
+    ],
+    "bbox_size": [
+      0.8644871262343181,
+      0.9026343488847215,
+      0.5379758861959167
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "cushion",
+    "describe": "A square-shaped cushion with a textured surface featuring a pattern of raised, wavy lines in a gradient of earthy tones, ranging from dark brown to light beige.",
+    "class_id": 39,
+    "bbox_min": [
+      0.08715600046428632,
+      -2.53158931602113,
+      -0.5361293169571056
+    ],
+    "bbox_max": [
+      0.49316178712155445,
+      -2.138462043668824,
+      -0.19823261325770086
+    ],
+    "bbox_center": [
+      0.29015889379292037,
+      -2.335025679844977,
+      -0.3671809651074033
+    ],
+    "bbox_size": [
+      0.40600578665726816,
+      0.3931272723523058,
+      0.3378967036994048
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "plant",
+    "describe": "A terracotta flowerpot with a broad, rounded body and a slightly tapered base, featuring a prominent rim and a single visible drainage hole at the bottom. The pot contains soil and a single green stem with a small, unopened bud.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.7957781885377864,
+      -2.793162173145479,
+      -0.5095959995230225
+    ],
+    "bbox_max": [
+      -0.551037582073049,
+      -2.55171518626051,
+      -0.2908987668122012
+    ],
+    "bbox_center": [
+      -0.6734078853054177,
+      -2.6724386797029944,
+      -0.4002473831676119
+    ],
+    "bbox_size": [
+      0.2447406064647374,
+      0.24144698688496913,
+      0.21869723271082125
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "lamp",
+    "describe": "A traditional table lamp with a conical fabric shade that tapers towards the top, featuring a warm, translucent glow. The lamp has a dark, ornate metal base with a slender neck and a wider, decorative midsection, culminating in a stable, circular foot.",
+    "class_id": 28,
+    "bbox_min": [
+      -0.6721638095167589,
+      -2.7951617982263524,
+      -0.7119217778041003
+    ],
+    "bbox_max": [
+      -0.2852769470478292,
+      -2.468516602598153,
+      0.15864374460128355
+    ],
+    "bbox_center": [
+      -0.4787203782822941,
+      -2.6318392004122524,
+      -0.2766390166014083
+    ],
+    "bbox_size": [
+      0.3868868624689297,
+      0.3266451956281995,
+      0.8705655224053839
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "armchair",
+    "describe": "A contemporary-style armchair upholstered in a dark grey fabric, featuring a boxy silhouette with a straight backrest and a single, thick seat cushion. The armrests are wide and flat, extending from the backrest to the front of the chair. The chair stands on four visible, low-profile, dark wooden legs.",
+    "class_id": 23,
+    "bbox_min": [
+      -1.4397476566893583,
+      -1.8224148440476566,
+      -0.9783985982572342
+    ],
+    "bbox_max": [
+      -0.3722515215556024,
+      -0.7575874139279019,
+      -0.15534573598237406
+    ],
+    "bbox_center": [
+      -0.9059995891224804,
+      -1.2900011289877793,
+      -0.5668721671198041
+    ],
+    "bbox_size": [
+      1.067496135133756,
+      1.0648274301197547,
+      0.8230528622748601
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "flower",
+    "describe": "A lush bouquet featuring a variety of flowers, including prominent yellow blooms with dark centers, possibly chrysanthemums or similar, interspersed with smaller white flowers and green foliage. The arrangement is dense and appears to be designed to showcase a mix of textures and colors, creating a full and vibrant display.",
+    "class_id": -1,
+    "bbox_min": [
+      2.753407419961509,
+      -2.69554402007959,
+      -0.9610072580429804
+    ],
+    "bbox_max": [
+      3.4720280348553167,
+      -2.114983666693195,
+      -0.4740293415198608
+    ],
+    "bbox_center": [
+      3.1127177274084126,
+      -2.4052638433863924,
+      -0.7175182997814206
+    ],
+    "bbox_size": [
+      0.7186206148938079,
+      0.580560353386395,
+      0.48697791652311956
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "lamp",
+    "describe": "A black, ornate chandelier with multiple tiers of curved arms extending outward, each arm supporting a candle-like light fixture. The chandelier features intricate detailing and a central column that connects to the arms, with a decorative finial at the top.",
+    "class_id": 28,
+    "bbox_min": [
+      -1.5452925625087748,
+      -2.7072453041908187,
+      1.1663762162728122
+    ],
+    "bbox_max": [
+      -1.4851965271595593,
+      -2.673126288784498,
+      1.2700371561247323
+    ],
+    "bbox_center": [
+      -1.5152445448341672,
+      -2.6901857964876585,
+      1.2182066861987724
+    ],
+    "bbox_size": [
+      0.06009603534921548,
+      0.034119015406320674,
+      0.10366093985192015
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame and a single pane of clear glass. The window is divided into two sections by a vertical white muntin. The lower section of the window has a horizontal white sill.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.3874738303541188,
+      -2.598585640068649,
+      -0.3108577901082163
+    ],
+    "bbox_max": [
+      -1.8801960049696615,
+      -1.8888231426101934,
+      1.0293608633610152
+    ],
+    "bbox_center": [
+      -2.1338349176618903,
+      -2.2437043913394215,
+      0.3592515366263994
+    ],
+    "bbox_size": [
+      0.5072778253844572,
+      0.7097624974584558,
+      1.3402186534692315
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "window",
+    "describe": "Two adjacent rectangular windows with white frames and clear glass panes. The left window is slightly smaller than the right window. Both windows have a horizontal white sill at the bottom.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.508017362615804,
+      -1.7338974641136562,
+      -0.9025257122339707
+    ],
+    "bbox_max": [
+      -1.9906302369367257,
+      -0.6735188063717215,
+      1.0124495888448606
+    ],
+    "bbox_center": [
+      -2.249323799776265,
+      -1.2037081352426888,
+      0.054961938305444935
+    ],
+    "bbox_size": [
+      0.5173871256790785,
+      1.0603786577419347,
+      1.9149753010788313
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "table",
+    "describe": "A dark wooden table with a rectangular top, featuring ornate carvings on the legs and edges. The table has a lower shelf of the same material and design, positioned between the legs.",
+    "class_id": 4,
+    "bbox_min": [
+      -1.8280840865867527,
+      -0.3707447379783293,
+      -0.9747496251469734
+    ],
+    "bbox_max": [
+      -1.4423474908048308,
+      0.20222323340513557,
+      -0.4425052952699643
+    ],
+    "bbox_center": [
+      -1.6352157886957919,
+      -0.08426075228659687,
+      -0.7086274602084688
+    ],
+    "bbox_size": [
+      0.3857365957819219,
+      0.5729679713834649,
+      0.5322443298770091
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "curtain",
+    "describe": "A white, vertically oriented curtain with a smooth texture and a slight sheen, featuring evenly spaced, horizontal pleats that create a uniform, striped pattern.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.3412167844259972,
+      -0.7849194307257594,
+      -0.6313147366748375
+    ],
+    "bbox_max": [
+      -1.7194602962495662,
+      0.05587627563060049,
+      0.8477701328001621
+    ],
+    "bbox_center": [
+      -2.0303385403377816,
+      -0.36452157754757947,
+      0.1082276980626623
+    ],
+    "bbox_size": [
+      0.621756488176431,
+      0.8407957063563599,
+      1.4790848694749996
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "plant",
+    "describe": "A lush green plant with broad, heart-shaped leaves, some of which are arching outward, is housed in a rectangular, light-colored pot. The plant has multiple stems, with the main stem extending downward and branching out into smaller stems. The leaves exhibit a vibrant green color and a glossy texture, with some leaves showing a slight curl at the edges.",
+    "class_id": 40,
+    "bbox_min": [
+      -2.0038656330038824,
+      -0.5696479118088685,
+      -0.9274349794257181
+    ],
+    "bbox_max": [
+      -1.4692565522934184,
+      0.17773704843463334,
+      0.019424969772475913
+    ],
+    "bbox_center": [
+      -1.7365610926486506,
+      -0.1959554316871176,
+      -0.4540050048266211
+    ],
+    "bbox_size": [
+      0.534609080710464,
+      0.7473849602435019,
+      0.9468599491981939
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "plant",
+    "describe": "A potted plant with dark green, glossy leaves, some of which are elongated and pointed, while others are broader and more rounded. The plant appears to have a sturdy, upright growth pattern.",
+    "class_id": 40,
+    "bbox_min": [
+      -1.778596538634517,
+      -0.2703168383900264,
+      -0.9178676778730822
+    ],
+    "bbox_max": [
+      -1.4979895926892357,
+      -0.14993416705687693,
+      -0.5987500122284977
+    ],
+    "bbox_center": [
+      -1.6382930656618764,
+      -0.21012550272345165,
+      -0.75830884505079
+    ],
+    "bbox_size": [
+      0.28060694594528135,
+      0.12038267133314948,
+      0.31911766564458455
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "window",
+    "describe": "A tall, rectangular window with a white frame and a single pane of clear glass. The window has a horizontal divider in the middle, creating two sections. The frame is slightly thicker at the top and bottom edges.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.455916612486711,
+      -1.6722888072363093,
+      -0.3671489832896589
+    ],
+    "bbox_max": [
+      -2.2956234035200622,
+      -0.9905181842386432,
+      0.9724981220993674
+    ],
+    "bbox_center": [
+      -2.3757700080033866,
+      -1.3314034957374763,
+      0.30267456940485427
+    ],
+    "bbox_size": [
+      0.16029320896664867,
+      0.6817706229976661,
+      1.3396471053890262
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "box",
+    "describe": "A rectangular box with a dark green lid partially open, revealing a lighter green interior. The box appears to be made of cardboard with visible flaps on the top, suggesting it is a box with an open top.",
+    "class_id": 26,
+    "bbox_min": [
+      -1.8225580007556552,
+      -0.07237290757185928,
+      -0.5927583709684626
+    ],
+    "bbox_max": [
+      -1.6727167544166028,
+      0.0734870889539254,
+      -0.4555095000223418
+    ],
+    "bbox_center": [
+      -1.7476373775861291,
+      0.0005570906910330603,
+      -0.5241339354954022
+    ],
+    "bbox_size": [
+      0.14984124633905238,
+      0.14585999652578469,
+      0.13724887094612082
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "power outlet",
+    "describe": "A dark brown, rectangular power socket with a single visible three-prong outlet, featuring two vertical slots and a round grounding hole beneath them.",
+    "class_id": 242,
+    "bbox_min": [
+      -1.6437331051738047,
+      -2.7878763739873813,
+      -0.720050066774207
+    ],
+    "bbox_max": [
+      -1.548260102920324,
+      -2.6269144235195387,
+      -0.5911950692582445
+    ],
+    "bbox_center": [
+      -1.5959966040470643,
+      -2.70739539875346,
+      -0.6556225680162258
+    ],
+    "bbox_size": [
+      0.09547300225348065,
+      0.16096195046784256,
+      0.12885499751596252
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "cabinet",
+    "describe": "A tall, wooden cabinet with a glass-fronted upper section and a solid lower section, featuring multiple shelves and a closed compartment at the bottom.",
+    "class_id": 7,
+    "bbox_min": [
+      3.2612502574594497,
+      -1.9425062312457813,
+      -1.074454718732657
+    ],
+    "bbox_max": [
+      3.612006190131589,
+      -0.6994397312215886,
+      0.6366692375154972
+    ],
+    "bbox_center": [
+      3.4366282237955197,
+      -1.320972981233685,
+      -0.21889274060857988
+    ],
+    "bbox_size": [
+      0.35075593267213945,
+      1.2430665000241925,
+      1.7111239562481542
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "object",
+    "describe": "A tall, slender, dark-toned vase with a glossy finish and a slightly flared opening at the top.",
+    "class_id": 1163,
+    "bbox_min": [
+      3.4448665031441124,
+      -1.6657494561954065,
+      -0.9576287766558114
+    ],
+    "bbox_max": [
+      3.4621180709697055,
+      -1.5763086647300253,
+      -0.7414409109741579
+    ],
+    "bbox_center": [
+      3.4534922870569087,
+      -1.6210290604627158,
+      -0.8495348438149846
+    ],
+    "bbox_size": [
+      0.017251567825593117,
+      0.0894407914653812,
+      0.2161878656816535
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "box",
+    "describe": "A rectangular box with a textured surface, featuring a combination of dark and light gray tones, and a visible flap on the top side.",
+    "class_id": 26,
+    "bbox_min": [
+      3.4542197464986177,
+      -1.8051746136918456,
+      -0.1514919904001667
+    ],
+    "bbox_max": [
+      3.4744762514644454,
+      -1.6578914051244413,
+      -0.0266348047102322
+    ],
+    "bbox_center": [
+      3.4643479989815313,
+      -1.7315330094081434,
+      -0.08906339755519944
+    ],
+    "bbox_size": [
+      0.02025650496582765,
+      0.1472832085674043,
+      0.1248571856899345
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "plant",
+    "describe": "A lush, green, leafy plant with a dense cluster of broad, heart-shaped leaves at the top, cascading downwards with a mix of smaller, more delicate leaves and stems.",
+    "class_id": 40,
+    "bbox_min": [
+      3.449688819768867,
+      -1.6849595296219162,
+      0.44644900029057555
+    ],
+    "bbox_max": [
+      3.5803174544419063,
+      -1.0600953902133416,
+      0.907244299471015
+    ],
+    "bbox_center": [
+      3.5150031371053867,
+      -1.372527459917629,
+      0.6768466498807952
+    ],
+    "bbox_size": [
+      0.1306286346730392,
+      0.6248641394085745,
+      0.4607952991804395
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "stool",
+    "describe": "A traditional wooden footstool with a cushioned top upholstered in a light-colored fabric. The footstool features ornate carvings on the sides, with a curved front edge and a flat back, providing a sturdy base.",
+    "class_id": 38,
+    "bbox_min": [
+      2.4754962535849327,
+      -0.9543584242714923,
+      -1.0229496088070567
+    ],
+    "bbox_max": [
+      3.20708016527112,
+      -0.3406036938259175,
+      -0.662416927519249
+    ],
+    "bbox_center": [
+      2.8412882094280265,
+      -0.6474810590487049,
+      -0.8426832681631529
+    ],
+    "bbox_size": [
+      0.7315839116861871,
+      0.6137547304455748,
+      0.3605326812878077
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "object",
+    "describe": "A cylindrical vase with a textured surface, featuring a pattern of raised dots and a narrow neck that flares out to a wider, rounded lip.",
+    "class_id": 1163,
+    "bbox_min": [
+      3.567733201415386,
+      -0.9695417499416338,
+      -0.1409439765593582
+    ],
+    "bbox_max": [
+      3.583301070370311,
+      -0.8680647113585425,
+      -0.02504545696110862
+    ],
+    "bbox_center": [
+      3.5755171358928486,
+      -0.9188032306500882,
+      -0.08299471676023341
+    ],
+    "bbox_size": [
+      0.01556786895492479,
+      0.10147703858309132,
+      0.11589851959824958
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "office chair",
+    "describe": "Traditional wooden rocking chair with a high backrest and curved armrests, featuring a cushioned seat and a footrest. The chair has a dark finish and is designed to rock back and forth.",
+    "class_id": 10,
+    "bbox_min": [
+      2.77110690245149,
+      -0.8668160667387774,
+      -0.9701840937519913
+    ],
+    "bbox_max": [
+      3.501692270716992,
+      0.16962209579791807,
+      0.06763583349043097
+    ],
+    "bbox_center": [
+      3.136399586584241,
+      -0.34859698547042967,
+      -0.45127413013078016
+    ],
+    "bbox_size": [
+      0.7305853682655021,
+      1.0364381625366954,
+      1.0378199272424222
+    ]
+  },
+  {
+    "instance_id": "40",
+    "class_name": "blanket",
+    "describe": "A plush blanket with a pattern of alternating dark and light vertical stripes, featuring a mix of geometric shapes and lines, creating a textured appearance.",
+    "class_id": 54,
+    "bbox_min": [
+      3.246030634964408,
+      -0.4645655155309852,
+      -0.45707686291576566
+    ],
+    "bbox_max": [
+      3.5211713975308747,
+      -0.03306429228462443,
+      -0.07024959619517898
+    ],
+    "bbox_center": [
+      3.383601016247641,
+      -0.2488149039078048,
+      -0.26366322955547233
+    ],
+    "bbox_size": [
+      0.2751407625664668,
+      0.43150122324636075,
+      0.38682726672058665
+    ]
+  },
+  {
+    "instance_id": "41",
+    "class_name": "mirror",
+    "describe": "A rectangular mirror with a thick, ornate frame featuring intricate carvings and a distressed finish, giving it an antique appearance.",
+    "class_id": 71,
+    "bbox_min": [
+      3.5527203608318976,
+      -1.0811509329748776,
+      -0.1411157096137672
+    ],
+    "bbox_max": [
+      3.5668424485656174,
+      -0.9809158549808589,
+      -0.027567993751700423
+    ],
+    "bbox_center": [
+      3.5597814046987573,
+      -1.0310333939778682,
+      -0.08434185168273381
+    ],
+    "bbox_size": [
+      0.014122087733719813,
+      0.10023507799401876,
+      0.11354771586206679
+    ]
+  },
+  {
+    "instance_id": "42",
+    "class_name": "candle",
+    "describe": "A cylindrical, dark-colored candle with a smooth surface and a slightly rounded top, featuring a visible wick at the center.",
+    "class_id": 286,
+    "bbox_min": [
+      3.4743933356406638,
+      -1.6578914051244413,
+      -0.1318025598674193
+    ],
+    "bbox_max": [
+      3.4894721704512435,
+      -1.546067571637183,
+      -0.03952134090962572
+    ],
+    "bbox_center": [
+      3.4819327530459536,
+      -1.6019794883808123,
+      -0.0856619503885225
+    ],
+    "bbox_size": [
+      0.0150788348105797,
+      0.11182383348725833,
+      0.09228121895779356
+    ]
+  },
+  {
+    "instance_id": "43",
+    "class_name": "object",
+    "describe": "The sculpture depicts a dynamic, abstract form with a series of interconnected, flowing lines and shapes that create a sense of movement. The surface appears textured, with variations in shading that suggest depth and curvature. The overall structure is asymmetrical, with some parts protruding more than others, giving it a sense of organic fluidity.",
+    "class_id": 1163,
+    "bbox_min": [
+      1.4621944931307571,
+      0.13477032237492495,
+      0.33063877705505523
+    ],
+    "bbox_max": [
+      2.0804578561024436,
+      0.23331040633248454,
+      0.710379120441844
+    ],
+    "bbox_center": [
+      1.7713261746166005,
+      0.18404036435370474,
+      0.5205089487484497
+    ],
+    "bbox_size": [
+      0.6182633629716865,
+      0.09854008395755959,
+      0.3797403433867888
+    ]
+  },
+  {
+    "instance_id": "44",
+    "class_name": "object",
+    "describe": "A tall, slender vase with a glossy finish, featuring a gradient of colors from a dark teal at the base to a lighter teal at the top, with subtle hints of green and white. The vase has a narrow neck that flares slightly at the top, and its body tapers gently towards the base.",
+    "class_id": 1163,
+    "bbox_min": [
+      1.4583114943382718,
+      1.237812428859889,
+      0.4164411714081069
+    ],
+    "bbox_max": [
+      1.9815776903554039,
+      1.7318655187831047,
+      0.7931866460046921
+    ],
+    "bbox_center": [
+      1.7199445923468377,
+      1.4848389738214969,
+      0.6048139087063995
+    ],
+    "bbox_size": [
+      0.5232661960171321,
+      0.4940530899232156,
+      0.37674547459658525
+    ]
+  },
+  {
+    "instance_id": "45",
+    "class_name": "column",
+    "describe": "A vertical wooden pole with a smooth surface and a warm brown color, featuring a slight taper towards the top and a visible joint or connection point approximately one-third from the bottom.",
+    "class_id": 120,
+    "bbox_min": [
+      1.163396661527613,
+      1.3187916605083512,
+      0.04869460193133587
+    ],
+    "bbox_max": [
+      1.5978452884854617,
+      1.7793158757098149,
+      0.7245232062512609
+    ],
+    "bbox_center": [
+      1.3806209750065372,
+      1.549053768109083,
+      0.3866089040912984
+    ],
+    "bbox_size": [
+      0.4344486269578487,
+      0.4605242152014637,
+      0.675828604319925
+    ]
+  }
+]

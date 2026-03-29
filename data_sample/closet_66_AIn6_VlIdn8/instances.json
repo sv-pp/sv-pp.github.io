@@ -1,0 +1,288 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "cabinet",
+    "describe": "A white, rectangular drawer with a flat front surface and a black, horizontal pull handle centered at the top.",
+    "class_id": 7,
+    "bbox_min": [
+      0.7595048546791077,
+      -0.7626791000366211,
+      0.9317604899406433
+    ],
+    "bbox_max": [
+      0.9379712343215942,
+      -0.6557331085205078,
+      1.0926365852355957
+    ],
+    "bbox_center": [
+      0.848738044500351,
+      -0.7092061042785645,
+      1.0121985375881195
+    ],
+    "bbox_size": [
+      0.17846637964248657,
+      0.10694599151611328,
+      0.1608760952949524
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "shelf",
+    "describe": "A modern, wall-mounted shelf with a sleek, metallic finish, featuring a minimalist design with clean lines and a flat, horizontal surface. The shelf has a rectangular profile with a slight overhang on the top edge, and it is supported by a vertical back panel that is flush with the wall.",
+    "class_id": 8,
+    "bbox_min": [
+      0.082758329808712,
+      -0.7641177773475647,
+      0.2839558720588684
+    ],
+    "bbox_max": [
+      0.9093738794326782,
+      -0.5189453363418579,
+      0.8084885478019714
+    ],
+    "bbox_center": [
+      0.4960661046206951,
+      -0.6415315568447113,
+      0.5462222099304199
+    ],
+    "bbox_size": [
+      0.8266155496239662,
+      0.2451724410057068,
+      0.524532675743103
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "shelf",
+    "describe": "A vertical, narrow, dark-colored shelf with a flat top surface and a visible side panel, extending downwards with a slight outward flare at the bottom.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.18942220509052277,
+      -0.8531912565231323,
+      -0.5625674724578857
+    ],
+    "bbox_max": [
+      0.9679625034332275,
+      -0.4589932858943939,
+      0.4727330803871155
+    ],
+    "bbox_center": [
+      0.3892701491713524,
+      -0.6560922712087631,
+      -0.04491719603538513
+    ],
+    "bbox_size": [
+      1.1573847085237503,
+      0.3941979706287384,
+      1.0353005528450012
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "window",
+    "describe": "The wall is a smooth, light gray concrete surface. It features a rectangular window with a white frame and a white sill. The wall extends vertically and horizontally, with a slight shadow cast on the right side.",
+    "class_id": 16,
+    "bbox_min": [
+      3.7796530723571777,
+      -0.554210364818573,
+      -1.1238933801651
+    ],
+    "bbox_max": [
+      4.338503360748291,
+      1.12092125415802,
+      1.4609026908874512
+    ],
+    "bbox_center": [
+      4.059078216552734,
+      0.2833554446697235,
+      0.16850465536117554
+    ],
+    "bbox_size": [
+      0.5588502883911133,
+      1.675131618976593,
+      2.5847960710525513
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame and a single horizontal divider in the middle, creating two sections. The upper section is larger than the lower section.",
+    "class_id": 16,
+    "bbox_min": [
+      4.251370429992676,
+      0.19163282215595245,
+      -0.3566403388977051
+    ],
+    "bbox_max": [
+      4.3008809089660645,
+      0.8888887763023376,
+      0.9626637697219849
+    ],
+    "bbox_center": [
+      4.27612566947937,
+      0.540260799229145,
+      0.3030117154121399
+    ],
+    "bbox_size": [
+      0.04951047897338867,
+      0.6972559541463852,
+      1.31930410861969
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "book",
+    "describe": "A hardcover book with a black spine and possibly dark-colored cover, featuring white text on the spine that is partially visible, with the letters \"A\" and \"N\" discernible.",
+    "class_id": 22,
+    "bbox_min": [
+      0.6615180373191833,
+      -0.7504740357398987,
+      0.862485945224762
+    ],
+    "bbox_max": [
+      0.8938799500465393,
+      -0.7024492621421814,
+      0.9743111729621887
+    ],
+    "bbox_center": [
+      0.7776989936828613,
+      -0.72646164894104,
+      0.9183985590934753
+    ],
+    "bbox_size": [
+      0.23236191272735596,
+      0.048024773597717285,
+      0.11182522773742676
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "mirror",
+    "describe": "A tall, narrow, rectangular mirror with a simple, thin frame, positioned vertically.",
+    "class_id": 71,
+    "bbox_min": [
+      1.968158483505249,
+      -0.6583380103111267,
+      -1.1578441858291626
+    ],
+    "bbox_max": [
+      3.2692160606384277,
+      -0.33765509724617004,
+      1.3743584156036377
+    ],
+    "bbox_center": [
+      2.6186872720718384,
+      -0.4979965537786484,
+      0.10825711488723755
+    ],
+    "bbox_size": [
+      1.3010575771331787,
+      0.32068291306495667,
+      2.5322026014328003
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "cabinet",
+    "describe": "A white, freestanding cabinet with a classic design, featuring a combination of closed compartments and open shelving. The cabinet has a cornice top, decorative molding, and a base with a recessed panel. It includes a full-length glass door with a metal handle on the right side, revealing interior shelving. Below the glass door, there are two sets of drawers with metal handles, and to the left, a solid door with a metal handle. The cabinet's design is symmetrical, with a consistent color and style throughout.",
+    "class_id": 7,
+    "bbox_min": [
+      1.3455255031585693,
+      0.943367600440979,
+      -1.1588388681411743
+    ],
+    "bbox_max": [
+      4.19536018371582,
+      1.166532278060913,
+      1.4096121788024902
+    ],
+    "bbox_center": [
+      2.770442843437195,
+      1.054949939250946,
+      0.12538665533065796
+    ],
+    "bbox_size": [
+      2.849834680557251,
+      0.22316467761993408,
+      2.5684510469436646
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "lamp",
+    "describe": "A cylindrical lampshade with a textured surface, featuring a series of vertical ridges that create a pleated effect. The top and bottom edges are trimmed with a smooth, darker band that contrasts with the lighter body of the shade.",
+    "class_id": 28,
+    "bbox_min": [
+      2.480881929397583,
+      0.3775756359100342,
+      1.1951674222946167
+    ],
+    "bbox_max": [
+      3.3017737865448,
+      0.837134599685669,
+      1.5023651123046875
+    ],
+    "bbox_center": [
+      2.8913278579711914,
+      0.6073551177978516,
+      1.348766267299652
+    ],
+    "bbox_size": [
+      0.8208918571472168,
+      0.45955896377563477,
+      0.3071976900100708
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "coat",
+    "describe": "A black coat with a textured surface, featuring a notched lapel and a visible buttonhole on the left lapel.",
+    "class_id": -1,
+    "bbox_min": [
+      0.5312933325767517,
+      -0.8006578087806702,
+      -0.809271514415741
+    ],
+    "bbox_max": [
+      1.0805479288101196,
+      -0.333431601524353,
+      -0.33608025312423706
+    ],
+    "bbox_center": [
+      0.8059206306934357,
+      -0.5670447051525116,
+      -0.572675883769989
+    ],
+    "bbox_size": [
+      0.5492545962333679,
+      0.46722620725631714,
+      0.4731912612915039
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "towel",
+    "describe": "A dark-colored towel with a textured pattern, featuring a series of parallel ridges and valleys running along its length.",
+    "class_id": 31,
+    "bbox_min": [
+      2.836268424987793,
+      -0.42011022567749023,
+      -0.2626025676727295
+    ],
+    "bbox_max": [
+      3.3087027072906494,
+      -0.36475393176078796,
+      0.3432726263999939
+    ],
+    "bbox_center": [
+      3.072485566139221,
+      -0.3924320787191391,
+      0.0403350293636322
+    ],
+    "bbox_size": [
+      0.47243428230285645,
+      0.05535629391670227,
+      0.6058751940727234
+    ]
+  }
+]

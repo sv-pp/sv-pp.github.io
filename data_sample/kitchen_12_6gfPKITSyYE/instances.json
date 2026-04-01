@@ -1,0 +1,886 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "window",
+    "describe": "The wall is smooth and painted in a light, neutral color. It features a large, rectangular window with white blinds on the left side, and a smaller, rectangular window with white blinds on the right side. The wall also has a vertical, rectangular column on the left side, and a horizontal, rectangular beam extending from the top of the column to the ceiling.",
+    "class_id": 16,
+    "bbox_min": [
+      -3.0492449740599477,
+      1.0919300045501703,
+      -1.3448114508047424
+    ],
+    "bbox_max": [
+      -0.40388758350264964,
+      3.100517661965204,
+      1.8216753748930745
+    ],
+    "bbox_center": [
+      -1.7265662787812985,
+      2.096223833257687,
+      0.23843196204416606
+    ],
+    "bbox_size": [
+      2.6453573905572982,
+      2.008587657415034,
+      3.1664868256978167
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "window",
+    "describe": "A large rectangular window with a white frame, divided into six vertical panes by white muntins. The window has horizontal white blinds covering each pane, with the blinds partially open, allowing some light to pass through.",
+    "class_id": 16,
+    "bbox_min": [
+      -1.9706369493288916,
+      0.44611840381335316,
+      -1.365006385283856
+    ],
+    "bbox_max": [
+      -1.251337179106085,
+      2.1904735371311603,
+      1.1206981680331813
+    ],
+    "bbox_center": [
+      -1.6109870642174884,
+      1.3182959704722568,
+      -0.12215410862533738
+    ],
+    "bbox_size": [
+      0.7192997702228066,
+      1.7443551333178071,
+      2.4857045533170377
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "window",
+    "describe": "A white-framed double-hung window with two vertically aligned sashes, each containing a single pane of clear glass. The window is set within a white wall and has a visible white trim at the bottom.",
+    "class_id": 16,
+    "bbox_min": [
+      -1.8179422133590857,
+      -1.6854521890154135,
+      -0.19559775886907077
+    ],
+    "bbox_max": [
+      -1.2782040197268656,
+      -0.5021289263017168,
+      0.8607299988167754
+    ],
+    "bbox_center": [
+      -1.5480731165429757,
+      -1.0937905576585651,
+      0.3325661199738523
+    ],
+    "bbox_size": [
+      0.5397381936322201,
+      1.1833232627136967,
+      1.056327757685846
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "cabinet",
+    "describe": "A white, wall-mounted cabinet with a flat top and a recessed panel design. It features two doors with vertical handles on the right side, and a visible shelf inside through a window.",
+    "class_id": 7,
+    "bbox_min": [
+      -1.6784354248628388,
+      -1.2335879552383227,
+      0.10767397590673665
+    ],
+    "bbox_max": [
+      -1.2253157294693795,
+      0.5102707268278887,
+      1.0444151583558465
+    ],
+    "bbox_center": [
+      -1.4518755771661092,
+      -0.361658614205217,
+      0.5760445671312916
+    ],
+    "bbox_size": [
+      0.4531196953934593,
+      1.7438586820662114,
+      0.9367411824491099
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "kitchen cabinet",
+    "describe": "A modern white kitchen cabinet with a flat countertop, featuring a set of double doors with vertical handles on the right side and a single door with a vertical handle on the left side. The cabinet has a clean, minimalist design with a smooth finish and sharp, straight edges.",
+    "class_id": 29,
+    "bbox_min": [
+      0.04762213080484288,
+      -2.9949007432103056,
+      -1.2981547153779953
+    ],
+    "bbox_max": [
+      1.2651187797588948,
+      -1.0328570517981384,
+      -0.1833183266783078
+    ],
+    "bbox_center": [
+      0.6563704552818688,
+      -2.013878897504222,
+      -0.7407365210281516
+    ],
+    "bbox_size": [
+      1.217496648954052,
+      1.9620436914121673,
+      1.1148363886996875
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "sink",
+    "describe": "A modern kitchen featuring a light gray countertop with a built-in sink and a stainless steel faucet. The countertop is flanked by white cabinetry with a smooth finish, including a set of drawers with sleek metal handles on the left and a larger cabinet with a single door and a matching handle on the right. The cabinetry has a clean, contemporary design with minimal detailing.",
+    "class_id": 14,
+    "bbox_min": [
+      -1.636306172972634,
+      -3.0156575314099157,
+      -1.4475402193146971
+    ],
+    "bbox_max": [
+      -0.7364855266661956,
+      0.4652360485688796,
+      -0.1803500845129944
+    ],
+    "bbox_center": [
+      -1.186395849819415,
+      -1.275210741420518,
+      -0.8139451519138458
+    ],
+    "bbox_size": [
+      0.8998206463064384,
+      3.4808935799787952,
+      1.2671901348017027
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "dishwasher",
+    "describe": "A modern, freestanding dishwasher with a stainless steel finish and a recessed handle on the upper part of the door. The control panel is located at the top edge of the door, featuring a digital display and push buttons for operation.",
+    "class_id": 136,
+    "bbox_min": [
+      -1.1032876321320906,
+      -0.6618335919135591,
+      -1.3029476057404383
+    ],
+    "bbox_max": [
+      -0.9132134392486292,
+      0.016980145651962708,
+      -0.3661594716277873
+    ],
+    "bbox_center": [
+      -1.00825053569036,
+      -0.3224267231307982,
+      -0.8345535386841128
+    ],
+    "bbox_size": [
+      0.1900741928834614,
+      0.6788137375655218,
+      0.936788134112651
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "plant",
+    "describe": "A pineapple with a textured surface patterned with diamond-shaped eyes and a crown of spiky, green leaves.",
+    "class_id": 40,
+    "bbox_min": [
+      -1.6297087819805853,
+      -0.17476011935903113,
+      -0.3471211356716314
+    ],
+    "bbox_max": [
+      -1.476792493960832,
+      0.0030424510374953114,
+      0.011600476666767445
+    ],
+    "bbox_center": [
+      -1.5532506379707085,
+      -0.08585883416076791,
+      -0.16776032950243197
+    ],
+    "bbox_size": [
+      0.15291628801975343,
+      0.17780257039652644,
+      0.35872161233839883
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "vent",
+    "describe": "A rectangular vent with a series of parallel, horizontal slats, each with a slight curvature, creating a louvered design for airflow regulation.",
+    "class_id": 408,
+    "bbox_min": [
+      -1.6620665822762823,
+      1.3717604004757389,
+      -1.3813823471522233
+    ],
+    "bbox_max": [
+      -1.5207966799086892,
+      1.6903681005675446,
+      -1.365800612362652
+    ],
+    "bbox_center": [
+      -1.5914316310924859,
+      1.5310642505216419,
+      -1.3735914797574376
+    ],
+    "bbox_size": [
+      0.14126990236759318,
+      0.3186077000918057,
+      0.015581734789571255
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "handle",
+    "describe": "A vertical, cylindrical, metallic handle with a textured grip and a rounded end, featuring a series of horizontal ridges for improved grasp.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.6400292725883303,
+      0.41412387673751416,
+      -0.03662362056202364
+    ],
+    "bbox_max": [
+      -1.637296987153161,
+      0.4843920425224261,
+      0.09875851116073199
+    ],
+    "bbox_center": [
+      -1.6386631298707457,
+      0.44925795962997017,
+      0.031067445299354176
+    ],
+    "bbox_size": [
+      0.002732285435169235,
+      0.07026816578491196,
+      0.13538213172275562
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "sink",
+    "describe": "A modern, undermount double-basin kitchen sink with a sleek black finish, featuring a deep, rectangular design and a visible divider in the middle, creating two equal compartments.",
+    "class_id": 14,
+    "bbox_min": [
+      -1.5017005828461096,
+      -1.56162481185518,
+      -0.5648049950399964
+    ],
+    "bbox_max": [
+      -1.0625522406966532,
+      -0.7324290548142459,
+      -0.3297999230263251
+    ],
+    "bbox_center": [
+      -1.2821264117713813,
+      -1.147026933334713,
+      -0.44730245903316074
+    ],
+    "bbox_size": [
+      0.4391483421494564,
+      0.8291957570409342,
+      0.23500507201367127
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "sink",
+    "describe": "Chrome single-handle faucet with a high-arc spout and a lever handle mounted on the right side.",
+    "class_id": 14,
+    "bbox_min": [
+      -1.5906074081063277,
+      -1.4680697600389112,
+      -0.3297416635701746
+    ],
+    "bbox_max": [
+      -1.376747409922219,
+      -1.1001775501421698,
+      -0.12251270685013975
+    ],
+    "bbox_center": [
+      -1.4836774090142733,
+      -1.2841236550905406,
+      -0.22612718521015718
+    ],
+    "bbox_size": [
+      0.21385999818410872,
+      0.36789220989674143,
+      0.20722895672003483
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "sink",
+    "describe": "The faucet features a single lever handle mounted on the right side, with a cylindrical body that tapers slightly towards the base. The spout has a rounded end and a downward angle, suggesting a modern design. The finish appears to be a matte black, and the overall design is sleek and minimalist.",
+    "class_id": 14,
+    "bbox_min": [
+      -1.5251662103127923,
+      -1.3922108697099762,
+      -0.2985542969350875
+    ],
+    "bbox_max": [
+      -1.4797899963743872,
+      -1.3391413699994699,
+      -0.2732031751427333
+    ],
+    "bbox_center": [
+      -1.5024781033435897,
+      -1.3656761198547231,
+      -0.2858787360389104
+    ],
+    "bbox_size": [
+      0.045376213938405074,
+      0.05306949971050634,
+      0.025351121792354214
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "cabinet",
+    "describe": "The wall is painted white and features a series of white cabinets with glass doors. The cabinets are arranged in a linear fashion, with some sections having a continuous countertop. The wall also includes a window with a white frame, positioned to the right of the cabinets.",
+    "class_id": 7,
+    "bbox_min": [
+      -1.5965959581179296,
+      -2.8159102279446904,
+      0.11581791221745173
+    ],
+    "bbox_max": [
+      -0.7044022458771172,
+      0.338247995055991,
+      1.019870152842912
+    ],
+    "bbox_center": [
+      -1.1504991019975235,
+      -1.2388311164443497,
+      0.5678440325301818
+    ],
+    "bbox_size": [
+      0.8921937122408125,
+      3.1541582230006813,
+      0.9040522406254602
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "fume hood",
+    "describe": "A modern, stainless steel fume hood with a flat, horizontal work surface and a sloped front panel. The hood features a recessed, rectangular light fixture on the upper front edge and a vertical, rectangular exhaust duct on the right side.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.4027699037202568,
+      -3.021459271466806,
+      0.3992991114519296
+    ],
+    "bbox_max": [
+      0.9095480532774777,
+      -0.4324967971537681,
+      1.2911299776297929
+    ],
+    "bbox_center": [
+      -0.24661092522138955,
+      -1.726978034310287,
+      0.8452145445408612
+    ],
+    "bbox_size": [
+      2.3123179569977346,
+      2.588962474313038,
+      0.8918308661778633
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "object",
+    "describe": "A ripe pear with a gradient of yellow to green hues, exhibiting a smooth and slightly speckled skin texture.",
+    "class_id": 1163,
+    "bbox_min": [
+      -1.224581873900338,
+      -2.63340335700716,
+      -0.26538748518536787
+    ],
+    "bbox_max": [
+      -1.1051126362933108,
+      -2.4299130199371692,
+      -0.1887652298642861
+    ],
+    "bbox_center": [
+      -1.1648472550968245,
+      -2.5316581884721647,
+      -0.22707635752482697
+    ],
+    "bbox_size": [
+      0.11946923760702721,
+      0.20349033706999098,
+      0.07662225532108177
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "apple",
+    "describe": "A green apple with a smooth, glossy surface reflecting light, showcasing a gradient of color from a lighter green at the top to a darker green towards the bottom, with subtle hints of yellow. The apple has a rounded shape with a slight taper towards the top, and a visible stem protruding from its upper region.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.2756967985206702,
+      -2.4609268896745307,
+      -0.29929612609975703
+    ],
+    "bbox_max": [
+      -1.1623953269793585,
+      -2.4164080271136426,
+      -0.20912149913469877
+    ],
+    "bbox_center": [
+      -1.2190460627500144,
+      -2.438667458394087,
+      -0.2542088126172279
+    ],
+    "bbox_size": [
+      0.11330147154131165,
+      0.044518862560888106,
+      0.09017462696505826
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "stove",
+    "describe": "A freestanding black stove with a smooth cooktop featuring multiple burners, a digital control panel with knobs on the backguard, and a large oven with a see-through glass door and a handle across the top.",
+    "class_id": 62,
+    "bbox_min": [
+      -0.7783785133240445,
+      -3.0445720673269534,
+      -1.2995770529600053
+    ],
+    "bbox_max": [
+      0.07816610124539496,
+      -2.298682823702709,
+      -0.06428052941447562
+    ],
+    "bbox_center": [
+      -0.3501062060393248,
+      -2.6716274455148312,
+      -0.6819287911872405
+    ],
+    "bbox_size": [
+      0.8565446145694394,
+      0.7458892436242444,
+      1.2352965235455295
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "fume hood",
+    "describe": "Stainless steel fume hood with a flat, angled front panel featuring a central control panel with buttons and indicator lights. The hood has a vertical exhaust duct extending upwards from the top, and a horizontal sash handle is visible on the front panel.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.7694340375046614,
+      -3.009271440702007,
+      0.25179637278287176
+    ],
+    "bbox_max": [
+      0.09658691663003006,
+      -2.5565675113662896,
+      0.9932087272333081
+    ],
+    "bbox_center": [
+      -0.3364235604373157,
+      -2.7829194760341482,
+      0.62250255000809
+    ],
+    "bbox_size": [
+      0.8660209541346915,
+      0.45270392933571735,
+      0.7414123544504363
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "bowl",
+    "describe": "A shallow, wide-rimmed bowl with a textured exterior resembling a natural stone or marble pattern, featuring a mix of earthy tones and speckles. The bowl has a smooth, glossy interior surface.",
+    "class_id": 562,
+    "bbox_min": [
+      -1.3893696118012253,
+      -2.656000147321672,
+      -0.324097307103178
+    ],
+    "bbox_max": [
+      -1.0873926489428507,
+      -2.428583327942455,
+      -0.20696003771510732
+    ],
+    "bbox_center": [
+      -1.238381130372038,
+      -2.5422917376320635,
+      -0.2655286724091427
+    ],
+    "bbox_size": [
+      0.3019769628583746,
+      0.22741681937921676,
+      0.1171372693880707
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "kitchen cabinet",
+    "describe": "White corner kitchen cabinet with a glass-paneled door, featuring a vertical handle on the right side, and a partial view of a matching white countertop with a built-in microwave oven.",
+    "class_id": 29,
+    "bbox_min": [
+      -0.2003085876431765,
+      -3.0139967453491274,
+      0.12247714603749556
+    ],
+    "bbox_max": [
+      1.222039341056362,
+      -1.0315489074963713,
+      1.0663222326485424
+    ],
+    "bbox_center": [
+      0.5108653767065927,
+      -2.0227728264227496,
+      0.594399689343019
+    ],
+    "bbox_size": [
+      1.4223479286995384,
+      1.9824478378527561,
+      0.9438450866110468
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "bin",
+    "describe": "A cylindrical canister with a metallic finish and a reflective surface, featuring a series of horizontal ridges along its body and a visible lid with a rounded top.",
+    "class_id": 66,
+    "bbox_min": [
+      0.5345058062726663,
+      -2.992362102240386,
+      -0.3257156385134351
+    ],
+    "bbox_max": [
+      0.648697377887824,
+      -2.9364094832440824,
+      -0.12608997984341472
+    ],
+    "bbox_center": [
+      0.5916015920802451,
+      -2.964385792742234,
+      -0.22590280917842492
+    ],
+    "bbox_size": [
+      0.1141915716151577,
+      0.05595261899630355,
+      0.19962565867002038
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "bottle",
+    "describe": "A cylindrical, transparent glass jar with a metal screw-on lid, featuring a smooth surface and a slightly tapered body.",
+    "class_id": 65,
+    "bbox_min": [
+      0.43119192772163384,
+      -2.9888180288312878,
+      -0.32314894757318163
+    ],
+    "bbox_max": [
+      0.5413159214052171,
+      -2.9423171582143155,
+      -0.07870577247031628
+    ],
+    "bbox_center": [
+      0.4862539245634255,
+      -2.9655675935228016,
+      -0.20092736002174896
+    ],
+    "bbox_size": [
+      0.11012399368358328,
+      0.04650087061697228,
+      0.24444317510286534
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "bin",
+    "describe": "A cylindrical stainless steel canister with a reflective finish, featuring a black, vertical, oval-shaped handle centered on its body.",
+    "class_id": 66,
+    "bbox_min": [
+      0.33727122959157013,
+      -3.0212570838633837,
+      -0.3250905181085815
+    ],
+    "bbox_max": [
+      0.4417232914566103,
+      -2.9442927114548914,
+      0.009529185400858994
+    ],
+    "bbox_center": [
+      0.3894972605240902,
+      -2.9827748976591373,
+      -0.15778066635386126
+    ],
+    "bbox_size": [
+      0.10445206186504019,
+      0.0769643724084923,
+      0.33461970350944054
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "book",
+    "describe": "A hardcover book with a dust jacket featuring a predominantly teal color scheme and a central image of a dragon in shades of green and brown, with white and black accents. The title is in large, stylized white font at the top, and there is a subtitle in smaller white font below. The author's name is printed in white at the bottom of the spine.",
+    "class_id": 22,
+    "bbox_min": [
+      0.724334289009903,
+      -1.868733637813942,
+      -0.30025426277677336
+    ],
+    "bbox_max": [
+      1.0300543329349225,
+      -1.520231883551711,
+      -0.21702423417766908
+    ],
+    "bbox_center": [
+      0.8771943109724127,
+      -1.6944827606828265,
+      -0.2586392484772212
+    ],
+    "bbox_size": [
+      0.3057200439250195,
+      0.34850175426223107,
+      0.08323002859910428
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "book",
+    "describe": "A hardcover book with a white spine featuring black text, a small red square logo near the bottom, and a black horizontal line near the top.",
+    "class_id": 22,
+    "bbox_min": [
+      0.6906714294345568,
+      -1.7840082989942687,
+      -0.3308762397813982
+    ],
+    "bbox_max": [
+      0.9207025440184008,
+      -1.5018452466525019,
+      -0.2895488800634053
+    ],
+    "bbox_center": [
+      0.8056869867264789,
+      -1.6429267728233854,
+      -0.3102125599224017
+    ],
+    "bbox_size": [
+      0.23003111458384395,
+      0.28216305234176686,
+      0.041327359717992895
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "ceiling light",
+    "describe": "A circular, flush-mounted ceiling light with a frosted glass cover and a metallic rim.",
+    "class_id": 1168,
+    "bbox_min": [
+      -0.8681614848657596,
+      -2.3312815404948783,
+      1.264123694009281
+    ],
+    "bbox_max": [
+      -0.7308299691958169,
+      -2.135102610920665,
+      1.2785661538616337
+    ],
+    "bbox_center": [
+      -0.7994957270307883,
+      -2.2331920757077715,
+      1.2713449239354575
+    ],
+    "bbox_size": [
+      0.13733151566994273,
+      0.19617892957421335,
+      0.014442459852352707
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "plant",
+    "describe": "A lush bouquet of green foliage with a variety of leaf shapes and sizes, some with serrated edges, creating a dense, textured appearance.",
+    "class_id": 40,
+    "bbox_min": [
+      0.8209014140364995,
+      -1.8333925736683112,
+      -0.25718396048589764
+    ],
+    "bbox_max": [
+      0.9842434631110379,
+      -1.6065534602770892,
+      -0.1310718396760518
+    ],
+    "bbox_center": [
+      0.9025724385737688,
+      -1.7199730169727,
+      -0.19412790008097472
+    ],
+    "bbox_size": [
+      0.16334204907453842,
+      0.22683911339122198,
+      0.12611212080984585
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "microwave",
+    "describe": "A black microwave oven with a glossy finish, featuring a right-hinged door with a reflective window and a control panel on the right side with multiple buttons and a digital display.",
+    "class_id": 59,
+    "bbox_min": [
+      0.7288678002050448,
+      -1.718561405775285,
+      0.21172848521000057
+    ],
+    "bbox_max": [
+      0.9182406014445214,
+      -1.0759279473624983,
+      0.6141073979732165
+    ],
+    "bbox_center": [
+      0.8235542008247831,
+      -1.3972446765688917,
+      0.4129179415916085
+    ],
+    "bbox_size": [
+      0.18937280123947653,
+      0.6426334584127866,
+      0.4023789127632159
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the top center.",
+    "class_id": 242,
+    "bbox_min": [
+      1.1704464753171415,
+      -2.3326537583329414,
+      -0.21804456964677116
+    ],
+    "bbox_max": [
+      1.1796668944995052,
+      -2.235329948573631,
+      -0.08576449292369492
+    ],
+    "bbox_center": [
+      1.1750566849083235,
+      -2.283991853453286,
+      -0.15190453128523304
+    ],
+    "bbox_size": [
+      0.009220419182363715,
+      0.09732380975931054,
+      0.13228007672307623
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "apple",
+    "describe": "A deep red apple with a glossy surface reflecting light, showcasing a mix of dark and light red hues with subtle yellow undertones. The apple's skin appears smooth with a slight curvature, indicating a plump and rounded fruit.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.3499488194830633,
+      -2.7467316919718376,
+      -0.22390055863105895
+    ],
+    "bbox_max": [
+      -1.1863704102524113,
+      -2.4380870945408826,
+      -0.18853773321402684
+    ],
+    "bbox_center": [
+      -1.2681596148677374,
+      -2.59240939325636,
+      -0.2062191459225429
+    ],
+    "bbox_size": [
+      0.16357840923065203,
+      0.30864459743095507,
+      0.03536282541703212
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "object",
+    "describe": "A green apple with a smooth, glossy surface reflecting light, showcasing a gradient of color from a lighter green at the top to a darker green towards the bottom, with subtle hints of yellow near the top edge.",
+    "class_id": 1163,
+    "bbox_min": [
+      -1.3522821403655638,
+      -2.516807746310183,
+      -0.2751390265217453
+    ],
+    "bbox_max": [
+      -1.2640038053035898,
+      -2.4246682924891436,
+      -0.21215388602912613
+    ],
+    "bbox_center": [
+      -1.3081429728345768,
+      -2.470738019399663,
+      -0.24364645627543574
+    ],
+    "bbox_size": [
+      0.08827833506197402,
+      0.09213945382103939,
+      0.06298514049261919
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "plant",
+    "describe": "A lush bouquet of white flowers with full, rounded blooms, possibly hydrangeas or similar, complemented by an assortment of green foliage that adds contrast and volume to the arrangement.",
+    "class_id": 40,
+    "bbox_min": [
+      1.3391644364725364,
+      -1.0286864815897034,
+      -0.2234036564916151
+    ],
+    "bbox_max": [
+      1.5318822560016851,
+      -0.9896048518570006,
+      0.03761839780942547
+    ],
+    "bbox_center": [
+      1.4355233462371109,
+      -1.009145666723352,
+      -0.09289262934109481
+    ],
+    "bbox_size": [
+      0.1927178195291488,
+      0.039081629732702794,
+      0.26102205430104053
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "office chair",
+    "describe": "A black office chair with a high backrest, featuring contoured cushioning and an integrated headrest. The chair has adjustable armrests and a five-point wheeled base for mobility.",
+    "class_id": 10,
+    "bbox_min": [
+      1.360591576247437,
+      -1.0436533002783497,
+      -0.6431929390393459
+    ],
+    "bbox_max": [
+      1.5893701718513944,
+      -0.9910705695961768,
+      -0.2604068593615779
+    ],
+    "bbox_center": [
+      1.4749808740494157,
+      -1.0173619349372633,
+      -0.45179989920046193
+    ],
+    "bbox_size": [
+      0.2287785956039574,
+      0.052582730682172896,
+      0.382786079677768
+    ]
+  }
+]

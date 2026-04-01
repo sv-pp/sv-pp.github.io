@@ -1,0 +1,813 @@
+[
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category, first object": "counter",
+    "category, second object": "desk",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the counter and the desk (in meters)?",
+    "options": [
+      "A. 2.3",
+      "B. 6.8",
+      "C. 11.0",
+      "D. 4.2"
+    ],
+    "ground_truth": 6.8,
+    "mc_answer": "B",
+    "id": 126
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category, first object": "sink",
+    "category, second object": "desk",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the desk (in meters)?",
+    "options": [
+      "A. 8.9",
+      "B. 5.9",
+      "C. 7.4",
+      "D. 2.8"
+    ],
+    "ground_truth": 7.4,
+    "mc_answer": "C",
+    "id": 127
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category, first object": "bathtub",
+    "category, second object": "desk",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the desk (in meters)?",
+    "options": [
+      "A. 1.8",
+      "B. 4.4",
+      "C. 0.8",
+      "D. 2.7"
+    ],
+    "ground_truth": 2.7,
+    "mc_answer": "D",
+    "id": 128
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category, first object": "bathtub",
+    "category, second object": "counter",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the counter (in meters)?",
+    "options": [
+      "A. 4.5",
+      "B. 3.2",
+      "C. 7.1",
+      "D. 5.8"
+    ],
+    "ground_truth": 4.5,
+    "mc_answer": "A",
+    "id": 129
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category, first object": "bathtub",
+    "category, second object": "sink",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the sink (in meters)?",
+    "options": [
+      "A. 5.1",
+      "B. 6.4",
+      "C. 7.8",
+      "D. 3.5"
+    ],
+    "ground_truth": 5.1,
+    "mc_answer": "A",
+    "id": 130
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "chair",
+    "question": "How many chair(s) are in this room?",
+    "options": [
+      "A. 4",
+      "B. 5",
+      "C. 1",
+      "D. 3"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "A",
+    "id": 95
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "door",
+    "question": "How many door(s) are in this room?",
+    "options": [
+      "A. 10",
+      "B. 4",
+      "C. 7",
+      "D. 6"
+    ],
+    "ground_truth": 7,
+    "mc_answer": "C",
+    "id": 96
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "picture",
+    "question": "How many picture(s) are in this room?",
+    "options": [
+      "A. 14",
+      "B. 15",
+      "C. 16",
+      "D. 13"
+    ],
+    "ground_truth": 13,
+    "mc_answer": "D",
+    "id": 97
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "window",
+    "question": "How many window(s) are in this room?",
+    "options": [
+      "A. 4",
+      "B. 6",
+      "C. 9",
+      "D. 8"
+    ],
+    "ground_truth": 6,
+    "mc_answer": "B",
+    "id": 98
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "table",
+    "question": "How many table(s) are in this room?",
+    "options": [
+      "A. 5",
+      "B. 2",
+      "C. 1",
+      "D. 3"
+    ],
+    "ground_truth": 3,
+    "mc_answer": "D",
+    "id": 99
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "curtain",
+    "question": "How many curtain(s) are in this room?",
+    "options": [
+      "A. 14",
+      "B. 12",
+      "C. 11",
+      "D. 10"
+    ],
+    "ground_truth": 12,
+    "mc_answer": "B",
+    "id": 100
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bookshelf",
+    "question": "How many bookshelf(s) are in this room?",
+    "options": [
+      "A. 2",
+      "B. 1",
+      "C. 4",
+      "D. 6"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "C",
+    "id": 101
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bed",
+    "question": "How many bed(s) are in this room?",
+    "options": [
+      "A. 4",
+      "B. 1",
+      "C. 5",
+      "D. 3"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "A",
+    "id": 102
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "cabinet",
+    "question": "How many cabinet(s) are in this room?",
+    "options": [
+      "A. 4",
+      "B. 3",
+      "C. 2",
+      "D. 6"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "A",
+    "id": 103
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "rack",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, door, table, tray) is the closest to the rack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. door",
+      "C. table",
+      "D. tray"
+    ],
+    "ground_truth": "mirror",
+    "mc_answer": "A",
+    "id": 154
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "blanket",
+    "question": "Measuring from the closest point of each object, which of these objects (decoration, towel, ceiling, trash can) is the closest to the blanket?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. decoration",
+      "B. towel",
+      "C. ceiling",
+      "D. trash can"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "C",
+    "id": 155
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bowl",
+    "question": "Measuring from the closest point of each object, which of these objects (doorframe, table, fireplace, ceiling) is the closest to the bowl?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. doorframe",
+      "B. table",
+      "C. fireplace",
+      "D. ceiling"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "D",
+    "id": 156
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "fireplace",
+    "question": "Measuring from the closest point of each object, which of these objects (bowl, power outlet, dresser, bookshelf) is the closest to the fireplace?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bowl",
+      "B. power outlet",
+      "C. dresser",
+      "D. bookshelf"
+    ],
+    "ground_truth": "power outlet",
+    "mc_answer": "B",
+    "id": 157
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (lamp, shelf, mirror, cabinet) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. lamp",
+      "B. shelf",
+      "C. mirror",
+      "D. cabinet"
+    ],
+    "ground_truth": "shelf",
+    "mc_answer": "B",
+    "id": 158
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (doorframe, trash can, bathtub) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. doorframe",
+      "B. trash can",
+      "C. bathtub"
+    ],
+    "ground_truth": "bathtub",
+    "mc_answer": "C",
+    "id": 209
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "rack",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, armchair, sink) is the closest to the rack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. armchair",
+      "C. sink"
+    ],
+    "ground_truth": "picture",
+    "mc_answer": "A",
+    "id": 210
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bookshelf",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, ceiling, ottoman) is the closest to the bookshelf?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. ceiling",
+      "C. ottoman"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "B",
+    "id": 211
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "doorframe",
+    "question": "Measuring from the closest point of each object, which of these objects (rack, microwave, cabinet) is the closest to the doorframe?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rack",
+      "B. microwave",
+      "C. cabinet"
+    ],
+    "ground_truth": "rack",
+    "mc_answer": "A",
+    "id": 212
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "tv",
+    "question": "Measuring from the closest point of each object, which of these objects (desk, kitchen counter, armchair) is the closest to the tv?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. desk",
+      "B. kitchen counter",
+      "C. armchair"
+    ],
+    "ground_truth": "armchair",
+    "mc_answer": "C",
+    "id": 213
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "fireplace",
+    "question": "Measuring from the closest point of each object, which of these objects (decoration, microwave, rack) is the closest to the fireplace?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. decoration",
+      "B. microwave",
+      "C. rack"
+    ],
+    "ground_truth": "microwave",
+    "mc_answer": "B",
+    "id": 214
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (ottoman, towel, mat) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ottoman",
+      "B. towel",
+      "C. mat"
+    ],
+    "ground_truth": "ottoman",
+    "mc_answer": "A",
+    "id": 215
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "tray",
+    "question": "Measuring from the closest point of each object, which of these objects (cabinet, decoration, armchair) is the closest to the tray?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. cabinet",
+      "B. decoration",
+      "C. armchair"
+    ],
+    "ground_truth": "armchair",
+    "mc_answer": "C",
+    "id": 216
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "kitchen counter",
+    "question": "Measuring from the closest point of each object, which of these objects (blanket, pipe, bed) is the closest to the kitchen counter?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. blanket",
+      "B. pipe",
+      "C. bed"
+    ],
+    "ground_truth": "pipe",
+    "mc_answer": "B",
+    "id": 217
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "desk",
+    "question": "Measuring from the closest point of each object, which of these objects (mat, microwave) is the closest to the desk?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mat",
+      "B. microwave"
+    ],
+    "ground_truth": "mat",
+    "mc_answer": "A",
+    "id": 283
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "tv",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, pipe) is the closest to the tv?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. pipe"
+    ],
+    "ground_truth": "pipe",
+    "mc_answer": "B",
+    "id": 284
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "stuffed animal",
+    "question": "Measuring from the closest point of each object, which of these objects (rack, power outlet) is the closest to the stuffed animal?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rack",
+      "B. power outlet"
+    ],
+    "ground_truth": "rack",
+    "mc_answer": "A",
+    "id": 285
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "desk",
+    "question": "Measuring from the closest point of each object, which of these objects (dresser, blanket) is the closest to the desk?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. dresser",
+      "B. blanket"
+    ],
+    "ground_truth": "blanket",
+    "mc_answer": "B",
+    "id": 286
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "pot",
+    "question": "Measuring from the closest point of each object, which of these objects (washing machine, mat) is the closest to the pot?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. washing machine",
+      "B. mat"
+    ],
+    "ground_truth": "mat",
+    "mc_answer": "B",
+    "id": 287
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "doorframe",
+    "question": "Measuring from the closest point of each object, which of these objects (curtain, armchair) is the closest to the doorframe?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. curtain",
+      "B. armchair"
+    ],
+    "ground_truth": "curtain",
+    "mc_answer": "A",
+    "id": 288
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "desk",
+    "question": "Measuring from the closest point of each object, which of these objects (bowl, mat) is the closest to the desk?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bowl",
+      "B. mat"
+    ],
+    "ground_truth": "bowl",
+    "mc_answer": "A",
+    "id": 289
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "cot",
+    "question": "Measuring from the closest point of each object, which of these objects (pot, shelf) is the closest to the cot?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. pot",
+      "B. shelf"
+    ],
+    "ground_truth": "shelf",
+    "mc_answer": "B",
+    "id": 290
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "desk",
+    "question": "Measuring from the closest point of each object, which of these objects (ceiling, bowl) is the closest to the desk?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ceiling",
+      "B. bowl"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "A",
+    "id": 291
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "stuffed animal",
+    "question": "Measuring from the closest point of each object, which of these objects (washing machine, bookshelf) is the closest to the stuffed animal?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. washing machine",
+      "B. bookshelf"
+    ],
+    "ground_truth": "bookshelf",
+    "mc_answer": "B",
+    "id": 292
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bathtub",
+    "question": "Measuring from the closest point of each object, which of these objects (pipe, bed) is the closest to the bathtub?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. pipe",
+      "B. bed"
+    ],
+    "ground_truth": "pipe",
+    "mc_answer": "A",
+    "id": 293
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "kitchen counter",
+    "question": "Measuring from the closest point of each object, which of these objects (rack, decoration) is the closest to the kitchen counter?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rack",
+      "B. decoration"
+    ],
+    "ground_truth": "decoration",
+    "mc_answer": "B",
+    "id": 294
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "cot",
+    "question": "Measuring from the closest point of each object, which of these objects (door, pot) is the closest to the cot?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. pot"
+    ],
+    "ground_truth": "pot",
+    "mc_answer": "B",
+    "id": 295
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "fireplace",
+    "question": "Measuring from the closest point of each object, which of these objects (box, clothes) is the closest to the fireplace?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. box",
+      "B. clothes"
+    ],
+    "ground_truth": "box",
+    "mc_answer": "A",
+    "id": 296
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "cot",
+    "question": "Measuring from the closest point of each object, which of these objects (bookshelf, rail) is the closest to the cot?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bookshelf",
+      "B. rail"
+    ],
+    "ground_truth": "bookshelf",
+    "mc_answer": "A",
+    "id": 297
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "hat",
+    "question": "Measuring from the closest point of each object, which of these objects (rail, cot) is the closest to the hat?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rail",
+      "B. cot"
+    ],
+    "ground_truth": "cot",
+    "mc_answer": "B",
+    "id": 298
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "tv",
+    "question": "Measuring from the closest point of each object, which of these objects (curtain, fireplace) is the closest to the tv?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. curtain",
+      "B. fireplace"
+    ],
+    "ground_truth": "fireplace",
+    "mc_answer": "B",
+    "id": 299
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "desk",
+    "question": "What is the length of the longest dimension (length, width, or height) of the desk, measured in centimeters?",
+    "options": [
+      "A. 138",
+      "B. 163",
+      "C. 103",
+      "D. 69"
+    ],
+    "ground_truth": 103,
+    "mc_answer": "C",
+    "id": 81
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "counter",
+    "question": "What is the length of the longest dimension (length, width, or height) of the counter, measured in centimeters?",
+    "options": [
+      "A. 106",
+      "B. 144",
+      "C. 69",
+      "D. 223"
+    ],
+    "ground_truth": 144,
+    "mc_answer": "B",
+    "id": 82
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "sink",
+    "question": "What is the length of the longest dimension (length, width, or height) of the sink, measured in centimeters?",
+    "options": [
+      "A. 62",
+      "B. 101",
+      "C. 32",
+      "D. 87"
+    ],
+    "ground_truth": 62,
+    "mc_answer": "A",
+    "id": 83
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "category": "bathtub",
+    "question": "What is the length of the longest dimension (length, width, or height) of the bathtub, measured in centimeters?",
+    "options": [
+      "A. 51",
+      "B. 165",
+      "C. 198",
+      "D. 115"
+    ],
+    "ground_truth": 115,
+    "mc_answer": "D",
+    "id": 84
+  },
+  {
+    "scene_name": "MU9YJ8oEEd8_04_stage_0",
+    "dataset": "svpp",
+    "question_type": "room_size_estimation",
+    "video_path": "group_024/MU9YJ8oEEd8_04_stage_0/images",
+    "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+    "options": [
+      "A. 157.5",
+      "B. 91.1",
+      "C. 24.8",
+      "D. 120.8"
+    ],
+    "ground_truth": 91.1,
+    "mc_answer": "B",
+    "id": 22
+  }
+]

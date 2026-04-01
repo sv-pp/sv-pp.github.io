@@ -230,6 +230,171 @@
       display: block;
     }
 
+    /* ── VQA ── */
+    .vqa-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+    .vqa-left {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .vqa-select-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .vqa-select-row select {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.5rem 0.75rem;
+      color: var(--text);
+      font-size: 0.85rem;
+      font-family: inherit;
+      cursor: pointer;
+      outline: none;
+    }
+    .vqa-select-row select option { background: #1a1a1a; }
+    .vqa-qa-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-height: 480px;
+      overflow-y: auto;
+      padding-right: 0.5rem;
+    }
+    .vqa-qa-list::-webkit-scrollbar { width: 4px; }
+    .vqa-qa-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 2px; }
+    .vqa-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 1.25rem;
+      transition: border-color 0.2s;
+    }
+    .vqa-card:hover { border-color: rgba(255,255,255,0.2); }
+    .vqa-type {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent);
+      background: rgba(108,180,238,0.1);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+      margin-bottom: 0.5rem;
+    }
+    .vqa-question {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.5;
+      margin-bottom: 0.6rem;
+    }
+    .vqa-options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.3rem 1rem;
+    }
+    .vqa-opt {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      padding: 0.2rem 0;
+    }
+    .vqa-opt.correct {
+      color: #4ade80;
+      font-weight: 600;
+    }
+    .vqa-right-col {
+      position: sticky;
+      top: 80px;
+    }
+    .vqa-gif-wrap {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      background: #000;
+    }
+    .vqa-gif-wrap img {
+      width: 100%;
+      display: block;
+    }
+    @media (max-width: 768px) {
+      .vqa-layout { grid-template-columns: 1fr; }
+      .vqa-right-col { position: static; }
+    }
+
+    /* ── Navigation ── */
+    .nav-carousel {
+      position: relative;
+      overflow: hidden;
+    }
+    .nav-track {
+      display: flex;
+      gap: 1.25rem;
+      transition: transform 0.4s ease;
+    }
+    .nav-item {
+      flex: 0 0 calc(33.333% - 0.833rem);
+      min-width: 0;
+    }
+    .nav-item-inner {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    .nav-item-inner img {
+      width: 100%;
+      display: block;
+    }
+    .nav-instruction {
+      padding: 1rem 1.25rem;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.6;
+    }
+    .nav-arrow {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      z-index: 10;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--border);
+      background: rgba(6,5,4,0.85);
+      color: var(--text);
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s;
+      backdrop-filter: blur(8px);
+    }
+    .nav-arrow:hover {
+      background: rgba(255,255,255,0.1);
+      border-color: rgba(255,255,255,0.25);
+    }
+    .nav-arrow.left { left: 8px; }
+    .nav-arrow.right { right: 8px; }
+    .nav-arrow:disabled {
+      opacity: 0.3;
+      cursor: default;
+    }
+    @media (max-width: 768px) {
+      .nav-item { flex: 0 0 calc(100% - 0rem); }
+    }
+    @media (min-width: 769px) and (max-width: 1024px) {
+      .nav-item { flex: 0 0 calc(50% - 0.625rem); }
+    }
+
     /* ── Results ── */
     .results-layout {
       display: grid;
@@ -380,6 +545,60 @@
       width: 100%; height: 100%;
       border: 0;
     }
+    /* Video tabs */
+    .video-tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+    }
+    .video-tab {
+      flex: 1;
+      padding: 0.7rem 1rem;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      transition: color 0.2s, background 0.2s;
+    }
+    .video-tab:hover { color: var(--text); }
+    .video-tab.active {
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+      box-shadow: inset 0 -2px 0 var(--accent);
+    }
+    .video-tab-content { display: none; }
+    .video-tab-content.active { display: block; }
+
+    /* Processed videos */
+    .processed-video-wrapper {
+      overflow: hidden;
+      background: #000;
+      position: relative;
+    }
+    .processed-video-wrapper video {
+      width: 100%;
+      display: block;
+    }
+    .processed-video-wrapper + .processed-video-wrapper {
+      border-top: 1px solid var(--border);
+    }
+    .processed-video-label {
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      z-index: 5;
+      font-size: 0.68rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.5);
+      background: rgba(0,0,0,0.6);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      pointer-events: none;
+    }
 
     /* Scene info card */
     .scene-info {
@@ -501,6 +720,8 @@
       <a href="#nuggets">Overview</a>
       <a href="#demo">Demo</a>
       <a href="#explorer">Explorer</a>
+      <a href="#vqa">Spatial VQA</a>
+      <a href="#navigation">VLN</a>
       <a href="#results">Results</a>
       <a href="#findings">Findings</a>
       <a href="#citation">Citation</a>
@@ -582,8 +803,8 @@
     <div class="section-label">Demo</div>
     <h2>Video Overview</h2>
     <div class="video-wrapper">
-      <video controls muted playsinline preload="metadata">
-        <source src="assets/demo_v2_h264.mp4" type="video/mp4">
+      <video controls muted playsinline preload="metadata" poster="assets/demo_poster.jpg">
+        <source src="assets/demo_v3_h264.mp4" type="video/mp4">
       </video>
     </div>
   </div>
@@ -645,25 +866,89 @@
         </div>
       </div>
 
-      <!-- Right: Video + Info -->
+      <!-- Right: Tabbed Video + Info -->
       <div class="yt-col">
         <div class="explorer-card">
-          <div class="explorer-card-header">Source Video</div>
-          <div class="yt-wrapper">
-            <div id="yt-player"></div>
+          <div class="video-tabs">
+            <button class="video-tab active" data-tab="processed">Processed</button>
+            <button class="video-tab" data-tab="source">Source</button>
           </div>
-        </div>
-        <div class="explorer-card">
-          <div class="explorer-card-header">Scene Information</div>
-          <div class="scene-info" id="scene-info">
-            <div class="info-row"><span class="info-label">Scene</span><span class="info-value" id="info-scene">Loading...</span></div>
-            <div class="info-row"><span class="info-label">Room Type</span><span class="info-value" id="info-room">-</span></div>
-            <div class="info-row"><span class="info-label">Frames</span><span class="info-value" id="info-frames">-</span></div>
-            <div class="info-row"><span class="info-label">Video Interval</span><span class="info-value" id="info-interval">-</span></div>
-            <div class="info-row"><span class="info-label">Instances</span><span class="info-value" id="info-instances">-</span></div>
+
+          <!-- Tab 1: Processed videos (crop + bbox, synced) -->
+          <div class="video-tab-content active" id="tab-processed">
+            <div class="processed-video-wrapper">
+              <video id="crop-video" controls muted loop playsinline preload="auto">
+                <source id="crop-video-src" src="" type="video/mp4">
+              </video>
+            </div>
+            <div class="processed-video-wrapper">
+              <div class="processed-video-label">Detection &amp; Segmentation</div>
+              <video id="bbox-video" muted playsinline preload="auto">
+                <source id="bbox-video-src" src="" type="video/mp4">
+              </video>
+            </div>
+          </div>
+
+          <!-- Tab 2: YouTube source + info -->
+          <div class="video-tab-content" id="tab-source">
+            <div class="yt-wrapper">
+              <div id="yt-player"></div>
+            </div>
+            <div class="scene-info" id="scene-info">
+              <div class="info-row"><span class="info-label">Scene</span><span class="info-value" id="info-scene">Loading...</span></div>
+              <div class="info-row"><span class="info-label">Room Type</span><span class="info-value" id="info-room">-</span></div>
+              <div class="info-row"><span class="info-label">Frames</span><span class="info-value" id="info-frames">-</span></div>
+              <div class="info-row"><span class="info-label">Video Interval</span><span class="info-value" id="info-interval">-</span></div>
+              <div class="info-row"><span class="info-label">Instances</span><span class="info-value" id="info-instances">-</span></div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- VQA Explorer -->
+<section id="vqa">
+  <div class="container">
+    <div class="section-label">Spatial Reasoning</div>
+    <h2>Visual Question Answering</h2>
+    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+      Browse spatial reasoning questions generated from SceneVerse++ scenes. Select a scene to see its QA pairs alongside the video.
+    </p>
+    <div class="vqa-layout">
+      <div class="vqa-left">
+        <div class="vqa-select-row">
+          <select id="vqa-scene-select">
+            <option value="">Loading...</option>
+          </select>
+          <select id="vqa-type-filter">
+            <option value="">All types</option>
+          </select>
+        </div>
+        <div class="vqa-qa-list" id="vqa-qa-list"></div>
+      </div>
+      <div class="vqa-right-col">
+        <div class="vqa-gif-wrap">
+          <img id="vqa-gif" src="" alt="Scene preview">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Navigation -->
+<section id="navigation">
+  <div class="container">
+    <div class="section-label">Vision-Language Navigation</div>
+    <h2>Navigation Episodes</h2>
+    <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem;">
+      Agents navigate 3D environments following natural language instructions generated from SceneVerse++ scenes.
+    </p>
+    <div class="nav-carousel">
+      <button class="nav-arrow left" id="nav-prev" disabled>&#8249;</button>
+      <button class="nav-arrow right" id="nav-next">&#8250;</button>
+      <div class="nav-track" id="nav-track"></div>
     </div>
   </div>
 </section>
@@ -749,68 +1034,150 @@
   </div>
 </footer>
 
-<!-- YouTube IFrame API -->
+<!-- Video tabs + sync + YouTube -->
 <script>
   window._VIDEO_FPS = 60;
   window._ytPlayer = null;
   window._ytReady = false;
-  window._ytStart = 0;
-  window._ytEnd = 0;
 
   // Load YouTube API
   const ytTag = document.createElement('script');
   ytTag.src = 'https://www.youtube.com/iframe_api';
   document.head.appendChild(ytTag);
+  window.onYouTubeIframeAPIReady = function () { window._ytReady = true; };
 
-  window.onYouTubeIframeAPIReady = function () {
-    window._ytReady = true;
-  };
+  // ── Tab switching ──
+  document.querySelectorAll('.video-tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      document.querySelectorAll('.video-tab').forEach(function(t) { t.classList.remove('active'); });
+      document.querySelectorAll('.video-tab-content').forEach(function(c) { c.classList.remove('active'); });
+      tab.classList.add('active');
+      document.getElementById('tab-' + tab.dataset.tab).classList.add('active');
 
-  window.loadYouTubeVideo = function(info) {
-    const frames = info.data_frames;
+      // Auto-play YouTube when switching to source tab
+      if (tab.dataset.tab === 'source') {
+        if (window._ytPlayer && window._ytPlayer.playVideo) {
+          window._ytPlayer.playVideo();
+        }
+      }
+
+      // Re-sync bbox when switching back to processed tab
+      if (tab.dataset.tab === 'processed') {
+        var cropVid = document.getElementById('crop-video');
+        var bboxVid = document.getElementById('bbox-video');
+        bboxVid.currentTime = cropVid.currentTime;
+        if (!cropVid.paused) {
+          bboxVid.play().catch(function(){});
+        }
+      }
+    });
+  });
+
+  // ── Sync crop_images <-> bbox_overlay ──
+  (function() {
+    var cropVid = document.getElementById('crop-video');
+    var bboxVid = document.getElementById('bbox-video');
+
+    // When crop plays, play bbox
+    cropVid.addEventListener('play', function() {
+      bboxVid.currentTime = cropVid.currentTime;
+      bboxVid.play().catch(function(){});
+    });
+    // When crop pauses, pause bbox
+    cropVid.addEventListener('pause', function() {
+      bboxVid.pause();
+      bboxVid.currentTime = cropVid.currentTime;
+    });
+    // When crop seeks (including loop reset), sync bbox
+    cropVid.addEventListener('seeked', function() {
+      bboxVid.currentTime = cropVid.currentTime;
+      if (!cropVid.paused) {
+        bboxVid.play().catch(function(){});
+      }
+    });
+    // Detect crop loop: timeupdate fires continuously, catch the jump back to 0
+    var lastCropTime = 0;
+    cropVid.addEventListener('timeupdate', function() {
+      if (cropVid.currentTime < lastCropTime - 1) {
+        // Crop looped — reset bbox
+        bboxVid.currentTime = 0;
+        bboxVid.play().catch(function(){});
+      }
+      lastCropTime = cropVid.currentTime;
+    });
+    // If bbox ends before crop (slight duration mismatch), restart it
+    bboxVid.addEventListener('ended', function() {
+      if (!cropVid.paused) {
+        bboxVid.currentTime = 0;
+        bboxVid.play().catch(function(){});
+      }
+    });
+  })();
+
+  // ── Load scene videos ──
+  window.loadSceneVideos = function(sceneDir, info) {
+    var cropVid = document.getElementById('crop-video');
+    var bboxVid = document.getElementById('bbox-video');
+    var cropSrc = document.getElementById('crop-video-src');
+    var bboxSrc = document.getElementById('bbox-video-src');
+
+    // Load processed videos — auto-play both once loaded
+    cropSrc.src = sceneDir + '/crop_images.mp4';
+    bboxSrc.src = sceneDir + '/bbox_overlay_final_mix_label.mp4';
+    cropVid.load();
+    bboxVid.load();
+    cropVid.oncanplay = function() {
+      cropVid.oncanplay = null;
+      cropVid.play().catch(function(){});
+    };
+
+    // Update scene info
+    var frames = info.data_frames;
     var s = Math.floor(frames[0] / window._VIDEO_FPS);
     var e = Math.ceil(frames[frames.length - 1] / window._VIDEO_FPS);
-    window._ytStart = s;
-    window._ytEnd = e;
-
-    const url = new URL(info.video_url);
-    const videoId = url.searchParams.get('v');
-
-    // Update scene info panel
     document.getElementById('info-scene').textContent = info.scene_name;
     document.getElementById('info-room').textContent = info.room_type;
     document.getElementById('info-frames').textContent = info.num_frames + ' frames';
     document.getElementById('info-interval').textContent = s + 's – ' + e + 's';
 
-    // Always destroy and recreate player so start/end playerVars take effect
+    // Load YouTube in source tab
+    try {
+    var url = new URL(info.video_url);
+    var videoId = url.searchParams.get('v');
+
     if (window._ytPlayer && window._ytPlayer.destroy) {
       window._ytPlayer.destroy();
       window._ytPlayer = null;
     }
-
-    // Recreate the container div
-    const wrapper = document.querySelector('.yt-wrapper');
-    const oldEl = document.getElementById('yt-player');
+    var wrapper = document.querySelector('.yt-wrapper');
+    var oldEl = document.getElementById('yt-player');
     if (oldEl) oldEl.remove();
-    const div = document.createElement('div');
+    var div = document.createElement('div');
     div.id = 'yt-player';
     wrapper.appendChild(div);
 
-    window._ytPlayer = new YT.Player('yt-player', {
-      videoId: videoId,
-      playerVars: {
-        start: s, end: e,
-        autoplay: 1, mute: 1, modestbranding: 1, rel: 0, fs: 1,
-      },
-      events: {
-        onStateChange: function (event) {
-          if (event.data === YT.PlayerState.ENDED) {
-            window._ytPlayer.seekTo(window._ytStart);
-            window._ytPlayer.playVideo();
-          }
-        }
-      }
-    });
+    function createPlayer() {
+      window._ytPlayer = new YT.Player('yt-player', {
+        videoId: videoId,
+        playerVars: {
+          start: s, end: e,
+          autoplay: 0, modestbranding: 1, rel: 0, fs: 1,
+        },
+      });
+    }
+
+    if (window._ytReady) {
+      createPlayer();
+    } else {
+      var waitYT = setInterval(function() {
+        if (window._ytReady) { clearInterval(waitYT); createPlayer(); }
+      }, 200);
+    }
+
+    } catch (ytErr) { console.warn('YouTube load error:', ytErr); }
+
+    // Switch to processed tab
+    document.querySelector('.video-tab[data-tab="processed"]').click();
   };
 </script>
 
@@ -1079,18 +1446,8 @@
       }
       document.getElementById('info-instances').textContent = instances.length + ' objects';
 
-      // Load YouTube video
-      if (window._ytReady || window._ytPlayer) {
-        window.loadYouTubeVideo(info);
-      } else {
-        // Wait for YT API
-        const waitYT = setInterval(() => {
-          if (window._ytReady || window._ytPlayer) {
-            clearInterval(waitYT);
-            window.loadYouTubeVideo(info);
-          }
-        }, 200);
-      }
+      // Load all videos (processed + YouTube source) — non-fatal
+      try { window.loadSceneVideos(sceneDir, info); } catch (e) { console.warn('Video load error:', e); }
 
       // Load meshes in parallel
       const [leftMesh, rightMesh] = await Promise.all([
@@ -1169,6 +1526,140 @@
     }
   }, { rootMargin: '200px' });
   observer.observe(explorerSection);
+</script>
+
+<!-- VQA Script -->
+<script>
+(function() {
+  const VQA_DIR = 'vqa_sample';
+  const sceneSelect = document.getElementById('vqa-scene-select');
+  const typeFilter = document.getElementById('vqa-type-filter');
+  const qaList = document.getElementById('vqa-qa-list');
+  const gifImg = document.getElementById('vqa-gif');
+
+  let samples = [];
+  let currentQAs = [];
+
+  function formatType(type) {
+    return type.replace(/_/g, ' ').replace(/v(\d)/, 'v$1');
+  }
+
+  function renderQAs(qas, filter) {
+    const filtered = filter ? qas.filter(q => q.question_type === filter) : qas;
+    if (filtered.length === 0) {
+      qaList.innerHTML = '<div style="color:var(--text-muted);font-size:0.85rem;padding:1rem;">No questions for this filter.</div>';
+      return;
+    }
+    qaList.innerHTML = filtered.map(q => {
+      const optionsHtml = q.options.map(opt => {
+        const letter = opt.charAt(0);
+        const isCorrect = letter === q.mc_answer;
+        return '<span class="vqa-opt' + (isCorrect ? ' correct' : '') + '">' + opt + (isCorrect ? ' &#10003;' : '') + '</span>';
+      }).join('');
+      return '<div class="vqa-card">' +
+        '<div class="vqa-type">' + formatType(q.question_type) + '</div>' +
+        '<div class="vqa-question">' + q.question.replace(/\n/g, '<br>') + '</div>' +
+        '<div class="vqa-options">' + optionsHtml + '</div>' +
+      '</div>';
+    }).join('');
+  }
+
+  async function loadScene(sample) {
+    gifImg.src = '';
+    gifImg.src = VQA_DIR + '/' + sample.gif + '?t=' + Date.now();
+    const resp = await fetch(VQA_DIR + '/' + sample.qa);
+    const HIDDEN_TYPES = new Set(['object_rel_distance_v2', 'object_rel_distance_v3', 'object_rel_direction_v2', 'object_rel_direction_v3']);
+    currentQAs = (await resp.json()).filter(q => !HIDDEN_TYPES.has(q.question_type));
+
+    // Populate type filter
+    const types = [...new Set(currentQAs.map(q => q.question_type))].sort();
+    typeFilter.innerHTML = '<option value="">All types (' + currentQAs.length + ')</option>';
+    types.forEach(t => {
+      const count = currentQAs.filter(q => q.question_type === t).length;
+      const opt = document.createElement('option');
+      opt.value = t;
+      opt.textContent = formatType(t) + ' (' + count + ')';
+      typeFilter.appendChild(opt);
+    });
+
+    renderQAs(currentQAs, '');
+  }
+
+  async function init() {
+    const resp = await fetch(VQA_DIR + '/samples.json');
+    samples = await resp.json();
+    sceneSelect.innerHTML = '';
+    samples.forEach((s, i) => {
+      const opt = document.createElement('option');
+      opt.value = i;
+      opt.textContent = s.name;
+      sceneSelect.appendChild(opt);
+    });
+    if (samples.length > 0) {
+      sceneSelect.value = 0;
+      await loadScene(samples[0]);
+    }
+  }
+
+  sceneSelect.addEventListener('change', () => {
+    const idx = parseInt(sceneSelect.value);
+    if (!isNaN(idx) && samples[idx]) loadScene(samples[idx]);
+  });
+
+  typeFilter.addEventListener('change', () => {
+    renderQAs(currentQAs, typeFilter.value);
+  });
+
+  init().catch(err => console.error('VQA init failed:', err));
+})();
+</script>
+
+<!-- Navigation Script -->
+<script>
+(function() {
+  const NAV_DIR = 'nav_sample';
+  const track = document.getElementById('nav-track');
+  const prevBtn = document.getElementById('nav-prev');
+  const nextBtn = document.getElementById('nav-next');
+  let offset = 0;
+  let maxOffset = 0;
+
+  function updateButtons() {
+    prevBtn.disabled = offset <= 0;
+    nextBtn.disabled = offset >= maxOffset;
+  }
+
+  async function init() {
+    const resp = await fetch(NAV_DIR + '/samples.json');
+    const samples = await resp.json();
+    maxOffset = Math.max(0, samples.length - 3);
+
+    track.innerHTML = samples.map(s =>
+      '<div class="nav-item">' +
+        '<div class="nav-item-inner">' +
+          '<img src="' + NAV_DIR + '/' + s.gif + '" alt="' + s.name + '" loading="lazy">' +
+          '<div class="nav-instruction">' + s.instruction + '</div>' +
+        '</div>' +
+      '</div>'
+    ).join('');
+
+    updateButtons();
+  }
+
+  function slide() {
+    const items = track.querySelectorAll('.nav-item');
+    if (!items.length) return;
+    const gap = 20; // 1.25rem
+    const itemWidth = items[0].offsetWidth + gap;
+    track.style.transform = 'translateX(-' + (offset * itemWidth) + 'px)';
+    updateButtons();
+  }
+
+  prevBtn.addEventListener('click', () => { if (offset > 0) { offset--; slide(); } });
+  nextBtn.addEventListener('click', () => { if (offset < maxOffset) { offset++; slide(); } });
+
+  init().catch(err => console.error('Nav init failed:', err));
+})();
 </script>
 
 </body>

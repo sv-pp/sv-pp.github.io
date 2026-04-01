@@ -1,0 +1,388 @@
+{
+  "episode_id": "LxKncOrZvaA_41_comp_0000",
+  "instruction": {
+    "raw": "```json\n{\n  \"task_summary\": \"The trajectory begins in a hallway adjacent to a utility room and mudroom, moving through various sections of a modern home. The path leads through a pantry, past a utility room with laundry appliances, and continues into a mudroom with storage space. The journey progresses further into a spacious kitchen area with white cabinetry and a central island, ending in a well-lit living space with large windows.\",\n  \n  \"reasoning\": [\n    {\n      \"image_name\": \"0.0_seconds\",\n      \"thinking\": \"Starting in a hallway, I notice a utility area to the left and a doorway leading to another room straight ahead. Moving forward seems logical to explore further.\"\n    },\n    {\n      \"image_name\": \"1.0_seconds\",\n      \"thinking\": \"I see a pantry on the right with shelves and a closed door. Continuing straight will allow me to explore more of the house.\"\n    },\n    {\n      \"image_name\": \"5.0_seconds\",\n      \"thinking\": \"The pantry is clearly labeled, confirming my location. Turning right will lead me out of this area and into the next section.\"\n    },\n    {\n      \"image_name\": \"10.0_seconds\",\n      \"thinking\": \"In the utility room, I spot a washer and dryer. Moving forward, I'll exit this room and continue exploring.\"\n    },\n    {\n      \"image_name\": \"15.0_seconds\",\n      \"thinking\": \"Exiting the utility room, I see a hallway stretching ahead. Turning right will take me towards the mudroom.\"\n    },\n    {\n      \"image_name\": \"20.0_seconds\",\n      \"thinking\": \"The mudroom has a bench and storage space. Moving forward, I'll transition into the next area.\"\n    },\n    {\n      \"image_name\": \"25.0_seconds\",\n      \"thinking\": \"Past the mudroom, I see a hallway leading to the kitchen. Turning right will guide me into the kitchen area.\"\n    },\n    {\n      \"image_name\": \"30.0_seconds\",\n      \"thinking\": \"The kitchen is visible with its white cabinets and central island. Moving forward, I'll explore the rest of the space.\"\n    },\n    {\n      \"image_name\": \"35.0_seconds\",\n      \"thinking\": \"Continuing through the kitchen, I approach the living area. Stopping here provides a good view of the entire space.\"\n    }\n  ],\n  \n  \"instruction_1\": \"Turn right into the hallway and proceed past the utility room. Move forward into the pantry, then turn right again to exit. Continue straight into the mudroom and turn right once more. Enter the kitchen and move forward, stopping in the living area.\",\n  \n  \"instruction_2\": \"Take a right into the hallway and head past the utility room. Keep going into the pantry, then make another right to leave it. Walk straight into the mudroom and turn right again. Step into the kitchen and keep moving until you reach the living area, where you can stop.\",\n  \n  \"instruction_3\": \"As you turn right into the hallway, you glide past the utility room. Progressing into the pantry, you make another right to exit. You then stride into the mudroom and turn right once more. Entering the kitchen, you move forward, eventually halting in the inviting living area.\"\n}\n```"
+  },
+  "action_sequence": [
+    {
+      "step": 1,
+      "frame_idx": 0,
+      "action": "MoveForward"
+    },
+    {
+      "step": 2,
+      "frame_idx": 1,
+      "action": "MoveForward"
+    },
+    {
+      "step": 3,
+      "frame_idx": 2,
+      "action": "MoveForward"
+    },
+    {
+      "step": 4,
+      "frame_idx": 3,
+      "action": "TurnRight"
+    },
+    {
+      "step": 5,
+      "frame_idx": 4,
+      "action": "TurnRight"
+    },
+    {
+      "step": 6,
+      "frame_idx": 5,
+      "action": "MoveForward"
+    },
+    {
+      "step": 7,
+      "frame_idx": 6,
+      "action": "MoveForward"
+    },
+    {
+      "step": 8,
+      "frame_idx": 7,
+      "action": "MoveForward"
+    },
+    {
+      "step": 9,
+      "frame_idx": 8,
+      "action": "TurnRight"
+    },
+    {
+      "step": 10,
+      "frame_idx": 9,
+      "action": "TurnRight"
+    },
+    {
+      "step": 11,
+      "frame_idx": 10,
+      "action": "MoveForward"
+    },
+    {
+      "step": 12,
+      "frame_idx": 11,
+      "action": "MoveForward"
+    },
+    {
+      "step": 13,
+      "frame_idx": 12,
+      "action": "TurnRight"
+    },
+    {
+      "step": 14,
+      "frame_idx": 13,
+      "action": "Move"
+    },
+    {
+      "step": 15,
+      "frame_idx": 14,
+      "action": "TurnRight"
+    },
+    {
+      "step": 16,
+      "frame_idx": 15,
+      "action": "TurnRight"
+    },
+    {
+      "step": 17,
+      "frame_idx": 16,
+      "action": "TurnRight"
+    },
+    {
+      "step": 18,
+      "frame_idx": 17,
+      "action": "TurnRight"
+    },
+    {
+      "step": 19,
+      "frame_idx": 18,
+      "action": "MoveForward"
+    },
+    {
+      "step": 20,
+      "frame_idx": 19,
+      "action": "MoveForward"
+    },
+    {
+      "step": 21,
+      "frame_idx": 20,
+      "action": "TurnRight"
+    },
+    {
+      "step": 22,
+      "frame_idx": 21,
+      "action": "Move"
+    },
+    {
+      "step": 23,
+      "frame_idx": 22,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 24,
+      "frame_idx": 23,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 25,
+      "frame_idx": 24,
+      "action": "TurnRight"
+    },
+    {
+      "step": 26,
+      "frame_idx": 25,
+      "action": "TurnRight"
+    },
+    {
+      "step": 27,
+      "frame_idx": 26,
+      "action": "TurnRight"
+    },
+    {
+      "step": 28,
+      "frame_idx": 27,
+      "action": "TurnRight"
+    },
+    {
+      "step": 29,
+      "frame_idx": 28,
+      "action": "TurnRight"
+    },
+    {
+      "step": 30,
+      "frame_idx": 29,
+      "action": "TurnRight"
+    },
+    {
+      "step": 31,
+      "frame_idx": 30,
+      "action": "TurnRight"
+    },
+    {
+      "step": 32,
+      "frame_idx": 31,
+      "action": "MoveForward"
+    },
+    {
+      "step": 33,
+      "frame_idx": 32,
+      "action": "MoveForward"
+    },
+    {
+      "step": 34,
+      "frame_idx": 33,
+      "action": "MoveForward"
+    },
+    {
+      "step": 35,
+      "frame_idx": 34,
+      "action": "TurnRight"
+    },
+    {
+      "step": 36,
+      "frame_idx": 35,
+      "action": "MoveForward"
+    },
+    {
+      "step": 37,
+      "frame_idx": 36,
+      "action": "TurnRight"
+    },
+    {
+      "step": 38,
+      "frame_idx": 37,
+      "action": "MoveForward"
+    },
+    {
+      "step": 39,
+      "frame_idx": 38,
+      "action": "MoveForward"
+    },
+    {
+      "step": 40,
+      "frame_idx": 39,
+      "action": "MoveForward"
+    },
+    {
+      "step": 41,
+      "frame_idx": 40,
+      "action": "MoveForward"
+    },
+    {
+      "step": 42,
+      "frame_idx": 41,
+      "action": "MoveForward"
+    },
+    {
+      "step": 43,
+      "frame_idx": 42,
+      "action": "TurnRight"
+    },
+    {
+      "step": 44,
+      "frame_idx": 43,
+      "action": "MoveForward"
+    },
+    {
+      "step": 45,
+      "frame_idx": 44,
+      "action": "MoveForward"
+    },
+    {
+      "step": 46,
+      "frame_idx": 45,
+      "action": "TurnRight"
+    },
+    {
+      "step": 47,
+      "frame_idx": 46,
+      "action": "TurnRight"
+    },
+    {
+      "step": 48,
+      "frame_idx": 47,
+      "action": "TurnRight"
+    },
+    {
+      "step": 49,
+      "frame_idx": 48,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 50,
+      "frame_idx": 49,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 51,
+      "frame_idx": 50,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 52,
+      "frame_idx": 51,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 53,
+      "frame_idx": 52,
+      "action": "Move"
+    },
+    {
+      "step": 54,
+      "frame_idx": 54,
+      "action": "MoveForward"
+    },
+    {
+      "step": 55,
+      "frame_idx": 55,
+      "action": "MoveForward"
+    },
+    {
+      "step": 56,
+      "frame_idx": 56,
+      "action": "MoveForward"
+    },
+    {
+      "step": 57,
+      "frame_idx": 57,
+      "action": "MoveForward"
+    },
+    {
+      "step": 58,
+      "frame_idx": 58,
+      "action": "MoveForward"
+    },
+    {
+      "step": 59,
+      "frame_idx": 59,
+      "action": "MoveForward"
+    },
+    {
+      "step": 60,
+      "frame_idx": 60,
+      "action": "MoveForward"
+    },
+    {
+      "step": 61,
+      "frame_idx": 61,
+      "action": "MoveForward"
+    },
+    {
+      "step": 62,
+      "frame_idx": 62,
+      "action": "MoveForward"
+    },
+    {
+      "step": 63,
+      "frame_idx": 63,
+      "action": "TurnRight"
+    },
+    {
+      "step": 64,
+      "frame_idx": 64,
+      "action": "TurnRight"
+    },
+    {
+      "step": 65,
+      "frame_idx": 65,
+      "action": "MoveForward"
+    },
+    {
+      "step": 66,
+      "frame_idx": 66,
+      "action": "MoveForward"
+    },
+    {
+      "step": 67,
+      "frame_idx": 67,
+      "action": "MoveForward"
+    },
+    {
+      "step": 68,
+      "frame_idx": 68,
+      "action": "MoveForward"
+    },
+    {
+      "step": 69,
+      "frame_idx": 69,
+      "action": "MoveForward"
+    },
+    {
+      "step": 70,
+      "frame_idx": 70,
+      "action": "MoveForward"
+    },
+    {
+      "step": 71,
+      "frame_idx": 71,
+      "action": "MoveForward"
+    },
+    {
+      "step": 72,
+      "frame_idx": 72,
+      "action": "MoveForward"
+    },
+    {
+      "step": 73,
+      "frame_idx": 73,
+      "action": "MoveForward"
+    },
+    {
+      "step": 74,
+      "frame_idx": 74,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 75,
+      "frame_idx": 75,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 76,
+      "frame_idx": 76,
+      "action": "Stop"
+    }
+  ]
+}

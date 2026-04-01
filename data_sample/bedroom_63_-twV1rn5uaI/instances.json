@@ -1,0 +1,1042 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "pillow",
+    "describe": "A black, triangular-shaped pillow with a textured surface and a visible seam along the edge.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.5593424342471964,
+      -0.5167059980705191,
+      -0.6959727534161954
+    ],
+    "bbox_max": [
+      -2.253046559832767,
+      -0.4417063333408769,
+      -0.2353157869591565
+    ],
+    "bbox_center": [
+      -2.406194497039982,
+      -0.47920616570569796,
+      -0.46564427018767596
+    ],
+    "bbox_size": [
+      0.3062958744144293,
+      0.0749996647296422,
+      0.46065696645703885
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "door",
+    "describe": "A tall, narrow, vertical door with a smooth, light-colored surface and a visible metallic handle located towards the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      -2.1809722337471404,
+      0.5199822704843902,
+      -1.065825934335624
+    ],
+    "bbox_max": [
+      -1.214148283373859,
+      0.9680518780588181,
+      1.4856681351508338
+    ],
+    "bbox_center": [
+      -1.6975602585604999,
+      0.7440170742716041,
+      0.20992110040760492
+    ],
+    "bbox_size": [
+      0.9668239503732814,
+      0.44806960757442793,
+      2.551494069486458
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "door",
+    "describe": "A white door with a raised panel design, featuring a black metal hinge on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      -1.3236574308064843,
+      0.49316299922803997,
+      -0.948657116490524
+    ],
+    "bbox_max": [
+      -0.7002697669116654,
+      1.6463551502136928,
+      0.9875336003761733
+    ],
+    "bbox_center": [
+      -1.011963598859075,
+      1.0697590747208663,
+      0.019438241942824674
+    ],
+    "bbox_size": [
+      0.6233876638948189,
+      1.1531921509856529,
+      1.9361907168666974
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "door",
+    "describe": "A tall, narrow, white door with a vertical orientation, featuring a raised panel design with a recessed central panel bordered by a raised frame. The door has a black, round doorknob located on the right side, slightly above the midpoint.",
+    "class_id": 5,
+    "bbox_min": [
+      -0.6443933995324654,
+      0.4293266849221376,
+      -1.0960707780870647
+    ],
+    "bbox_max": [
+      1.2766230857110288,
+      0.7001755768955138,
+      1.2987687405652826
+    ],
+    "bbox_center": [
+      0.31611484308928167,
+      0.5647511309088257,
+      0.10134898123910896
+    ],
+    "bbox_size": [
+      1.921016485243494,
+      0.2708488919733762,
+      2.394839518652347
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "bed",
+    "describe": "A bed covered with a textured, light-colored comforter that drapes over the sides, complemented by a darker, solid-colored bed skirt reaching the floor.",
+    "class_id": 11,
+    "bbox_min": [
+      -2.518408857172313,
+      -2.1401115779750843,
+      -1.0766345268119895
+    ],
+    "bbox_max": [
+      -0.29496473165379644,
+      -0.43487750478388887,
+      -0.2590708966889537
+    ],
+    "bbox_center": [
+      -1.4066867944130548,
+      -1.2874945413794867,
+      -0.6678527117504716
+    ],
+    "bbox_size": [
+      2.2234441255185167,
+      1.7052340731911955,
+      0.8175636301230358
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "pillow",
+    "describe": "Rectangular pillow with a pattern of alternating dark and light green chevron stripes, featuring a piped edge.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.151763061085421,
+      -1.5198779699715104,
+      -0.49250618364266213
+    ],
+    "bbox_max": [
+      -1.8496957840590678,
+      -0.9251131747001635,
+      -0.1938465369086564
+    ],
+    "bbox_center": [
+      -2.0007294225722445,
+      -1.2224955723358368,
+      -0.3431763602756593
+    ],
+    "bbox_size": [
+      0.3020672770263533,
+      0.5947647952713468,
+      0.2986596467340057
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "light switch",
+    "describe": "A dark-colored, rectangular light switch with a slightly textured surface and rounded edges. The switch is mounted on a flat surface and has a visible screw at the top center for attachment.",
+    "class_id": 232,
+    "bbox_min": [
+      1.1334167527892398,
+      0.46870502662465724,
+      -0.07950542986060297
+    ],
+    "bbox_max": [
+      1.238320647541169,
+      1.1818175341368087,
+      0.674927204423557
+    ],
+    "bbox_center": [
+      1.1858687001652044,
+      0.825261280380733,
+      0.29771088728147704
+    ],
+    "bbox_size": [
+      0.10490389475192918,
+      0.7131125075121514,
+      0.75443263428416
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "curtain",
+    "describe": "The curtain features a pattern of interlocking diamond shapes in a light blue hue, with a subtle sheen that suggests a silky or satiny material. It is gathered at the top, creating soft, vertical folds that run the length of the fabric, and it drapes gracefully to the floor, pooling slightly at the bottom.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.7859885488409284,
+      -2.707240037650861,
+      -1.0854025800730387
+    ],
+    "bbox_max": [
+      -2.28125914135585,
+      0.15540354711847698,
+      1.6907226291566189
+    ],
+    "bbox_center": [
+      -2.533623845098389,
+      -1.2759182452661921,
+      0.3026600245417901
+    ],
+    "bbox_size": [
+      0.5047294074850783,
+      2.862643584769338,
+      2.7761252092296576
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "bar",
+    "describe": "A horizontal metallic bar with a cylindrical shape and a consistent diameter throughout its length, featuring a smooth, reflective surface and a dark coloration.",
+    "class_id": 145,
+    "bbox_min": [
+      -2.73062388784536,
+      -1.7967639285974717,
+      1.5870055914713925
+    ],
+    "bbox_max": [
+      -2.646009402657185,
+      -0.2897233558551196,
+      1.7040910108149834
+    ],
+    "bbox_center": [
+      -2.6883166452512723,
+      -1.0432436422262956,
+      1.645548301143188
+    ],
+    "bbox_size": [
+      0.08461448518817472,
+      1.5070405727423521,
+      0.11708541934359085
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a smooth, light-colored fabric cover, possibly white or off-white, with a soft, plush appearance and rounded edges.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.860283412415229,
+      -2.1201504190460385,
+      -0.46295430181205244
+    ],
+    "bbox_max": [
+      -2.0371163145070645,
+      -1.1703618698698397,
+      -0.1237293253438407
+    ],
+    "bbox_center": [
+      -2.4486998634611465,
+      -1.6452561444579392,
+      -0.2933418135779466
+    ],
+    "bbox_size": [
+      0.8231670979081644,
+      0.9497885491761988,
+      0.33922497646821176
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a dark gray or charcoal color, featuring a subtle textured pattern that gives the appearance of a fine, woven fabric. The pillow appears plush and soft, with a slightly rounded edge suggesting a comfortable, cushioned surface.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.3513748599198534,
+      -2.240468892358937,
+      -0.5543195080410405
+    ],
+    "bbox_max": [
+      -1.9625243175781408,
+      -1.4844965747942067,
+      -0.31401466242046755
+    ],
+    "bbox_center": [
+      -2.156949588748997,
+      -1.862482733576572,
+      -0.434167085230754
+    ],
+    "bbox_size": [
+      0.38885054234171257,
+      0.7559723175647302,
+      0.24030484562057292
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a smooth, light-colored fabric cover, possibly white or light gray, with a soft, plush appearance and rounded corners.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.5034275107768464,
+      -1.173414192161882,
+      -0.4415000372988273
+    ],
+    "bbox_max": [
+      -2.0698502263494003,
+      -0.45458050553740903,
+      -0.14804863222266645
+    ],
+    "bbox_center": [
+      -2.2866388685631236,
+      -0.8139973488496455,
+      -0.2947743347607469
+    ],
+    "bbox_size": [
+      0.43357728442744614,
+      0.7188336866244729,
+      0.29345140507616085
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a dark, possibly black fabric cover.",
+    "class_id": 13,
+    "bbox_min": [
+      -2.1485274925884297,
+      -0.955367447930418,
+      -0.47836217496586525
+    ],
+    "bbox_max": [
+      -1.9954162255766021,
+      -0.5263629368677534,
+      -0.30582618159751296
+    ],
+    "bbox_center": [
+      -2.071971859082516,
+      -0.7408651923990857,
+      -0.39209417828168913
+    ],
+    "bbox_size": [
+      0.15311126701182753,
+      0.4290045110626646,
+      0.1725359933683523
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "window",
+    "describe": "Three windows are visible. The leftmost window is a rectangular window with a white frame and a single horizontal divider in the middle. The middle window is a large rectangular window with a white frame and a horizontal divider in the middle. The rightmost window is a smaller rectangular window with a white frame and a horizontal divider in the middle.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.8738239344479393,
+      -2.2039548072321167,
+      -0.32292931788407525
+    ],
+    "bbox_max": [
+      -2.4670060440863755,
+      -0.4129125292209071,
+      1.5207662268757747
+    ],
+    "bbox_center": [
+      -2.670414989267157,
+      -1.3084336682265119,
+      0.5989184544958497
+    ],
+    "bbox_size": [
+      0.4068178903615638,
+      1.7910422780112096,
+      1.84369554475985
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame and a single pane of clear glass. The window is divided into two sections by a horizontal bar in the middle. The window is positioned vertically.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.6279995172106845,
+      0.8643966558458158,
+      0.05351700045973948
+    ],
+    "bbox_max": [
+      -2.314009816716077,
+      1.5408070125148041,
+      1.3432782903223373
+    ],
+    "bbox_center": [
+      -2.4710046669633807,
+      1.20260183418031,
+      0.6983976453910383
+    ],
+    "bbox_size": [
+      0.3139897004946075,
+      0.6764103566689883,
+      1.2897612898625979
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame and a horizontal blind partially drawn down. The blind is white and covers the upper half of the window. The window is divided into two sections by a vertical white muntin.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.736703387152607,
+      -3.1689620113539303,
+      0.1691304716122397
+    ],
+    "bbox_max": [
+      -1.9136775218826771,
+      -3.021718813779947,
+      1.427701252318604
+    ],
+    "bbox_center": [
+      -2.3251904545176423,
+      -3.0953404125669386,
+      0.7984158619654218
+    ],
+    "bbox_size": [
+      0.82302586526993,
+      0.1472431975739834,
+      1.2585707807063642
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "lamp",
+    "describe": "The lamp features a square-shaped, tapered lampshade in a light color, possibly white or cream. Below the shade, a decorative, metallic base with a glossy finish and intricate detailing is visible, suggesting an antique or vintage style. The base has a slender neck that flares out to a wider, ornate midsection, which then tapers down to a narrower section before connecting to the lampshade.",
+    "class_id": 28,
+    "bbox_min": [
+      -2.678014730103171,
+      -2.651858194049454,
+      -0.6493084629781898
+    ],
+    "bbox_max": [
+      -2.2112823504463703,
+      -2.1899155705421403,
+      0.17159544214616612
+    ],
+    "bbox_center": [
+      -2.4446485402747706,
+      -2.420886882295797,
+      -0.23885651041601183
+    ],
+    "bbox_size": [
+      0.4667323796568006,
+      0.46194262350731385,
+      0.8209039051243558
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "door",
+    "describe": "The wall is painted in a light gray color and features a smooth texture. It extends vertically from the floor to the ceiling and horizontally across the room. The wall has a rectangular shape with a slight shadow cast on the right side, indicating a light source from the left. There are two visible sections of the wall, one on the left and one on the right, separated by a doorway. The left section has a small, square, white electrical outlet near the bottom, while the right section has a similar outlet positioned slightly higher. Both sections of the wall are unadorned and maintain a consistent color and texture throughout.",
+    "class_id": 5,
+    "bbox_min": [
+      -2.9458104616086103,
+      -3.2988166213632595,
+      -1.0965576535098196
+    ],
+    "bbox_max": [
+      0.5929484681078263,
+      -2.5507662184940156,
+      1.708935877029538
+    ],
+    "bbox_center": [
+      -1.1764309967503919,
+      -2.9247914199286376,
+      0.3061891117598592
+    ],
+    "bbox_size": [
+      3.538758929716437,
+      0.7480504028692438,
+      2.8054935305393576
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "mirror",
+    "describe": "Rectangular mirror with a thick, ornate frame featuring intricate detailing and a distressed finish, giving it an antique appearance.",
+    "class_id": 71,
+    "bbox_min": [
+      -1.18309868599165,
+      -3.2728036229314865,
+      0.1809806678920798
+    ],
+    "bbox_max": [
+      -0.023252826276730476,
+      -3.1840736941010017,
+      1.0937426397679257
+    ],
+    "bbox_center": [
+      -0.6031757561341902,
+      -3.228438658516244,
+      0.6373616538300028
+    ],
+    "bbox_size": [
+      1.1598458597149195,
+      0.0887299288304848,
+      0.912761971875846
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "picture",
+    "describe": "A dark-toned painting featuring a cluster of abstract, leaf-like forms with varying shades of green and black, creating a textured and layered appearance.",
+    "class_id": 15,
+    "bbox_min": [
+      -0.819731572074326,
+      0.49876693848710923,
+      -0.0943978837735014
+    ],
+    "bbox_max": [
+      -0.15311105746785386,
+      0.536229314866642,
+      0.929830219090797
+    ],
+    "bbox_center": [
+      -0.48642131477108996,
+      0.5174981266768757,
+      0.4177161676586478
+    ],
+    "bbox_size": [
+      0.6666205146064721,
+      0.037462376379532814,
+      1.0242281028642983
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "curtain",
+    "describe": "A white, semi-transparent curtain with a smooth texture and a straight bottom hem.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.8405219488930626,
+      -2.1542155637529157,
+      0.2298575855337546
+    ],
+    "bbox_max": [
+      -2.667544236828275,
+      -0.4157981068959245,
+      1.2464597545653344
+    ],
+    "bbox_center": [
+      -2.754033092860669,
+      -1.2850068353244202,
+      0.7381586700495445
+    ],
+    "bbox_size": [
+      0.17297771206478751,
+      1.7384174568569912,
+      1.0166021690315798
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      -1.6938948106015839,
+      -3.1722124574730506,
+      -0.7157676915881505
+    ],
+    "bbox_max": [
+      -1.6033734903404417,
+      -3.161124857195782,
+      -0.5749288388665514
+    ],
+    "bbox_center": [
+      -1.648634150471013,
+      -3.1666686573344163,
+      -0.645348265227351
+    ],
+    "bbox_size": [
+      0.09052132026114212,
+      0.011087600277268628,
+      0.14083885272159902
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "blinds",
+    "describe": "A white, horizontally slatted roller blind with a visible bottom rail and a pull cord on the right side.",
+    "class_id": 86,
+    "bbox_min": [
+      -2.6237870547085786,
+      0.9482470389341084,
+      0.4202523045646221
+    ],
+    "bbox_max": [
+      -2.2865254005013966,
+      1.4110479545574557,
+      1.1376533128483144
+    ],
+    "bbox_center": [
+      -2.455156227604988,
+      1.179647496745782,
+      0.7789528087064682
+    ],
+    "bbox_size": [
+      0.337261654207182,
+      0.46280091562334724,
+      0.7174010082836924
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "curtain",
+    "describe": "A white, semi-transparent curtain with a smooth texture and a straight-hanging design, featuring a series of evenly spaced, vertical folds that create a pleated effect.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.279050966961621,
+      0.6621202958425637,
+      0.21942368387525593
+    ],
+    "bbox_max": [
+      -1.7776516323056457,
+      1.0925356664797534,
+      1.1093578566836564
+    ],
+    "bbox_center": [
+      -2.0283512996336333,
+      0.8773279811611585,
+      0.6643907702794561
+    ],
+    "bbox_size": [
+      0.5013993346559751,
+      0.4304153706371897,
+      0.8899341728084005
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "light switch",
+    "describe": "A white, rectangular light switch with a slightly curved top surface and a visible screw at the bottom center.",
+    "class_id": 232,
+    "bbox_min": [
+      -2.176753694469799,
+      0.5253792326834955,
+      0.18640027393683672
+    ],
+    "bbox_max": [
+      -1.9440919914807802,
+      0.5581794651934887,
+      0.31156857703716556
+    ],
+    "bbox_center": [
+      -2.0604228429752895,
+      0.5417793489384921,
+      0.24898442548700114
+    ],
+    "bbox_size": [
+      0.232661702989019,
+      0.0328002325099932,
+      0.12516830310032884
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "cabinet",
+    "describe": "A wooden cabinet with a flat top surface, featuring two doors with recessed panels and round knobs. The cabinet has a toe kick at the bottom and a visible side panel with a vertical groove design.",
+    "class_id": 7,
+    "bbox_min": [
+      -2.591744847523232,
+      1.339522424138795,
+      -1.0781144311258295
+    ],
+    "bbox_max": [
+      -1.6199652869453265,
+      2.2042175753750626,
+      -0.04673302740960902
+    ],
+    "bbox_center": [
+      -2.105855067234279,
+      1.771869999756929,
+      -0.5624237292677192
+    ],
+    "bbox_size": [
+      0.9717795605779054,
+      0.8646951512362675,
+      1.0313814037162206
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "flower",
+    "describe": "A lush bouquet of pale pink roses with hints of green foliage, arranged in a classic, upright style.",
+    "class_id": -1,
+    "bbox_min": [
+      -2.5935970067062453,
+      2.0298922860157895,
+      -0.1783733646140577
+    ],
+    "bbox_max": [
+      -2.3812755276945885,
+      2.204325909609435,
+      0.0833031655493782
+    ],
+    "bbox_center": [
+      -2.487436267200417,
+      2.1171090978126124,
+      -0.04753509953233975
+    ],
+    "bbox_size": [
+      0.21232147901165677,
+      0.17443362359364567,
+      0.2616765301634359
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "lamp",
+    "describe": "A wall-mounted, horizontal light fixture with five frosted glass globes, each encased in a metallic holder with a decorative finial on top. The fixture has a brushed metal finish and is designed to provide a warm, diffused light.",
+    "class_id": 28,
+    "bbox_min": [
+      -2.508429325427658,
+      2.1747072880232206,
+      1.2570257998922105
+    ],
+    "bbox_max": [
+      -1.8953746939610263,
+      2.227690691302332,
+      1.4336807991504248
+    ],
+    "bbox_center": [
+      -2.2019020096943422,
+      2.2011989896627764,
+      1.3453532995213178
+    ],
+    "bbox_size": [
+      0.6130546314666319,
+      0.05298340327911166,
+      0.17665499925821426
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "cabinet",
+    "describe": "A dark brown, rectangular wooden drawer with a visible vertical grain pattern, featuring a round, centered pull knob with a visible screw in the center.",
+    "class_id": 7,
+    "bbox_min": [
+      -2.599187220835041,
+      2.053308825070176,
+      0.12991836376330917
+    ],
+    "bbox_max": [
+      -2.59696228292292,
+      2.0913004047551396,
+      0.2367084424009716
+    ],
+    "bbox_center": [
+      -2.598074751878981,
+      2.0723046149126576,
+      0.1833134030821404
+    ],
+    "bbox_size": [
+      0.0022249379121208612,
+      0.03799157968496347,
+      0.10679007863766243
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "mirror",
+    "describe": "A tall, rectangular mirror with a thin, light-colored frame, positioned vertically.",
+    "class_id": 71,
+    "bbox_min": [
+      -2.5696957924408266,
+      2.1505252848331233,
+      -0.06304816703504497
+    ],
+    "bbox_max": [
+      -1.8507619437969534,
+      2.2302018662824468,
+      1.0934503259246966
+    ],
+    "bbox_center": [
+      -2.21022886811889,
+      2.190363575557785,
+      0.5152010794448258
+    ],
+    "bbox_size": [
+      0.7189338486438732,
+      0.07967658144932344,
+      1.1564984929597415
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "sink",
+    "describe": "The faucet features a dark bronze finish with a traditional design, consisting of two handles with cross-shaped grips and a central spout with an ornate, curved neck. The handles are mounted on either side of the spout, and the overall design suggests a blend of classic and modern styles.",
+    "class_id": 14,
+    "bbox_min": [
+      -2.2649073773727713,
+      2.136214479153308,
+      -0.1792988941526335
+    ],
+    "bbox_max": [
+      -2.151806227143991,
+      2.18333693748968,
+      -0.09286393021096048
+    ],
+    "bbox_center": [
+      -2.208356802258381,
+      2.1597757083214937,
+      -0.13608141218179698
+    ],
+    "bbox_size": [
+      0.11310115022878042,
+      0.04712245833637185,
+      0.08643496394167302
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "sink",
+    "describe": "A rectangular, light-colored ceramic sink with a smooth surface and rounded edges, featuring a visible front overflow hole and a partially visible faucet mounting area on the upper right side.",
+    "class_id": 14,
+    "bbox_min": [
+      -2.0111020588114497,
+      2.000010477198682,
+      -0.17623648755685975
+    ],
+    "bbox_max": [
+      -1.7957380013025253,
+      2.1337309639777144,
+      -0.10311493926996555
+    ],
+    "bbox_center": [
+      -1.9034200300569875,
+      2.066870720588198,
+      -0.13967571341341264
+    ],
+    "bbox_size": [
+      0.2153640575089244,
+      0.13372048677903248,
+      0.0731215482868942
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "picture",
+    "describe": "The painting features a symmetrical design with two ornate, symmetrical floral motifs, each consisting of a central flower surrounded by intricate scrollwork and smaller floral elements. The color palette is monochromatic, with shades of gray creating a sense of depth and texture. The floral elements are detailed with fine lines and curves, giving the impression of a delicate, almost lace-like quality.",
+    "class_id": 15,
+    "bbox_min": [
+      -1.5430749069415213,
+      2.1963213298163473,
+      0.7346245013901147
+    ],
+    "bbox_max": [
+      -1.3111539418993232,
+      2.205826244460705,
+      0.98665749702238
+    ],
+    "bbox_center": [
+      -1.4271144244204224,
+      2.201073787138526,
+      0.8606409992062474
+    ],
+    "bbox_size": [
+      0.23192096504219806,
+      0.009504914644357765,
+      0.25203299563226533
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "toilet",
+    "describe": "A two-piece toilet featuring a round bowl and a tank with a left-side flush handle. The toilet has a closed lid and a beige seat cover.",
+    "class_id": 17,
+    "bbox_min": [
+      -1.6173328907764608,
+      1.3460847127613118,
+      -0.8214748731630327
+    ],
+    "bbox_max": [
+      -1.174205639750324,
+      2.1999619468143865,
+      -0.25780781800183894
+    ],
+    "bbox_center": [
+      -1.3957692652633924,
+      1.7730233297878493,
+      -0.5396413455824358
+    ],
+    "bbox_size": [
+      0.4431272510261368,
+      0.8538772340530747,
+      0.5636670551611938
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "vent",
+    "describe": "The vent is a square-shaped, metallic grille with a symmetrical pattern of four curved, leaf-like designs, each with a central bulge and a pointed tip, arranged in a cross-like formation.",
+    "class_id": 408,
+    "bbox_min": [
+      -1.5309144415192104,
+      2.1913848928853112,
+      0.41885938719283994
+    ],
+    "bbox_max": [
+      -1.291851379679431,
+      2.205423920031314,
+      0.6774358648759876
+    ],
+    "bbox_center": [
+      -1.4113829105993208,
+      2.1984044064583124,
+      0.5481476260344138
+    ],
+    "bbox_size": [
+      0.23906306183977932,
+      0.014039027146002692,
+      0.2585764776831477
+    ]
+  },
+  {
+    "instance_id": "40",
+    "class_name": "vent",
+    "describe": "A square-shaped, flat-panel air vent with a symmetrical, ornate design featuring a central floral motif surrounded by intricate scrollwork and leaf patterns, all set within a recessed border.",
+    "class_id": 408,
+    "bbox_min": [
+      -1.5254843189862766,
+      2.1921182967930553,
+      0.11158932974845502
+    ],
+    "bbox_max": [
+      -1.2906865247299606,
+      2.20662418791233,
+      0.3672773354304494
+    ],
+    "bbox_center": [
+      -1.4080854218581185,
+      2.1993712423526928,
+      0.2394333325894522
+    ],
+    "bbox_size": [
+      0.23479779425631597,
+      0.014505891119274583,
+      0.25568800568199435
+    ]
+  },
+  {
+    "instance_id": "41",
+    "class_name": "plant",
+    "describe": "A lush bouquet featuring a variety of flowers, including prominent yellow blooms with a large, rounded shape, possibly chrysanthemums or similar, complemented by smaller white flowers with delicate petals, and accented with green foliage. The arrangement is designed to create a full, rounded shape, suggesting a classic and elegant style.",
+    "class_id": 40,
+    "bbox_min": [
+      -2.0044490376483464,
+      2.028753624063024,
+      -0.13527134792094658
+    ],
+    "bbox_max": [
+      -1.8806663833632142,
+      2.185144673350281,
+      -0.07572602272127214
+    ],
+    "bbox_center": [
+      -1.9425577105057803,
+      2.1069491487066525,
+      -0.10549868532110937
+    ],
+    "bbox_size": [
+      0.12378265428513213,
+      0.1563910492872571,
+      0.05954532519967444
+    ]
+  },
+  {
+    "instance_id": "42",
+    "class_name": "brush",
+    "describe": "A cylindrical, dark-colored brush with a long, slender handle that tapers slightly towards the end, featuring a series of horizontal ridges along its length for grip.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.7984530625689923,
+      2.08413022906509,
+      -0.8524862287700523
+    ],
+    "bbox_max": [
+      -1.725117805621981,
+      2.175856427174668,
+      -0.6314963870428064
+    ],
+    "bbox_center": [
+      -1.7617854340954866,
+      2.129993328119879,
+      -0.7419913079064293
+    ],
+    "bbox_size": [
+      0.07333525694701137,
+      0.09172619810957805,
+      0.2209898417272459
+    ]
+  },
+  {
+    "instance_id": "43",
+    "class_name": "mirror",
+    "describe": "A tall, narrow, rectangular mirror with a dark, possibly wooden frame, featuring a simple, flat profile without any visible ornamentation or embellishments.",
+    "class_id": 71,
+    "bbox_min": [
+      -1.02515533494766,
+      1.981747462632023,
+      -0.10550702124231078
+    ],
+    "bbox_max": [
+      -0.9674538395580465,
+      2.184575551917872,
+      0.738215561238388
+    ],
+    "bbox_center": [
+      -0.9963045872528533,
+      2.0831615072749474,
+      0.3163542699980386
+    ],
+    "bbox_size": [
+      0.057701495389613555,
+      0.20282808928584894,
+      0.8437225824806989
+    ]
+  },
+  {
+    "instance_id": "44",
+    "class_name": "sink",
+    "describe": "A curved, dark brown wooden faucet with a smooth, glossy finish and a rounded end.",
+    "class_id": 14,
+    "bbox_min": [
+      -2.3378058399067276,
+      1.7980909705825405,
+      -0.19348871438066764
+    ],
+    "bbox_max": [
+      -2.0133437602414617,
+      2.0390175069799095,
+      -0.1794401136943692
+    ],
+    "bbox_center": [
+      -2.1755748000740947,
+      1.9185542387812249,
+      -0.18646441403751843
+    ],
+    "bbox_size": [
+      0.32446207966526597,
+      0.24092653639736894,
+      0.01404860068629843
+    ]
+  }
+]

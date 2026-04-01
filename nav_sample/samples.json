@@ -1,0 +1,38 @@
+[
+  {
+    "name": "CSvzt1p42wo_04-03_comp_0000",
+    "gif": "CSvzt1p42wo_04-03_comp_0000.gif",
+    "instruction": "Turn right and move forward into the hallway. Pass the bathroom on the right and the bedroom on the left. Continue straight, passing additional doorways, and stop in front of the staircase at the end of the hallway.",
+    "summary": "You begin facing a closet in a hallway. Move forward into the hallway, passing by a bathroom and a bedroom. Continue straight down the hallway, passing several doorways, and stop in front of a staircase."
+  },
+  {
+    "name": "FCiGqJgDpDg_11-03_comp_0001",
+    "gif": "FCiGqJgDpDg_11-03_comp_0001.gif",
+    "instruction": "Exit the bathroom and move forward into the hallway. Pass the bedroom on your right and continue straight. Bypass the living area and the bathroom on your left. Proceed past another bedroom on your right and stop in front of the closed door at the end of the hallway.",
+    "summary": "You begin facing a bathtub in a bathroom. Move forward into a hallway, passing a bedroom and a living area. Continue straight down the hallway, passing a bathroom and another bedroom. Stop in front of a closed door at the end of the hallway."
+  },
+  {
+    "name": "FMJULrjRIsY_16_comp_0000",
+    "gif": "FMJULrjRIsY_16_comp_0000.gif",
+    "instruction": "Turn right from the bathroom and move forward into the bedroom. Continue straight past the desk area and exit into the hallway. Proceed down the hallway, passing doors on both sides, and stop in front of the decorative wall piece.",
+    "summary": "You begin facing a bathroom mirror and sink. Turn right and move forward into a bedroom with a neatly made bed and large windows. Continue straight through the bedroom, passing a desk area, and exit into a hallway. Proceed down the hallway, passing doors on both sides, and stop in front of a decorative wall piece."
+  },
+  {
+    "name": "JJXgWi6SVfY_04-02_comp_0000",
+    "gif": "JJXgWi6SVfY_04-02_comp_0000.gif",
+    "instruction": "Proceed forward through the initial hallway. Turn right into the living area and continue straight. Turn left to navigate towards the kitchen and dining area. Move forward past the staircase and turn right into the next hallway. Continue straight until reaching the white door. Turn right once more and stop in the room with the white door and wall outlet.",
+    "summary": "Starting in a hallway, proceed forward through various sections of the house including a living area, a staircase, and a garage. Navigate through multiple hallways and rooms, passing by doors, shelves, and a staircase. The journey concludes in a room with a white door and a visible wall outlet."
+  },
+  {
+    "name": "LxKncOrZvaA_41_comp_0000",
+    "gif": "LxKncOrZvaA_41_comp_0000.gif",
+    "instruction": "Turn right into the hallway and proceed past the utility room. Move forward into the pantry, then turn right again to exit. Continue straight into the mudroom and turn right once more. Enter the kitchen and move forward, stopping in the living area.",
+    "summary": "The trajectory begins in a hallway adjacent to a utility room and mudroom, moving through various sections of a modern home. The path leads through a pantry, past a utility room with laundry appliances, and continues into a mudroom with storage space. The journey progresses further into a spacious kitchen area with white cabinetry and a central island, ending in a well-lit living space with large windows."
+  },
+  {
+    "name": "OvyJqQnnxfo_02-04_comp_0001",
+    "gif": "OvyJqQnnxfo_02-04_comp_0001.gif",
+    "instruction": "Turn right from the initial closet in the bedroom and move forward. Turn right again at the next intersection. Proceed straight through the hallway, passing by various doors and windows. Stop in front of the closed door in the hallway.",
+    "summary": "You begin facing a closet in a bedroom. Turn right twice to navigate through hallways and rooms, passing by various doors and windows. Continue moving forward through corridors and rooms, eventually stopping in front of a closed door in a hallway."
+  }
+]

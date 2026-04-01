@@ -1,0 +1,548 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "vent",
+    "describe": "A linear, horizontal vent with multiple parallel, thin, metallic slats evenly spaced, allowing airflow through the gaps.",
+    "class_id": 408,
+    "bbox_min": [
+      0.1382363289140078,
+      1.5812899893969077,
+      -0.9780781961426459
+    ],
+    "bbox_max": [
+      0.47754193162601427,
+      1.8775450634800877,
+      -0.9474670859756732
+    ],
+    "bbox_center": [
+      0.307889130270011,
+      1.7294175264384977,
+      -0.9627726410591595
+    ],
+    "bbox_size": [
+      0.3393056027120065,
+      0.29625507408317997,
+      0.03061111016697271
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "door",
+    "describe": "A tall, narrow, white door with a vertical handle on the right side, featuring a subtle wood grain texture and a reflective surface.",
+    "class_id": 5,
+    "bbox_min": [
+      -0.7372942239408001,
+      -0.4766516602743519,
+      -0.9324962488526288
+    ],
+    "bbox_max": [
+      -0.6625024387855839,
+      -0.21133556919770308,
+      0.6413504406031072
+    ],
+    "bbox_center": [
+      -0.699898331363192,
+      -0.3439936147360275,
+      -0.14557290412476082
+    ],
+    "bbox_size": [
+      0.07479178515521623,
+      0.26531609107664883,
+      1.5738466894557361
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "window",
+    "describe": "A rectangular window with two vertical sections, each containing horizontal blinds. The blinds are evenly spaced and cover the entire height of the window. The window frame is light-colored, and the blinds are white.",
+    "class_id": 16,
+    "bbox_min": [
+      -0.2757626751293544,
+      1.7818871188692678,
+      -0.19391990841802909
+    ],
+    "bbox_max": [
+      0.895596281057655,
+      1.9947642261914929,
+      1.2316535189781948
+    ],
+    "bbox_center": [
+      0.3099168029641503,
+      1.8883256725303803,
+      0.5188668052800829
+    ],
+    "bbox_size": [
+      1.1713589561870092,
+      0.2128771073222251,
+      1.4255734273962237
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "window",
+    "describe": "Two adjacent rectangular windows with white horizontal blinds. The left window has a slightly wider frame, while the right window has a narrower frame. Both windows have evenly spaced horizontal slats.",
+    "class_id": 16,
+    "bbox_min": [
+      1.5706714998515918,
+      1.786040704418376,
+      -0.20254209028915574
+    ],
+    "bbox_max": [
+      2.7352624399487473,
+      1.8389768467673464,
+      1.1979509155987214
+    ],
+    "bbox_center": [
+      2.1529669699001697,
+      1.8125087755928613,
+      0.4977044126547828
+    ],
+    "bbox_size": [
+      1.1645909400971555,
+      0.05293614234897048,
+      1.400493005887877
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "bed",
+    "describe": "A modern bed with a dark upholstered headboard featuring button tufting and a low-profile design. The bed is dressed with a white fitted sheet, a white flat sheet, and a teal throw blanket draped across the foot of the bed. It is supported by four dark wooden legs.",
+    "class_id": 11,
+    "bbox_min": [
+      0.7934467280284148,
+      -0.6339274225015906,
+      -1.0095599380798816
+    ],
+    "bbox_max": [
+      3.05202421168271,
+      1.3677516941019252,
+      0.16466078568246797
+    ],
+    "bbox_center": [
+      1.9227354698555623,
+      0.3669121358001673,
+      -0.4224495761987068
+    ],
+    "bbox_size": [
+      2.258577483654295,
+      2.001679116603516,
+      1.1742207237623496
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "cabinet",
+    "describe": "A black, rectangular drawer with a flat front surface and a silver, horizontal handle centered at the top.",
+    "class_id": 7,
+    "bbox_min": [
+      0.9320770908330893,
+      0.7611120671275483,
+      -0.9530844118926928
+    ],
+    "bbox_max": [
+      1.0541410441890497,
+      1.0593642263554377,
+      -0.8670996202808627
+    ],
+    "bbox_center": [
+      0.9931090675110695,
+      0.9102381467414931,
+      -0.9100920160867778
+    ],
+    "bbox_size": [
+      0.12206395335596043,
+      0.2982521592278894,
+      0.08598479161183004
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      0.9215560893303825,
+      1.8494768903690764,
+      -0.6237983337471533
+    ],
+    "bbox_max": [
+      0.9908945610452571,
+      1.8529582005397487,
+      -0.5258736231303429
+    ],
+    "bbox_center": [
+      0.9562253251878198,
+      1.8512175454544124,
+      -0.5748359784387481
+    ],
+    "bbox_size": [
+      0.06933847171487462,
+      0.003481310170672325,
+      0.0979247106168104
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "blanket",
+    "describe": "A turquoise faux fur blanket with a plush texture and a white tag on one corner.",
+    "class_id": 54,
+    "bbox_min": [
+      0.7496649292200557,
+      -0.4991655501866052,
+      -0.7881386325600039
+    ],
+    "bbox_max": [
+      1.6837181472968774,
+      0.6731561511257675,
+      -0.3499681461032066
+    ],
+    "bbox_center": [
+      1.2166915382584667,
+      0.08699530046958118,
+      -0.5690533893316052
+    ],
+    "bbox_size": [
+      0.9340532180768217,
+      1.1723217013123728,
+      0.43817048645679735
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "table",
+    "describe": "A rectangular wooden table with a visible grain pattern, featuring a flat top and a single central leg that flares out into a four-footed base.",
+    "class_id": 4,
+    "bbox_min": [
+      2.7363414338184007,
+      1.1761257631580906,
+      -0.8951926048423855
+    ],
+    "bbox_max": [
+      3.0080234366122074,
+      1.6814206205007431,
+      -0.28192348674299944
+    ],
+    "bbox_center": [
+      2.8721824352153043,
+      1.4287731918294169,
+      -0.5885580457926924
+    ],
+    "bbox_size": [
+      0.2716820027938067,
+      0.5052948573426526,
+      0.6132691180993861
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "pillow",
+    "describe": "A light blue pillow with a textured pattern consisting of raised dots and lines, creating a quilted appearance.",
+    "class_id": 13,
+    "bbox_min": [
+      2.556194348058053,
+      -0.025791703512360823,
+      -0.4694041476919845
+    ],
+    "bbox_max": [
+      2.987459814598126,
+      0.47377092917893426,
+      -0.08478666728650222
+    ],
+    "bbox_center": [
+      2.7718270813280896,
+      0.22398961283328672,
+      -0.2770954074892434
+    ],
+    "bbox_size": [
+      0.43126546654007303,
+      0.4995626326912951,
+      0.38461748040548227
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "pillow",
+    "describe": "A square-shaped pillow with a textured surface featuring a pattern of raised dots and a solid blue color.",
+    "class_id": 13,
+    "bbox_min": [
+      2.6099882770121714,
+      0.3584855722725145,
+      -0.46342364163287364
+    ],
+    "bbox_max": [
+      2.9311017202625407,
+      0.7583750328660873,
+      -0.08977773224880364
+    ],
+    "bbox_center": [
+      2.770544998637356,
+      0.5584303025693009,
+      -0.2766006869408386
+    ],
+    "bbox_size": [
+      0.3211134432503693,
+      0.39988946059357283,
+      0.37364590938407
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "picture",
+    "describe": "A rectangular picture frame with a wide, ornate silver border featuring intricate detailing and beveled edges. The frame encloses a painting with a gradient of blue hues, transitioning from a lighter blue at the top to a darker blue at the bottom, creating a serene, sky-like effect.",
+    "class_id": 15,
+    "bbox_min": [
+      3.040451934824545,
+      0.36920050196539056,
+      0.3084897558244817
+    ],
+    "bbox_max": [
+      3.061394421603384,
+      0.9043155115315314,
+      0.8270947732592158
+    ],
+    "bbox_center": [
+      3.0509231782139645,
+      0.6367580067484611,
+      0.5677922645418487
+    ],
+    "bbox_size": [
+      0.020942486778839253,
+      0.5351150095661409,
+      0.5186050174347341
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "picture",
+    "describe": "A rectangular picture frame with a wide, ornate silver border featuring intricate detailing and beveled edges. The frame encloses a painting with a gradient of blue hues, transitioning from a lighter blue at the top to a darker blue at the bottom, creating a serene, sky-like effect.",
+    "class_id": 15,
+    "bbox_min": [
+      3.044263568557067,
+      -0.17899514487406798,
+      0.3107889727739204
+    ],
+    "bbox_max": [
+      3.0687580815208433,
+      0.34234541948721914,
+      0.8273554625049165
+    ],
+    "bbox_center": [
+      3.056510825038955,
+      0.08167513730657558,
+      0.5690722176394185
+    ],
+    "bbox_size": [
+      0.02449451296377614,
+      0.5213405643612872,
+      0.5165664897309961
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "coffee table",
+    "describe": "A modern, rectangular coffee table with a glossy, dark brown finish and a flat, horizontal tabletop. The table features a unique, angular design with a single, central support leg that extends upwards to form the tabletop's edge, creating a distinctive, geometric silhouette.",
+    "class_id": 24,
+    "bbox_min": [
+      2.7589702879584324,
+      -0.8979730422407085,
+      -0.952239943695585
+    ],
+    "bbox_max": [
+      3.0353379365616338,
+      -0.4014231395052284,
+      -0.3067848643830707
+    ],
+    "bbox_center": [
+      2.897154112260033,
+      -0.6496980908729685,
+      -0.6295124040393278
+    ],
+    "bbox_size": [
+      0.2763676486032014,
+      0.4965499027354801,
+      0.6454550793125142
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "lamp",
+    "describe": "A table lamp with a cylindrical cream-colored shade and a metallic base featuring a series of stacked, ornate elements, including a circular platform, a slender neck, and a wider, decorative foot.",
+    "class_id": 28,
+    "bbox_min": [
+      2.8200540509336656,
+      -0.8800593777898357,
+      -0.31408663088651556
+    ],
+    "bbox_max": [
+      3.063108913115565,
+      -0.5446141443808897,
+      0.2059481210316415
+    ],
+    "bbox_center": [
+      2.941581482024615,
+      -0.7123367610853627,
+      -0.05406925492743703
+    ],
+    "bbox_size": [
+      0.24305486218189953,
+      0.33544523340894594,
+      0.5200347519181571
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "lamp",
+    "describe": "A table lamp with a square, tapered lampshade that emits a warm glow. The lampshade appears to have a smooth texture and is mounted on a slender, vertical stand with a visible circular base that provides stability.",
+    "class_id": 28,
+    "bbox_min": [
+      2.7953383307053845,
+      1.3163280361421705,
+      -0.2967141873268401
+    ],
+    "bbox_max": [
+      3.040203414682637,
+      1.5523400971099552,
+      0.20813693716722412
+    ],
+    "bbox_center": [
+      2.917770872694011,
+      1.4343340666260629,
+      -0.04428862507980798
+    ],
+    "bbox_size": [
+      0.2448650839772526,
+      0.2360120609677847,
+      0.5048511244940642
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "cushion",
+    "describe": "A rectangular blue cushion with a textured surface and a visible seam along the edge.",
+    "class_id": 39,
+    "bbox_min": [
+      2.7772515269499887,
+      -0.5741782045756658,
+      -0.3140514418947139
+    ],
+    "bbox_max": [
+      2.9684478885299277,
+      -0.40488893406856463,
+      -0.2793308253768169
+    ],
+    "bbox_center": [
+      2.872849707739958,
+      -0.4895335693221152,
+      -0.2966911336357654
+    ],
+    "bbox_size": [
+      0.19119636157993902,
+      0.16928927050710119,
+      0.034720616517896985
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "door",
+    "describe": "A white door with a raised panel design featuring two vertical panels and a horizontal panel at the top. The door has a brass-colored round doorknob located on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      0.258293892831317,
+      -1.4529707110545094,
+      -0.9740172309946296
+    ],
+    "bbox_max": [
+      1.652396902317446,
+      -1.2888351912160434,
+      1.1167076800676021
+    ],
+    "bbox_center": [
+      0.9553453975743815,
+      -1.3709029511352764,
+      0.07134522453648628
+    ],
+    "bbox_size": [
+      1.394103009486129,
+      0.16413551983846597,
+      2.0907249110622317
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "pillow",
+    "describe": "A light blue pillow with a textured pattern consisting of raised dots and lines, creating a quilted appearance.",
+    "class_id": 13,
+    "bbox_min": [
+      2.846640297627208,
+      0.4345701894934814,
+      -0.14989768530209135
+    ],
+    "bbox_max": [
+      2.9376221964994036,
+      0.5348651711046557,
+      -0.09666178581378443
+    ],
+    "bbox_center": [
+      2.892131247063306,
+      0.4847176802990686,
+      -0.12327973555793789
+    ],
+    "bbox_size": [
+      0.09098189887219554,
+      0.10029498161117428,
+      0.053235899488306926
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "light switch",
+    "describe": "A white, rectangular light switch with a slightly curved top and a flat bottom, featuring a single toggle switch in the center.",
+    "class_id": 232,
+    "bbox_min": [
+      0.1182391533291951,
+      -1.7006787681023552,
+      -0.1718133792552493
+    ],
+    "bbox_max": [
+      0.43795881165692985,
+      -1.3269472017488084,
+      0.5408702857958815
+    ],
+    "bbox_center": [
+      0.2780989824930625,
+      -1.5138129849255817,
+      0.18452845327031608
+    ],
+    "bbox_size": [
+      0.31971965832773475,
+      0.37373156635354676,
+      0.7126836650511308
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "speaker",
+    "describe": "A tall, narrow, black floor-standing speaker with a rectangular silhouette and a flat front panel, featuring a minimalist design without visible controls or branding.",
+    "class_id": 118,
+    "bbox_min": [
+      -0.05277245100142048,
+      -3.881368376171945,
+      0.165426256114119
+    ],
+    "bbox_max": [
+      0.2899779123160466,
+      -3.4307586318178576,
+      0.9158275513259206
+    ],
+    "bbox_center": [
+      0.11860273065731305,
+      -3.6560635039949014,
+      0.5406269037200199
+    ],
+    "bbox_size": [
+      0.34275036331746705,
+      0.4506097443540873,
+      0.7504012952118017
+    ]
+  }
+]

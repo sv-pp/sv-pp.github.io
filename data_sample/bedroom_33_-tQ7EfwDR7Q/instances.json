@@ -1,0 +1,1900 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "alarm clock",
+    "describe": "A square-shaped, black alarm clock with a white face and black numerals. It features a single black hand indicating the time and a small, round, black knob on the top right corner.",
+    "class_id": 572,
+    "bbox_min": [
+      0.5699573146103452,
+      -4.24598624954896,
+      -0.8107598028917625
+    ],
+    "bbox_max": [
+      0.6083054404922343,
+      -4.090087560260888,
+      -0.6927402533760139
+    ],
+    "bbox_center": [
+      0.5891313775512897,
+      -4.168036904904924,
+      -0.7517500281338882
+    ],
+    "bbox_size": [
+      0.038348125881889183,
+      0.1558986892880725,
+      0.11801954951574867
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "clock",
+    "describe": "A rectangular wall clock with a white face and black Roman numerals. It has two black hands indicating the time, with the hour hand pointing towards the VIII (8) and the minute hand pointing at the II (2). The clock's frame appears to be of a dark color, possibly black or dark gray, with a simple, flat design.",
+    "class_id": 103,
+    "bbox_min": [
+      0.3396673993793865,
+      -4.139811805929589,
+      -0.8512550247757682
+    ],
+    "bbox_max": [
+      0.4903583634501416,
+      -4.092980969667973,
+      -0.7207257656376385
+    ],
+    "bbox_center": [
+      0.41501288141476406,
+      -4.1163963877987815,
+      -0.7859903952067033
+    ],
+    "bbox_size": [
+      0.1506909640707551,
+      0.04683083626161544,
+      0.13052925913812974
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "box",
+    "describe": "A brown cardboard box with visible flaps, one flap partially folded inward, and a visible barcode on one side.",
+    "class_id": 26,
+    "bbox_min": [
+      0.36378157250382737,
+      -4.357222892814003,
+      -0.44741264295762856
+    ],
+    "bbox_max": [
+      0.5998542949626511,
+      -4.159039972501632,
+      -0.27465114506508376
+    ],
+    "bbox_center": [
+      0.4818179337332392,
+      -4.258131432657818,
+      -0.36103189401135616
+    ],
+    "bbox_size": [
+      0.2360727224588237,
+      0.19818292031237128,
+      0.1727614978925448
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "table",
+    "describe": "A dark wooden table with a rectangular top, featuring a single visible drawer with a round knob on the right side. The table has four legs, each with a slight outward flare and a simple, straight design.",
+    "class_id": 4,
+    "bbox_min": [
+      0.14860749921721284,
+      -4.373607900375844,
+      -1.0722369513126437
+    ],
+    "bbox_max": [
+      0.6335874075039044,
+      -4.0351406514942845,
+      -0.438472506170981
+    ],
+    "bbox_center": [
+      0.3910974533605586,
+      -4.204374275935065,
+      -0.7553547287418123
+    ],
+    "bbox_size": [
+      0.4849799082866916,
+      0.33846724888155943,
+      0.6337644451416627
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "object",
+    "describe": "The carpet is a solid, light gray color with a smooth texture. It covers the entire visible floor area in the image.",
+    "class_id": 1163,
+    "bbox_min": [
+      -2.374869016428713,
+      -4.407295935355187,
+      -1.1064814355398254
+    ],
+    "bbox_max": [
+      2.113491999313385,
+      0.044333432444147634,
+      -0.6982823654255311
+    ],
+    "bbox_center": [
+      -0.1306885085576639,
+      -2.1814812514555193,
+      -0.9023819004826783
+    ],
+    "bbox_size": [
+      4.488361015742099,
+      4.451629367799335,
+      0.40819907011429424
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "rail",
+    "describe": "A wooden railing with vertical balusters evenly spaced along its length, connected by a horizontal handrail at the top. The railing is supported by a vertical post on the right side, which extends upwards to form a corner post. The wood appears to be finished with a warm, medium-toned stain.",
+    "class_id": 95,
+    "bbox_min": [
+      2.060560173689019,
+      -3.855581203902387,
+      -1.0941867680570474
+    ],
+    "bbox_max": [
+      3.08371019371528,
+      -2.7025609333567835,
+      0.05767412765416579
+    ],
+    "bbox_center": [
+      2.5721351837021498,
+      -3.279071068629585,
+      -0.5182563202014409
+    ],
+    "bbox_size": [
+      1.0231500200262613,
+      1.1530202705456034,
+      1.151860895711213
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "pillow",
+    "describe": "A navy blue square pillow with a visible white piping along the edges.",
+    "class_id": 13,
+    "bbox_min": [
+      -0.9622650134145335,
+      -3.819505641662731,
+      -0.4334319479777488
+    ],
+    "bbox_max": [
+      -0.5325046170191338,
+      -3.526311889011653,
+      -0.10391708837587972
+    ],
+    "bbox_center": [
+      -0.7473848152168336,
+      -3.672908765337192,
+      -0.26867451817681426
+    ],
+    "bbox_size": [
+      0.42976039639539976,
+      0.29319375265107794,
+      0.3295148596018691
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a smooth, taupe-colored fabric cover.",
+    "class_id": 13,
+    "bbox_min": [
+      -0.021603408349293463,
+      -4.237989257816418,
+      -0.4281192353240866
+    ],
+    "bbox_max": [
+      0.07376072070048209,
+      -3.8772378581422853,
+      -0.12340666126017438
+    ],
+    "bbox_center": [
+      0.026078656175594316,
+      -4.0576135579793515,
+      -0.2757629482921305
+    ],
+    "bbox_size": [
+      0.09536412904977555,
+      0.3607513996741325,
+      0.30471257406391217
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a visible front-facing grille covering the speaker components, and a brand logo centered on the grille.",
+    "class_id": 118,
+    "bbox_min": [
+      -2.199628780471429,
+      -3.0938675302415546,
+      -0.5585309444266504
+    ],
+    "bbox_max": [
+      -2.0106176132708344,
+      -2.742813190349137,
+      -0.35748232632312144
+    ],
+    "bbox_center": [
+      -2.1051231968711317,
+      -2.9183403602953457,
+      -0.45800663537488595
+    ],
+    "bbox_size": [
+      0.18901116720059452,
+      0.35105433989241774,
+      0.20104861810352898
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "curtain",
+    "describe": "A full-length, light gray curtain with a smooth texture and a slight sheen, featuring a series of vertical folds that create a pleated effect, and a hemmed bottom edge.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.3975376460982782,
+      -3.4642619388503344,
+      -0.6382090188483327
+    ],
+    "bbox_max": [
+      -2.0053810151889215,
+      -2.995151681245264,
+      1.035585726438106
+    ],
+    "bbox_center": [
+      -2.2014593306436,
+      -3.2297068100477992,
+      0.1986883537948867
+    ],
+    "bbox_size": [
+      0.3921566309093567,
+      0.4691102576050703,
+      1.6737947452864388
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a smooth, solid-colored, light beige fabric cover.",
+    "class_id": 13,
+    "bbox_min": [
+      -0.5923813430833179,
+      -4.103767491835894,
+      -0.4331471253500373
+    ],
+    "bbox_max": [
+      0.017593902064193406,
+      -3.663466757990077,
+      -0.0877671874831751
+    ],
+    "bbox_center": [
+      -0.28739372050956224,
+      -3.883617124912986,
+      -0.2604571564166062
+    ],
+    "bbox_size": [
+      0.6099752451475113,
+      0.44030073384581714,
+      0.3453799378668622
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "pillow",
+    "describe": "A royal blue square pillow with a visible textured pattern, featuring a flange seam around the edges.",
+    "class_id": 13,
+    "bbox_min": [
+      -0.556248404602683,
+      -3.8453368792941127,
+      -0.4372655201412247
+    ],
+    "bbox_max": [
+      -0.12244117536522854,
+      -3.5161604642967763,
+      -0.11569166820971982
+    ],
+    "bbox_center": [
+      -0.3393447899839558,
+      -3.6807486717954445,
+      -0.27647859417547227
+    ],
+    "bbox_size": [
+      0.43380722923745446,
+      0.3291764149973364,
+      0.3215738519315049
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "bed",
+    "describe": "A neatly made bed with a white fitted sheet and a white flat sheet folded over at the top. The bed is adorned with a single blue pillow and a white pillow at the head. The headboard is not visible.",
+    "class_id": 11,
+    "bbox_min": [
+      -1.438935949957361,
+      -4.3739752772270055,
+      -1.0704656248225137
+    ],
+    "bbox_max": [
+      0.3054523158571039,
+      -2.2979941435062656,
+      0.11580124785670445
+    ],
+    "bbox_center": [
+      -0.5667418170501286,
+      -3.3359847103666356,
+      -0.47733218848290465
+    ],
+    "bbox_size": [
+      1.744388265814465,
+      2.07598113372074,
+      1.1862668726792183
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "pipe",
+    "describe": "A horizontal, black, cylindrical pipe with a smooth surface and a consistent diameter throughout its visible length.",
+    "class_id": 107,
+    "bbox_min": [
+      -2.43271672436665,
+      -3.0412435410821277,
+      0.9448457555622227
+    ],
+    "bbox_max": [
+      -2.3310990205184194,
+      -1.7816413342029327,
+      1.0611413258630558
+    ],
+    "bbox_center": [
+      -2.3819078724425347,
+      -2.4114424376425303,
+      1.0029935407126391
+    ],
+    "bbox_size": [
+      0.10161770384823043,
+      1.259602206879195,
+      0.11629557030083304
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "bag",
+    "describe": "A dark-colored, textured handbag with a visible flap closure and a partial view of a strap, possibly made of leather or a leather-like material.",
+    "class_id": 47,
+    "bbox_min": [
+      0.44039629933274654,
+      -4.185777828638123,
+      -1.064690312926957
+    ],
+    "bbox_max": [
+      0.47460660590028336,
+      -4.1091852447099315,
+      -1.0117462414075515
+    ],
+    "bbox_center": [
+      0.457501452616515,
+      -4.147481536674027,
+      -1.0382182771672541
+    ],
+    "bbox_size": [
+      0.03421030656753682,
+      0.0765925839281918,
+      0.05294407151940539
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "bar",
+    "describe": "A horizontal black bar with a smooth, flat surface and rounded edges, extending across the width of the image.",
+    "class_id": 145,
+    "bbox_min": [
+      -2.3843245364875942,
+      -3.0171307403424756,
+      -0.5191509963196863
+    ],
+    "bbox_max": [
+      -2.068645842592532,
+      -1.859361807291417,
+      -0.2873859785768623
+    ],
+    "bbox_center": [
+      -2.226485189540063,
+      -2.4382462738169464,
+      -0.4032684874482743
+    ],
+    "bbox_size": [
+      0.3156786938950624,
+      1.1577689330510585,
+      0.231765017742824
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a visible front-facing grille covering the speaker components, and a control panel on the top with several buttons and possibly LED indicators.",
+    "class_id": 118,
+    "bbox_min": [
+      -2.1302773209613197,
+      -2.8084456982176524,
+      -0.5540012828630734
+    ],
+    "bbox_max": [
+      -1.9716490638963355,
+      -2.6722717676590557,
+      -0.43928743881539123
+    ],
+    "bbox_center": [
+      -2.050963192428828,
+      -2.740358732938354,
+      -0.4966443608392323
+    ],
+    "bbox_size": [
+      0.15862825706498418,
+      0.13617393055859672,
+      0.11471384404768215
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "door",
+    "describe": "A white, double-panel door with a raised, rectangular design on each door panel. The door on the left is slightly ajar, revealing a narrow gap between the two panels. Both doors have metallic hinges on the left side and a metallic handle on the right side of the right door.",
+    "class_id": 5,
+    "bbox_min": [
+      1.406394278548929,
+      -4.203374335264314,
+      -1.0815711736698055
+    ],
+    "bbox_max": [
+      1.8035078577474606,
+      -3.035210959822696,
+      1.0814843967239276
+    ],
+    "bbox_center": [
+      1.6049510681481949,
+      -3.619292647543505,
+      -4.338847293894332e-05
+    ],
+    "bbox_size": [
+      0.39711357919853163,
+      1.168163375441618,
+      2.163055570393733
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "door",
+    "describe": "A tall, narrow, cream-colored door featuring a raised panel design with three vertical panels and a visible metallic handle on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      -0.8204067706286853,
+      -0.17120776037148133,
+      -1.0708543264219332
+    ],
+    "bbox_max": [
+      -0.6117709232201384,
+      0.9665830638004798,
+      0.8694035467912482
+    ],
+    "bbox_center": [
+      -0.7160888469244118,
+      0.3976876517144992,
+      -0.10072538981534251
+    ],
+    "bbox_size": [
+      0.2086358474085469,
+      1.1377908241719612,
+      1.9402578732131814
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "door",
+    "describe": "A white, single-panel door with a raised, rectangular central panel and a recessed border. The door features a metallic, round doorknob located on the right side, slightly above the midpoint.",
+    "class_id": 5,
+    "bbox_min": [
+      0.7227385790665715,
+      -4.537317781609664,
+      -1.0657824145146793
+    ],
+    "bbox_max": [
+      1.8360378111011573,
+      -4.060886167860395,
+      0.9125900680301696
+    ],
+    "bbox_center": [
+      1.2793881950838644,
+      -4.299101974735029,
+      -0.07659617324225482
+    ],
+    "bbox_size": [
+      1.1132992320345858,
+      0.476431613749269,
+      1.9783724825448488
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "doorframe",
+    "describe": "A white door frame with a rectangular recessed panel design, featuring a vertical edge on the right side and a horizontal top edge, both with a smooth finish.",
+    "class_id": 161,
+    "bbox_min": [
+      -0.7103414049968741,
+      -0.33941382489763594,
+      -1.0961694418046564
+    ],
+    "bbox_max": [
+      0.08949736882165564,
+      0.06981015273375883,
+      0.9810730191050743
+    ],
+    "bbox_center": [
+      -0.3104220180876093,
+      -0.13480183608193855,
+      -0.057548211349791045
+    ],
+    "bbox_size": [
+      0.7998387738185297,
+      0.4092239776313948,
+      2.077242460909731
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "box",
+    "describe": "A dark brown, rectangular box with a slightly textured surface and a visible lid that appears to be closed. The box has a flat top and straight edges, with a slight overhang on the front edge.",
+    "class_id": 26,
+    "bbox_min": [
+      -2.379657372524983,
+      -2.7084174270910024,
+      -0.5821189663366679
+    ],
+    "bbox_max": [
+      -1.935188811643566,
+      -2.0806869355935596,
+      -0.3084580760727668
+    ],
+    "bbox_center": [
+      -2.1574230920842745,
+      -2.3945521813422808,
+      -0.4452885212047174
+    ],
+    "bbox_size": [
+      0.4444685608814172,
+      0.6277304914974429,
+      0.2736608902639011
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "shelf",
+    "describe": "A tall, narrow wooden cabinet with a vertical arrangement of multiple shelves, each delineated by thin horizontal dividers. The cabinet has a flat top and appears to be designed for storage purposes.",
+    "class_id": 8,
+    "bbox_min": [
+      2.3078618012740377,
+      -3.8769853393411413,
+      -0.22614362407973682
+    ],
+    "bbox_max": [
+      2.955130407169676,
+      -3.6895462917001756,
+      0.6245630274048352
+    ],
+    "bbox_center": [
+      2.6314961042218568,
+      -3.783265815520658,
+      0.19920970166254917
+    ],
+    "bbox_size": [
+      0.6472686058956381,
+      0.18743904764096575,
+      0.850706651484572
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "dresser",
+    "describe": "A dark brown wooden dresser with a smooth finish, featuring a flat top surface, a central drawer with a metallic handle, and two side compartments with recessed panel doors. The dresser has a sturdy base with a slight outward flare and stands on four short, square legs.",
+    "class_id": 36,
+    "bbox_min": [
+      -2.3795387140247803,
+      -3.1354294645946896,
+      -1.0596037270592686
+    ],
+    "bbox_max": [
+      -1.840523397999401,
+      -2.004392475868725,
+      -0.5073838524361203
+    ],
+    "bbox_center": [
+      -2.1100310560120907,
+      -2.5699109702317076,
+      -0.7834937897476945
+    ],
+    "bbox_size": [
+      0.5390153160253794,
+      1.1310369887259646,
+      0.5522198746231484
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "curtain",
+    "describe": "A full-length, taupe-colored curtain with a smooth texture and a slight sheen, featuring a series of vertical folds that create a rippling effect, and a hemmed bottom edge.",
+    "class_id": 21,
+    "bbox_min": [
+      -2.3815850453129785,
+      -2.014047730698411,
+      -1.05361506211308
+    ],
+    "bbox_max": [
+      -2.1802789994934844,
+      -1.330149541380674,
+      1.047103835266531
+    ],
+    "bbox_center": [
+      -2.2809320224032312,
+      -1.6720986360395425,
+      -0.003255613423274517
+    ],
+    "bbox_size": [
+      0.20130604581949418,
+      0.6838981893177367,
+      2.100718897379611
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "mirror",
+    "describe": "The wall is painted in a light beige color and features a smooth texture. It has a rectangular window with white trim on the left side, and a large, rectangular mirror with a white frame on the right side. The wall also includes a vertical, narrow, white trim piece running parallel to the mirror.",
+    "class_id": 71,
+    "bbox_min": [
+      -1.8844494235033775,
+      -0.28610736461793546,
+      -1.0899907543492457
+    ],
+    "bbox_max": [
+      0.9698945227278534,
+      2.5284792012973893,
+      1.2753377597317388
+    ],
+    "bbox_center": [
+      -0.4572774503877621,
+      1.121185918339727,
+      0.09267350269124652
+    ],
+    "bbox_size": [
+      2.8543439462312308,
+      2.8145865659153246,
+      2.3653285140809848
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "window",
+    "describe": "The wall is painted in a light beige color and features a smooth, flat surface. It extends vertically from the floor to the ceiling and horizontally across the room. The wall has a rectangular window with a blue frame on the right side, and a wooden headboard with a light brown finish is positioned against the wall.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.3723393945587268,
+      -4.551702907830005,
+      -1.0615542025483709
+    ],
+    "bbox_max": [
+      1.8438000194667503,
+      -0.11104185699708273,
+      1.2238593951667986
+    ],
+    "bbox_center": [
+      -0.26426968754598823,
+      -2.3313723824135435,
+      0.0811525963092139
+    ],
+    "bbox_size": [
+      4.216139414025477,
+      4.440661050832922,
+      2.2854135977151695
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "clock",
+    "describe": "A square-shaped wall clock with a black frame and a white face featuring black Roman numerals. The clock has two black hands indicating the time.",
+    "class_id": 103,
+    "bbox_min": [
+      -1.737713725178046,
+      -4.153092267962986,
+      -0.5114995816337755
+    ],
+    "bbox_max": [
+      -1.4856521393050792,
+      -3.7817992640217084,
+      -0.2814551649279255
+    ],
+    "bbox_center": [
+      -1.6116829322415627,
+      -3.9674457659923474,
+      -0.39647737328085053
+    ],
+    "bbox_size": [
+      0.2520615858729667,
+      0.3712930039412776,
+      0.23004441670585002
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a slightly angled top surface, featuring a visible front-facing grille covering the speaker components. The speaker has a sturdy base for support.",
+    "class_id": 118,
+    "bbox_min": [
+      0.2887445339497382,
+      -4.350117740058075,
+      -0.45190493342772525
+    ],
+    "bbox_max": [
+      0.38618522634108915,
+      -4.235251244594651,
+      -0.2860827936518125
+    ],
+    "bbox_center": [
+      0.33746488014541365,
+      -4.292684492326363,
+      -0.3689938635397689
+    ],
+    "bbox_size": [
+      0.09744069239135095,
+      0.1148664954634242,
+      0.16582213977591276
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a white or light-colored cover, featuring a visible seam along the edge, suggesting a piped design.",
+    "class_id": 13,
+    "bbox_min": [
+      -1.4737202036787935,
+      -4.074125669486249,
+      -0.4790599945400199
+    ],
+    "bbox_max": [
+      -0.5770637869670318,
+      -3.565908357211069,
+      -0.06298070416430106
+    ],
+    "bbox_center": [
+      -1.0253919953229127,
+      -3.820017013348659,
+      -0.27102034935216046
+    ],
+    "bbox_size": [
+      0.8966564167117618,
+      0.5082173122751801,
+      0.41607929037571884
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "blinds",
+    "describe": "A horizontal window blind with evenly spaced, thin, white slats. The blind is partially open, allowing light to filter through the gaps between the slats. The top of the blind is straight and aligned horizontally.",
+    "class_id": 86,
+    "bbox_min": [
+      -2.480963650594211,
+      -3.052514831784685,
+      0.23773737242363788
+    ],
+    "bbox_max": [
+      -2.307177720240839,
+      -1.7760371481337363,
+      0.98557760825424
+    ],
+    "bbox_center": [
+      -2.3940706854175247,
+      -2.4142759899592106,
+      0.6116574903389389
+    ],
+    "bbox_size": [
+      0.1737859303533722,
+      1.2764776836509488,
+      0.7478402358306021
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame, divided into two sections by a vertical bar. The upper section has horizontal blinds, while the lower section is clear.",
+    "class_id": 16,
+    "bbox_min": [
+      -2.5005454701695276,
+      -3.04697461996026,
+      -0.3778872336755357
+    ],
+    "bbox_max": [
+      -2.3241420853196844,
+      -1.7890391216230626,
+      0.47942267361248203
+    ],
+    "bbox_center": [
+      -2.412343777744606,
+      -2.418006870791661,
+      0.05076771996847315
+    ],
+    "bbox_size": [
+      0.1764033848498432,
+      1.2579354983371975,
+      0.8573099072880177
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "power outlet",
+    "describe": "A rectangular, single-gang electrical outlet with a two-prong plug inserted into the upper socket, featuring a grounding hole beneath the two vertical slots.",
+    "class_id": 242,
+    "bbox_min": [
+      -1.9119211887977086,
+      -0.7143223765650729,
+      -0.7002505763488273
+    ],
+    "bbox_max": [
+      -1.8957145912584157,
+      -0.6486973640288657,
+      -0.5920583048176407
+    ],
+    "bbox_center": [
+      -1.903817890028062,
+      -0.6815098702969693,
+      -0.646154440583234
+    ],
+    "bbox_size": [
+      0.016206597539292877,
+      0.06562501253620723,
+      0.1081922715311866
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "dresser",
+    "describe": "A wooden dresser with a rich, dark brown finish featuring a smooth, flat top surface and a slightly recessed panel design on the front. It has two visible drawers with round knobs, and the right side panel extends slightly beyond the top surface, showcasing a subtle, decorative trim.",
+    "class_id": 36,
+    "bbox_min": [
+      -1.7170125674553516,
+      -0.6908361222655497,
+      -1.04014911699707
+    ],
+    "bbox_max": [
+      -0.7551127139627062,
+      -0.15402496177908365,
+      -0.2447648270869064
+    ],
+    "bbox_center": [
+      -1.236062640709029,
+      -0.42243054202231667,
+      -0.6424569720419882
+    ],
+    "bbox_size": [
+      0.9618998534926454,
+      0.536811160486466,
+      0.7953842899101636
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "box",
+    "describe": "A rectangular brown box with a textured surface and visible flaps on the top, suggesting it is open or can be opened.",
+    "class_id": 26,
+    "bbox_min": [
+      -1.3930723282676851,
+      -0.42084042310834174,
+      -0.25082786473184343
+    ],
+    "bbox_max": [
+      -1.0252679264595999,
+      -0.26493867234650986,
+      -0.170274076854815
+    ],
+    "bbox_center": [
+      -1.2091701273636426,
+      -0.3428895477274258,
+      -0.2105509707933292
+    ],
+    "bbox_size": [
+      0.36780440180808527,
+      0.15590175076183188,
+      0.08055378787702844
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "box",
+    "describe": "A dark-colored, rectangular box with a slightly textured surface and rounded corners.",
+    "class_id": 26,
+    "bbox_min": [
+      -1.6601411529425725,
+      -0.43282867929499963,
+      -0.2558699536619555
+    ],
+    "bbox_max": [
+      -1.3633508020322274,
+      -0.21455903376509966,
+      -0.11718053415749614
+    ],
+    "bbox_center": [
+      -1.5117459774873998,
+      -0.3236938565300497,
+      -0.1865252439097258
+    ],
+    "bbox_size": [
+      0.2967903509103451,
+      0.21826964552989997,
+      0.13868941950445934
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "mirror",
+    "describe": "An oval-shaped mirror with a thin, dark frame, mounted on a curved, dark-toned stand with a flat base.",
+    "class_id": 71,
+    "bbox_min": [
+      -1.6665061680250812,
+      -0.3065395085300049,
+      -0.2516750748108062
+    ],
+    "bbox_max": [
+      -0.8453945194552435,
+      -0.13861637960247714,
+      0.5204758226971753
+    ],
+    "bbox_center": [
+      -1.2559503437401625,
+      -0.222577944066241,
+      0.13440037394318455
+    ],
+    "bbox_size": [
+      0.8211116485698378,
+      0.16792312892752775,
+      0.7721508975079815
+    ]
+  },
+  {
+    "instance_id": "40",
+    "class_name": "candle",
+    "describe": "A dark brown, ornate metal candle holder with intricate scrollwork and a curved handle, featuring a series of decorative elements that resemble leaves or petals, and a visible wick at the top.",
+    "class_id": 286,
+    "bbox_min": [
+      -1.0747537994472878,
+      -0.3577426043767251,
+      -0.25214472072075117
+    ],
+    "bbox_max": [
+      -0.9937879530374149,
+      -0.27803486532999205,
+      -0.20577046632157173
+    ],
+    "bbox_center": [
+      -1.0342708762423514,
+      -0.31788873485335856,
+      -0.22895759352116146
+    ],
+    "bbox_size": [
+      0.08096584640987292,
+      0.07970773904673306,
+      0.04637425439917944
+    ]
+  },
+  {
+    "instance_id": "41",
+    "class_name": "picture",
+    "describe": "The painting depicts a serene ocean scene with gentle waves in varying shades of blue and green, transitioning to lighter hues near the horizon. The water reflects the sky, creating a harmonious blend of colors. The brushwork suggests a calm, tranquil atmosphere.",
+    "class_id": 15,
+    "bbox_min": [
+      -1.7943686195983726,
+      2.068929187267394,
+      0.11270347188015238
+    ],
+    "bbox_max": [
+      -0.946813966485519,
+      2.3908201392611628,
+      0.7577807355602423
+    ],
+    "bbox_center": [
+      -1.3705912930419457,
+      2.2298746632642783,
+      0.43524210372019734
+    ],
+    "bbox_size": [
+      0.8475546531128536,
+      0.32189095199376894,
+      0.6450772636800899
+    ]
+  },
+  {
+    "instance_id": "42",
+    "class_name": "soap dispenser",
+    "describe": "A cylindrical, metallic soap dispenser with a reflective surface and a pump mechanism on top, featuring a narrow nozzle and a push-down actuator.",
+    "class_id": 100,
+    "bbox_min": [
+      -1.068267486663059,
+      2.1972066268872137,
+      -0.5302167460081021
+    ],
+    "bbox_max": [
+      -0.9186736386629087,
+      2.3673783291151858,
+      -0.3287057925828303
+    ],
+    "bbox_center": [
+      -0.9934705626629838,
+      2.2822924780011995,
+      -0.4294612692954662
+    ],
+    "bbox_size": [
+      0.1495938480001503,
+      0.17017170222797207,
+      0.2015109534252718
+    ]
+  },
+  {
+    "instance_id": "43",
+    "class_name": "window",
+    "describe": "A rectangular window with horizontal blinds, featuring evenly spaced slats that are partially open, allowing light to filter through. The window frame is white, and the blinds are also white, creating a uniform appearance.",
+    "class_id": 16,
+    "bbox_min": [
+      -0.7121458270740271,
+      2.484643119781111,
+      -0.09372807483339776
+    ],
+    "bbox_max": [
+      -0.024511438932782917,
+      2.517661853255751,
+      0.9865947565188805
+    ],
+    "bbox_center": [
+      -0.368328633003405,
+      2.501152486518431,
+      0.4464333408427414
+    ],
+    "bbox_size": [
+      0.6876343881412441,
+      0.033018733474639905,
+      1.0803228313522784
+    ]
+  },
+  {
+    "instance_id": "44",
+    "class_name": "bathtub",
+    "describe": "A rectangular, built-in bathtub with a smooth, beige surface and a flat rim running along the edge. The tub features a gently sloping backrest and a centered drain, with a visible overflow control positioned on the upper side.",
+    "class_id": 42,
+    "bbox_min": [
+      -0.9817914097579937,
+      0.6471995643839544,
+      -1.0712654084502164
+    ],
+    "bbox_max": [
+      -0.6512436656524391,
+      2.4374774216310224,
+      -0.36893904732426136
+    ],
+    "bbox_center": [
+      -0.8165175377052164,
+      1.5423384930074884,
+      -0.7201022278872389
+    ],
+    "bbox_size": [
+      0.33054774410555465,
+      1.7902778572470681,
+      0.7023263611259551
+    ]
+  },
+  {
+    "instance_id": "46",
+    "class_name": "box",
+    "describe": "A dark brown, rectangular box with a slightly textured surface and rounded corners.",
+    "class_id": 26,
+    "bbox_min": [
+      -0.9886695911834623,
+      -0.3569398120592929,
+      -0.25660903565476795
+    ],
+    "bbox_max": [
+      -0.8314371550167737,
+      -0.18345646615984146,
+      -0.21617442303359957
+    ],
+    "bbox_center": [
+      -0.910053373100118,
+      -0.2701981391095672,
+      -0.23639172934418376
+    ],
+    "bbox_size": [
+      0.15723243616668858,
+      0.17348334589945147,
+      0.040434612621168375
+    ]
+  },
+  {
+    "instance_id": "47",
+    "class_name": "vent",
+    "describe": "A linear, horizontal vent with a series of evenly spaced, vertical slats, finished in a metallic tone.",
+    "class_id": 408,
+    "bbox_min": [
+      -0.5219153487725918,
+      2.256107692934604,
+      -1.0684931911767903
+    ],
+    "bbox_max": [
+      -0.2673497412843537,
+      2.395644177361943,
+      -1.0599797604914067
+    ],
+    "bbox_center": [
+      -0.3946325450284728,
+      2.3258759351482734,
+      -1.0642364758340985
+    ],
+    "bbox_size": [
+      0.25456560748823814,
+      0.1395364844273388,
+      0.008513430685383572
+    ]
+  },
+  {
+    "instance_id": "48",
+    "class_name": "bathtub",
+    "describe": "A white, rectangular, built-in bathtub with a smooth, curved basin and a flat rim running along the length on one side.",
+    "class_id": 42,
+    "bbox_min": [
+      -1.8293386731066,
+      0.9510544243468663,
+      -0.90891376588509
+    ],
+    "bbox_max": [
+      -0.8603052690497037,
+      2.3583433922100485,
+      -0.5090932104746319
+    ],
+    "bbox_center": [
+      -1.3448219710781517,
+      1.6546989082784573,
+      -0.7090034881798609
+    ],
+    "bbox_size": [
+      0.9690334040568962,
+      1.4072889678631824,
+      0.39982055541045813
+    ]
+  },
+  {
+    "instance_id": "49",
+    "class_name": "bathroom vanity",
+    "describe": "A beige countertop with a smooth, slightly reflective surface, featuring a rounded front edge and a flat back edge. The countertop is integrated into a bathroom vanity with a white basin and a silver faucet mounted on the front. The vanity has a white cabinet with a single visible door, adorned with two round, silver knobs.",
+    "class_id": 1164,
+    "bbox_min": [
+      -0.09571090693309793,
+      -0.029351787298937712,
+      -1.100632964978218
+    ],
+    "bbox_max": [
+      0.7158977687345831,
+      1.6128375829052373,
+      -0.11238350828424243
+    ],
+    "bbox_center": [
+      0.3100934309007426,
+      0.7917428978031498,
+      -0.6065082366312302
+    ],
+    "bbox_size": [
+      0.811608675667681,
+      1.642189370204175,
+      0.9882494566939757
+    ]
+  },
+  {
+    "instance_id": "50",
+    "class_name": "toilet",
+    "describe": "A beige toilet with a closed lid and a visible tank, featuring a flush handle on the left side.",
+    "class_id": 17,
+    "bbox_min": [
+      -0.08722537260774857,
+      1.7675851580596675,
+      -1.0638864121448874
+    ],
+    "bbox_max": [
+      0.3475077017178668,
+      2.2359568615122285,
+      -0.5550778659458762
+    ],
+    "bbox_center": [
+      0.13014116455505914,
+      2.001771009785948,
+      -0.8094821390453818
+    ],
+    "bbox_size": [
+      0.43473307432561537,
+      0.46837170345256096,
+      0.5088085461990113
+    ]
+  },
+  {
+    "instance_id": "51",
+    "class_name": "doorframe",
+    "describe": "A vertical, narrow, beige-colored door frame with a smooth surface and a slightly darker beige border running along the edges.",
+    "class_id": 161,
+    "bbox_min": [
+      -0.01885975053528285,
+      -0.4188345243873833,
+      -1.0897427749747113
+    ],
+    "bbox_max": [
+      0.11300374703274574,
+      -0.00457719440764811,
+      0.7860494869286683
+    ],
+    "bbox_center": [
+      0.04707199824873144,
+      -0.21170585939751568,
+      -0.1518466440230215
+    ],
+    "bbox_size": [
+      0.1318634975680286,
+      0.4142573299797352,
+      1.8757922619033796
+    ]
+  },
+  {
+    "instance_id": "52",
+    "class_name": "mirror",
+    "describe": "A rectangular mirror with a thick, ornate frame featuring intricate carvings and a distressed finish, giving it an antique appearance.",
+    "class_id": 71,
+    "bbox_min": [
+      0.5101675766281604,
+      1.809155748993778,
+      -0.03487371605485401
+    ],
+    "bbox_max": [
+      0.6467114176713755,
+      2.3171889505711336,
+      0.4315030083730252
+    ],
+    "bbox_center": [
+      0.578439497149768,
+      2.0631723497824557,
+      0.1983146461590856
+    ],
+    "bbox_size": [
+      0.13654384104321515,
+      0.5080332015773557,
+      0.4663767244278792
+    ]
+  },
+  {
+    "instance_id": "53",
+    "class_name": "towel",
+    "describe": "A brown bath towel with a textured pattern, featuring a darker brown border along one edge.",
+    "class_id": 31,
+    "bbox_min": [
+      0.20019718530213895,
+      1.3103968071151184,
+      -0.2845160580632779
+    ],
+    "bbox_max": [
+      0.37505186030980847,
+      1.4253333997708328,
+      -0.24438298741143105
+    ],
+    "bbox_center": [
+      0.2876245228059737,
+      1.3678651034429756,
+      -0.26444952273735445
+    ],
+    "bbox_size": [
+      0.17485467500766952,
+      0.11493659265571443,
+      0.04013307065184685
+    ]
+  },
+  {
+    "instance_id": "54",
+    "class_name": "sink",
+    "describe": "An oval-shaped, drop-in bathroom sink with a flat rim, featuring a pre-drilled faucet hole on the right side and an overflow hole opposite the faucet. The basin has a smooth, glossy finish and a slightly recessed soap dish area on the right.",
+    "class_id": 14,
+    "bbox_min": [
+      0.16061548343521004,
+      0.4805283934800321,
+      -0.3806798255846729
+    ],
+    "bbox_max": [
+      0.5916834326341701,
+      1.031613094746701,
+      -0.2583237248803439
+    ],
+    "bbox_center": [
+      0.3761494580346901,
+      0.7560707441133666,
+      -0.3195017752325084
+    ],
+    "bbox_size": [
+      0.4310679491989601,
+      0.5510847012666689,
+      0.12235610070432901
+    ]
+  },
+  {
+    "instance_id": "55",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow wooden cabinet with a dark finish, featuring a single visible door with a vertical handle on the right side. The door has a raised panel design with a beveled edge, and the cabinet appears to have a flat top and a base with a slight overhang.",
+    "class_id": 7,
+    "bbox_min": [
+      0.5070847781202171,
+      1.9249687676892482,
+      0.28635151715027046
+    ],
+    "bbox_max": [
+      0.6399597067826001,
+      2.267010551105393,
+      0.705896461801992
+    ],
+    "bbox_center": [
+      0.5735222424514086,
+      2.0959896593973206,
+      0.49612398947613123
+    ],
+    "bbox_size": [
+      0.13287492866238293,
+      0.34204178341614466,
+      0.4195449446517215
+    ]
+  },
+  {
+    "instance_id": "56",
+    "class_name": "mirror",
+    "describe": "Rectangular wall-mounted mirror with a visible beveled edge, positioned above a bathroom vanity.",
+    "class_id": 71,
+    "bbox_min": [
+      0.8755280250475004,
+      -0.84970016559406,
+      -0.36268559128987493
+    ],
+    "bbox_max": [
+      1.6020760803676979,
+      1.5624881631811964,
+      1.3751485606533902
+    ],
+    "bbox_center": [
+      1.2388020527075991,
+      0.3563939987935682,
+      0.5062314846817576
+    ],
+    "bbox_size": [
+      0.7265480553201975,
+      2.4121883287752564,
+      1.7378341519432652
+    ]
+  },
+  {
+    "instance_id": "57",
+    "class_name": "mirror",
+    "describe": "Rectangular wall-mounted mirror with a visible reflection of a window and a painting.",
+    "class_id": 71,
+    "bbox_min": [
+      0.6789032365267179,
+      0.9658478878259124,
+      -0.18834426736927137
+    ],
+    "bbox_max": [
+      1.5349061848315166,
+      1.7544075193173716,
+      0.9711653510423052
+    ],
+    "bbox_center": [
+      1.1069047106791172,
+      1.360127703571642,
+      0.3914105418365169
+    ],
+    "bbox_size": [
+      0.8560029483047987,
+      0.7885596314914592,
+      1.1595096184115765
+    ]
+  },
+  {
+    "instance_id": "58",
+    "class_name": "sink",
+    "describe": "Chrome single-handle bathroom faucet with a high-arc spout and a lever-style handle mounted on the right side.",
+    "class_id": 14,
+    "bbox_min": [
+      0.47558026012392424,
+      0.5750022010940652,
+      -0.2744414341125453
+    ],
+    "bbox_max": [
+      0.6021110233957825,
+      0.859607675304738,
+      -0.17464992575398292
+    ],
+    "bbox_center": [
+      0.5388456417598534,
+      0.7173049381994017,
+      -0.2245456799332641
+    ],
+    "bbox_size": [
+      0.12653076327185825,
+      0.28460547421067284,
+      0.09979150835856238
+    ]
+  },
+  {
+    "instance_id": "59",
+    "class_name": "bottle",
+    "describe": "A cylindrical, transparent glass bottle with a narrow neck and a metal screw cap. The body of the bottle features a textured pattern, possibly embossed, and the cap has a smooth, reflective surface.",
+    "class_id": 65,
+    "bbox_min": [
+      0.5298610344276449,
+      1.9027376120631356,
+      -0.023556262418762738
+    ],
+    "bbox_max": [
+      0.5656592165878671,
+      2.037222664786992,
+      0.0703835588513435
+    ],
+    "bbox_center": [
+      0.547760125507756,
+      1.969980138425064,
+      0.023413648216290377
+    ],
+    "bbox_size": [
+      0.035798182160222236,
+      0.13448505272385636,
+      0.09393982127010624
+    ]
+  },
+  {
+    "instance_id": "60",
+    "class_name": "tissue box",
+    "describe": "A rectangular, purple tissue box with a visible white tissue partially protruding from the top.",
+    "class_id": 230,
+    "bbox_min": [
+      0.3956494029809465,
+      0.005469552977061538,
+      -0.2914035294780863
+    ],
+    "bbox_max": [
+      0.6236566200358467,
+      0.1950424552512826,
+      -0.18637080443495646
+    ],
+    "bbox_center": [
+      0.5096530115083966,
+      0.10025600411417207,
+      -0.23888716695652137
+    ],
+    "bbox_size": [
+      0.22800721705490018,
+      0.18957290227422108,
+      0.10503272504312983
+    ]
+  },
+  {
+    "instance_id": "61",
+    "class_name": "towel",
+    "describe": "A brown bath towel with a visible textured pattern, featuring a folded edge with a darker brown border.",
+    "class_id": 31,
+    "bbox_min": [
+      0.21215065681280312,
+      1.348393391354947,
+      -0.2780956197489127
+    ],
+    "bbox_max": [
+      0.5915655131103918,
+      1.5294269913461638,
+      -0.23474670844065207
+    ],
+    "bbox_center": [
+      0.4018580849615975,
+      1.4389101913505553,
+      -0.2564211640947824
+    ],
+    "bbox_size": [
+      0.37941485629758875,
+      0.1810335999912167,
+      0.04334891130826066
+    ]
+  },
+  {
+    "instance_id": "62",
+    "class_name": "plant",
+    "describe": "A tall, slender plant with long, narrow green leaves that fan outwards from a central point, creating a spiky appearance. The leaves are arranged in a dense, bushy cluster at the top, with some leaves extending outward and slightly downward.",
+    "class_id": 40,
+    "bbox_min": [
+      -1.8579041235095637,
+      2.185815833139968,
+      -0.5293597444915114
+    ],
+    "bbox_max": [
+      -1.6507705096044767,
+      2.3492016204275044,
+      0.05022531127270532
+    ],
+    "bbox_center": [
+      -1.7543373165570202,
+      2.267508726783736,
+      -0.23956721660940303
+    ],
+    "bbox_size": [
+      0.207133613905087,
+      0.1633857872875364,
+      0.5795850557642167
+    ]
+  },
+  {
+    "instance_id": "63",
+    "class_name": "window",
+    "describe": "A rectangular window with horizontal white blinds, partially open, allowing light to filter through. The blinds are evenly spaced and cover the entire window.",
+    "class_id": 16,
+    "bbox_min": [
+      -1.902564902715865,
+      1.0839502554852636,
+      -0.3818640089133225
+    ],
+    "bbox_max": [
+      -1.8131259526197876,
+      2.2747241981630735,
+      0.40580816467604014
+    ],
+    "bbox_center": [
+      -1.8578454276678262,
+      1.6793372268241686,
+      0.011972077881358817
+    ],
+    "bbox_size": [
+      0.0894389500960775,
+      1.19077394267781,
+      0.7876721735893626
+    ]
+  },
+  {
+    "instance_id": "64",
+    "class_name": "handle",
+    "describe": "A sleek, elongated, dark-colored handle with a smooth, slightly curved surface and rounded edges, tapering slightly towards one end.",
+    "class_id": -1,
+    "bbox_min": [
+      -1.308399142702893,
+      1.072332912679801,
+      -0.7261124287178062
+    ],
+    "bbox_max": [
+      -0.9547496231748074,
+      1.1834017027283643,
+      -0.5536949771350137
+    ],
+    "bbox_center": [
+      -1.13157438293885,
+      1.1278673077040826,
+      -0.63990370292641
+    ],
+    "bbox_size": [
+      0.35364951952808554,
+      0.1110687900485634,
+      0.17241745158279254
+    ]
+  },
+  {
+    "instance_id": "65",
+    "class_name": "sink",
+    "describe": "Chrome-finished, single-handle faucet with a high-arc spout and a lever-style handle mounted on the right side.",
+    "class_id": 14,
+    "bbox_min": [
+      -1.1008700708425028,
+      0.9608163029178378,
+      -0.5880760664327138
+    ],
+    "bbox_max": [
+      -1.011672449333137,
+      1.0662401576257827,
+      -0.5267777608634285
+    ],
+    "bbox_center": [
+      -1.05627126008782,
+      1.0135282302718103,
+      -0.5574269136480712
+    ],
+    "bbox_size": [
+      0.08919762150936572,
+      0.10542385470794491,
+      0.06129830556928528
+    ]
+  },
+  {
+    "instance_id": "67",
+    "class_name": "doorframe",
+    "describe": "A dark brown, vertical wooden door frame with a visible metal hinge on the right side.",
+    "class_id": 161,
+    "bbox_min": [
+      -0.7736522600749407,
+      0.5768721281528694,
+      -0.6110881090036676
+    ],
+    "bbox_max": [
+      -0.6959819318152787,
+      0.8628609134466473,
+      0.43383946708398424
+    ],
+    "bbox_center": [
+      -0.7348170959451097,
+      0.7198665207997583,
+      -0.08862432095984168
+    ],
+    "bbox_size": [
+      0.07767032825966202,
+      0.2859887852937779,
+      1.0449275760876517
+    ]
+  },
+  {
+    "instance_id": "68",
+    "class_name": "vent",
+    "describe": "A dark brown, rectangular vent with a series of horizontal slats and a slightly protruding frame on the left side.",
+    "class_id": 408,
+    "bbox_min": [
+      -0.750327524908256,
+      0.6540587435585009,
+      -0.8599075941651266
+    ],
+    "bbox_max": [
+      -0.6756590244539967,
+      0.8861934078657917,
+      -0.5209580048143259
+    ],
+    "bbox_center": [
+      -0.7129932746811264,
+      0.7701260757121463,
+      -0.6904327994897262
+    ],
+    "bbox_size": [
+      0.07466850045425932,
+      0.2321346643072908,
+      0.3389495893508008
+    ]
+  },
+  {
+    "instance_id": "69",
+    "class_name": "power outlet",
+    "describe": "A dual electrical outlet with two vertical receptacles, each consisting of two parallel slots above a round grounding hole, mounted on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      0.0783164971630695,
+      -0.02780248033742086,
+      0.04162657499628928
+    ],
+    "bbox_max": [
+      0.23587222231957944,
+      -0.013798455640881528,
+      0.1688398951624703
+    ],
+    "bbox_center": [
+      0.15709435974132446,
+      -0.020800467989151195,
+      0.10523323507937979
+    ],
+    "bbox_size": [
+      0.15755572515650995,
+      0.014004024696539332,
+      0.12721332016618103
+    ]
+  },
+  {
+    "instance_id": "70",
+    "class_name": "tissue",
+    "describe": "A rectangular, beige-colored tissue with a slightly textured surface and soft, uneven edges.",
+    "class_id": -1,
+    "bbox_min": [
+      0.477733162369378,
+      -0.02539292564144737,
+      -0.19160581899595908
+    ],
+    "bbox_max": [
+      0.6497799644911271,
+      0.11411329374249543,
+      -0.14573129740401805
+    ],
+    "bbox_center": [
+      0.5637565634302526,
+      0.044360184050524026,
+      -0.16866855819998855
+    ],
+    "bbox_size": [
+      0.17204680212174905,
+      0.1395062193839428,
+      0.045874521591941025
+    ]
+  },
+  {
+    "instance_id": "71",
+    "class_name": "lamp",
+    "describe": "A modern pendant lamp featuring a cylindrical white shade with a smooth finish, suspended from a sleek, metallic rod with a circular ceiling mount.",
+    "class_id": 28,
+    "bbox_min": [
+      -0.3436983310323015,
+      -2.3136840909565968,
+      0.9544716624710401
+    ],
+    "bbox_max": [
+      0.0484416069274606,
+      -2.1512313141893395,
+      1.2163338703932474
+    ],
+    "bbox_center": [
+      -0.14762836205242047,
+      -2.232457702572968,
+      1.0854027664321437
+    ],
+    "bbox_size": [
+      0.3921399379597621,
+      0.16245277676725722,
+      0.26186220792220727
+    ]
+  },
+  {
+    "instance_id": "72",
+    "class_name": "light switch",
+    "describe": "A beige, rectangular light switch with a slightly curved top and a flat bottom, featuring a single toggle switch in the center.",
+    "class_id": 232,
+    "bbox_min": [
+      0.3833054879978616,
+      -0.03435573976712953,
+      -0.09878438905968628
+    ],
+    "bbox_max": [
+      0.455061365657992,
+      -0.02819718612029143,
+      0.013440094137151068
+    ],
+    "bbox_center": [
+      0.4191834268279268,
+      -0.031276462943710476,
+      -0.04267214746126761
+    ],
+    "bbox_size": [
+      0.07175587766013036,
+      0.006158553646838101,
+      0.11222448319683735
+    ]
+  },
+  {
+    "instance_id": "73",
+    "class_name": "lamp",
+    "describe": "A modern, sleek, white ceiling lamp with a streamlined, elongated design and a flat, circular light diffuser.",
+    "class_id": 28,
+    "bbox_min": [
+      0.6115263220235455,
+      -0.08219548998465252,
+      0.9508595457068532
+    ],
+    "bbox_max": [
+      1.1387200210460486,
+      0.4572519029170778,
+      1.179968207122846
+    ],
+    "bbox_center": [
+      0.8751231715347971,
+      0.18752820646621263,
+      1.0654138764148495
+    ],
+    "bbox_size": [
+      0.5271936990225031,
+      0.5394473929017303,
+      0.22910866141599273
+    ]
+  },
+  {
+    "instance_id": "74",
+    "class_name": "vent",
+    "describe": "A rectangular vent with a series of vertical slats, framed by a thicker border, and a protruding lip at the top edge.",
+    "class_id": 408,
+    "bbox_min": [
+      1.4445139551475092,
+      -4.2686487562710065,
+      0.47464635227512897
+    ],
+    "bbox_max": [
+      1.7501324351321217,
+      -3.845517189541752,
+      0.9889745773107634
+    ],
+    "bbox_center": [
+      1.5973231951398155,
+      -4.057082972906379,
+      0.7318104647929462
+    ],
+    "bbox_size": [
+      0.30561847998461245,
+      0.42313156672925434,
+      0.5143282250356345
+    ]
+  },
+  {
+    "instance_id": "75",
+    "class_name": "table",
+    "describe": "A dark brown wooden table with a smooth surface and rounded edges, featuring a visible leg that tapers slightly towards the bottom.",
+    "class_id": 4,
+    "bbox_min": [
+      1.9735653353337776,
+      -3.9677890733256747,
+      -0.8513079143741683
+    ],
+    "bbox_max": [
+      2.3070316140448592,
+      -3.7950957724003285,
+      -0.21680404414349572
+    ],
+    "bbox_center": [
+      2.1402984746893186,
+      -3.8814424228630013,
+      -0.534055979258832
+    ],
+    "bbox_size": [
+      0.3334662787110816,
+      0.17269330092534618,
+      0.6345038702306726
+    ]
+  },
+  {
+    "instance_id": "76",
+    "class_name": "plant",
+    "describe": "A lush bouquet of dark purple flowers with broad, rounded petals, possibly hydrangeas or similar large-petaled blooms, arranged in a classic, upright style with a visible green stem.",
+    "class_id": 40,
+    "bbox_min": [
+      1.7349078316932631,
+      -3.1772016905246967,
+      -0.07849843051964189
+    ],
+    "bbox_max": [
+      1.7789835527072824,
+      -3.089511792057946,
+      -0.003603214819945227
+    ],
+    "bbox_center": [
+      1.7569456922002726,
+      -3.1333567412913212,
+      -0.04105082266979356
+    ],
+    "bbox_size": [
+      0.04407572101401924,
+      0.0876898984667509,
+      0.07489521569969666
+    ]
+  },
+  {
+    "instance_id": "77",
+    "class_name": "picture",
+    "describe": "The painting depicts a dark, shadowy figure with indistinct features, set against a deep, rich brown background. The figure's form is elongated and appears to be in a state of motion, with a suggestion of a cloak or garment that blends into the surrounding darkness. The overall tone of the painting is somber and mysterious, with a focus on the interplay of light and shadow.",
+    "class_id": 15,
+    "bbox_min": [
+      1.7183739731658658,
+      -3.1839808491092483,
+      0.04390947441146334
+    ],
+    "bbox_max": [
+      1.739499197788307,
+      -3.071813095549018,
+      0.3378692058178136
+    ],
+    "bbox_center": [
+      1.7289365854770864,
+      -3.1278969723291334,
+      0.19088934011463848
+    ],
+    "bbox_size": [
+      0.021125224622441152,
+      0.11216775356023012,
+      0.29395973140635023
+    ]
+  }
+]

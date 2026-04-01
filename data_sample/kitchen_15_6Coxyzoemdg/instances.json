@@ -1,0 +1,730 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "refrigerator",
+    "describe": "A tall, black refrigerator with a smooth finish, featuring a vertical handle on the right side, which is metallic and cylindrical.",
+    "class_id": 27,
+    "bbox_min": [
+      0.7964304866681082,
+      0.8817757124684987,
+      -1.225766370515403
+    ],
+    "bbox_max": [
+      2.0416311300762624,
+      2.0605594350032406,
+      0.8942735865916563
+    ],
+    "bbox_center": [
+      1.4190308083721854,
+      1.4711675737358696,
+      -0.1657463919618733
+    ],
+    "bbox_size": [
+      1.2452006434081542,
+      1.178783722534742,
+      2.120039957107059
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "blinds",
+    "describe": "A horizontal window blind with evenly spaced, thin, white slats. The blind is partially open, allowing light to filter through the gaps between the slats. The top of the blind is covered by a dark, solid panel that runs the entire length.",
+    "class_id": 86,
+    "bbox_min": [
+      1.8451120809610528,
+      -1.6408061318968663,
+      0.39383644603559487
+    ],
+    "bbox_max": [
+      2.48895126254142,
+      -1.604854323740887,
+      0.6875242118278697
+    ],
+    "bbox_center": [
+      2.1670316717512366,
+      -1.6228302278188766,
+      0.5406803289317323
+    ],
+    "bbox_size": [
+      0.643839181580367,
+      0.035951808155979315,
+      0.29368776579227485
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "sink",
+    "describe": "The faucet features a high-arc spout with a reflective chrome finish, a single lever handle mounted on the right side for temperature and flow control, and a pull-down spray head with an integrated button for toggling spray modes.",
+    "class_id": 14,
+    "bbox_min": [
+      1.9599955336652688,
+      -1.6107507039928233,
+      -0.35184644056781506
+    ],
+    "bbox_max": [
+      2.147681084965098,
+      -1.3733190177670198,
+      -0.00321724418070394
+    ],
+    "bbox_center": [
+      2.0538383093151835,
+      -1.4920348608799214,
+      -0.1775318423742595
+    ],
+    "bbox_size": [
+      0.18768555129982922,
+      0.23743168622580346,
+      0.3486291963871111
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "stove",
+    "describe": "Stainless steel freestanding gas range with a black cooktop featuring multiple burners and control knobs located at the front. Below the cooktop, there is a large oven with a see-through glass door and a handle across the top. The oven has a storage drawer at the bottom with a recessed handle.",
+    "class_id": 62,
+    "bbox_min": [
+      2.704935876573905,
+      -0.40314554250576723,
+      -1.1789214876786098
+    ],
+    "bbox_max": [
+      3.0736868705595475,
+      0.40212409861292386,
+      -0.33236928155427325
+    ],
+    "bbox_center": [
+      2.889311373566726,
+      -0.0005107219464216828,
+      -0.7556453846164415
+    ],
+    "bbox_size": [
+      0.3687509939856426,
+      0.805269641118691,
+      0.8465522061243366
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "curtain",
+    "describe": "A floor-length curtain with a gradient color scheme transitioning from a darker shade at the top to a lighter shade at the bottom, featuring a subtle, vertical striped pattern throughout. The curtain is gathered at regular intervals, creating a pleated effect, and is hung from a curtain rod with visible rings or hooks at the top.",
+    "class_id": 21,
+    "bbox_min": [
+      0.3670912329104801,
+      -1.638369205310052,
+      -1.2054141982366002
+    ],
+    "bbox_max": [
+      0.778786278050078,
+      -1.3508908202509184,
+      0.8294250380346033
+    ],
+    "bbox_center": [
+      0.5729387554802791,
+      -1.4946300127804852,
+      -0.18799458010099845
+    ],
+    "bbox_size": [
+      0.4116950451395979,
+      0.2874783850591336,
+      2.0348392362712033
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "coffee maker",
+    "describe": "A modern coffee maker with a sleek black design featuring a prominent control panel with multiple buttons and a digital display. The machine has a prominent coffee dispensing area with a drip tray and a warming plate beneath it. The top part of the coffee maker has a lid with a handle for easy opening.",
+    "class_id": 134,
+    "bbox_min": [
+      0.803877507089173,
+      -1.6358936049903638,
+      -0.35091851168672367
+    ],
+    "bbox_max": [
+      0.8942802461763628,
+      -1.5914865313359488,
+      -0.21650209585856375
+    ],
+    "bbox_center": [
+      0.8490788766327679,
+      -1.6136900681631563,
+      -0.2837103037726437
+    ],
+    "bbox_size": [
+      0.09040273908718977,
+      0.0444070736544151,
+      0.1344164158281599
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "kitchen cabinet",
+    "describe": "A long, dark-colored kitchen cabinet with a smooth finish, featuring a series of vertical handles on the doors, which are evenly spaced and aligned horizontally. The cabinet has a consistent height and extends across the width of the image, with a slight curvature at the top edge, suggesting a corner installation.",
+    "class_id": 29,
+    "bbox_min": [
+      1.982051917741251,
+      -1.628494084257808,
+      -0.12361004613196627
+    ],
+    "bbox_max": [
+      3.2423325889475545,
+      1.412360231339129,
+      0.864972697658455
+    ],
+    "bbox_center": [
+      2.6121922533444026,
+      -0.10806692645933946,
+      0.37068132576324436
+    ],
+    "bbox_size": [
+      1.2602806712063035,
+      3.040854315596937,
+      0.9885827437904212
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "microwave",
+    "describe": "Stainless steel microwave oven with a black glass door and a control panel on the right side featuring a digital display and multiple buttons for various cooking functions.",
+    "class_id": 59,
+    "bbox_min": [
+      3.0219407740866573,
+      -0.362074720199404,
+      0.02569315921340957
+    ],
+    "bbox_max": [
+      3.2024957555929205,
+      0.38636158373629925,
+      0.44573005632153206
+    ],
+    "bbox_center": [
+      3.1122182648397887,
+      0.012143431768447621,
+      0.23571160776747083
+    ],
+    "bbox_size": [
+      0.18055498150626326,
+      0.7484363039357033,
+      0.4200368971081225
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "paper towel roll",
+    "describe": "A cylindrical, white paper towel roll with a hollow core, displaying a textured pattern on its surface.",
+    "class_id": 138,
+    "bbox_min": [
+      0.7187627992027795,
+      -1.531026809572395,
+      -1.199530655738315
+    ],
+    "bbox_max": [
+      0.8023257436166,
+      -1.4173788301851735,
+      -0.8448103636617674
+    ],
+    "bbox_center": [
+      0.7605442714096897,
+      -1.4742028198787842,
+      -1.0221705097000413
+    ],
+    "bbox_size": [
+      0.0835629444138205,
+      0.11364797938722138,
+      0.35472029207654754
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "kitchen cabinet",
+    "describe": "A modern kitchen featuring a dark wood finish with a speckled granite countertop. The kitchen is equipped with stainless steel appliances, including a double oven, a stove, and a dishwasher. There are two sets of drawers on the left side, each with two drawers, and a set of double doors on the right side. The drawers and doors have sleek, horizontal metal handles.",
+    "class_id": 29,
+    "bbox_min": [
+      0.7658056241536799,
+      -1.6322809006410322,
+      -1.2051912225028731
+    ],
+    "bbox_max": [
+      3.2309718188540404,
+      1.4230216648025011,
+      -0.17873932196020023
+    ],
+    "bbox_center": [
+      1.99838872150386,
+      -0.1046296179192655,
+      -0.6919652722315367
+    ],
+    "bbox_size": [
+      2.4651661947003607,
+      3.055302565443533,
+      1.0264519005426729
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "lamp",
+    "describe": "A modern, multi-arm ceiling lamp with a central, ornate, dark-toned fixture from which five curved arms extend, each arm culminating in a downward-facing, frosted glass shade.",
+    "class_id": 28,
+    "bbox_min": [
+      1.810773015607489,
+      -0.4144623834110066,
+      0.8380597913762731
+    ],
+    "bbox_max": [
+      2.1293044825012744,
+      0.4524503395320059,
+      1.0658044296408207
+    ],
+    "bbox_center": [
+      1.9700387490543818,
+      0.018993978060499656,
+      0.9519321105085469
+    ],
+    "bbox_size": [
+      0.3185314668937853,
+      0.8669127229430125,
+      0.2277446382645476
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "dishwasher",
+    "describe": "Stainless steel dishwasher with a reflective finish, featuring a flat control panel on the top edge with visible buttons and indicator lights. The front panel is smooth with no visible handles or branding.",
+    "class_id": 136,
+    "bbox_min": [
+      1.15496527653419,
+      -1.0773880149961412,
+      -1.180232463034265
+    ],
+    "bbox_max": [
+      1.764321529684141,
+      -0.9949028000013279,
+      -0.379802334098186
+    ],
+    "bbox_center": [
+      1.4596434031091654,
+      -1.0361454074987346,
+      -0.7800173985662255
+    ],
+    "bbox_size": [
+      0.609356253149951,
+      0.08248521499481332,
+      0.8004301289360791
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "cabinet",
+    "describe": "A black, wall-mounted cabinet with a smooth finish, featuring two doors with vertical handles on the right side.",
+    "class_id": 7,
+    "bbox_min": [
+      0.7833056487510165,
+      -1.625560818020459,
+      0.005497806238520428
+    ],
+    "bbox_max": [
+      1.687586585257523,
+      -1.2992954069115077,
+      0.8735430215239884
+    ],
+    "bbox_center": [
+      1.2354461170042697,
+      -1.4624281124659833,
+      0.43952041388125446
+    ],
+    "bbox_size": [
+      0.9042809365065064,
+      0.32626541110895135,
+      0.868045215285468
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "bottle",
+    "describe": "A cylindrical glass jar with a metal screw-on lid, featuring a textured pattern on the body and a smooth, transparent surface.",
+    "class_id": 65,
+    "bbox_min": [
+      3.0275113963396976,
+      -1.5529554579995488,
+      -0.360126029431132
+    ],
+    "bbox_max": [
+      3.31646002513572,
+      -1.1974769360979851,
+      -0.03632003103687417
+    ],
+    "bbox_center": [
+      3.171985710737709,
+      -1.375216197048767,
+      -0.19822303023400306
+    ],
+    "bbox_size": [
+      0.28894862879602234,
+      0.3554785219015637,
+      0.32380599839425783
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "window",
+    "describe": "A rectangular window with a white frame and a single pane of clear glass. The window is divided into two sections by a horizontal white bar. The upper section is covered by a partially open, horizontally slatted blind.",
+    "class_id": 16,
+    "bbox_min": [
+      1.5914874941674726,
+      -1.7546529359937586,
+      -0.0751828800691939
+    ],
+    "bbox_max": [
+      2.62930529990512,
+      -1.4305359229583134,
+      0.8310383424887412
+    ],
+    "bbox_center": [
+      2.110396397036296,
+      -1.5925944294760361,
+      0.37792773120977363
+    ],
+    "bbox_size": [
+      1.0378178057376473,
+      0.32411701303544516,
+      0.9062212225579351
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow, vertical cabinet with a glossy white finish and a visible black handle on the right side, suggesting a door that likely swings open to the right.",
+    "class_id": 7,
+    "bbox_min": [
+      1.4428537475865149,
+      -1.5666926567657966,
+      0.003496274135365507
+    ],
+    "bbox_max": [
+      1.6919368185541086,
+      -1.3592879949140833,
+      0.6881189207657555
+    ],
+    "bbox_center": [
+      1.5673952830703117,
+      -1.46299032583994,
+      0.3458075974505605
+    ],
+    "bbox_size": [
+      0.24908307096759374,
+      0.20740466185171336,
+      0.6846226466303901
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "sink",
+    "describe": "A modern, wall-mounted faucet with a sleek, metallic finish and a single lever handle on the right side for temperature and flow control. The spout has a flat, rectangular shape with a slight downward angle, and the base is cylindrical with a visible aerator at the tip.",
+    "class_id": 14,
+    "bbox_min": [
+      1.4163712269954851,
+      -1.6337212966006822,
+      -0.16608435585623268
+    ],
+    "bbox_max": [
+      1.4817128255286995,
+      -1.6287200287220667,
+      -0.06189538881629262
+    ],
+    "bbox_center": [
+      1.4490420262620924,
+      -1.6312206626613746,
+      -0.11398987233626265
+    ],
+    "bbox_size": [
+      0.06534159853321442,
+      0.005001267878615545,
+      0.10418896703994007
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "lamp",
+    "describe": "A modern chandelier featuring a sleek, metallic finish with a central rod from which five curved arms extend, each arm culminating in a downward-facing, bell-shaped light fixture with a frosted glass cover.",
+    "class_id": 28,
+    "bbox_min": [
+      1.8127813216942783,
+      0.31573231506411,
+      0.8421582442293771
+    ],
+    "bbox_max": [
+      1.938840359895592,
+      0.43593785913427785,
+      1.0074895755685191
+    ],
+    "bbox_center": [
+      1.875810840794935,
+      0.3758350870991939,
+      0.9248239098989481
+    ],
+    "bbox_size": [
+      0.1260590382013136,
+      0.12020554407016787,
+      0.16533133133914202
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "tray",
+    "describe": "A rectangular black tray with rounded corners, featuring a glossy finish and a raised lip around the perimeter.",
+    "class_id": 185,
+    "bbox_min": [
+      2.8915201090823928,
+      1.0682495402955874,
+      -0.3571226369644642
+    ],
+    "bbox_max": [
+      3.2040439886832393,
+      1.4102748987304334,
+      -0.28038701053218335
+    ],
+    "bbox_center": [
+      3.047782048882816,
+      1.2392622195130105,
+      -0.31875482374832376
+    ],
+    "bbox_size": [
+      0.3125238796008465,
+      0.34202535843484605,
+      0.07673562643228088
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "sink",
+    "describe": "Stainless steel undermount double basin kitchen sink with a brushed finish, featuring a gently curved divider, integrated left-side drainboard, and a visible faucet hole on the back rim.",
+    "class_id": 14,
+    "bbox_min": [
+      1.8241003690884263,
+      -1.516452268324256,
+      -0.4024685515905741
+    ],
+    "bbox_max": [
+      2.4774152571105685,
+      -1.1325960524489234,
+      -0.34819971617130807
+    ],
+    "bbox_center": [
+      2.1507578130994975,
+      -1.3245241603865896,
+      -0.37533413388094106
+    ],
+    "bbox_size": [
+      0.6533148880221422,
+      0.3838562158753327,
+      0.054268835419266026
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "bin",
+    "describe": "A cylindrical canister with a reflective metallic surface and a black lid featuring a central, circular, silver-colored knob.",
+    "class_id": 66,
+    "bbox_min": [
+      3.088018938735602,
+      1.1129011731570555,
+      -0.3306079618123366
+    ],
+    "bbox_max": [
+      3.216389735425632,
+      1.2058222783307835,
+      -0.2796176279086827
+    ],
+    "bbox_center": [
+      3.152204337080617,
+      1.1593617257439195,
+      -0.3051127948605097
+    ],
+    "bbox_size": [
+      0.12837079669002982,
+      0.09292110517372798,
+      0.05099033390365387
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "cup",
+    "describe": "A white, round ceramic mug with a smooth, glossy finish and a curved handle on the left side.",
+    "class_id": 130,
+    "bbox_min": [
+      3.057907666603177,
+      1.183532808790074,
+      -0.3368467289659449
+    ],
+    "bbox_max": [
+      3.1405330538206675,
+      1.2928996380425446,
+      -0.2752445875403764
+    ],
+    "bbox_center": [
+      3.0992203602119224,
+      1.2382162234163094,
+      -0.30604565825316066
+    ],
+    "bbox_size": [
+      0.08262538721749069,
+      0.10936682925247054,
+      0.061602141425568524
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "cup",
+    "describe": "A white ceramic cup with a smooth, glossy finish and a curved handle on the right side.",
+    "class_id": 130,
+    "bbox_min": [
+      3.0289684813790942,
+      1.2996902480722383,
+      -0.27913318323926556
+    ],
+    "bbox_max": [
+      3.2236709883526773,
+      1.4333165803991352,
+      -0.22217758651174133
+    ],
+    "bbox_center": [
+      3.126319734865886,
+      1.3665034142356869,
+      -0.25065538487550343
+    ],
+    "bbox_size": [
+      0.19470250697358304,
+      0.1336263323268969,
+      0.05695559672752423
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "ball",
+    "describe": "A spherical object with a textured surface, exhibiting a pattern of dark brown and tan patches, resembling a mottled appearance.",
+    "class_id": 168,
+    "bbox_min": [
+      2.98448373931509,
+      1.3019107782740718,
+      -0.32324715493063466
+    ],
+    "bbox_max": [
+      3.0507146732324824,
+      1.3754956588985587,
+      -0.27913318323926556
+    ],
+    "bbox_center": [
+      3.017599206273786,
+      1.3387032185863152,
+      -0.3011901690849501
+    ],
+    "bbox_size": [
+      0.06623093391739232,
+      0.07358488062448698,
+      0.0441139716913691
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "paper",
+    "describe": "A white, rectangular paper towel with a textured pattern, consisting of small, embossed dots evenly distributed across its surface.",
+    "class_id": 79,
+    "bbox_min": [
+      3.3842417596941616,
+      1.1194262021580925,
+      -0.16086844675426837
+    ],
+    "bbox_max": [
+      3.3874852181541044,
+      1.2050200791995123,
+      -0.05439592918041163
+    ],
+    "bbox_center": [
+      3.385863488924133,
+      1.1622231406788024,
+      -0.10763218796734
+    ],
+    "bbox_size": [
+      0.003243458459942783,
+      0.08559387704141974,
+      0.10647251757385673
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "coffee maker",
+    "describe": "A modern coffee maker with a digital display panel at the top, featuring a sleek black body with a silver accent around the control interface. Below the display, there is a prominent coffee dispensing area with a drip tray and a glass carafe resting on it. The carafe has a handle and a pouring spout. The machine includes a water reservoir with a visible level indicator on the side.",
+    "class_id": 134,
+    "bbox_min": [
+      2.1397110865546725,
+      1.2760220037894041,
+      -0.3583927320983368
+    ],
+    "bbox_max": [
+      2.587386343380203,
+      1.4734125759056005,
+      -0.08809548384174633
+    ],
+    "bbox_center": [
+      2.363548714967438,
+      1.3747172898475024,
+      -0.22324410797004154
+    ],
+    "bbox_size": [
+      0.44767525682553044,
+      0.19739057211619637,
+      0.27029724825659046
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "bin",
+    "describe": "A cylindrical, metallic canister with a reflective surface and a slightly tapered top, featuring a black lid with a central, circular, silver-colored knob.",
+    "class_id": 66,
+    "bbox_min": [
+      3.010211239519516,
+      1.2532279302942473,
+      -0.33124152501400694
+    ],
+    "bbox_max": [
+      3.0961561488873324,
+      1.31883807858665,
+      -0.2770232583087321
+    ],
+    "bbox_center": [
+      3.0531836942034243,
+      1.2860330044404487,
+      -0.3041323916613695
+    ],
+    "bbox_size": [
+      0.08594490936781618,
+      0.06561014829240275,
+      0.054218266705274853
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "cabinet",
+    "describe": "A dark brown, wall-mounted cabinet with a flat top surface and a smooth finish. It features two doors with vertical, metallic handles positioned towards the center of each door. The doors have a subtle, recessed panel design, and the cabinet has a clean, modern aesthetic.",
+    "class_id": 7,
+    "bbox_min": [
+      1.0702740540463611,
+      1.010829317180845,
+      0.46572377444760876
+    ],
+    "bbox_max": [
+      2.140215931217001,
+      1.1995546462904503,
+      1.066672261787633
+    ],
+    "bbox_center": [
+      1.605244992631681,
+      1.1051919817356475,
+      0.7661980181176209
+    ],
+    "bbox_size": [
+      1.0699418771706397,
+      0.18872532910960538,
+      0.6009484873400242
+    ]
+  }
+]

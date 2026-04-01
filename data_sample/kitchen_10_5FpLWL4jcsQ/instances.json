@@ -1,0 +1,964 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "stove",
+    "describe": "A freestanding electric range with a smooth ceramic cooktop featuring four burners, two visible in the image. The control panel is located at the back, with knobs for operation. The oven door has a handle across the top, suggesting a pull-down mechanism. The appliance has a light-colored finish, possibly white or cream.",
+    "class_id": 62,
+    "bbox_min": [
+      0.22353658229934287,
+      0.35175219943937,
+      -1.0463858472718617
+    ],
+    "bbox_max": [
+      1.0662738253184485,
+      1.1347762213494188,
+      -0.022191897091752615
+    ],
+    "bbox_center": [
+      0.6449052038088957,
+      0.7432642103943944,
+      -0.5342888721818071
+    ],
+    "bbox_size": [
+      0.8427372430191056,
+      0.7830240219100488,
+      1.0241939501801092
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "microwave",
+    "describe": "A white microwave oven with a right-hinged door featuring a black window and a control panel on the right side, which includes a digital display and multiple push buttons for various cooking functions.",
+    "class_id": 59,
+    "bbox_min": [
+      0.3123285464688873,
+      0.7719092916995742,
+      0.10666618640033992
+    ],
+    "bbox_max": [
+      1.0645286048537026,
+      1.15124067899509,
+      0.5296795639311134
+    ],
+    "bbox_center": [
+      0.6884285756612949,
+      0.9615749853473321,
+      0.3181728751657267
+    ],
+    "bbox_size": [
+      0.7522000583848153,
+      0.37933138729551574,
+      0.42301337753077345
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "light switch",
+    "describe": "A white, rectangular light switch with a slightly curved top and a flat bottom, featuring a single toggle switch in the center.",
+    "class_id": 232,
+    "bbox_min": [
+      -0.04624492936881177,
+      1.1458069997567941,
+      -0.014187833811098506
+    ],
+    "bbox_max": [
+      0.046251734350061385,
+      1.161921061514839,
+      0.09586667697465875
+    ],
+    "bbox_center": [
+      3.4024906248077136e-06,
+      1.1538640306358166,
+      0.040839421581780125
+    ],
+    "bbox_size": [
+      0.09249666371887316,
+      0.016114061758044862,
+      0.11005451078575726
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "door",
+    "describe": "The wall is painted in a light beige color and features a smooth texture. It extends vertically from the floor to the ceiling and horizontally from the left edge to the right edge of the image. The wall has a rectangular cutout in the center, creating an open doorway. The edges of the wall are clean and straight, with no visible decorations or patterns.",
+    "class_id": 5,
+    "bbox_min": [
+      0.07994461857816597,
+      -1.3422338751682195,
+      -1.0873053413573501
+    ],
+    "bbox_max": [
+      3.4850300032334327,
+      0.86435438060358,
+      1.1022865054871238
+    ],
+    "bbox_center": [
+      1.7824873109057993,
+      -0.2389397472823197,
+      0.0074905820648868415
+    ],
+    "bbox_size": [
+      3.405085384655267,
+      2.2065882557717993,
+      2.1895918468444737
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "cabinet",
+    "describe": "A light-colored wooden cabinet with a flat top surface and a visible side panel featuring a vertical handle. The cabinet has a clean, modern design with a smooth finish and appears to be part of a larger modular unit.",
+    "class_id": 7,
+    "bbox_min": [
+      0.32610109239230534,
+      0.6944394109982985,
+      0.13885813100566782
+    ],
+    "bbox_max": [
+      2.546683735639754,
+      1.1550765636930937,
+      0.893125657295523
+    ],
+    "bbox_center": [
+      1.4363924140160296,
+      0.9247579873456961,
+      0.5159918941505954
+    ],
+    "bbox_size": [
+      2.2205826432474485,
+      0.4606371526947952,
+      0.7542675262898552
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "kitchen cabinet",
+    "describe": "A white, wall-mounted kitchen cabinet system featuring a combination of upper and lower cabinets with a total of six doors. The upper cabinets have two doors each, while the lower cabinets have three doors, all with vertical handles. The cabinet doors have a flat-panel design and are aligned horizontally. The cabinet system is designed to be installed against a wall, with a consistent height and depth throughout.",
+    "class_id": 29,
+    "bbox_min": [
+      -0.44224143551493533,
+      -1.405436566859104,
+      -0.7457991767470036
+    ],
+    "bbox_max": [
+      2.555627530442943,
+      -0.9294192029226337,
+      0.8780013501551244
+    ],
+    "bbox_center": [
+      1.056693047464004,
+      -1.1674278848908688,
+      0.0661010867040604
+    ],
+    "bbox_size": [
+      2.9978689659578786,
+      0.4760173639364703,
+      1.6238005269021278
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "file cabinet",
+    "describe": "A beige vertical filing cabinet with four drawers, each featuring a silver-colored handle centered on the drawer face. The cabinet has a smooth finish and a slightly recessed top edge.",
+    "class_id": 75,
+    "bbox_min": [
+      0.8883132013240026,
+      0.5362405863938086,
+      -1.105697913272367
+    ],
+    "bbox_max": [
+      1.876296231817128,
+      1.1547930883340438,
+      -0.226156286771262
+    ],
+    "bbox_center": [
+      1.3823047165705653,
+      0.8455168373639261,
+      -0.6659271000218145
+    ],
+    "bbox_size": [
+      0.9879830304931253,
+      0.6185525019402353,
+      0.879541626501105
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "microwave",
+    "describe": "A black microwave oven with a glossy finish, featuring a rectangular shape with rounded corners. The front panel includes a transparent door with a reflective surface, allowing a view into the interior cavity. The control panel is located on the right side of the door, consisting of a digital display at the top and an array of buttons below for various cooking functions and settings. The microwave has a prominent handle on the door for opening.",
+    "class_id": 59,
+    "bbox_min": [
+      1.4578243657678007,
+      0.9048083754922904,
+      -0.09231251933689587
+    ],
+    "bbox_max": [
+      1.8609734383889713,
+      1.1519027907048256,
+      0.14962774368520745
+    ],
+    "bbox_center": [
+      1.6593989020783861,
+      1.028355583098558,
+      0.028657612174155793
+    ],
+    "bbox_size": [
+      0.4031490726211706,
+      0.24709441521253517,
+      0.2419402630221033
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "pipe",
+    "describe": "A brown, curved pipe with a rough texture and a flared end.",
+    "class_id": 107,
+    "bbox_min": [
+      2.3377380369475267,
+      0.7097216505861377,
+      0.4177550802677444
+    ],
+    "bbox_max": [
+      2.556855655983379,
+      0.8065486287808029,
+      0.6385055602008627
+    ],
+    "bbox_center": [
+      2.447296846465453,
+      0.7581351396834703,
+      0.5281303202343035
+    ],
+    "bbox_size": [
+      0.21911761903585214,
+      0.09682697819466524,
+      0.2207504799331183
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "refrigerator",
+    "describe": "Upright two-door refrigerator with a beige finish; the upper door has a recessed handle on the right side, while the lower door has a similar handle positioned towards the bottom. Both doors have a smooth surface with no visible branding or additional features.",
+    "class_id": 27,
+    "bbox_min": [
+      1.8326023464579158,
+      0.45748312126245716,
+      -1.0776967580232821
+    ],
+    "bbox_max": [
+      2.5689168766897748,
+      1.1326083977467123,
+      0.3866516900754397
+    ],
+    "bbox_center": [
+      2.2007596115738455,
+      0.7950457595045848,
+      -0.3455225339739212
+    ],
+    "bbox_size": [
+      0.736314530231859,
+      0.6751252764842551,
+      1.4643484480987219
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "chair",
+    "describe": "A dark-toned wooden chair with a curved top rail and vertical slats on the backrest, featuring a visible metal hinge on the right side, suggesting a foldable design.",
+    "class_id": 2,
+    "bbox_min": [
+      -0.19712154395831347,
+      0.7233769182832255,
+      -0.7551881269062836
+    ],
+    "bbox_max": [
+      0.33822572029952763,
+      1.1696166546190199,
+      -0.4170124631621312
+    ],
+    "bbox_center": [
+      0.07055208817060708,
+      0.9464967864511227,
+      -0.5861002950342074
+    ],
+    "bbox_size": [
+      0.5353472642578411,
+      0.4462397363357944,
+      0.33817566374415237
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "knob",
+    "describe": "A round, metallic knob with a textured edge for grip and a flat top surface.",
+    "class_id": -1,
+    "bbox_min": [
+      3.4461395395743835,
+      -0.11536746120796808,
+      0.002582190548894054
+    ],
+    "bbox_max": [
+      3.45037159380156,
+      -0.03216181781986938,
+      0.12382416657884743
+    ],
+    "bbox_center": [
+      3.4482555666879717,
+      -0.07376463951391873,
+      0.06320317856387074
+    ],
+    "bbox_size": [
+      0.0042320542271765405,
+      0.08320564338809869,
+      0.12124197602995337
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "kitchen counter",
+    "describe": "A light-colored, L-shaped kitchen counter with a smooth surface and a built-in sink. The counter features a series of vertical cabinet doors with metallic handles, and a dishwasher is integrated into the cabinetry.",
+    "class_id": 159,
+    "bbox_min": [
+      0.2631704661103485,
+      -1.3177757603840878,
+      -1.1064167735903354
+    ],
+    "bbox_max": [
+      2.5740887628202795,
+      -0.7091735714570964,
+      -0.16133249546600872
+    ],
+    "bbox_center": [
+      1.418629614465314,
+      -1.013474665920592,
+      -0.633874634528172
+    ],
+    "bbox_size": [
+      2.310918296709931,
+      0.6086021889269915,
+      0.9450842781243267
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "sink",
+    "describe": "A stainless steel double-basin kitchen sink with a brushed finish, featuring a centrally located faucet with a single lever handle mounted on the back rim. The sink has rounded corners and is equipped with a visible drain in each basin.",
+    "class_id": 14,
+    "bbox_min": [
+      1.1445937305737026,
+      -1.2595348243639777,
+      -0.37406815464350424
+    ],
+    "bbox_max": [
+      1.8195117541809565,
+      -0.806584163581477,
+      -0.17287258928624757
+    ],
+    "bbox_center": [
+      1.4820527423773295,
+      -1.0330594939727273,
+      -0.2734703719648759
+    ],
+    "bbox_size": [
+      0.6749180236072538,
+      0.4529506607825007,
+      0.20119556535725666
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "knife block",
+    "describe": "A wooden knife block with a rich, warm brown finish, featuring a curved top edge and a flat base, designed to hold multiple knives securely.",
+    "class_id": -1,
+    "bbox_min": [
+      2.2753274166328734,
+      -1.294554872332278,
+      -0.2940609821012514
+    ],
+    "bbox_max": [
+      2.5271118901701626,
+      -1.0294576303631555,
+      -0.10838823563206633
+    ],
+    "bbox_center": [
+      2.401219653401518,
+      -1.1620062513477167,
+      -0.20122460886665888
+    ],
+    "bbox_size": [
+      0.25178447353728917,
+      0.26509724196912243,
+      0.18567274646918508
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "dishwasher",
+    "describe": "A beige dishwasher featuring a control panel with buttons and indicator lights on the top edge of the door, a recessed handle across the top, and a visible brand logo centered on the door.",
+    "class_id": 136,
+    "bbox_min": [
+      0.5118682971875762,
+      -0.7812076983836903,
+      -1.0291706751366196
+    ],
+    "bbox_max": [
+      1.1361197178811202,
+      -0.7153295239603181,
+      -0.31120153784713084
+    ],
+    "bbox_center": [
+      0.8239940075343481,
+      -0.7482686111720043,
+      -0.6701861064918753
+    ],
+    "bbox_size": [
+      0.624251420693544,
+      0.06587817442337218,
+      0.7179691372894887
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "lamp",
+    "describe": "A pendant lamp with a metallic finish, featuring a cylindrical shade that tapers towards the top, suspended from a chain. The lamp has a visible light bulb inside, emitting a warm glow.",
+    "class_id": 28,
+    "bbox_min": [
+      1.2753058514925395,
+      -0.32350293633058785,
+      0.9000864629959341
+    ],
+    "bbox_max": [
+      2.010024594799964,
+      -0.01796453566664248,
+      1.0938570618665733
+    ],
+    "bbox_center": [
+      1.6426652231462517,
+      -0.17073373599861516,
+      0.9969717624312537
+    ],
+    "bbox_size": [
+      0.7347187433074245,
+      0.3055384006639454,
+      0.1937705988706392
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "light switch",
+    "describe": "A beige, rectangular light switch with a slightly curved top and a flat bottom, featuring a single toggle switch in the center.",
+    "class_id": 232,
+    "bbox_min": [
+      2.575146910218131,
+      -1.094654419964562,
+      0.0035634574999685057
+    ],
+    "bbox_max": [
+      2.5910571320461315,
+      -1.0303780553131965,
+      0.1111760444717696
+    ],
+    "bbox_center": [
+      2.583102021132131,
+      -1.0625162376388793,
+      0.05736975098586905
+    ],
+    "bbox_size": [
+      0.015910221828000726,
+      0.06427636465136555,
+      0.1076125869718011
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "box",
+    "describe": "A rectangular cardboard box with flaps open, displaying a brown exterior and a lighter brown interior. The box appears to be made of corrugated fiberboard, with visible fluting on the edges, and has a slightly worn texture.",
+    "class_id": 26,
+    "bbox_min": [
+      1.570318978874377,
+      -1.1975251918565548,
+      0.2775222426688603
+    ],
+    "bbox_max": [
+      1.7603519993034913,
+      -1.0651099434854463,
+      0.3988191136606866
+    ],
+    "bbox_center": [
+      1.665335489088934,
+      -1.1313175676710006,
+      0.3381706781647734
+    ],
+    "bbox_size": [
+      0.1900330204291143,
+      0.13241524837110852,
+      0.12129687099182634
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "cabinet",
+    "describe": "A rectangular wooden drawer with a flat front surface, featuring a horizontal grain pattern and a round, centered pull knob.",
+    "class_id": 7,
+    "bbox_min": [
+      1.8305656870912193,
+      -1.2916701960274604,
+      0.08655450975685414
+    ],
+    "bbox_max": [
+      2.3839375607376994,
+      -1.0448559770680748,
+      0.17423532546991471
+    ],
+    "bbox_center": [
+      2.1072516239144594,
+      -1.1682630865477677,
+      0.13039491761338443
+    ],
+    "bbox_size": [
+      0.5533718736464801,
+      0.2468142189593856,
+      0.08768081571306058
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "board",
+    "describe": "A dark brown, rectangular wooden chopping board with rounded corners and a visible handle with a circular hole for hanging.",
+    "class_id": 69,
+    "bbox_min": [
+      0.38509364632912213,
+      -1.0830159362371836,
+      -0.29719965527228115
+    ],
+    "bbox_max": [
+      0.6144709854420916,
+      -0.9774050363820983,
+      -0.21055786441603117
+    ],
+    "bbox_center": [
+      0.49978231588560684,
+      -1.0302104863096408,
+      -0.25387875984415614
+    ],
+    "bbox_size": [
+      0.22937733911296943,
+      0.10561089985508532,
+      0.08664179085624998
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "bowl",
+    "describe": "A stainless steel bowl with a reflective finish and a rounded rim, featuring a handle on one side.",
+    "class_id": 562,
+    "bbox_min": [
+      0.4782520076869604,
+      -1.159311027059299,
+      -0.2687079223583343
+    ],
+    "bbox_max": [
+      0.6887778673601999,
+      -0.9871384265019615,
+      -0.1286821285097998
+    ],
+    "bbox_center": [
+      0.5835149375235802,
+      -1.0732247267806303,
+      -0.19869502543406703
+    ],
+    "bbox_size": [
+      0.21052585967323945,
+      0.17217260055733752,
+      0.1400257938485345
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "knife",
+    "describe": "A knife with a dark brown handle that transitions into a metallic blade with a straight cutting edge and a pointed tip.",
+    "class_id": -1,
+    "bbox_min": [
+      2.3657480257063837,
+      -1.215351214576643,
+      -0.1258321170387847
+    ],
+    "bbox_max": [
+      2.515408292768479,
+      -1.080927279619783,
+      -0.023734001204669897
+    ],
+    "bbox_center": [
+      2.4405781592374316,
+      -1.148139247098213,
+      -0.0747830591217273
+    ],
+    "bbox_size": [
+      0.14966026706209545,
+      0.1344239349568599,
+      0.1020981158341148
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "mixer",
+    "describe": "A red stand mixer with a polished finish, featuring a tilting head design and a metallic mixing bowl. The mixer has a speed control lever on the side and a power hub for attachments.",
+    "class_id": -1,
+    "bbox_min": [
+      0.3713710231200221,
+      -1.2511263937894004,
+      -0.29388504803162385
+    ],
+    "bbox_max": [
+      0.6592630366752437,
+      -0.9706030330959992,
+      0.07696665505651264
+    ],
+    "bbox_center": [
+      0.5153170298976328,
+      -1.1108647134426999,
+      -0.10845919648755561
+    ],
+    "bbox_size": [
+      0.28789201355522154,
+      0.2805233606934012,
+      0.3708517030881365
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "bowl",
+    "describe": "A shallow, wide-rimmed bowl with a smooth, matte finish in a light beige color.",
+    "class_id": 562,
+    "bbox_min": [
+      1.1603287544578902,
+      -1.169706997332598,
+      0.22491900984854363
+    ],
+    "bbox_max": [
+      1.3403603680501923,
+      -1.0433049599772577,
+      0.3515162376556093
+    ],
+    "bbox_center": [
+      1.2503445612540411,
+      -1.1065059786549278,
+      0.2882176237520765
+    ],
+    "bbox_size": [
+      0.18003161359230213,
+      0.12640203735534028,
+      0.12659722780706567
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "sink",
+    "describe": "The faucet features a high-arc spout with a reflective chrome finish, a single lever handle mounted on the right side for temperature and flow control, and a pull-down spray head with an integrated button for switching spray modes.",
+    "class_id": 14,
+    "bbox_min": [
+      1.3909637979849259,
+      -1.3105136784640254,
+      -0.2808580971773406
+    ],
+    "bbox_max": [
+      1.5915519257042938,
+      -1.2045537211318853,
+      -0.16988614358759718
+    ],
+    "bbox_center": [
+      1.49125786184461,
+      -1.2575336997979554,
+      -0.2253721203824689
+    ],
+    "bbox_size": [
+      0.20058812771936796,
+      0.10595995733214014,
+      0.11097195358974343
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "towel",
+    "describe": "A gray dishtowel with a textured waffle weave pattern and a darker gray border featuring a series of parallel lines.",
+    "class_id": 31,
+    "bbox_min": [
+      0.5726981207761959,
+      0.4651368221157491,
+      -0.6560307751449996
+    ],
+    "bbox_max": [
+      0.759980038275531,
+      0.5248050391693383,
+      -0.3621802581061213
+    ],
+    "bbox_center": [
+      0.6663390795258635,
+      0.4949709306425437,
+      -0.5091055166255605
+    ],
+    "bbox_size": [
+      0.1872819174993351,
+      0.05966821705358921,
+      0.2938505170388783
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "knife",
+    "describe": "A collection of kitchen utensils including a knife with a serrated blade and a wooden handle, a spatula with a slotted end, and a pair of tongs with scalloped gripping ends.",
+    "class_id": -1,
+    "bbox_min": [
+      2.3543474444580945,
+      -1.1453080402957279,
+      -0.16110016412092334
+    ],
+    "bbox_max": [
+      2.469377141028205,
+      -1.0328396600363536,
+      -0.046678122680419466
+    ],
+    "bbox_center": [
+      2.41186229274315,
+      -1.0890738501660406,
+      -0.1038891434006714
+    ],
+    "bbox_size": [
+      0.1150296965701103,
+      0.11246838025937422,
+      0.11442204144050389
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow, dark brown wooden cabinet with a vertical handle on the right side, featuring a series of horizontal shelves visible through a glass door.",
+    "class_id": 7,
+    "bbox_min": [
+      2.817896844715481,
+      -0.7836385865842309,
+      -1.0795538026912794
+    ],
+    "bbox_max": [
+      3.4511435890192184,
+      -0.7330439232387408,
+      0.5823449826526097
+    ],
+    "bbox_center": [
+      3.1345202168673496,
+      -0.7583412549114859,
+      -0.24860441001933486
+    ],
+    "bbox_size": [
+      0.6332467443037375,
+      0.05059466334549012,
+      1.6618987853438891
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "light switch",
+    "describe": "A white, rectangular light switch with a slightly curved top surface and a visible screw at the top center.",
+    "class_id": 232,
+    "bbox_min": [
+      -0.4637665908328814,
+      -1.3995740608736902,
+      -0.06652062404530547
+    ],
+    "bbox_max": [
+      -0.1515830946096836,
+      -1.3263051832743316,
+      0.37480223938172397
+    ],
+    "bbox_center": [
+      -0.30767484272128254,
+      -1.3629396220740109,
+      0.15414080766820926
+    ],
+    "bbox_size": [
+      0.3121834962231978,
+      0.07326887759935863,
+      0.4413228634270294
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "table",
+    "describe": "A round wooden table with a smooth, light-colored surface and a visible edge that curves slightly upwards, featuring a thin, darker-colored trim.",
+    "class_id": 4,
+    "bbox_min": [
+      -0.46924594333193065,
+      -1.3904220093855708,
+      -0.8167513994881015
+    ],
+    "bbox_max": [
+      0.2630684123042694,
+      -0.7715387527328462,
+      -0.05196470223183811
+    ],
+    "bbox_center": [
+      -0.10308876551383062,
+      -1.0809803810592085,
+      -0.4343580508599698
+    ],
+    "bbox_size": [
+      0.7323143556362001,
+      0.6188832566527246,
+      0.7647866972562634
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "board",
+    "describe": "A rectangular, dark brown wooden chopping board with rounded corners and a visible handle with a circular hole for hanging.",
+    "class_id": 69,
+    "bbox_min": [
+      0.6067147623390204,
+      -1.0287712934220752,
+      -0.26753920551714255
+    ],
+    "bbox_max": [
+      0.6340153934949666,
+      -1.0091405578873365,
+      -0.25894073737154
+    ],
+    "bbox_center": [
+      0.6203650779169936,
+      -1.0189559256547058,
+      -0.2632399714443413
+    ],
+    "bbox_size": [
+      0.027300631155946165,
+      0.019630735534738708,
+      0.008598468145602556
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "power outlet",
+    "describe": "A beige, single-outlet wall socket with a rectangular shape and a slightly protruding faceplate. The outlet has one visible three-prong receptacle with two vertical slots and a round grounding hole beneath them. The faceplate has a small, centered screw at the top and a keyhole at the bottom.",
+    "class_id": 242,
+    "bbox_min": [
+      0.7619295671140209,
+      -1.318930139502032,
+      -0.11518115445641117
+    ],
+    "bbox_max": [
+      0.834161042679387,
+      -1.3042206057977503,
+      -0.006328695300142837
+    ],
+    "bbox_center": [
+      0.798045304896704,
+      -1.3115753726498913,
+      -0.060754924878277
+    ],
+    "bbox_size": [
+      0.07223147556536602,
+      0.014709533704281741,
+      0.10885245915626833
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "power outlet",
+    "describe": "A standard North American duplex wall socket with two vertical slots over a round grounding hole, installed on a wall plate with a screw at the center.",
+    "class_id": 242,
+    "bbox_min": [
+      1.3861981194628805,
+      1.1523704313585181,
+      -0.12446709719207988
+    ],
+    "bbox_max": [
+      1.4627688559422025,
+      1.1609871186180256,
+      -0.014389983997795907
+    ],
+    "bbox_center": [
+      1.4244834877025414,
+      1.1566787749882719,
+      -0.06942854059493789
+    ],
+    "bbox_size": [
+      0.076570736479322,
+      0.008616687259507483,
+      0.11007711319428397
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "knob",
+    "describe": "A cylindrical, metallic knob with a reflective surface and a slightly tapered top, featuring a ridged texture for grip.",
+    "class_id": -1,
+    "bbox_min": [
+      0.8033410609256036,
+      -1.300164686401787,
+      0.16319531202959575
+    ],
+    "bbox_max": [
+      0.8267394222191983,
+      -1.1958958108267745,
+      0.17086391943062812
+    ],
+    "bbox_center": [
+      0.815040241572401,
+      -1.2480302486142807,
+      0.16702961573011194
+    ],
+    "bbox_size": [
+      0.023398361293594627,
+      0.10426887557501252,
+      0.007668607401032368
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "shelf",
+    "describe": "A modern, wall-mounted, L-shaped shelf with a flat, horizontal top surface and a vertical back panel, both featuring a smooth, matte finish. The shelf is supported by a sturdy, vertical post on the left side, which extends upwards to form the back panel, and a horizontal base on the right side, which connects to the wall.",
+    "class_id": 8,
+    "bbox_min": [
+      1.4578243657678007,
+      0.9800287895459964,
+      -0.09192858789938653
+    ],
+    "bbox_max": [
+      1.8283274630924502,
+      1.1538889919929756,
+      0.14296172291317577
+    ],
+    "bbox_center": [
+      1.6430759144301255,
+      1.066958890769486,
+      0.02551656750689462
+    ],
+    "bbox_size": [
+      0.3705030973246495,
+      0.1738602024469792,
+      0.2348903108125623
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "cabinet",
+    "describe": "A dark brown wooden cabinet with a triangular top surface and a visible side panel, featuring a smooth finish and a sharp, clean edge.",
+    "class_id": 7,
+    "bbox_min": [
+      1.8922860890741346,
+      0.7399428943707472,
+      0.34581377211428604
+    ],
+    "bbox_max": [
+      1.9069869231097014,
+      0.8353470752073479,
+      0.35311480178197996
+    ],
+    "bbox_center": [
+      1.899636506091918,
+      0.7876449847890475,
+      0.34946428694813303
+    ],
+    "bbox_size": [
+      0.014700834035566768,
+      0.09540418083660063,
+      0.007301029667693915
+    ]
+  }
+]

@@ -1,0 +1,493 @@
+{
+  "episode_id": "JJXgWi6SVfY_04-02_comp_0000",
+  "instruction": {
+    "raw": "```json\n{\n  \"task_summary\": \"Starting in a hallway, proceed forward through various sections of the house including a living area, a staircase, and a garage. Navigate through multiple hallways and rooms, passing by doors, shelves, and a staircase. The journey concludes in a room with a white door and a visible wall outlet.\",\n  \"reasoning\": [\n    {\n      \"image_name\": \"0.0_seconds\",\n      \"thinking\": \"Facing a hallway with a carpeted floor and a door at the end, I move forward to explore further.\"\n    },\n    {\n      \"image_name\": \"0.5_seconds\",\n      \"thinking\": \"Upon entering a new section, I notice a wooden floor and a chandelier above. I turn right to continue exploring.\"\n    },\n    {\n      \"image_name\": \"1.0_seconds\",\n      \"thinking\": \"In the living area, I observe a dining table and chairs. I turn left to navigate towards another part of the house.\"\n    },\n    {\n      \"image_name\": \"1.5_seconds\",\n      \"thinking\": \"Continuing through the living area, I move forward towards the kitchen and dining space.\"\n    },\n    {\n      \"image_name\": \"2.0_seconds\",\n      \"thinking\": \"I approach a hallway with a staircase on the right. I turn right to follow the hallway.\"\n    },\n    {\n      \"image_name\": \"2.5_seconds\",\n      \"thinking\": \"Passing by the staircase, I continue moving forward along the hallway.\"\n    },\n    {\n      \"image_name\": \"3.0_seconds\",\n      \"thinking\": \"I reach a point where the hallway splits. I turn right to explore the next section.\"\n    },\n    {\n      \"image_name\": \"3.5_seconds\",\n      \"thinking\": \"Moving forward, I encounter a white door at the end of the hallway.\"\n    },\n    {\n      \"image_name\": \"4.0_seconds\",\n      \"thinking\": \"I turn right again, entering a room with a white door and a wall outlet.\"\n    },\n    {\n      \"image_name\": \"4.5_seconds\",\n      \"thinking\": \"Inside the room, I notice a white door and a wall outlet. I stop here as the endpoint.\"\n    }\n  ],\n  \"instruction_1\": \"Proceed forward through the initial hallway. Turn right into the living area and continue straight. Turn left to navigate towards the kitchen and dining area. Move forward past the staircase and turn right into the next hallway. Continue straight until reaching the white door. Turn right once more and stop in the room with the white door and wall outlet.\",\n  \"instruction_2\": \"Start by moving forward in the hallway. When you reach the living area, take a right and keep walking. As you approach the kitchen and dining area, make a left turn. After passing the staircase, turn right and head down the next hallway. Keep going until you see the white door, then turn right again and stop in the room with the white door and wall outlet.\",\n  \"instruction_3\": \"As you embark on this journey, you'll traverse a hallway leading into a cozy living area. Turning right, you'll find yourself amidst a dining setup. From there, a left turn will guide you towards the kitchen. Moving past the staircase, you'll take another right into a new hallway. With the white door in sight, you'll make one last right turn and come to a halt in a room marked by a white door and a wall outlet, completing your exploration.\"\n}\n```"
+  },
+  "action_sequence": [
+    {
+      "step": 1,
+      "frame_idx": 0,
+      "action": "MoveForward"
+    },
+    {
+      "step": 2,
+      "frame_idx": 1,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 3,
+      "frame_idx": 2,
+      "action": "MoveForward"
+    },
+    {
+      "step": 4,
+      "frame_idx": 3,
+      "action": "MoveForward"
+    },
+    {
+      "step": 5,
+      "frame_idx": 4,
+      "action": "MoveForward"
+    },
+    {
+      "step": 6,
+      "frame_idx": 5,
+      "action": "MoveForward"
+    },
+    {
+      "step": 7,
+      "frame_idx": 6,
+      "action": "MoveForward"
+    },
+    {
+      "step": 8,
+      "frame_idx": 7,
+      "action": "MoveForward"
+    },
+    {
+      "step": 9,
+      "frame_idx": 8,
+      "action": "MoveForward"
+    },
+    {
+      "step": 10,
+      "frame_idx": 9,
+      "action": "MoveForward"
+    },
+    {
+      "step": 11,
+      "frame_idx": 12,
+      "action": "MoveForward"
+    },
+    {
+      "step": 12,
+      "frame_idx": 13,
+      "action": "MoveForward"
+    },
+    {
+      "step": 13,
+      "frame_idx": 14,
+      "action": "MoveForward"
+    },
+    {
+      "step": 14,
+      "frame_idx": 15,
+      "action": "MoveForward"
+    },
+    {
+      "step": 15,
+      "frame_idx": 16,
+      "action": "TurnRight"
+    },
+    {
+      "step": 16,
+      "frame_idx": 17,
+      "action": "MoveForward"
+    },
+    {
+      "step": 17,
+      "frame_idx": 18,
+      "action": "MoveForward"
+    },
+    {
+      "step": 18,
+      "frame_idx": 19,
+      "action": "MoveForward"
+    },
+    {
+      "step": 19,
+      "frame_idx": 20,
+      "action": "MoveForward"
+    },
+    {
+      "step": 20,
+      "frame_idx": 21,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 21,
+      "frame_idx": 22,
+      "action": "MoveForward"
+    },
+    {
+      "step": 22,
+      "frame_idx": 23,
+      "action": "MoveForward"
+    },
+    {
+      "step": 23,
+      "frame_idx": 24,
+      "action": "MoveForward"
+    },
+    {
+      "step": 24,
+      "frame_idx": 25,
+      "action": "MoveForward"
+    },
+    {
+      "step": 25,
+      "frame_idx": 26,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 26,
+      "frame_idx": 27,
+      "action": "MoveForward"
+    },
+    {
+      "step": 27,
+      "frame_idx": 28,
+      "action": "TurnRight"
+    },
+    {
+      "step": 28,
+      "frame_idx": 29,
+      "action": "MoveForward"
+    },
+    {
+      "step": 29,
+      "frame_idx": 30,
+      "action": "TurnRight"
+    },
+    {
+      "step": 30,
+      "frame_idx": 31,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 31,
+      "frame_idx": 32,
+      "action": "TurnRight"
+    },
+    {
+      "step": 32,
+      "frame_idx": 33,
+      "action": "TurnRight"
+    },
+    {
+      "step": 33,
+      "frame_idx": 34,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 34,
+      "frame_idx": 35,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 35,
+      "frame_idx": 37,
+      "action": "MoveForward"
+    },
+    {
+      "step": 36,
+      "frame_idx": 38,
+      "action": "TurnRight"
+    },
+    {
+      "step": 37,
+      "frame_idx": 39,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 38,
+      "frame_idx": 40,
+      "action": "TurnRight"
+    },
+    {
+      "step": 39,
+      "frame_idx": 41,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 40,
+      "frame_idx": 42,
+      "action": "MoveForward"
+    },
+    {
+      "step": 41,
+      "frame_idx": 43,
+      "action": "TurnRight"
+    },
+    {
+      "step": 42,
+      "frame_idx": 44,
+      "action": "TurnRight"
+    },
+    {
+      "step": 43,
+      "frame_idx": 45,
+      "action": "MoveForward"
+    },
+    {
+      "step": 44,
+      "frame_idx": 46,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 45,
+      "frame_idx": 47,
+      "action": "MoveForward"
+    },
+    {
+      "step": 46,
+      "frame_idx": 48,
+      "action": "TurnRight"
+    },
+    {
+      "step": 47,
+      "frame_idx": 49,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 48,
+      "frame_idx": 50,
+      "action": "MoveForward"
+    },
+    {
+      "step": 49,
+      "frame_idx": 51,
+      "action": "MoveForward"
+    },
+    {
+      "step": 50,
+      "frame_idx": 52,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 51,
+      "frame_idx": 53,
+      "action": "TurnRight"
+    },
+    {
+      "step": 52,
+      "frame_idx": 54,
+      "action": "TurnRight"
+    },
+    {
+      "step": 53,
+      "frame_idx": 55,
+      "action": "TurnRight"
+    },
+    {
+      "step": 54,
+      "frame_idx": 56,
+      "action": "TurnRight"
+    },
+    {
+      "step": 55,
+      "frame_idx": 57,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 56,
+      "frame_idx": 59,
+      "action": "TurnRight"
+    },
+    {
+      "step": 57,
+      "frame_idx": 60,
+      "action": "TurnRight"
+    },
+    {
+      "step": 58,
+      "frame_idx": 61,
+      "action": "TurnRight"
+    },
+    {
+      "step": 59,
+      "frame_idx": 62,
+      "action": "TurnRight"
+    },
+    {
+      "step": 60,
+      "frame_idx": 63,
+      "action": "TurnRight"
+    },
+    {
+      "step": 61,
+      "frame_idx": 64,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 62,
+      "frame_idx": 65,
+      "action": "TurnRight"
+    },
+    {
+      "step": 63,
+      "frame_idx": 66,
+      "action": "MoveForward"
+    },
+    {
+      "step": 64,
+      "frame_idx": 67,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 65,
+      "frame_idx": 68,
+      "action": "MoveForward"
+    },
+    {
+      "step": 66,
+      "frame_idx": 69,
+      "action": "MoveForward"
+    },
+    {
+      "step": 67,
+      "frame_idx": 70,
+      "action": "MoveForward"
+    },
+    {
+      "step": 68,
+      "frame_idx": 71,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 69,
+      "frame_idx": 72,
+      "action": "MoveForward"
+    },
+    {
+      "step": 70,
+      "frame_idx": 73,
+      "action": "TurnRight"
+    },
+    {
+      "step": 71,
+      "frame_idx": 74,
+      "action": "TurnRight"
+    },
+    {
+      "step": 72,
+      "frame_idx": 75,
+      "action": "MoveForward"
+    },
+    {
+      "step": 73,
+      "frame_idx": 76,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 74,
+      "frame_idx": 77,
+      "action": "MoveForward"
+    },
+    {
+      "step": 75,
+      "frame_idx": 78,
+      "action": "MoveForward"
+    },
+    {
+      "step": 76,
+      "frame_idx": 79,
+      "action": "TurnRight"
+    },
+    {
+      "step": 77,
+      "frame_idx": 80,
+      "action": "MoveForward"
+    },
+    {
+      "step": 78,
+      "frame_idx": 81,
+      "action": "MoveForward"
+    },
+    {
+      "step": 79,
+      "frame_idx": 82,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 80,
+      "frame_idx": 83,
+      "action": "MoveForward"
+    },
+    {
+      "step": 81,
+      "frame_idx": 84,
+      "action": "MoveForward"
+    },
+    {
+      "step": 82,
+      "frame_idx": 85,
+      "action": "MoveForward"
+    },
+    {
+      "step": 83,
+      "frame_idx": 86,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 84,
+      "frame_idx": 87,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 85,
+      "frame_idx": 88,
+      "action": "Move"
+    },
+    {
+      "step": 86,
+      "frame_idx": 90,
+      "action": "MoveForward"
+    },
+    {
+      "step": 87,
+      "frame_idx": 91,
+      "action": "TurnRight"
+    },
+    {
+      "step": 88,
+      "frame_idx": 92,
+      "action": "MoveForward"
+    },
+    {
+      "step": 89,
+      "frame_idx": 93,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 90,
+      "frame_idx": 94,
+      "action": "MoveForward"
+    },
+    {
+      "step": 91,
+      "frame_idx": 95,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 92,
+      "frame_idx": 97,
+      "action": "MoveForward"
+    },
+    {
+      "step": 93,
+      "frame_idx": 98,
+      "action": "MoveForward"
+    },
+    {
+      "step": 94,
+      "frame_idx": 99,
+      "action": "MoveForward"
+    },
+    {
+      "step": 95,
+      "frame_idx": 100,
+      "action": "MoveForward"
+    },
+    {
+      "step": 96,
+      "frame_idx": 101,
+      "action": "TurnLeft"
+    },
+    {
+      "step": 97,
+      "frame_idx": 102,
+      "action": "Stop"
+    }
+  ]
+}

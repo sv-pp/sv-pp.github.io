@@ -1,0 +1,1536 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "rail",
+    "describe": "A horizontal metallic bar with a series of evenly spaced, circular, white bands encircling its length.",
+    "class_id": 95,
+    "bbox_min": [
+      0.33334413553265446,
+      -1.4140265574644255,
+      0.4225709883102081
+    ],
+    "bbox_max": [
+      2.133587329409427,
+      -1.2222353458550537,
+      0.5379992472779745
+    ],
+    "bbox_center": [
+      1.2334657324710407,
+      -1.3181309516597395,
+      0.48028511779409133
+    ],
+    "bbox_size": [
+      1.8002431938767727,
+      0.19179121160937185,
+      0.11542825896776643
+    ]
+  },
+  {
+    "instance_id": "2",
+    "class_name": "pipe",
+    "describe": "A horizontal, cylindrical, dark-colored pipe with a consistent diameter throughout its length, featuring a series of evenly spaced, circular flanges with bolt holes, and a smooth, uninterrupted surface.",
+    "class_id": 107,
+    "bbox_min": [
+      2.0504996749609434,
+      -0.40562990874108656,
+      0.43276592071432635
+    ],
+    "bbox_max": [
+      2.2293744528404584,
+      0.16137988574822235,
+      0.5165636324770362
+    ],
+    "bbox_center": [
+      2.139937063900701,
+      -0.12212501149643211,
+      0.4746647765956813
+    ],
+    "bbox_size": [
+      0.178874777879515,
+      0.5670097944893089,
+      0.08379771176270984
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "rack",
+    "describe": "A wall-mounted, retractable clothes rack with a metallic finish, featuring a horizontal bar for hanging garments and a vertical support structure on the left side, both components connected by a pivoting mechanism.",
+    "class_id": 87,
+    "bbox_min": [
+      1.14640988319625,
+      0.04957298248995298,
+      0.25174690836221436
+    ],
+    "bbox_max": [
+      2.1558945197253663,
+      0.3504863595029273,
+      0.6721546275611148
+    ],
+    "bbox_center": [
+      1.6511522014608082,
+      0.20002967099644015,
+      0.46195076796166457
+    ],
+    "bbox_size": [
+      1.0094846365291164,
+      0.30091337701297427,
+      0.4204077191989004
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "shelf",
+    "describe": "A long, horizontal, metallic shelf with a smooth, reflective surface. The shelf is segmented into sections by evenly spaced, vertical, rectangular supports. The top edge of the shelf is straight and clean, while the bottom edge is slightly curved.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.6475792013926928,
+      -1.4283038423037941,
+      -0.6085436272726445
+    ],
+    "bbox_max": [
+      2.125909991647234,
+      -1.1994876970127484,
+      -0.2549444263256838
+    ],
+    "bbox_center": [
+      0.7391653951272708,
+      -1.3138957696582714,
+      -0.4317440267991642
+    ],
+    "bbox_size": [
+      2.773489193039927,
+      0.22881614529104577,
+      0.35359920094696073
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a curved top and a flat bottom, featuring a metal hook at the top for hanging garments.",
+    "class_id": 57,
+    "bbox_min": [
+      1.0899454103888824,
+      -1.2993647063772005,
+      0.302446748369547
+    ],
+    "bbox_max": [
+      1.3533946539158026,
+      -1.1543603353787828,
+      0.4126847284377942
+    ],
+    "bbox_center": [
+      1.2216700321523426,
+      -1.2268625208779915,
+      0.35756573840367056
+    ],
+    "bbox_size": [
+      0.26344924352692023,
+      0.14500437099841768,
+      0.1102379800682472
+    ]
+  },
+  {
+    "instance_id": "6",
+    "class_name": "shoe",
+    "describe": "A black high-heeled shoe with a pointed toe and a stiletto heel.",
+    "class_id": 63,
+    "bbox_min": [
+      2.191166960839307,
+      -0.673622102781399,
+      -0.8478687011715532
+    ],
+    "bbox_max": [
+      2.339833817308275,
+      -0.4536055353633391,
+      -0.7046418339547946
+    ],
+    "bbox_center": [
+      2.2655003890737913,
+      -0.5636138190723691,
+      -0.776255267563174
+    ],
+    "bbox_size": [
+      0.1486668564689677,
+      0.22001656741805992,
+      0.1432268672167586
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "clothes",
+    "describe": "A plain white, short-sleeved V-neck T-shirt hanging on a wooden hanger.",
+    "class_id": 32,
+    "bbox_min": [
+      1.0704784493298483,
+      -1.3084500047241312,
+      -0.3031779497019717
+    ],
+    "bbox_max": [
+      1.5642370779318413,
+      -1.0724357526011756,
+      0.324664566285524
+    ],
+    "bbox_center": [
+      1.3173577636308447,
+      -1.1904428786626533,
+      0.010743308291776138
+    ],
+    "bbox_size": [
+      0.49375862860199304,
+      0.23601425212295557,
+      0.6278425159874956
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "clothes",
+    "describe": "A plain white, short-sleeved V-neck T-shirt with a smooth texture and a straight hem.",
+    "class_id": 32,
+    "bbox_min": [
+      1.2799566070505382,
+      -1.391964155615705,
+      -0.306297721964322
+    ],
+    "bbox_max": [
+      1.7809282085874973,
+      -1.0994815132663334,
+      0.3189390072293332
+    ],
+    "bbox_center": [
+      1.5304424078190177,
+      -1.2457228344410192,
+      0.006320642632505619
+    ],
+    "bbox_size": [
+      0.5009716015369592,
+      0.2924826423493716,
+      0.6252367291936551
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "shelf",
+    "describe": "A white, wall-mounted corner shelf with a curved front edge and a flat back edge, featuring three visible shelves of varying heights, the top shelf being the shortest and the bottom shelf being the longest. The shelf has a clean, minimalist design with no visible handles or hardware.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.5878536781206183,
+      -1.2746058144166672,
+      -1.3067223224770395
+    ],
+    "bbox_max": [
+      2.4197616212841413,
+      0.35910098999582835,
+      0.5766794914009827
+    ],
+    "bbox_center": [
+      0.9159539715817615,
+      -0.4577524122104194,
+      -0.36502141553802836
+    ],
+    "bbox_size": [
+      3.0076152994047596,
+      1.6337068044124956,
+      1.8834018138780222
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "dresser",
+    "describe": "A long-sleeved, black dress with a high neckline and a cinched waist tied with a black belt. The dress has a loose, flowing silhouette with a slightly flared hem.",
+    "class_id": 36,
+    "bbox_min": [
+      0.6932016645264208,
+      -1.3773466579989586,
+      -0.42117442841936853
+    ],
+    "bbox_max": [
+      1.1462293805800856,
+      -1.154369978256441,
+      0.34954032791434164
+    ],
+    "bbox_center": [
+      0.9197155225532532,
+      -1.2658583181276999,
+      -0.035817050252513444
+    ],
+    "bbox_size": [
+      0.45302771605366476,
+      0.22297667974251767,
+      0.7707147563337102
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "shoe",
+    "describe": "A dark brown leather high heel shoe with a pointed toe and a stiletto heel.",
+    "class_id": 63,
+    "bbox_min": [
+      2.250972088075383,
+      -1.0660221340454163,
+      -1.1725622714250334
+    ],
+    "bbox_max": [
+      2.3661436054255,
+      -0.9285208258848486,
+      -1.0231035940750293
+    ],
+    "bbox_center": [
+      2.3085578467504417,
+      -0.9972714799651325,
+      -1.0978329327500314
+    ],
+    "bbox_size": [
+      0.1151715173501171,
+      0.13750130816056771,
+      0.14945867735000418
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "mirror",
+    "describe": "A tall, rectangular mirror with a thin, white frame, featuring a reflective surface that extends to the edges of the frame.",
+    "class_id": 71,
+    "bbox_min": [
+      1.1243218674537498,
+      0.34745628609212653,
+      -0.8716614973267068
+    ],
+    "bbox_max": [
+      1.202740962862679,
+      1.1081092771577117,
+      0.5304251184407166
+    ],
+    "bbox_center": [
+      1.1635314151582143,
+      0.7277827816249192,
+      -0.17061818944299512
+    ],
+    "bbox_size": [
+      0.07841909540892922,
+      0.7606529910655851,
+      1.4020866157674234
+    ]
+  },
+  {
+    "instance_id": "15",
+    "class_name": "box",
+    "describe": "A rectangular black box with a matte finish and a visible white label on one of its narrower sides.",
+    "class_id": 26,
+    "bbox_min": [
+      2.1912957334347007,
+      -0.9627113562148693,
+      -0.5395340719719026
+    ],
+    "bbox_max": [
+      2.353096390167404,
+      -0.6679452603467104,
+      -0.3424963313433389
+    ],
+    "bbox_center": [
+      2.2721960618010524,
+      -0.8153283082807898,
+      -0.44101520165762076
+    ],
+    "bbox_size": [
+      0.16180065673270327,
+      0.29476609586815883,
+      0.19703774062856372
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "shoe",
+    "describe": "A dark brown leather high heel shoe with a pointed toe and a stiletto heel.",
+    "class_id": 63,
+    "bbox_min": [
+      2.198094765756861,
+      -1.1486975554740124,
+      -1.1700617527122947
+    ],
+    "bbox_max": [
+      2.33708640074883,
+      -0.9769958732124814,
+      -1.0466200615172905
+    ],
+    "bbox_center": [
+      2.2675905832528453,
+      -1.062846714343247,
+      -1.1083409071147927
+    ],
+    "bbox_size": [
+      0.1389916349919691,
+      0.17170168226153104,
+      0.12344169119500426
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "clothes",
+    "describe": "A long-sleeved, black jumpsuit with a high neckline and a zipper closure at the front. The sleeves are full-length, and the jumpsuit extends to the ankles.",
+    "class_id": 32,
+    "bbox_min": [
+      2.0523061073755775,
+      -0.24746484289046514,
+      -0.986705246547853
+    ],
+    "bbox_max": [
+      2.3701737256067683,
+      0.23453881650627117,
+      0.3594023801459678
+    ],
+    "bbox_center": [
+      2.2112399164911727,
+      -0.006463013192096981,
+      -0.3136514332009426
+    ],
+    "bbox_size": [
+      0.3178676182311908,
+      0.4820036593967363,
+      1.3461076266938208
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "box",
+    "describe": "A dark brown, rectangular box with a slightly textured surface. The box has a small, rectangular white label on its side.",
+    "class_id": 26,
+    "bbox_min": [
+      1.474181038122326,
+      -1.478284283459169,
+      -0.3721649045082023
+    ],
+    "bbox_max": [
+      2.0968055770486957,
+      -1.1645113726002279,
+      -0.05775655563441315
+    ],
+    "bbox_center": [
+      1.7854933075855108,
+      -1.3213978280296983,
+      -0.21496073007130773
+    ],
+    "bbox_size": [
+      0.6226245389263698,
+      0.3137729108589411,
+      0.3144083488737891
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "clothes",
+    "describe": "A black, long-sleeved shirt with a high collar, hanging on a wooden hanger.",
+    "class_id": 32,
+    "bbox_min": [
+      1.606792001057201,
+      -1.4357529652947434,
+      -1.1692841952544613
+    ],
+    "bbox_max": [
+      1.9094052899596363,
+      -1.1115580121735054,
+      -0.5508368303936473
+    ],
+    "bbox_center": [
+      1.7580986455084187,
+      -1.2736554887341245,
+      -0.8600605128240543
+    ],
+    "bbox_size": [
+      0.30261328890243533,
+      0.324194953121238,
+      0.618447364860814
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "bag",
+    "describe": "A black, rectangular handbag with a smooth texture and a slightly glossy finish. The handbag has a structured shape with clean, straight edges and appears to have a sturdy build.",
+    "class_id": 47,
+    "bbox_min": [
+      2.1881336731359537,
+      -1.1912220432667635,
+      -0.22123729546160098
+    ],
+    "bbox_max": [
+      2.3727562087796015,
+      -0.868848288216573,
+      0.025817882076269765
+    ],
+    "bbox_center": [
+      2.2804449409577776,
+      -1.0300351657416682,
+      -0.09770970669266561
+    ],
+    "bbox_size": [
+      0.18462253564364772,
+      0.3223737550501905,
+      0.24705517753787073
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "carpet",
+    "describe": "The floor is covered with a smooth, light brown carpet. The carpet has a uniform texture and color, with no visible patterns or designs. The edges of the carpet are clean and straight, fitting seamlessly with the surrounding walls.",
+    "class_id": -1,
+    "bbox_min": [
+      0.22484875403787655,
+      -1.5313428115203511,
+      -1.3094877189854512
+    ],
+    "bbox_max": [
+      2.188069789071468,
+      0.07128027092970587,
+      -1.1786050409775217
+    ],
+    "bbox_center": [
+      1.2064592715546725,
+      -0.7300312702953227,
+      -1.2440463799814865
+    ],
+    "bbox_size": [
+      1.9632210350335917,
+      1.602623082450057,
+      0.13088267800792952
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "mirror",
+    "describe": "A rectangular mirror with a thick, ornate frame featuring intricate carvings and a distressed finish, giving it an antique appearance.",
+    "class_id": 71,
+    "bbox_min": [
+      0.6974306690593894,
+      -1.32066602401742,
+      -0.42892438910392494
+    ],
+    "bbox_max": [
+      0.7922224667121397,
+      -1.2644819982352782,
+      -0.3768069456341966
+    ],
+    "bbox_center": [
+      0.7448265678857646,
+      -1.292574011126349,
+      -0.40286566736906076
+    ],
+    "bbox_size": [
+      0.09479179765275025,
+      0.05618402578214177,
+      0.05211744346972835
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "coat rack",
+    "describe": "A brown coat with a textured fabric, featuring a notched lapel, a visible buttonhole on the left lapel, and a partial view of a flap pocket on the right side.",
+    "class_id": 1182,
+    "bbox_min": [
+      2.1524393561244675,
+      -0.12355426676933151,
+      0.3405456575504015
+    ],
+    "bbox_max": [
+      2.2417095014048405,
+      0.057777605483884435,
+      0.425841932769179
+    ],
+    "bbox_center": [
+      2.1970744287646538,
+      -0.032888330642723534,
+      0.38319379515979024
+    ],
+    "bbox_size": [
+      0.08927014528037303,
+      0.18133187225321595,
+      0.08529627521877747
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "rack",
+    "describe": "A wooden hanger with a curved top bar and a flat bottom bar, featuring a series of notches along the top bar for hanging straps, and a rounded end on the bottom bar.",
+    "class_id": 87,
+    "bbox_min": [
+      1.4376158487223345,
+      -1.3692408148608297,
+      0.2563708690925996
+    ],
+    "bbox_max": [
+      2.100337682777576,
+      -1.0847135465794624,
+      0.4179645806305601
+    ],
+    "bbox_center": [
+      1.7689767657499553,
+      -1.2269771807201462,
+      0.33716772486157986
+    ],
+    "bbox_size": [
+      0.6627218340552414,
+      0.2845272682813673,
+      0.16159371153796048
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a curved top and a flat bottom, featuring a metal hook at the top for hanging garments.",
+    "class_id": 57,
+    "bbox_min": [
+      1.430359985071118,
+      -1.2890082557723077,
+      0.31101891504442725
+    ],
+    "bbox_max": [
+      1.6358155561087098,
+      -1.1832048945137614,
+      0.41116836081438374
+    ],
+    "bbox_center": [
+      1.5330877705899137,
+      -1.2361065751430345,
+      0.3610936379294055
+    ],
+    "bbox_size": [
+      0.20545557103759182,
+      0.10580336125854628,
+      0.10014944576995649
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "rack",
+    "describe": "A wooden hanger with a triangular top, featuring a metal hook at the top and a metal bar connecting the hook to the body of the hanger.",
+    "class_id": 87,
+    "bbox_min": [
+      0.815684793414216,
+      -1.347504161473,
+      0.2847003378460034
+    ],
+    "bbox_max": [
+      0.9885263441722585,
+      -1.240151812543965,
+      0.41082410505965433
+    ],
+    "bbox_center": [
+      0.9021055687932372,
+      -1.2938279870084823,
+      0.34776222145282887
+    ],
+    "bbox_size": [
+      0.17284155075804253,
+      0.10735234892903489,
+      0.12612376721365093
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "shoe",
+    "describe": "A dark brown, high-heeled shoe with a pointed toe and a stiletto heel.",
+    "class_id": 63,
+    "bbox_min": [
+      2.2517851031979386,
+      -1.0088494119633835,
+      0.10330112239705867
+    ],
+    "bbox_max": [
+      2.3692932103406052,
+      -0.8810914281032756,
+      0.21548569561340097
+    ],
+    "bbox_center": [
+      2.3105391567692717,
+      -0.9449704200333295,
+      0.15939340900522983
+    ],
+    "bbox_size": [
+      0.11750810714266668,
+      0.12775798386010795,
+      0.1121845732163423
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "shoe",
+    "describe": "A dark brown leather high heel shoe with a pointed toe and a stiletto heel.",
+    "class_id": 63,
+    "bbox_min": [
+      2.242822450201223,
+      -1.0847923971936464,
+      0.10041018014163605
+    ],
+    "bbox_max": [
+      2.3571379612658916,
+      -0.9265713574516186,
+      0.22475631801532503
+    ],
+    "bbox_center": [
+      2.299980205733557,
+      -1.0056818773226324,
+      0.16258324907848054
+    ],
+    "bbox_size": [
+      0.11431551106466875,
+      0.15822103974202784,
+      0.12434613787368898
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "bench",
+    "describe": "A beige, modern-style bench with a flat seating surface and a backrest, both featuring a smooth finish and sharp, clean lines. The bench has a minimalist design with no visible armrests or legs, and it appears to be made of a solid material.",
+    "class_id": 68,
+    "bbox_min": [
+      1.1373137366119537,
+      -0.06467805752516424,
+      -1.0587338261287456
+    ],
+    "bbox_max": [
+      2.1297822097068497,
+      0.3606998745358659,
+      -0.6219859996214417
+    ],
+    "bbox_center": [
+      1.6335479731594016,
+      0.1480109085053508,
+      -0.8403599128750936
+    ],
+    "bbox_size": [
+      0.992468473094896,
+      0.42537793206103014,
+      0.4367478265073038
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "bar",
+    "describe": "A horizontal, cylindrical metal bar with a consistent diameter throughout, featuring a smooth, reflective surface and a light beige color.",
+    "class_id": 145,
+    "bbox_min": [
+      1.4905996444816656,
+      -1.289695109912169,
+      0.26063992672417446
+    ],
+    "bbox_max": [
+      1.5658883202841636,
+      -1.1729154418192644,
+      0.28854518419559977
+    ],
+    "bbox_center": [
+      1.5282439823829146,
+      -1.2313052758657168,
+      0.27459255545988714
+    ],
+    "bbox_size": [
+      0.07528867580249798,
+      0.11677966809290452,
+      0.027905257471425304
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "coat rack",
+    "describe": "A brown coat hanger with a triangular silhouette, featuring a flat base and a pointed top, designed to hold a garment.",
+    "class_id": 1182,
+    "bbox_min": [
+      -0.18479457563020069,
+      -1.318365996802658,
+      -0.6158308302762503
+    ],
+    "bbox_max": [
+      -0.18461723708326808,
+      -1.3182115098668423,
+      -0.6148721675223988
+    ],
+    "bbox_center": [
+      -0.1847059063567344,
+      -1.31828875333475,
+      -0.6153514988993245
+    ],
+    "bbox_size": [
+      0.00017733854693260942,
+      0.00015448693581565642,
+      0.0009586627538514803
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "rack",
+    "describe": "A wooden hanger with a triangular shape, featuring a flat base and two angled arms extending upwards and outwards, each arm terminating in a rounded tip.",
+    "class_id": 87,
+    "bbox_min": [
+      1.6295492927771646,
+      -1.3943107900724818,
+      -0.6613247217078692
+    ],
+    "bbox_max": [
+      1.8608069946019348,
+      -1.1046104192674238,
+      -0.48084199397885163
+    ],
+    "bbox_center": [
+      1.7451781436895497,
+      -1.2494606046699528,
+      -0.5710833578433604
+    ],
+    "bbox_size": [
+      0.23125770182477012,
+      0.28970037080505806,
+      0.18048272772901752
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "clothes",
+    "describe": "A black, long-sleeved dress with a high neckline and a cinched waist, tied with a matching black belt.",
+    "class_id": 32,
+    "bbox_min": [
+      0.23412962199731244,
+      -1.3947624986227825,
+      -0.3965698476130268
+    ],
+    "bbox_max": [
+      0.5699644826950839,
+      -1.1898008237252458,
+      0.3403358496263542
+    ],
+    "bbox_center": [
+      0.4020470523461982,
+      -1.2922816611740142,
+      -0.028116998993336306
+    ],
+    "bbox_size": [
+      0.33583486069777146,
+      0.2049616748975367,
+      0.736905697239381
+    ]
+  },
+  {
+    "instance_id": "34",
+    "class_name": "clothes",
+    "describe": "A plain white, short-sleeved V-neck T-shirt with a relaxed fit and a straight hem.",
+    "class_id": 32,
+    "bbox_min": [
+      -0.08961054639520544,
+      -1.3595846782458627,
+      -0.2734593289975959
+    ],
+    "bbox_max": [
+      0.3345455527092186,
+      -1.1477954441797606,
+      0.3159492882570656
+    ],
+    "bbox_center": [
+      0.12246750315700658,
+      -1.2536900612128117,
+      0.021244979629734845
+    ],
+    "bbox_size": [
+      0.42415609910442403,
+      0.21178923406610206,
+      0.5894086172546615
+    ]
+  },
+  {
+    "instance_id": "35",
+    "class_name": "clothes",
+    "describe": "A black, long-sleeved shirt with a button-up front and a classic collar. The shirt has a regular fit and appears to be made of a smooth, possibly cotton-blend fabric.",
+    "class_id": 32,
+    "bbox_min": [
+      -0.4039712584488967,
+      -1.334768531699234,
+      -1.289183635609716
+    ],
+    "bbox_max": [
+      -0.09996581675205155,
+      -0.9307351721137521,
+      -0.6129491165560864
+    ],
+    "bbox_center": [
+      -0.2519685376004741,
+      -1.132751851906493,
+      -0.9510663760829012
+    ],
+    "bbox_size": [
+      0.3040054416968452,
+      0.4040333595854818,
+      0.6762345190536295
+    ]
+  },
+  {
+    "instance_id": "36",
+    "class_name": "dresser",
+    "describe": "A black, long-sleeved, knee-length dress with a fitted bodice and a flared skirt. The dress features a round neckline and appears to have a smooth, possibly satin or silk-like fabric.",
+    "class_id": 36,
+    "bbox_min": [
+      -0.055154453976761046,
+      -1.3340499364204146,
+      -1.286827358275281
+    ],
+    "bbox_max": [
+      0.37886399242130087,
+      -1.0141351151730618,
+      -0.6103837093124397
+    ],
+    "bbox_center": [
+      0.1618547692222699,
+      -1.174092525796738,
+      -0.9486055337938604
+    ],
+    "bbox_size": [
+      0.4340184463980619,
+      0.3199148212473528,
+      0.6764436489628413
+    ]
+  },
+  {
+    "instance_id": "37",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a curved top and a flat bottom, featuring a series of evenly spaced, round metal hooks along its upper edge for hanging garments.",
+    "class_id": 57,
+    "bbox_min": [
+      -0.018342556636996195,
+      -1.345684068315017,
+      -0.6970230565850465
+    ],
+    "bbox_max": [
+      0.15719713689402032,
+      -1.1676791583575845,
+      -0.5142677235746073
+    ],
+    "bbox_center": [
+      0.06942729012851206,
+      -1.2566816133363008,
+      -0.6056453900798269
+    ],
+    "bbox_size": [
+      0.1755396935310165,
+      0.17800490995743257,
+      0.18275533301043922
+    ]
+  },
+  {
+    "instance_id": "38",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a triangular shape, featuring a flat base for clothing attachment, a slender neck, and a rounded top with a notch for hanging.",
+    "class_id": 57,
+    "bbox_min": [
+      0.005528391714282038,
+      -1.3065940521148571,
+      0.2898540039444141
+    ],
+    "bbox_max": [
+      0.23016976424231372,
+      -1.2268255565136352,
+      0.40622771693257304
+    ],
+    "bbox_center": [
+      0.11784907797829788,
+      -1.2667098043142462,
+      0.3480408604384936
+    ],
+    "bbox_size": [
+      0.22464137252803168,
+      0.0797684956012219,
+      0.11637371298815896
+    ]
+  },
+  {
+    "instance_id": "39",
+    "class_name": "rack",
+    "describe": "A wooden hanger with a triangular shape, featuring a flat base and a rounded top, with a metal hook at the top for hanging.",
+    "class_id": 87,
+    "bbox_min": [
+      0.25541783135071544,
+      -1.342363302321479,
+      0.32064501811335466
+    ],
+    "bbox_max": [
+      0.43316368941772654,
+      -1.2377692181892548,
+      0.41342780758566766
+    ],
+    "bbox_center": [
+      0.344290760384221,
+      -1.290066260255367,
+      0.36703641284951116
+    ],
+    "bbox_size": [
+      0.1777458580670111,
+      0.10459408413222415,
+      0.092782789472313
+    ]
+  },
+  {
+    "instance_id": "40",
+    "class_name": "column",
+    "describe": "A slender, vertical structure with a series of evenly spaced, horizontal bands wrapping around its circumference, creating a ribbed texture. The structure tapers slightly towards the top and has a consistent, metallic finish.",
+    "class_id": 120,
+    "bbox_min": [
+      0.03413081166223184,
+      -1.5039757220465628,
+      0.7179504113760845
+    ],
+    "bbox_max": [
+      0.07164437117419928,
+      -1.399068445283732,
+      0.9464767681041732
+    ],
+    "bbox_center": [
+      0.05288759141821556,
+      -1.4515220836651475,
+      0.8322135897401288
+    ],
+    "bbox_size": [
+      0.037513559511967436,
+      0.10490727676283074,
+      0.22852635672808874
+    ]
+  },
+  {
+    "instance_id": "41",
+    "class_name": "clothes",
+    "describe": "A white, long-sleeved shirt with a buttoned cuff, featuring a classic collar and a visible button placket with at least one visible button.",
+    "class_id": 32,
+    "bbox_min": [
+      1.092321877498414,
+      -1.2643618640511198,
+      0.2530788810620726
+    ],
+    "bbox_max": [
+      1.2205346837547333,
+      -1.1579123295428329,
+      0.30315813660178337
+    ],
+    "bbox_center": [
+      1.1564282806265735,
+      -1.2111370967969763,
+      0.278118508831928
+    ],
+    "bbox_size": [
+      0.12821280625631926,
+      0.10644953450828698,
+      0.050079255539710765
+    ]
+  },
+  {
+    "instance_id": "42",
+    "class_name": "bar",
+    "describe": "A horizontal, cylindrical metal bar with a consistent diameter throughout its length, featuring a smooth, reflective surface and a dark coloration, possibly black or dark gray.",
+    "class_id": 145,
+    "bbox_min": [
+      2.0504996749609434,
+      -0.36890229712054007,
+      0.44269497085634846
+    ],
+    "bbox_max": [
+      2.164330229636719,
+      0.313823284850041,
+      0.490550563741085
+    ],
+    "bbox_center": [
+      2.1074149522988312,
+      -0.027539506135249525,
+      0.46662276729871677
+    ],
+    "bbox_size": [
+      0.11383055467577563,
+      0.6827255819705811,
+      0.047855592884736564
+    ]
+  },
+  {
+    "instance_id": "43",
+    "class_name": "curtain",
+    "describe": "A gray curtain with a smooth texture and a straight-hanging design, featuring a hemmed bottom edge and a visible side seam.",
+    "class_id": 21,
+    "bbox_min": [
+      1.170891040190899,
+      0.31110113062112754,
+      0.2551836148925959
+    ],
+    "bbox_max": [
+      1.2804277018027976,
+      0.34509729669835026,
+      0.4935891751164789
+    ],
+    "bbox_center": [
+      1.2256593709968482,
+      0.32809921365973893,
+      0.3743863950045374
+    ],
+    "bbox_size": [
+      0.10953666161189868,
+      0.03399616607722272,
+      0.23840556022388298
+    ]
+  },
+  {
+    "instance_id": "44",
+    "class_name": "table",
+    "describe": "A white, rectangular table with a smooth surface and rounded corners, featuring a thin, flat edge and a visible side panel with a vertical groove design.",
+    "class_id": 4,
+    "bbox_min": [
+      0.7498944525516743,
+      0.27706970777246703,
+      -1.1837045161124262
+    ],
+    "bbox_max": [
+      1.1755258491586495,
+      1.3866046241239562,
+      -0.8280299368661465
+    ],
+    "bbox_center": [
+      0.9627101508551619,
+      0.8318371659482117,
+      -1.0058672264892863
+    ],
+    "bbox_size": [
+      0.42563139660697524,
+      1.1095349163514892,
+      0.35567457924627977
+    ]
+  },
+  {
+    "instance_id": "45",
+    "class_name": "shelf",
+    "describe": "A long, horizontal, wall-mounted shelf with a flat, white surface and a dark, possibly black, lower edge that runs the length of the shelf.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.0011324538863590635,
+      1.0762705040632237,
+      -0.5919744513965379
+    ],
+    "bbox_max": [
+      1.160186240630604,
+      1.6337290784554195,
+      -0.1308665312101843
+    ],
+    "bbox_center": [
+      0.5795268933721225,
+      1.3549997912593215,
+      -0.3614204913033611
+    ],
+    "bbox_size": [
+      1.1613186945169631,
+      0.5574585743921958,
+      0.4611079201863536
+    ]
+  },
+  {
+    "instance_id": "46",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a curved top and a flat bottom, featuring a series of evenly spaced, round metal hooks along its upper edge for hanging garments.",
+    "class_id": 57,
+    "bbox_min": [
+      1.0219706563968347,
+      1.291321240603923,
+      -0.659642943576296
+    ],
+    "bbox_max": [
+      1.132478235252942,
+      1.464337869859447,
+      -0.47564890257334885
+    ],
+    "bbox_center": [
+      1.0772244458248883,
+      1.3778295552316848,
+      -0.5676459230748224
+    ],
+    "bbox_size": [
+      0.11050757885610718,
+      0.17301662925552397,
+      0.1839940410029472
+    ]
+  },
+  {
+    "instance_id": "47",
+    "class_name": "closet",
+    "describe": "A wooden hanger with a curved neck and a flat base, featuring a series of notches along its length for hanging garments.",
+    "class_id": 57,
+    "bbox_min": [
+      0.017662565827863963,
+      1.0650785382879058,
+      -0.839281115937084
+    ],
+    "bbox_max": [
+      0.8686051068956306,
+      1.5984648739661451,
+      -0.4725711672307897
+    ],
+    "bbox_center": [
+      0.4431338363617473,
+      1.3317717061270256,
+      -0.6559261415839368
+    ],
+    "bbox_size": [
+      0.8509425410677667,
+      0.5333863356782393,
+      0.3667099487062943
+    ]
+  },
+  {
+    "instance_id": "48",
+    "class_name": "shelf",
+    "describe": "A long, narrow, horizontal shelf with a flat, smooth surface and a light beige color. The shelf has a consistent width and appears to be made of a solid material, possibly wood or a wood-like composite. The edges are straight and clean, suggesting a modern and minimalist design.",
+    "class_id": 8,
+    "bbox_min": [
+      0.1417489957689991,
+      1.3651957281298626,
+      0.7241550004692742
+    ],
+    "bbox_max": [
+      1.1716064211771657,
+      1.723805408486674,
+      1.2201000511336189
+    ],
+    "bbox_center": [
+      0.6566777084730824,
+      1.5445005683082682,
+      0.9721275258014466
+    ],
+    "bbox_size": [
+      1.0298574254081667,
+      0.3586096803568115,
+      0.4959450506643447
+    ]
+  },
+  {
+    "instance_id": "49",
+    "class_name": "rack",
+    "describe": "A wooden hanger with a curved neck and a flat base, featuring a series of notches along the inner edge of the neck for hanging straps.",
+    "class_id": 87,
+    "bbox_min": [
+      0.8230446193401849,
+      1.266243631447458,
+      -0.6448822090476686
+    ],
+    "bbox_max": [
+      1.0551486845727456,
+      1.5261154678098332,
+      -0.4812196231304761
+    ],
+    "bbox_center": [
+      0.9390966519564652,
+      1.3961795496286458,
+      -0.5630509160890723
+    ],
+    "bbox_size": [
+      0.23210406523256066,
+      0.2598718363623751,
+      0.16366258591719246
+    ]
+  },
+  {
+    "instance_id": "50",
+    "class_name": "bar",
+    "describe": "A long, horizontal, metallic bar with a cylindrical shape and a smooth, reflective surface. The bar has a consistent diameter throughout its visible length and appears to be made of a sturdy material, likely metal, with a polished finish.",
+    "class_id": 145,
+    "bbox_min": [
+      0.13713256853678435,
+      1.1702136280354112,
+      0.21546211576412744
+    ],
+    "bbox_max": [
+      1.1710421119408772,
+      1.684894287756402,
+      0.7583393031074739
+    ],
+    "bbox_center": [
+      0.6540873402388308,
+      1.4275539578959067,
+      0.48690070943580066
+    ],
+    "bbox_size": [
+      1.0339095434040928,
+      0.5146806597209908,
+      0.5428771873433464
+    ]
+  },
+  {
+    "instance_id": "51",
+    "class_name": "clothes",
+    "describe": "A long-sleeved, cream-colored shirt with a buttoned cuff and a visible seam running down the sleeve.",
+    "class_id": 32,
+    "bbox_min": [
+      0.7000546366954813,
+      1.2005118509773616,
+      -0.32184040849138246
+    ],
+    "bbox_max": [
+      0.9197932180310513,
+      1.4749032494802672,
+      0.3606676813870175
+    ],
+    "bbox_center": [
+      0.8099239273632663,
+      1.3377075502288145,
+      0.019413636447817517
+    ],
+    "bbox_size": [
+      0.21973858133557,
+      0.2743913985029056,
+      0.6825080898784
+    ]
+  },
+  {
+    "instance_id": "52",
+    "class_name": "clothes",
+    "describe": "A long-sleeved, cream-colored shirt with a buttoned cuff, featuring a classic collar and a visible button placket.",
+    "class_id": 32,
+    "bbox_min": [
+      0.6851214855053926,
+      1.2424773532058646,
+      -0.3270205171683715
+    ],
+    "bbox_max": [
+      0.7521100543636062,
+      1.3055417730904073,
+      0.27806412953096754
+    ],
+    "bbox_center": [
+      0.7186157699344995,
+      1.274009563148136,
+      -0.024478193818701977
+    ],
+    "bbox_size": [
+      0.06698856885821358,
+      0.0630644198845427,
+      0.605084646699339
+    ]
+  },
+  {
+    "instance_id": "53",
+    "class_name": "closet",
+    "describe": "A brown wooden hanger with a curved top and a flat bottom, featuring a metal hook at the top for hanging.",
+    "class_id": 57,
+    "bbox_min": [
+      0.4091391628588496,
+      1.4003760596728392,
+      0.3402307573268763
+    ],
+    "bbox_max": [
+      0.5630018730159827,
+      1.571271958970058,
+      0.4326070141262508
+    ],
+    "bbox_center": [
+      0.4860705179374162,
+      1.4858240093214485,
+      0.3864188857265636
+    ],
+    "bbox_size": [
+      0.1538627101571331,
+      0.1708958992972187,
+      0.0923762567993745
+    ]
+  },
+  {
+    "instance_id": "54",
+    "class_name": "closet",
+    "describe": "A brown wooden hanger with a curved top and a flat bottom, featuring a rounded end and a visible metal hook at the top for hanging.",
+    "class_id": 57,
+    "bbox_min": [
+      0.553489827109356,
+      1.3965735515829607,
+      0.3395979434805578
+    ],
+    "bbox_max": [
+      0.6672783950886615,
+      1.50028571419603,
+      0.42233513959415164
+    ],
+    "bbox_center": [
+      0.6103841110990087,
+      1.4484296328894954,
+      0.3809665415373547
+    ],
+    "bbox_size": [
+      0.11378856797930548,
+      0.10371216261306926,
+      0.08273719611359387
+    ]
+  },
+  {
+    "instance_id": "55",
+    "class_name": "rack",
+    "describe": "A brown, wooden hanger with a rounded top and a flat bottom, featuring a visible metal hook at the top for hanging.",
+    "class_id": 87,
+    "bbox_min": [
+      0.6609524664516062,
+      1.371316645170039,
+      0.33628586612157624
+    ],
+    "bbox_max": [
+      0.8252554499366088,
+      1.5546400039425308,
+      0.4331081424245497
+    ],
+    "bbox_center": [
+      0.7431039581941075,
+      1.4629783245562848,
+      0.38469700427306297
+    ],
+    "bbox_size": [
+      0.1643029834850026,
+      0.18332335877249184,
+      0.09682227630297346
+    ]
+  },
+  {
+    "instance_id": "56",
+    "class_name": "clothes",
+    "describe": "A long-sleeved, button-up shirt with a pointed collar, featuring a light color, possibly white or cream. The shirt has a visible button placket with buttons aligned down the front and a chest pocket on the left side. The fabric appears to be a smooth, possibly cotton or cotton blend, and the shirt has a regular fit with a straight hem.",
+    "class_id": 32,
+    "bbox_min": [
+      0.5913567547698815,
+      1.234911511216594,
+      -0.2946675326004286
+    ],
+    "bbox_max": [
+      0.7194478699190872,
+      1.4122845113474887,
+      0.3559669794219359
+    ],
+    "bbox_center": [
+      0.6554023123444843,
+      1.3235980112820414,
+      0.030649723410753643
+    ],
+    "bbox_size": [
+      0.12809111514920568,
+      0.17737300013089463,
+      0.6506345120223644
+    ]
+  },
+  {
+    "instance_id": "57",
+    "class_name": "clothes",
+    "describe": "A long-sleeved, cream-colored shirt with a button-up front and a classic collar. The fabric appears to be smooth and slightly reflective, suggesting a silky or satin-like material. The shirt has a standard placket with visible buttons and a straight hemline.",
+    "class_id": 32,
+    "bbox_min": [
+      0.1425145498530811,
+      1.2327625557518103,
+      -0.33521631027465565
+    ],
+    "bbox_max": [
+      0.6632454121780882,
+      1.645168343864013,
+      0.4232807442845076
+    ],
+    "bbox_center": [
+      0.40287998101558464,
+      1.4389654498079116,
+      0.04403221700492599
+    ],
+    "bbox_size": [
+      0.5207308623250071,
+      0.41240578811220274,
+      0.7584970545591633
+    ]
+  },
+  {
+    "instance_id": "58",
+    "class_name": "clothes",
+    "describe": "A black, long-sleeved shirt with a high neckline and a fitted silhouette.",
+    "class_id": 32,
+    "bbox_min": [
+      0.7584964016559885,
+      1.1546054251859283,
+      -1.2646698334563282
+    ],
+    "bbox_max": [
+      1.0282359152619571,
+      1.4667702857487246,
+      -0.5848589619278975
+    ],
+    "bbox_center": [
+      0.8933661584589728,
+      1.3106878554673265,
+      -0.9247643976921129
+    ],
+    "bbox_size": [
+      0.2697395136059686,
+      0.31216486056279624,
+      0.6798108715284307
+    ]
+  },
+  {
+    "instance_id": "59",
+    "class_name": "clothes",
+    "describe": "Black trousers with a straight-leg cut, featuring a smooth texture and a regular waistband.",
+    "class_id": 32,
+    "bbox_min": [
+      0.4848825103875954,
+      1.2956738949535294,
+      -1.2560584423676404
+    ],
+    "bbox_max": [
+      0.7988682174581915,
+      1.5588334503641348,
+      -0.5837306950185686
+    ],
+    "bbox_center": [
+      0.6418753639228935,
+      1.427253672658832,
+      -0.9198945686931045
+    ],
+    "bbox_size": [
+      0.3139857070705961,
+      0.26315955541060543,
+      0.6723277473490719
+    ]
+  },
+  {
+    "instance_id": "60",
+    "class_name": "clothes",
+    "describe": "Black trousers with a straight-leg cut, featuring a smooth texture and a visible waistband with belt loops.",
+    "class_id": 32,
+    "bbox_min": [
+      0.1421293118683044,
+      1.3710308744727728,
+      -1.2227442085448077
+    ],
+    "bbox_max": [
+      0.5572541654751707,
+      1.6070038430257543,
+      -0.5745987894296232
+    ],
+    "bbox_center": [
+      0.34969173867173753,
+      1.4890173587492637,
+      -0.8986714989872154
+    ],
+    "bbox_size": [
+      0.4151248536068663,
+      0.23597296855298144,
+      0.6481454191151845
+    ]
+  },
+  {
+    "instance_id": "61",
+    "class_name": "box",
+    "describe": "A rectangular, dark-colored box with a slightly textured surface and a visible white label on one side.",
+    "class_id": 26,
+    "bbox_min": [
+      0.33144602044528626,
+      1.439818442694092,
+      0.5055782854448735
+    ],
+    "bbox_max": [
+      0.9322904879227039,
+      1.6737182929972054,
+      0.8185000114571952
+    ],
+    "bbox_center": [
+      0.6318682541839951,
+      1.5567683678456488,
+      0.6620391484510344
+    ],
+    "bbox_size": [
+      0.6008444674774176,
+      0.23389985030311333,
+      0.3129217260123217
+    ]
+  }
+]

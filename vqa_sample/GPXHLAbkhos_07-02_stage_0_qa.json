@@ -1,0 +1,692 @@
+[
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "shelf",
+    "question": "How many shelf(s) are in this room?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 1",
+      "D. 2"
+    ],
+    "ground_truth": 2,
+    "mc_answer": "D",
+    "id": 562
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "window",
+    "question": "How many window(s) are in this room?",
+    "options": [
+      "A. 3",
+      "B. 6",
+      "C. 2",
+      "D. 1"
+    ],
+    "ground_truth": 3,
+    "mc_answer": "A",
+    "id": 565
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "cabinet",
+    "question": "How many cabinet(s) are in this room?",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 4",
+      "D. 6"
+    ],
+    "ground_truth": 3,
+    "mc_answer": "B",
+    "id": 566
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "picture",
+    "question": "How many picture(s) are in this room?",
+    "options": [
+      "A. 9",
+      "B. 12",
+      "C. 10",
+      "D. 11"
+    ],
+    "ground_truth": 9,
+    "mc_answer": "A",
+    "id": 567
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "bed",
+    "question": "How many bed(s) are in this room?",
+    "options": [
+      "A. 7",
+      "B. 3",
+      "C. 6",
+      "D. 4"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "D",
+    "id": 568
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "table",
+    "question": "How many table(s) are in this room?",
+    "options": [
+      "A. 3",
+      "B. 7",
+      "C. 4",
+      "D. 5"
+    ],
+    "ground_truth": 4,
+    "mc_answer": "C",
+    "id": 569
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "sofa",
+    "question": "How many sofa(s) are in this room?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 6",
+      "D. 5"
+    ],
+    "ground_truth": 3,
+    "mc_answer": "A",
+    "id": 570
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "backpack",
+    "question": "Measuring from the closest point of each object, which of these objects (door, ceiling light, shelf, clothes) is the closest to the backpack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. ceiling light",
+      "C. shelf",
+      "D. clothes"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "A",
+    "id": 843
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "poster",
+    "question": "Measuring from the closest point of each object, which of these objects (ceiling light, pillow, clothes, book) is the closest to the poster?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ceiling light",
+      "B. pillow",
+      "C. clothes",
+      "D. book"
+    ],
+    "ground_truth": "pillow",
+    "mc_answer": "B",
+    "id": 844
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "drawer",
+    "question": "Measuring from the closest point of each object, which of these objects (pillow, clothes, curtain, sign) is the closest to the drawer?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. pillow",
+      "B. clothes",
+      "C. curtain",
+      "D. sign"
+    ],
+    "ground_truth": "sign",
+    "mc_answer": "D",
+    "id": 845
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ottoman",
+    "question": "Measuring from the closest point of each object, which of these objects (rail, mirror, lamp, door) is the closest to the ottoman?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rail",
+      "B. mirror",
+      "C. lamp",
+      "D. door"
+    ],
+    "ground_truth": "lamp",
+    "mc_answer": "C",
+    "id": 846
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (soap dispenser, stool, curtain, cabinet) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. soap dispenser",
+      "B. stool",
+      "C. curtain",
+      "D. cabinet"
+    ],
+    "ground_truth": "cabinet",
+    "mc_answer": "D",
+    "id": 847
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ball",
+    "question": "Measuring from the closest point of each object, which of these objects (rail, clothes, lamp, table) is the closest to the ball?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rail",
+      "B. clothes",
+      "C. lamp",
+      "D. table"
+    ],
+    "ground_truth": "lamp",
+    "mc_answer": "C",
+    "id": 848
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ball",
+    "question": "Measuring from the closest point of each object, which of these objects (pole, curtain, sign, dresser) is the closest to the ball?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. pole",
+      "B. curtain",
+      "C. sign",
+      "D. dresser"
+    ],
+    "ground_truth": "curtain",
+    "mc_answer": "B",
+    "id": 849
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (cabinet, ceiling light, poster, mirror) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. cabinet",
+      "B. ceiling light",
+      "C. poster",
+      "D. mirror"
+    ],
+    "ground_truth": "cabinet",
+    "mc_answer": "A",
+    "id": 850
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "cushion",
+    "question": "Measuring from the closest point of each object, which of these objects (floor, mirror, soap dispenser, window) is the closest to the cushion?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. floor",
+      "B. mirror",
+      "C. soap dispenser",
+      "D. window"
+    ],
+    "ground_truth": "floor",
+    "mc_answer": "A",
+    "id": 851
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ceiling light",
+    "question": "Measuring from the closest point of each object, which of these objects (clothes, drawer, couch, pole) is the closest to the ceiling light?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. clothes",
+      "B. drawer",
+      "C. couch",
+      "D. pole"
+    ],
+    "ground_truth": "couch",
+    "mc_answer": "C",
+    "id": 852
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ottoman",
+    "question": "Measuring from the closest point of each object, which of these objects (sign, cushion, backpack) is the closest to the ottoman?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sign",
+      "B. cushion",
+      "C. backpack"
+    ],
+    "ground_truth": "cushion",
+    "mc_answer": "B",
+    "id": 1053
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "poster",
+    "question": "Measuring from the closest point of each object, which of these objects (backpack, door, table) is the closest to the poster?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. backpack",
+      "B. door",
+      "C. table"
+    ],
+    "ground_truth": "backpack",
+    "mc_answer": "A",
+    "id": 1054
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "drawer",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, curtain, door) is the closest to the drawer?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. curtain",
+      "C. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "C",
+    "id": 1055
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "pole",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, window, ceiling light) is the closest to the pole?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. window",
+      "C. ceiling light"
+    ],
+    "ground_truth": "ceiling light",
+    "mc_answer": "C",
+    "id": 1056
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "soap dispenser",
+    "question": "Measuring from the closest point of each object, which of these objects (floor, ball, stool) is the closest to the soap dispenser?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. floor",
+      "B. ball",
+      "C. stool"
+    ],
+    "ground_truth": "floor",
+    "mc_answer": "A",
+    "id": 1057
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "poster",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, dresser, picture) is the closest to the poster?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. dresser",
+      "C. picture"
+    ],
+    "ground_truth": "dresser",
+    "mc_answer": "B",
+    "id": 1058
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "backpack",
+    "question": "Measuring from the closest point of each object, which of these objects (towel, shelf, sign) is the closest to the backpack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. towel",
+      "B. shelf",
+      "C. sign"
+    ],
+    "ground_truth": "sign",
+    "mc_answer": "C",
+    "id": 1059
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ceiling light",
+    "question": "Measuring from the closest point of each object, which of these objects (dresser, stool, poster) is the closest to the ceiling light?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. dresser",
+      "B. stool",
+      "C. poster"
+    ],
+    "ground_truth": "dresser",
+    "mc_answer": "A",
+    "id": 1060
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "soap dispenser",
+    "question": "Measuring from the closest point of each object, which of these objects (floor, sign, ceiling light) is the closest to the soap dispenser?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. floor",
+      "B. sign",
+      "C. ceiling light"
+    ],
+    "ground_truth": "sign",
+    "mc_answer": "B",
+    "id": 1061
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ceiling light",
+    "question": "Measuring from the closest point of each object, which of these objects (blanket, cabinet, window) is the closest to the ceiling light?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. blanket",
+      "B. cabinet",
+      "C. window"
+    ],
+    "ground_truth": "cabinet",
+    "mc_answer": "B",
+    "id": 1062
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (blanket, bed) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. blanket",
+      "B. bed"
+    ],
+    "ground_truth": "bed",
+    "mc_answer": "B",
+    "id": 1442
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (clothes, window) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. clothes",
+      "B. window"
+    ],
+    "ground_truth": "clothes",
+    "mc_answer": "A",
+    "id": 1443
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (soap dispenser, pillow) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. soap dispenser",
+      "B. pillow"
+    ],
+    "ground_truth": "pillow",
+    "mc_answer": "B",
+    "id": 1444
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (blanket, dresser) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. blanket",
+      "B. dresser"
+    ],
+    "ground_truth": "blanket",
+    "mc_answer": "A",
+    "id": 1445
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (pillow, sign) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. pillow",
+      "B. sign"
+    ],
+    "ground_truth": "sign",
+    "mc_answer": "B",
+    "id": 1446
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "pole",
+    "question": "Measuring from the closest point of each object, which of these objects (decoration, ceiling light) is the closest to the pole?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. decoration",
+      "B. ceiling light"
+    ],
+    "ground_truth": "ceiling light",
+    "mc_answer": "B",
+    "id": 1447
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ball",
+    "question": "Measuring from the closest point of each object, which of these objects (ceiling, drawer) is the closest to the ball?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ceiling",
+      "B. drawer"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "A",
+    "id": 1448
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (wall, book) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. wall",
+      "B. book"
+    ],
+    "ground_truth": "wall",
+    "mc_answer": "A",
+    "id": 1449
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "poster",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, clothes) is the closest to the poster?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. clothes"
+    ],
+    "ground_truth": "clothes",
+    "mc_answer": "B",
+    "id": 1450
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "cushion",
+    "question": "Measuring from the closest point of each object, which of these objects (couch, floor) is the closest to the cushion?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. couch",
+      "B. floor"
+    ],
+    "ground_truth": "floor",
+    "mc_answer": "B",
+    "id": 1451
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ottoman",
+    "question": "Measuring from the closest point of each object, which of these objects (drawer, shelf) is the closest to the ottoman?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. drawer",
+      "B. shelf"
+    ],
+    "ground_truth": "drawer",
+    "mc_answer": "A",
+    "id": 1452
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (bed, drawer) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bed",
+      "B. drawer"
+    ],
+    "ground_truth": "bed",
+    "mc_answer": "A",
+    "id": 1453
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "soap dispenser",
+    "question": "Measuring from the closest point of each object, which of these objects (poster, blanket) is the closest to the soap dispenser?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. poster",
+      "B. blanket"
+    ],
+    "ground_truth": "blanket",
+    "mc_answer": "B",
+    "id": 1454
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "ceiling light",
+    "question": "Measuring from the closest point of each object, which of these objects (door, book) is the closest to the ceiling light?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. book"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "A",
+    "id": 1455
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "category": "pole",
+    "question": "Measuring from the closest point of each object, which of these objects (soap dispenser, sign) is the closest to the pole?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. soap dispenser",
+      "B. sign"
+    ],
+    "ground_truth": "sign",
+    "mc_answer": "B",
+    "id": 1456
+  },
+  {
+    "scene_name": "GPXHLAbkhos_07-02_stage_0",
+    "dataset": "svpp",
+    "question_type": "room_size_estimation",
+    "video_path": "group_024/GPXHLAbkhos_07-02_stage_0/images",
+    "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+    "options": [
+      "A. 50.5",
+      "B. 151.9",
+      "C. 89.0",
+      "D. 70.8"
+    ],
+    "ground_truth": 89.0,
+    "mc_answer": "C",
+    "id": 107
+  }
+]

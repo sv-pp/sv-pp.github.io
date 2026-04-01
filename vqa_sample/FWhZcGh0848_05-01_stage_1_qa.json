@@ -1,0 +1,1196 @@
+[
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "chair",
+    "category, second object": "bed",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the chair and the bed (in meters)?",
+    "options": [
+      "A. 1.2",
+      "B. 0.8",
+      "C. 2.0",
+      "D. 1.5"
+    ],
+    "ground_truth": 1.2,
+    "mc_answer": "A",
+    "id": 293
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "table",
+    "category, second object": "chair",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the table and the chair (in meters)?",
+    "options": [
+      "A. 4.9",
+      "B. 1.6",
+      "C. 2.8",
+      "D. 3.8"
+    ],
+    "ground_truth": 3.8,
+    "mc_answer": "D",
+    "id": 294
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "shelf",
+    "category, second object": "bed",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the shelf and the bed (in meters)?",
+    "options": [
+      "A. 3.5",
+      "B. 1.6",
+      "C. 2.2",
+      "D. 0.9"
+    ],
+    "ground_truth": 2.2,
+    "mc_answer": "C",
+    "id": 295
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "shelf",
+    "category, second object": "chair",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the shelf and the chair (in meters)?",
+    "options": [
+      "A. 3.1",
+      "B. 5.3",
+      "C. 1.7",
+      "D. 9.1"
+    ],
+    "ground_truth": 5.3,
+    "mc_answer": "B",
+    "id": 296
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "shelf",
+    "category, second object": "table",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the shelf and the table (in meters)?",
+    "options": [
+      "A. 1.4",
+      "B. 2.4",
+      "C. 1.0",
+      "D. 0.5"
+    ],
+    "ground_truth": 1.4,
+    "mc_answer": "A",
+    "id": 297
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "bathtub",
+    "category, second object": "bed",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the bed (in meters)?",
+    "options": [
+      "A. 2.7",
+      "B. 9.3",
+      "C. 6.5",
+      "D. 4.8"
+    ],
+    "ground_truth": 6.5,
+    "mc_answer": "C",
+    "id": 298
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "bathtub",
+    "category, second object": "chair",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the chair (in meters)?",
+    "options": [
+      "A. 4.9",
+      "B. 9.5",
+      "C. 7.2",
+      "D. 12.2"
+    ],
+    "ground_truth": 9.5,
+    "mc_answer": "B",
+    "id": 299
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "bathtub",
+    "category, second object": "table",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the table (in meters)?",
+    "options": [
+      "A. 3.3",
+      "B. 7.6",
+      "C. 9.2",
+      "D. 5.4"
+    ],
+    "ground_truth": 5.4,
+    "mc_answer": "D",
+    "id": 300
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "bathtub",
+    "category, second object": "shelf",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the bathtub and the shelf (in meters)?",
+    "options": [
+      "A. 4.4",
+      "B. 5.4",
+      "C. 3.2",
+      "D. 1.8"
+    ],
+    "ground_truth": 3.2,
+    "mc_answer": "C",
+    "id": 301
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "sink",
+    "category, second object": "bed",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the bed (in meters)?",
+    "options": [
+      "A. 5.4",
+      "B. 8.5",
+      "C. 7.3",
+      "D. 1.5"
+    ],
+    "ground_truth": 5.4,
+    "mc_answer": "A",
+    "id": 302
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "sink",
+    "category, second object": "chair",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the chair (in meters)?",
+    "options": [
+      "A. 15.0",
+      "B. 12.3",
+      "C. 4.5",
+      "D. 8.6"
+    ],
+    "ground_truth": 8.6,
+    "mc_answer": "D",
+    "id": 303
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "sink",
+    "category, second object": "table",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the table (in meters)?",
+    "options": [
+      "A. 2.5",
+      "B. 4.2",
+      "C. 1.1",
+      "D. 7.3"
+    ],
+    "ground_truth": 4.2,
+    "mc_answer": "B",
+    "id": 304
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "sink",
+    "category, second object": "shelf",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the shelf (in meters)?",
+    "options": [
+      "A. 1.9",
+      "B. 2.9",
+      "C. 1.1",
+      "D. 0.7"
+    ],
+    "ground_truth": 1.9,
+    "mc_answer": "A",
+    "id": 305
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category, first object": "sink",
+    "category, second object": "bathtub",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the bathtub (in meters)?",
+    "options": [
+      "A. 0.7",
+      "B. 1.2",
+      "C. 1.9",
+      "D. 1.5"
+    ],
+    "ground_truth": 1.2,
+    "mc_answer": "B",
+    "id": 306
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "question_type": "object_counting",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "picture",
+    "question": "How many picture(s) are in this room?",
+    "options": [
+      "A. 6",
+      "B. 8",
+      "C. 10",
+      "D. 7"
+    ],
+    "ground_truth": 7,
+    "mc_answer": "D",
+    "id": 204
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "table",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the table and facing the shelf, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-left",
+      "B. back-right",
+      "C. back-left",
+      "D. front-right"
+    ],
+    "ground_truth": "front-right",
+    "mc_answer": "D",
+    "id": 177
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "shelf",
+    "category, orienting object": "table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the shelf and facing the table, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-left",
+      "B. back-right",
+      "C. back-left",
+      "D. front-right"
+    ],
+    "ground_truth": "back-left",
+    "mc_answer": "C",
+    "id": 178
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "shelf",
+    "category, orienting object": "bathtub",
+    "category, querying object": "sink",
+    "question": "If I am standing by the shelf and facing the bathtub, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. back-left",
+      "B. front-right",
+      "C. back-right",
+      "D. front-left"
+    ],
+    "ground_truth": "front-right",
+    "mc_answer": "B",
+    "id": 179
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "shelf",
+    "category, orienting object": "sink",
+    "category, querying object": "bathtub",
+    "question": "If I am standing by the shelf and facing the sink, is the bathtub to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-left",
+      "B. front-right",
+      "C. back-right",
+      "D. back-left"
+    ],
+    "ground_truth": "front-left",
+    "mc_answer": "A",
+    "id": 180
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "bathtub",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the bathtub and facing the shelf, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-left",
+      "B. back-right",
+      "C. back-left",
+      "D. front-right"
+    ],
+    "ground_truth": "front-left",
+    "mc_answer": "A",
+    "id": 181
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "table",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the table and facing the shelf, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. left",
+      "B. back",
+      "C. right"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "C",
+    "id": 184
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "shelf",
+    "category, orienting object": "table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the shelf and facing the table, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. back",
+      "B. right",
+      "C. left"
+    ],
+    "ground_truth": "back",
+    "mc_answer": "A",
+    "id": 185
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "shelf",
+    "category, orienting object": "bathtub",
+    "category, querying object": "sink",
+    "question": "If I am standing by the shelf and facing the bathtub, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. left",
+      "B. right",
+      "C. back"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "B",
+    "id": 186
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "shelf",
+    "category, orienting object": "sink",
+    "category, querying object": "bathtub",
+    "question": "If I am standing by the shelf and facing the sink, is the bathtub to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. back",
+      "B. left",
+      "C. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "B",
+    "id": 187
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "bathtub",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the bathtub and facing the shelf, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. left",
+      "B. back",
+      "C. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "A",
+    "id": 188
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "table",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the table and facing the shelf, is the sink to the left or the right of the shelf?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "B",
+    "id": 185
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "shelf",
+    "category, orienting object": "bathtub",
+    "category, querying object": "sink",
+    "question": "If I am standing by the shelf and facing the bathtub, is the sink to the left or the right of the bathtub?",
+    "options": [
+      "A. right",
+      "B. left"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "A",
+    "id": 186
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "shelf",
+    "category, orienting object": "sink",
+    "category, querying object": "bathtub",
+    "question": "If I am standing by the shelf and facing the sink, is the bathtub to the left or the right of the sink?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "A",
+    "id": 187
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "bathtub",
+    "category, orienting object": "shelf",
+    "category, querying object": "sink",
+    "question": "If I am standing by the bathtub and facing the shelf, is the sink to the left or the right of the shelf?",
+    "options": [
+      "A. right",
+      "B. left"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "B",
+    "id": 188
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "plate",
+    "question": "Measuring from the closest point of each object, which of these objects (vent, mirror, paper bag, decoration) is the closest to the plate?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. vent",
+      "B. mirror",
+      "C. paper bag",
+      "D. decoration"
+    ],
+    "ground_truth": "mirror",
+    "mc_answer": "B",
+    "id": 315
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "ball",
+    "question": "Measuring from the closest point of each object, which of these objects (wall, vent, mat, window) is the closest to the ball?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. wall",
+      "B. vent",
+      "C. mat",
+      "D. window"
+    ],
+    "ground_truth": "wall",
+    "mc_answer": "A",
+    "id": 316
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "sink",
+    "question": "Measuring from the closest point of each object, which of these objects (dresser, pillow, mirror, towel) is the closest to the sink?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. dresser",
+      "B. pillow",
+      "C. mirror",
+      "D. towel"
+    ],
+    "ground_truth": "towel",
+    "mc_answer": "D",
+    "id": 317
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "coat rack",
+    "question": "Measuring from the closest point of each object, which of these objects (candle, armchair, bed, door) is the closest to the coat rack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. candle",
+      "B. armchair",
+      "C. bed",
+      "D. door"
+    ],
+    "ground_truth": "bed",
+    "mc_answer": "C",
+    "id": 318
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "vent",
+    "question": "Measuring from the closest point of each object, which of these objects (plate, stairs, ball, door) is the closest to the vent?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. plate",
+      "B. stairs",
+      "C. ball",
+      "D. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "D",
+    "id": 319
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "stairs",
+    "question": "Measuring from the closest point of each object, which of these objects (ceiling, curtain, rug, bag) is the closest to the stairs?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ceiling",
+      "B. curtain",
+      "C. rug",
+      "D. bag"
+    ],
+    "ground_truth": "rug",
+    "mc_answer": "C",
+    "id": 320
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "decoration",
+    "question": "Measuring from the closest point of each object, which of these objects (wall, rug, potted plant, mirror) is the closest to the decoration?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. wall",
+      "B. rug",
+      "C. potted plant",
+      "D. mirror"
+    ],
+    "ground_truth": "wall",
+    "mc_answer": "A",
+    "id": 321
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "decoration",
+    "question": "Measuring from the closest point of each object, which of these objects (lamp, pillow, bathtub, table) is the closest to the decoration?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. lamp",
+      "B. pillow",
+      "C. bathtub",
+      "D. table"
+    ],
+    "ground_truth": "pillow",
+    "mc_answer": "B",
+    "id": 322
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bathroom vanity",
+    "question": "Measuring from the closest point of each object, which of these objects (door, vase, mat) is the closest to the bathroom vanity?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. vase",
+      "C. mat"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "A",
+    "id": 421
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, candle, bed) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. candle",
+      "C. bed"
+    ],
+    "ground_truth": "bed",
+    "mc_answer": "C",
+    "id": 422
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "sink",
+    "question": "Measuring from the closest point of each object, which of these objects (paper bag, plate, decoration) is the closest to the sink?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. paper bag",
+      "B. plate",
+      "C. decoration"
+    ],
+    "ground_truth": "plate",
+    "mc_answer": "B",
+    "id": 423
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "table",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, shelf, armchair) is the closest to the table?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. shelf",
+      "C. armchair"
+    ],
+    "ground_truth": "picture",
+    "mc_answer": "A",
+    "id": 424
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "stairs",
+    "question": "Measuring from the closest point of each object, which of these objects (door, vent, sink) is the closest to the stairs?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. vent",
+      "C. sink"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "A",
+    "id": 425
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "shelf",
+    "question": "Measuring from the closest point of each object, which of these objects (bathroom vanity, lamp, window) is the closest to the shelf?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bathroom vanity",
+      "B. lamp",
+      "C. window"
+    ],
+    "ground_truth": "lamp",
+    "mc_answer": "B",
+    "id": 426
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "vase",
+    "question": "Measuring from the closest point of each object, which of these objects (curtain, door, potted plant) is the closest to the vase?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. curtain",
+      "B. door",
+      "C. potted plant"
+    ],
+    "ground_truth": "potted plant",
+    "mc_answer": "C",
+    "id": 427
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "candle",
+    "question": "Measuring from the closest point of each object, which of these objects (lamp, plate, potted plant) is the closest to the candle?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. lamp",
+      "B. plate",
+      "C. potted plant"
+    ],
+    "ground_truth": "plate",
+    "mc_answer": "B",
+    "id": 428
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "coat rack",
+    "question": "Measuring from the closest point of each object, which of these objects (stairs, ball, vent) is the closest to the coat rack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stairs",
+      "B. ball",
+      "C. vent"
+    ],
+    "ground_truth": "stairs",
+    "mc_answer": "A",
+    "id": 429
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "candle",
+    "question": "Measuring from the closest point of each object, which of these objects (stairs, curtain, bathtub) is the closest to the candle?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stairs",
+      "B. curtain",
+      "C. bathtub"
+    ],
+    "ground_truth": "bathtub",
+    "mc_answer": "C",
+    "id": 430
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "sink",
+    "question": "Measuring from the closest point of each object, which of these objects (door, book, lamp) is the closest to the sink?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. door",
+      "B. book",
+      "C. lamp"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "A",
+    "id": 431
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (plate, ball, book) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. plate",
+      "B. ball",
+      "C. book"
+    ],
+    "ground_truth": "book",
+    "mc_answer": "C",
+    "id": 432
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "vase",
+    "question": "Measuring from the closest point of each object, which of these objects (bathtub, picture, towel) is the closest to the vase?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bathtub",
+      "B. picture",
+      "C. towel"
+    ],
+    "ground_truth": "picture",
+    "mc_answer": "B",
+    "id": 433
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "candle",
+    "question": "Measuring from the closest point of each object, which of these objects (mat, plate) is the closest to the candle?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mat",
+      "B. plate"
+    ],
+    "ground_truth": "plate",
+    "mc_answer": "B",
+    "id": 582
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (table, coat rack) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. table",
+      "B. coat rack"
+    ],
+    "ground_truth": "table",
+    "mc_answer": "A",
+    "id": 583
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "mat",
+    "question": "Measuring from the closest point of each object, which of these objects (plant, picture) is the closest to the mat?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. plant",
+      "B. picture"
+    ],
+    "ground_truth": "picture",
+    "mc_answer": "B",
+    "id": 584
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "plate",
+    "question": "Measuring from the closest point of each object, which of these objects (ceiling, stool) is the closest to the plate?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. ceiling",
+      "B. stool"
+    ],
+    "ground_truth": "stool",
+    "mc_answer": "B",
+    "id": 585
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bathroom vanity",
+    "question": "Measuring from the closest point of each object, which of these objects (coat rack, ball) is the closest to the bathroom vanity?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. coat rack",
+      "B. ball"
+    ],
+    "ground_truth": "coat rack",
+    "mc_answer": "A",
+    "id": 586
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "candle",
+    "question": "Measuring from the closest point of each object, which of these objects (shelf, bed) is the closest to the candle?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. shelf",
+      "B. bed"
+    ],
+    "ground_truth": "shelf",
+    "mc_answer": "A",
+    "id": 587
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (book, ceiling) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. book",
+      "B. ceiling"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "B",
+    "id": 588
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bathroom vanity",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, dresser) is the closest to the bathroom vanity?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. dresser"
+    ],
+    "ground_truth": "mirror",
+    "mc_answer": "A",
+    "id": 589
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "stairs",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, coat rack) is the closest to the stairs?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. coat rack"
+    ],
+    "ground_truth": "coat rack",
+    "mc_answer": "B",
+    "id": 590
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (rug, clothes) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rug",
+      "B. clothes"
+    ],
+    "ground_truth": "rug",
+    "mc_answer": "A",
+    "id": 591
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bathroom vanity",
+    "question": "Measuring from the closest point of each object, which of these objects (potted plant, door) is the closest to the bathroom vanity?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. potted plant",
+      "B. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "B",
+    "id": 592
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "coat rack",
+    "question": "Measuring from the closest point of each object, which of these objects (paper bag, decoration) is the closest to the coat rack?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. paper bag",
+      "B. decoration"
+    ],
+    "ground_truth": "decoration",
+    "mc_answer": "B",
+    "id": 593
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "candle",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, paper bag) is the closest to the candle?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. paper bag"
+    ],
+    "ground_truth": "sink",
+    "mc_answer": "A",
+    "id": 594
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "blanket",
+    "question": "Measuring from the closest point of each object, which of these objects (stairs, paper bag) is the closest to the blanket?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stairs",
+      "B. paper bag"
+    ],
+    "ground_truth": "stairs",
+    "mc_answer": "A",
+    "id": 595
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bed",
+    "question": "What is the length of the longest dimension (length, width, or height) of the bed, measured in centimeters?",
+    "options": [
+      "A. 431",
+      "B. 164",
+      "C. 256",
+      "D. 346"
+    ],
+    "ground_truth": 256,
+    "mc_answer": "C",
+    "id": 175
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "chair",
+    "question": "What is the length of the longest dimension (length, width, or height) of the chair, measured in centimeters?",
+    "options": [
+      "A. 84",
+      "B. 135",
+      "C. 181",
+      "D. 106"
+    ],
+    "ground_truth": 106,
+    "mc_answer": "D",
+    "id": 176
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "table",
+    "question": "What is the length of the longest dimension (length, width, or height) of the table, measured in centimeters?",
+    "options": [
+      "A. 151",
+      "B. 119",
+      "C. 200",
+      "D. 64"
+    ],
+    "ground_truth": 119,
+    "mc_answer": "B",
+    "id": 177
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "shelf",
+    "question": "What is the length of the longest dimension (length, width, or height) of the shelf, measured in centimeters?",
+    "options": [
+      "A. 142",
+      "B. 244",
+      "C. 77",
+      "D. 180"
+    ],
+    "ground_truth": 142,
+    "mc_answer": "A",
+    "id": 178
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "bathtub",
+    "question": "What is the length of the longest dimension (length, width, or height) of the bathtub, measured in centimeters?",
+    "options": [
+      "A. 63",
+      "B. 179",
+      "C. 135",
+      "D. 94"
+    ],
+    "ground_truth": 135,
+    "mc_answer": "C",
+    "id": 179
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "category": "sink",
+    "question": "What is the length of the longest dimension (length, width, or height) of the sink, measured in centimeters?",
+    "options": [
+      "A. 47",
+      "B. 27",
+      "C. 39",
+      "D. 13"
+    ],
+    "ground_truth": 27,
+    "mc_answer": "B",
+    "id": 180
+  },
+  {
+    "scene_name": "FWhZcGh0848_05-01_stage_1",
+    "dataset": "svpp",
+    "question_type": "room_size_estimation",
+    "video_path": "group_024/FWhZcGh0848_05-01_stage_1/images",
+    "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+    "options": [
+      "A. 17.9",
+      "B. 38.6",
+      "C. 62.6",
+      "D. 85.6"
+    ],
+    "ground_truth": 62.6,
+    "mc_answer": "C",
+    "id": 44
+  }
+]

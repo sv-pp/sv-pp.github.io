@@ -1,0 +1,1186 @@
+[
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "window",
+    "category, second object": "toilet",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the window and the toilet (in meters)?",
+    "options": [
+      "A. 8.4",
+      "B. 5.8",
+      "C. 3.0",
+      "D. 11.0"
+    ],
+    "ground_truth": 8.4,
+    "mc_answer": "A",
+    "id": 422
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "coffee table",
+    "category, second object": "toilet",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the coffee table and the toilet (in meters)?",
+    "options": [
+      "A. 2.9",
+      "B. 5.9",
+      "C. 4.6",
+      "D. 6.9"
+    ],
+    "ground_truth": 4.6,
+    "mc_answer": "C",
+    "id": 423
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "coffee table",
+    "category, second object": "window",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the coffee table and the window (in meters)?",
+    "options": [
+      "A. 7.4",
+      "B. 4.3",
+      "C. 6.5",
+      "D. 1.7"
+    ],
+    "ground_truth": 4.3,
+    "mc_answer": "B",
+    "id": 424
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "sink",
+    "category, second object": "toilet",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the toilet (in meters)?",
+    "options": [
+      "A. 1.6",
+      "B. 6.5",
+      "C. 5.6",
+      "D. 4.2"
+    ],
+    "ground_truth": 4.2,
+    "mc_answer": "D",
+    "id": 425
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "sink",
+    "category, second object": "window",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the window (in meters)?",
+    "options": [
+      "A. 2.1",
+      "B. 5.1",
+      "C. 6.9",
+      "D. 4.1"
+    ],
+    "ground_truth": 4.1,
+    "mc_answer": "D",
+    "id": 426
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_abs_distance",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category, first object": "sink",
+    "category, second object": "coffee table",
+    "question": "Measuring from the closest point of each object, what is the direct distance between the sink and the coffee table (in meters)?",
+    "options": [
+      "A. 3.0",
+      "B. 2.0",
+      "C. 0.9",
+      "D. 4.9"
+    ],
+    "ground_truth": 3.0,
+    "mc_answer": "A",
+    "id": 427
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "chair",
+    "question": "How many chair(s) are in this room?",
+    "options": [
+      "A. 8",
+      "B. 7",
+      "C. 6",
+      "D. 11"
+    ],
+    "ground_truth": 8,
+    "mc_answer": "A",
+    "id": 347
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "refrigerator",
+    "question": "How many refrigerator(s) are in this room?",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 1",
+      "D. 2"
+    ],
+    "ground_truth": 2,
+    "mc_answer": "D",
+    "id": 350
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "picture",
+    "question": "How many picture(s) are in this room?",
+    "options": [
+      "A. 8",
+      "B. 4",
+      "C. 5",
+      "D. 2"
+    ],
+    "ground_truth": 5,
+    "mc_answer": "C",
+    "id": 351
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "table",
+    "question": "How many table(s) are in this room?",
+    "options": [
+      "A. 6",
+      "B. 3",
+      "C. 8",
+      "D. 9"
+    ],
+    "ground_truth": 6,
+    "mc_answer": "A",
+    "id": 352
+  },
+  {
+    "dataset": "svpp",
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "question_type": "object_counting",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "sofa",
+    "question": "How many sofa(s) are in this room?",
+    "options": [
+      "A. 1",
+      "B. 5",
+      "C. 6",
+      "D. 3"
+    ],
+    "ground_truth": 3,
+    "mc_answer": "D",
+    "id": 353
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "toilet",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the toilet and facing the coffee table, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. back-left",
+      "B. front-left",
+      "C. front-right",
+      "D. back-right"
+    ],
+    "ground_truth": "front-right",
+    "mc_answer": "C",
+    "id": 268
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "toilet",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the toilet and facing the sink, is the coffee table to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-left",
+      "B. back-right",
+      "C. back-left",
+      "D. front-right"
+    ],
+    "ground_truth": "front-left",
+    "mc_answer": "A",
+    "id": 269
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "toilet",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the toilet, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. back-right",
+      "B. front-right",
+      "C. back-left",
+      "D. front-left"
+    ],
+    "ground_truth": "front-left",
+    "mc_answer": "D",
+    "id": 270
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "window",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the window and facing the coffee table, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-right",
+      "B. front-left",
+      "C. back-right",
+      "D. back-left"
+    ],
+    "ground_truth": "front-left",
+    "mc_answer": "B",
+    "id": 271
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "window",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the window and facing the sink, is the coffee table to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. front-right",
+      "B. back-left",
+      "C. front-left",
+      "D. back-right"
+    ],
+    "ground_truth": "front-right",
+    "mc_answer": "A",
+    "id": 272
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v1",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "window",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the window, is the sink to my front-left, front-right, back-left, or back-right?\nThe directions refer to the quadrants of a Cartesian plane (if I am standing at the origin and facing along the positive y-axis).",
+    "options": [
+      "A. back-right",
+      "B. front-right",
+      "C. back-left",
+      "D. front-left"
+    ],
+    "ground_truth": "front-right",
+    "mc_answer": "B",
+    "id": 273
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "toilet",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the toilet and facing the coffee table, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. right",
+      "B. left",
+      "C. back"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "A",
+    "id": 264
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "toilet",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the toilet and facing the sink, is the coffee table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. right",
+      "B. left",
+      "C. back"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "B",
+    "id": 265
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "toilet",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the toilet, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. right",
+      "B. back",
+      "C. left"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "C",
+    "id": 266
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "window",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the window and facing the coffee table, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. back",
+      "B. left",
+      "C. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "B",
+    "id": 267
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "window",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the window and facing the sink, is the coffee table to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. back",
+      "B. left",
+      "C. right"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "C",
+    "id": 268
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v2",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "window",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the window, is the sink to my left, right, or back?\nAn object is to my back if I would have to turn at least 135 degrees in order to face it.",
+    "options": [
+      "A. right",
+      "B. back",
+      "C. left"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "A",
+    "id": 269
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "toilet",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the toilet and facing the coffee table, is the sink to the left or the right of the coffee table?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "B",
+    "id": 261
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "toilet",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the toilet and facing the sink, is the coffee table to the left or the right of the sink?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "A",
+    "id": 262
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "toilet",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the toilet, is the sink to the left or the right of the toilet?",
+    "options": [
+      "A. right",
+      "B. left"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "B",
+    "id": 263
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "window",
+    "category, orienting object": "coffee table",
+    "category, querying object": "sink",
+    "question": "If I am standing by the window and facing the coffee table, is the sink to the left or the right of the coffee table?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "left",
+    "mc_answer": "A",
+    "id": 264
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "window",
+    "category, orienting object": "sink",
+    "category, querying object": "coffee table",
+    "question": "If I am standing by the window and facing the sink, is the coffee table to the left or the right of the sink?",
+    "options": [
+      "A. right",
+      "B. left"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "A",
+    "id": 265
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question_type": "object_rel_direction_v3",
+    "category, positioning object": "coffee table",
+    "category, orienting object": "window",
+    "category, querying object": "sink",
+    "question": "If I am standing by the coffee table and facing the window, is the sink to the left or the right of the window?",
+    "options": [
+      "A. left",
+      "B. right"
+    ],
+    "ground_truth": "right",
+    "mc_answer": "B",
+    "id": 266
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, stuffed animal, basket, dresser) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. stuffed animal",
+      "C. basket",
+      "D. dresser"
+    ],
+    "ground_truth": "mirror",
+    "mc_answer": "A",
+    "id": 541
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (rug, tv, kitchen cabinet, plant) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rug",
+      "B. tv",
+      "C. kitchen cabinet",
+      "D. plant"
+    ],
+    "ground_truth": "tv",
+    "mc_answer": "B",
+    "id": 542
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "basket",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, range hood, couch, kitchen cabinet) is the closest to the basket?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. range hood",
+      "C. couch",
+      "D. kitchen cabinet"
+    ],
+    "ground_truth": "couch",
+    "mc_answer": "C",
+    "id": 543
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stove",
+    "question": "Measuring from the closest point of each object, which of these objects (cushion, decoration, towel, door) is the closest to the stove?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. cushion",
+      "B. decoration",
+      "C. towel",
+      "D. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "D",
+    "id": 544
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stool",
+    "question": "Measuring from the closest point of each object, which of these objects (fireplace, curtain, couch, rail) is the closest to the stool?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. fireplace",
+      "B. curtain",
+      "C. couch",
+      "D. rail"
+    ],
+    "ground_truth": "couch",
+    "mc_answer": "C",
+    "id": 545
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "fireplace",
+    "question": "Measuring from the closest point of each object, which of these objects (basket, couch, table, kitchen cabinet) is the closest to the fireplace?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. basket",
+      "B. couch",
+      "C. table",
+      "D. kitchen cabinet"
+    ],
+    "ground_truth": "couch",
+    "mc_answer": "B",
+    "id": 546
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "office chair",
+    "question": "Measuring from the closest point of each object, which of these objects (stuffed animal, plant, cloth, stool) is the closest to the office chair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stuffed animal",
+      "B. plant",
+      "C. cloth",
+      "D. stool"
+    ],
+    "ground_truth": "stool",
+    "mc_answer": "D",
+    "id": 547
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "fireplace",
+    "question": "Measuring from the closest point of each object, which of these objects (cushion, bowl, curtain, cabinet) is the closest to the fireplace?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. cushion",
+      "B. bowl",
+      "C. curtain",
+      "D. cabinet"
+    ],
+    "ground_truth": "cushion",
+    "mc_answer": "A",
+    "id": 548
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "mat",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, sink, office chair, dresser) is the closest to the mat?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. sink",
+      "C. office chair",
+      "D. dresser"
+    ],
+    "ground_truth": "mirror",
+    "mc_answer": "A",
+    "id": 549
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v1",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (vase, range hood, plant, rail) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. vase",
+      "B. range hood",
+      "C. plant",
+      "D. rail"
+    ],
+    "ground_truth": "range hood",
+    "mc_answer": "B",
+    "id": 550
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "trash can",
+    "question": "Measuring from the closest point of each object, which of these objects (couch, basket, bowl) is the closest to the trash can?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. couch",
+      "B. basket",
+      "C. bowl"
+    ],
+    "ground_truth": "bowl",
+    "mc_answer": "C",
+    "id": 671
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "range hood",
+    "question": "Measuring from the closest point of each object, which of these objects (sofa chair, lamp, ceiling) is the closest to the range hood?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sofa chair",
+      "B. lamp",
+      "C. ceiling"
+    ],
+    "ground_truth": "ceiling",
+    "mc_answer": "C",
+    "id": 672
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "sofa chair",
+    "question": "Measuring from the closest point of each object, which of these objects (window, fireplace, cabinet) is the closest to the sofa chair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. window",
+      "B. fireplace",
+      "C. cabinet"
+    ],
+    "ground_truth": "fireplace",
+    "mc_answer": "B",
+    "id": 673
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stuffed animal",
+    "question": "Measuring from the closest point of each object, which of these objects (refrigerator, window, office chair) is the closest to the stuffed animal?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. refrigerator",
+      "B. window",
+      "C. office chair"
+    ],
+    "ground_truth": "refrigerator",
+    "mc_answer": "A",
+    "id": 674
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "armchair",
+    "question": "Measuring from the closest point of each object, which of these objects (shelf, bowl, stove) is the closest to the armchair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. shelf",
+      "B. bowl",
+      "C. stove"
+    ],
+    "ground_truth": "bowl",
+    "mc_answer": "B",
+    "id": 675
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "office chair",
+    "question": "Measuring from the closest point of each object, which of these objects (stove, rail, column) is the closest to the office chair?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stove",
+      "B. rail",
+      "C. column"
+    ],
+    "ground_truth": "stove",
+    "mc_answer": "A",
+    "id": 676
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (mirror, oven, coffee table) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. mirror",
+      "B. oven",
+      "C. coffee table"
+    ],
+    "ground_truth": "coffee table",
+    "mc_answer": "C",
+    "id": 677
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "dishwasher",
+    "question": "Measuring from the closest point of each object, which of these objects (cushion, mat, sink) is the closest to the dishwasher?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. cushion",
+      "B. mat",
+      "C. sink"
+    ],
+    "ground_truth": "sink",
+    "mc_answer": "C",
+    "id": 678
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "mat",
+    "question": "Measuring from the closest point of each object, which of these objects (sink, trash can, column) is the closest to the mat?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. sink",
+      "B. trash can",
+      "C. column"
+    ],
+    "ground_truth": "sink",
+    "mc_answer": "A",
+    "id": 679
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v2",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "microwave",
+    "question": "Measuring from the closest point of each object, which of these objects (table, dishwasher, shelf) is the closest to the microwave?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. table",
+      "B. dishwasher",
+      "C. shelf"
+    ],
+    "ground_truth": "dishwasher",
+    "mc_answer": "B",
+    "id": 680
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "range hood",
+    "question": "Measuring from the closest point of each object, which of these objects (curtain, trash can) is the closest to the range hood?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. curtain",
+      "B. trash can"
+    ],
+    "ground_truth": "curtain",
+    "mc_answer": "A",
+    "id": 916
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stuffed animal",
+    "question": "Measuring from the closest point of each object, which of these objects (basket, rug) is the closest to the stuffed animal?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. basket",
+      "B. rug"
+    ],
+    "ground_truth": "rug",
+    "mc_answer": "B",
+    "id": 917
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (bowl, fireplace) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. bowl",
+      "B. fireplace"
+    ],
+    "ground_truth": "fireplace",
+    "mc_answer": "B",
+    "id": 918
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "rail",
+    "question": "Measuring from the closest point of each object, which of these objects (floor, chair) is the closest to the rail?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. floor",
+      "B. chair"
+    ],
+    "ground_truth": "floor",
+    "mc_answer": "A",
+    "id": 919
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (tv, door) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. tv",
+      "B. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "B",
+    "id": 920
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "vase",
+    "question": "Measuring from the closest point of each object, which of these objects (trash can, rail) is the closest to the vase?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. trash can",
+      "B. rail"
+    ],
+    "ground_truth": "trash can",
+    "mc_answer": "A",
+    "id": 921
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "vase",
+    "question": "Measuring from the closest point of each object, which of these objects (basket, wall) is the closest to the vase?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. basket",
+      "B. wall"
+    ],
+    "ground_truth": "wall",
+    "mc_answer": "B",
+    "id": 922
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "oven",
+    "question": "Measuring from the closest point of each object, which of these objects (toilet, armchair) is the closest to the oven?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. toilet",
+      "B. armchair"
+    ],
+    "ground_truth": "toilet",
+    "mc_answer": "A",
+    "id": 923
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "trash can",
+    "question": "Measuring from the closest point of each object, which of these objects (picture, window) is the closest to the trash can?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. picture",
+      "B. window"
+    ],
+    "ground_truth": "picture",
+    "mc_answer": "A",
+    "id": 924
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stove",
+    "question": "Measuring from the closest point of each object, which of these objects (stool, door) is the closest to the stove?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stool",
+      "B. door"
+    ],
+    "ground_truth": "door",
+    "mc_answer": "B",
+    "id": 925
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "dishwasher",
+    "question": "Measuring from the closest point of each object, which of these objects (floor, stove) is the closest to the dishwasher?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. floor",
+      "B. stove"
+    ],
+    "ground_truth": "floor",
+    "mc_answer": "A",
+    "id": 926
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "shelf",
+    "question": "Measuring from the closest point of each object, which of these objects (stuffed animal, mat) is the closest to the shelf?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. stuffed animal",
+      "B. mat"
+    ],
+    "ground_truth": "mat",
+    "mc_answer": "B",
+    "id": 927
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "towel",
+    "question": "Measuring from the closest point of each object, which of these objects (rail, mat) is the closest to the towel?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. rail",
+      "B. mat"
+    ],
+    "ground_truth": "mat",
+    "mc_answer": "B",
+    "id": 928
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "shelf",
+    "question": "Measuring from the closest point of each object, which of these objects (tv, lamp) is the closest to the shelf?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. tv",
+      "B. lamp"
+    ],
+    "ground_truth": "tv",
+    "mc_answer": "A",
+    "id": 929
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "vase",
+    "question": "Measuring from the closest point of each object, which of these objects (curtain, stuffed animal) is the closest to the vase?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. curtain",
+      "B. stuffed animal"
+    ],
+    "ground_truth": "curtain",
+    "mc_answer": "A",
+    "id": 930
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "sink",
+    "question": "Measuring from the closest point of each object, which of these objects (fireplace, mat) is the closest to the sink?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. fireplace",
+      "B. mat"
+    ],
+    "ground_truth": "mat",
+    "mc_answer": "B",
+    "id": 931
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "stove",
+    "question": "Measuring from the closest point of each object, which of these objects (dining table, stuffed animal) is the closest to the stove?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. dining table",
+      "B. stuffed animal"
+    ],
+    "ground_truth": "dining table",
+    "mc_answer": "A",
+    "id": 932
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_rel_distance_v3",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "trash can",
+    "question": "Measuring from the closest point of each object, which of these objects (towel, bowl) is the closest to the trash can?\nIf there are multiple instances of an object category, measure to the closest.",
+    "options": [
+      "A. towel",
+      "B. bowl"
+    ],
+    "ground_truth": "bowl",
+    "mc_answer": "B",
+    "id": 933
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "toilet",
+    "question": "What is the length of the longest dimension (length, width, or height) of the toilet, measured in centimeters?",
+    "options": [
+      "A. 113",
+      "B. 86",
+      "C. 133",
+      "D. 37"
+    ],
+    "ground_truth": 86,
+    "mc_answer": "B",
+    "id": 262
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "coffee table",
+    "question": "What is the length of the longest dimension (length, width, or height) of the coffee table, measured in centimeters?",
+    "options": [
+      "A. 40",
+      "B. 137",
+      "C. 161",
+      "D. 95"
+    ],
+    "ground_truth": 95,
+    "mc_answer": "D",
+    "id": 264
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "object_size_estimation",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "category": "sink",
+    "question": "What is the length of the longest dimension (length, width, or height) of the sink, measured in centimeters?",
+    "options": [
+      "A. 62",
+      "B. 100",
+      "C. 76",
+      "D. 26"
+    ],
+    "ground_truth": 62,
+    "mc_answer": "A",
+    "id": 265
+  },
+  {
+    "scene_name": "KY2EqGbPbXE_05_stage_0",
+    "dataset": "svpp",
+    "question_type": "room_size_estimation",
+    "video_path": "group_024/KY2EqGbPbXE_05_stage_0/images",
+    "question": "What is the size of this room (in square meters)? \nIf multiple rooms are shown, estimate the size of the combined space.",
+    "options": [
+      "A. 144.0",
+      "B. 29.8",
+      "C. 94.0",
+      "D. 64.7"
+    ],
+    "ground_truth": 94.0,
+    "mc_answer": "C",
+    "id": 69
+  }
+]

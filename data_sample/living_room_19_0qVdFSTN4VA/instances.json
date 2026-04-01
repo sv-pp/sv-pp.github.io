@@ -1,0 +1,808 @@
+[
+  {
+    "instance_id": "0",
+    "class_name": "plant",
+    "describe": "A lush bouquet of dark purple flowers, possibly hydrangeas or similar, with a mix of large blooms and smaller buds, complemented by green foliage.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.7980352889286768,
+      -1.9436003049265542,
+      -0.970485329183705
+    ],
+    "bbox_max": [
+      -0.6450221644520202,
+      -1.886213284671921,
+      -0.7588710388934763
+    ],
+    "bbox_center": [
+      -0.7215287266903485,
+      -1.9149067947992378,
+      -0.8646781840385906
+    ],
+    "bbox_size": [
+      0.1530131244766566,
+      0.05738702025463316,
+      0.2116142902902287
+    ]
+  },
+  {
+    "instance_id": "1",
+    "class_name": "flower",
+    "describe": "A lush bouquet of white flowers, possibly roses or similar, with full blooms and green foliage, arranged in a classic, upright style in a dark-colored vase.",
+    "class_id": -1,
+    "bbox_min": [
+      -0.7417451881580645,
+      -2.0862261507604156,
+      -0.09077376185964854
+    ],
+    "bbox_max": [
+      -0.539619837278028,
+      -2.0095005797898366,
+      0.19486928296918796
+    ],
+    "bbox_center": [
+      -0.6406825127180462,
+      -2.047863365275126,
+      0.05204776055476971
+    ],
+    "bbox_size": [
+      0.20212535088003647,
+      0.07672557097057897,
+      0.2856430448288365
+    ]
+  },
+  {
+    "instance_id": "3",
+    "class_name": "couch",
+    "describe": "A black leather L-shaped sectional sofa with plush back cushions and a chaise on the left side. The sofa features a smooth, sleek design with a low-profile armrest on the left and a visible seam running horizontally across the middle of the backrest. The seat cushions appear to be well-padded and comfortable, complementing the overall modern aesthetic of the piece.",
+    "class_id": 6,
+    "bbox_min": [
+      -3.384769344399814,
+      -2.1314905250457477,
+      -1.0264204112232633
+    ],
+    "bbox_max": [
+      -0.9474356301459776,
+      -0.6197358165732102,
+      -0.22374526182907647
+    ],
+    "bbox_center": [
+      -2.166102487272896,
+      -1.375613170809479,
+      -0.6250828365261699
+    ],
+    "bbox_size": [
+      2.4373337142538363,
+      1.5117547084725373,
+      0.8026751493941868
+    ]
+  },
+  {
+    "instance_id": "4",
+    "class_name": "nightstand",
+    "describe": "A dark brown wooden nightstand featuring a flat top surface, a single visible drawer with a round knob, and a cabinet door with a recessed panel and a matching knob. The nightstand stands on four square legs, and there is a visible side panel with a vertical groove design.",
+    "class_id": 34,
+    "bbox_min": [
+      -1.3103300416369699,
+      1.027622171212691,
+      -1.0424610085505013
+    ],
+    "bbox_max": [
+      -0.8549915894402639,
+      1.5940079950906891,
+      -0.5044585416379913
+    ],
+    "bbox_center": [
+      -1.0826608155386168,
+      1.31081508315169,
+      -0.7734597750942462
+    ],
+    "bbox_size": [
+      0.455338452196706,
+      0.5663858238779982,
+      0.53800246691251
+    ]
+  },
+  {
+    "instance_id": "5",
+    "class_name": "door",
+    "describe": "A white door featuring a grid of nine rectangular glass panels arranged in a 3x3 pattern, with a metallic handle on the right side.",
+    "class_id": 5,
+    "bbox_min": [
+      -1.3305364044971797,
+      2.4637578385783327,
+      -0.8212159872057581
+    ],
+    "bbox_max": [
+      -0.8918361405085301,
+      3.4970245403742775,
+      0.4139137329408855
+    ],
+    "bbox_center": [
+      -1.111186272502855,
+      2.980391189476305,
+      -0.20365112713243627
+    ],
+    "bbox_size": [
+      0.4387002639886496,
+      1.0332667017959447,
+      1.2351297201466436
+    ]
+  },
+  {
+    "instance_id": "7",
+    "class_name": "blinds",
+    "describe": "Two adjacent horizontal window blinds, each consisting of evenly spaced, thin, white slats. The blinds are fully extended, covering the entire width of the windows. The left blind is slightly shorter in height compared to the right blind.",
+    "class_id": 86,
+    "bbox_min": [
+      -3.7809655201547967,
+      -2.270163678256155,
+      -0.43426653845803487
+    ],
+    "bbox_max": [
+      -1.3668533611397078,
+      -1.9598995088337954,
+      0.8678886161622457
+    ],
+    "bbox_center": [
+      -2.5739094406472525,
+      -2.115031593544975,
+      0.2168110388521054
+    ],
+    "bbox_size": [
+      2.414112159015089,
+      0.31026416942235957,
+      1.3021551546202805
+    ]
+  },
+  {
+    "instance_id": "8",
+    "class_name": "cushion",
+    "describe": "A rectangular cushion with a smooth, dark gray fabric cover and a visible piped edge that provides a structured outline.",
+    "class_id": 39,
+    "bbox_min": [
+      -1.337306839880655,
+      -1.8369074116879665,
+      -0.6414215098001526
+    ],
+    "bbox_max": [
+      -1.0566868372861093,
+      -1.3306698191795503,
+      -0.451979187669297
+    ],
+    "bbox_center": [
+      -1.1969968385833822,
+      -1.5837886154337584,
+      -0.5467003487347248
+    ],
+    "bbox_size": [
+      0.28062000259454556,
+      0.5062375925084162,
+      0.18944232213085554
+    ]
+  },
+  {
+    "instance_id": "9",
+    "class_name": "shelf",
+    "describe": "A tall, slender, black metal plant stand with multiple tiers, each tier featuring a circular base and a central column that supports a ring of hooks for hanging plants. The top tier is smaller than the lower ones, and the stand has a decorative finial at the very top.",
+    "class_id": 8,
+    "bbox_min": [
+      -0.8039935701420818,
+      -2.2339283327521495,
+      -1.0319294714279623
+    ],
+    "bbox_max": [
+      -0.16684700903849783,
+      -1.8548349325429079,
+      -0.07651529894711225
+    ],
+    "bbox_center": [
+      -0.4854202895902898,
+      -2.0443816326475286,
+      -0.5542223851875373
+    ],
+    "bbox_size": [
+      0.637146561103584,
+      0.37909340020924165,
+      0.95541417248085
+    ]
+  },
+  {
+    "instance_id": "10",
+    "class_name": "object",
+    "describe": "A tall, slender vase with a glossy finish, featuring a narrow neck that flares slightly at the top. The body tapers gently towards the base, which is not visible. The vase appears to have a smooth surface with a reflective sheen, suggesting a ceramic or glass material.",
+    "class_id": 1163,
+    "bbox_min": [
+      -0.6085324265451894,
+      -2.027853835324577,
+      -0.3582444010255714
+    ],
+    "bbox_max": [
+      -0.4848407245953886,
+      -1.9832698964762965,
+      -0.18036467613476645
+    ],
+    "bbox_center": [
+      -0.546686575570289,
+      -2.005561865900437,
+      -0.26930453858016895
+    ],
+    "bbox_size": [
+      0.12369170194980078,
+      0.04458393884828049,
+      0.17787972489080497
+    ]
+  },
+  {
+    "instance_id": "11",
+    "class_name": "rug",
+    "describe": "A rectangular rug with a beige background featuring a pattern of large, stylized black leaves and smaller black leaves, with a subtle gradient of light brown to dark brown.",
+    "class_id": -1,
+    "bbox_min": [
+      -2.96105788078563,
+      -1.1571925989335587,
+      -1.0490401614040137
+    ],
+    "bbox_max": [
+      -1.3294331123549872,
+      0.9027723414249774,
+      -0.8990128842428613
+    ],
+    "bbox_center": [
+      -2.1452454965703085,
+      -0.12721012875429066,
+      -0.9740265228234375
+    ],
+    "bbox_size": [
+      1.6316247684306429,
+      2.0599649403585363,
+      0.15002727716115238
+    ]
+  },
+  {
+    "instance_id": "12",
+    "class_name": "plant",
+    "describe": "A lush bouquet of green hydrangeas with varying shades from light to dark green, complemented by delicate white baby's breath flowers interspersed throughout. The arrangement is presented in a classic, dark-toned vase with a glossy finish, adding an elegant touch to the natural beauty of the blooms.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.5992988046011054,
+      -2.0218228338586473,
+      -0.777997852902424
+    ],
+    "bbox_max": [
+      -0.45274652766254636,
+      -1.9780381496868795,
+      -0.5787035554152029
+    ],
+    "bbox_center": [
+      -0.5260226661318259,
+      -1.9999304917727634,
+      -0.6783507041588135
+    ],
+    "bbox_size": [
+      0.14655227693855905,
+      0.04378468417176773,
+      0.19929429748722105
+    ]
+  },
+  {
+    "instance_id": "13",
+    "class_name": "plant",
+    "describe": "A lush bouquet of dark purple flowers, possibly hydrangeas or similar, with a mix of large blooms and smaller buds, complemented by green foliage.",
+    "class_id": 40,
+    "bbox_min": [
+      -0.6903320724078381,
+      -1.986962543532418,
+      -0.5629189436553333
+    ],
+    "bbox_max": [
+      -0.5801881278072057,
+      -1.9553395635574558,
+      -0.3729789631744256
+    ],
+    "bbox_center": [
+      -0.635260100107522,
+      -1.9711510535449368,
+      -0.46794895341487946
+    ],
+    "bbox_size": [
+      0.11014394460063237,
+      0.03162297997496233,
+      0.18993998048090777
+    ]
+  },
+  {
+    "instance_id": "14",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a white base color, adorned with a pattern of vertical black stripes of varying widths, and a visible black piping along the edges.",
+    "class_id": 13,
+    "bbox_min": [
+      -3.2868176824767303,
+      -1.7679057079912093,
+      -0.6398318399407199
+    ],
+    "bbox_max": [
+      -2.6846179308125384,
+      -1.3403069228922364,
+      -0.40437553391087344
+    ],
+    "bbox_center": [
+      -2.9857178066446344,
+      -1.554106315441723,
+      -0.5221036869257967
+    ],
+    "bbox_size": [
+      0.6021997516641919,
+      0.42759878509897287,
+      0.23545630602984646
+    ]
+  },
+  {
+    "instance_id": "16",
+    "class_name": "cabinet",
+    "describe": "A tall, narrow, black cabinet with a glossy finish, featuring a series of horizontal shelves visible through a glass door, which is framed by a solid black border.",
+    "class_id": 7,
+    "bbox_min": [
+      -3.823418935477517,
+      -1.9125841664652405,
+      -1.0104734508572273
+    ],
+    "bbox_max": [
+      -3.365372000772993,
+      -0.873624419656089,
+      0.009602155271538002
+    ],
+    "bbox_center": [
+      -3.594395468125255,
+      -1.3931042930606647,
+      -0.5004356477928447
+    ],
+    "bbox_size": [
+      0.45804693470452396,
+      1.0389597468091516,
+      1.0200756061287652
+    ]
+  },
+  {
+    "instance_id": "17",
+    "class_name": "vase",
+    "describe": "A white, cylindrical vase with a smooth surface and a slightly flared opening at the top.",
+    "class_id": -1,
+    "bbox_min": [
+      -4.054528523317755,
+      -1.78462262936313,
+      -0.0026154859441580667
+    ],
+    "bbox_max": [
+      -3.7855998816330136,
+      -1.587224197682015,
+      0.15647435153481423
+    ],
+    "bbox_center": [
+      -3.920064202475384,
+      -1.6859234135225725,
+      0.07692943279532809
+    ],
+    "bbox_size": [
+      0.2689286416847412,
+      0.19739843168111504,
+      0.1590898374789723
+    ]
+  },
+  {
+    "instance_id": "18",
+    "class_name": "fireplace",
+    "describe": "A modern, rectangular fireplace with a black interior and a white frame. The frame features a flat top and straight sides, with a slightly protruding base. The firebox is enclosed by a black mesh screen, and the hearth extends outward at the bottom.",
+    "class_id": 156,
+    "bbox_min": [
+      -3.7944710329473748,
+      -0.7794257394721407,
+      -1.016785054852334
+    ],
+    "bbox_max": [
+      -3.3484369700359027,
+      0.5407438405592788,
+      -0.02396562250277079
+    ],
+    "bbox_center": [
+      -3.571454001491639,
+      -0.11934094945643092,
+      -0.5203753386775525
+    ],
+    "bbox_size": [
+      0.4460340629114721,
+      1.3201695800314195,
+      0.9928194323495633
+    ]
+  },
+  {
+    "instance_id": "19",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a flat front surface and a visible grille covering the drivers, which are not discernible. The speaker has a sleek, minimalist design with rounded edges and appears to be mounted on a stand or base, which is not fully visible.",
+    "class_id": 118,
+    "bbox_min": [
+      -3.7274458811319633,
+      -0.4932487275593941,
+      -0.035736614337507
+    ],
+    "bbox_max": [
+      -3.6794737438324776,
+      0.2582046913993385,
+      0.004911399462330093
+    ],
+    "bbox_center": [
+      -3.7034598124822207,
+      -0.1175220180800278,
+      -0.015412607437588453
+    ],
+    "bbox_size": [
+      0.047972137299485684,
+      0.7514534189587325,
+      0.040648013799837096
+    ]
+  },
+  {
+    "instance_id": "20",
+    "class_name": "tv",
+    "describe": "A flat-screen television with a glossy black bezel and a matching black stand, featuring a rectangular screen with rounded corners.",
+    "class_id": 33,
+    "bbox_min": [
+      -3.8224198671318756,
+      -0.8679572764148062,
+      0.15407812927741393
+    ],
+    "bbox_max": [
+      -3.7422111245463703,
+      0.5116953117009083,
+      0.9494387005081025
+    ],
+    "bbox_center": [
+      -3.782315495839123,
+      -0.17813098235694896,
+      0.5517584148927582
+    ],
+    "bbox_size": [
+      0.08020874258550537,
+      1.3796525881157145,
+      0.7953605712306886
+    ]
+  },
+  {
+    "instance_id": "21",
+    "class_name": "couch",
+    "describe": "A dark brown leather sofa with a plush backrest and seat cushions, featuring a slightly reclined back and a single, wide armrest on the left side. The sofa has a smooth, glossy finish and a contemporary design with clean lines and a low-profile silhouette.",
+    "class_id": 6,
+    "bbox_min": [
+      -3.1724210677869285,
+      0.8722344606809753,
+      -1.0273310846329733
+    ],
+    "bbox_max": [
+      -1.0286337793050573,
+      1.820139303481053,
+      -0.2389124966323521
+    ],
+    "bbox_center": [
+      -2.100527423545993,
+      1.3461868820810141,
+      -0.6331217906326627
+    ],
+    "bbox_size": [
+      2.143787288481871,
+      0.9479048428000776,
+      0.7884185880006211
+    ]
+  },
+  {
+    "instance_id": "22",
+    "class_name": "candle",
+    "describe": "A cylindrical black candle with a smooth surface and a slightly rounded top, featuring a visible wick at the center.",
+    "class_id": 286,
+    "bbox_min": [
+      -1.0906734567339487,
+      1.3544109516289162,
+      -0.5408614777734339
+    ],
+    "bbox_max": [
+      -0.980130655681129,
+      1.4202676457330883,
+      -0.4898970177154629
+    ],
+    "bbox_center": [
+      -1.0354020562075388,
+      1.3873392986810023,
+      -0.5153792477444483
+    ],
+    "bbox_size": [
+      0.11054280105281966,
+      0.06585669410417205,
+      0.05096446005797095
+    ]
+  },
+  {
+    "instance_id": "23",
+    "class_name": "door",
+    "describe": "A curved, metallic doorknob with a textured grip and a visible keyhole beneath it.",
+    "class_id": 5,
+    "bbox_min": [
+      -3.823900790663151,
+      0.45218480868014627,
+      -0.15135225044063527
+    ],
+    "bbox_max": [
+      -3.7379681676216725,
+      0.5763750683470801,
+      -0.026446398113857635
+    ],
+    "bbox_center": [
+      -3.7809344791424118,
+      0.5142799385136132,
+      -0.08889932427724645
+    ],
+    "bbox_size": [
+      0.08593262304147853,
+      0.12419025966693381,
+      0.12490585232677764
+    ]
+  },
+  {
+    "instance_id": "24",
+    "class_name": "cabinet",
+    "describe": "A black, two-door cabinet with a matte finish, featuring a flat top surface and a recessed handle on each door. The doors have a subtle wood grain texture and are framed by a narrow, raised border. The cabinet stands on four small, round, black feet.",
+    "class_id": 7,
+    "bbox_min": [
+      -3.8693658008960856,
+      0.5364248742681609,
+      -1.023918217827555
+    ],
+    "bbox_max": [
+      -3.5338247911897693,
+      1.588994871590488,
+      -0.12000763742524927
+    ],
+    "bbox_center": [
+      -3.7015952960429273,
+      1.0627098729293245,
+      -0.5719629276264021
+    ],
+    "bbox_size": [
+      0.3355410097063163,
+      1.052569997322327,
+      0.9039105804023058
+    ]
+  },
+  {
+    "instance_id": "25",
+    "class_name": "speaker",
+    "describe": "A black rectangular speaker with a textured front grille and a visible control panel on the top right corner, featuring several buttons and possibly LED indicators.",
+    "class_id": 118,
+    "bbox_min": [
+      -3.8988333834216555,
+      0.5491277918779264,
+      -0.14885825413346218
+    ],
+    "bbox_max": [
+      -3.7672342919211665,
+      0.9146871565100306,
+      -0.08699377341189021
+    ],
+    "bbox_center": [
+      -3.833033837671411,
+      0.7319074741939785,
+      -0.1179260137726762
+    ],
+    "bbox_size": [
+      0.13159909150048898,
+      0.36555936463210426,
+      0.06186448072157197
+    ]
+  },
+  {
+    "instance_id": "26",
+    "class_name": "pillow",
+    "describe": "A rectangular pillow with a smooth, dark-colored fabric cover, possibly black or charcoal, with a slightly lighter shaded piping along the edges.",
+    "class_id": 13,
+    "bbox_min": [
+      -3.0239019521314954,
+      1.0700956295732094,
+      -0.643118795354841
+    ],
+    "bbox_max": [
+      -2.4110791848645565,
+      1.4509868388805587,
+      -0.40995937006428146
+    ],
+    "bbox_center": [
+      -2.717490568498026,
+      1.260541234226884,
+      -0.5265390827095612
+    ],
+    "bbox_size": [
+      0.6128227672669389,
+      0.3808912093073493,
+      0.2331594252905595
+    ]
+  },
+  {
+    "instance_id": "27",
+    "class_name": "object",
+    "describe": "A cylindrical white vase with a smooth surface and a slightly flared opening at the top.",
+    "class_id": 1163,
+    "bbox_min": [
+      -3.9917360499461196,
+      -1.124598610865873,
+      0.0228186709068484
+    ],
+    "bbox_max": [
+      -3.9064090350005785,
+      -1.0503312413926555,
+      0.1414467755910695
+    ],
+    "bbox_center": [
+      -3.949072542473349,
+      -1.0874649261292642,
+      0.08213272324895896
+    ],
+    "bbox_size": [
+      0.08532701494554118,
+      0.07426736947321744,
+      0.1186281046842211
+    ]
+  },
+  {
+    "instance_id": "28",
+    "class_name": "plant",
+    "describe": "A lush bouquet of purple flowers with a mix of large blooms and smaller buds, complemented by an assortment of green foliage. The arrangement is designed with a variety of textures, from the soft petals of the flowers to the more rigid leaves, creating a full and vibrant display.",
+    "class_id": 40,
+    "bbox_min": [
+      -3.9843273208973735,
+      1.2122349949050213,
+      -0.1295720722778153
+    ],
+    "bbox_max": [
+      -3.7784703161261155,
+      1.4911148506794325,
+      0.07788554251100693
+    ],
+    "bbox_center": [
+      -3.8813988185117445,
+      1.351674922792227,
+      -0.025843264883404188
+    ],
+    "bbox_size": [
+      0.205857004771258,
+      0.2788798557744112,
+      0.20745761478882224
+    ]
+  },
+  {
+    "instance_id": "29",
+    "class_name": "speaker",
+    "describe": "A black, rectangular speaker with a slightly curved front grille and a visible control panel on the top right corner, featuring several buttons and possibly LED indicators.",
+    "class_id": 118,
+    "bbox_min": [
+      -1.2379136210082282,
+      1.2691435518727243,
+      -0.5693489043582596
+    ],
+    "bbox_max": [
+      -0.9845107275413296,
+      1.604991579804188,
+      -0.4693972042249233
+    ],
+    "bbox_center": [
+      -1.111212174274779,
+      1.4370675658384562,
+      -0.5193730542915914
+    ],
+    "bbox_size": [
+      0.2534028934668986,
+      0.33584802793146373,
+      0.09995170013333626
+    ]
+  },
+  {
+    "instance_id": "30",
+    "class_name": "object",
+    "describe": "A tall, slender vase with a flared opening, featuring a glossy finish and a narrow neck that gradually widens into a bulbous body.",
+    "class_id": 1163,
+    "bbox_min": [
+      -4.037993325488539,
+      -1.4863045216078272,
+      0.03649817268523759
+    ],
+    "bbox_max": [
+      -4.008449271064908,
+      -1.3788579073632121,
+      0.2385959708123519
+    ],
+    "bbox_center": [
+      -4.023221298276724,
+      -1.4325812144855197,
+      0.13754707174879474
+    ],
+    "bbox_size": [
+      0.029544054423631394,
+      0.1074466142446151,
+      0.20209779812711431
+    ]
+  },
+  {
+    "instance_id": "31",
+    "class_name": "box",
+    "describe": "A rectangular cardboard box with flaps open, displaying a brown exterior and a lighter brown interior. The box appears to be made of corrugated fiberboard, with visible fluting on the edges, and has a slightly worn texture.",
+    "class_id": 26,
+    "bbox_min": [
+      -1.080812898846013,
+      1.3790639909057028,
+      -0.5488842432724741
+    ],
+    "bbox_max": [
+      -0.9320343543321028,
+      1.5929585621885292,
+      -0.4536486699330908
+    ],
+    "bbox_center": [
+      -1.0064236265890578,
+      1.4860112765471158,
+      -0.5012664566027825
+    ],
+    "bbox_size": [
+      0.14877854451391026,
+      0.2138945712828264,
+      0.09523557333938332
+    ]
+  },
+  {
+    "instance_id": "32",
+    "class_name": "cushion",
+    "describe": "A rectangular cushion with a dark brown or black fabric cover, featuring a subtle textured pattern that gives a sense of depth and dimension.",
+    "class_id": 39,
+    "bbox_min": [
+      -1.963912022216217,
+      -1.134731651283057,
+      -0.7678950312191513
+    ],
+    "bbox_max": [
+      -1.8129069531649324,
+      -0.9105570573058588,
+      -0.6534693284283394
+    ],
+    "bbox_center": [
+      -1.8884094876905748,
+      -1.0226443542944579,
+      -0.7106821798237453
+    ],
+    "bbox_size": [
+      0.15100506905128452,
+      0.2241745939771982,
+      0.11442570279081188
+    ]
+  },
+  {
+    "instance_id": "33",
+    "class_name": "cabinet",
+    "describe": "A tall, white, freestanding cabinet with a classic design, featuring a total of six doors arranged in two columns of three. Each door has a raised, rectangular panel design and is fitted with a metallic, vertical handle located towards the center of the door. The cabinet has a flat top and a base with a slight overhang.",
+    "class_id": 7,
+    "bbox_min": [
+      0.3961691433501575,
+      1.2267060681954338,
+      -1.0258467692029936
+    ],
+    "bbox_max": [
+      2.1556087749601507,
+      1.6600683059019308,
+      0.8727933016887172
+    ],
+    "bbox_center": [
+      1.275888959155154,
+      1.4433871870486823,
+      -0.0765267337571382
+    ],
+    "bbox_size": [
+      1.7594396316099932,
+      0.43336223770649696,
+      1.8986400708917106
+    ]
+  }
+]

@@ -5,34 +5,72 @@ tags:
 - mesh
 - dataset
 - scene-understanding
-license: other
 language:
 - en
-task_categories:
-- image-segmentation
 size_categories:
-- n<1K
+- 1K<n<10K
+extra_gated_prompt: >
+  SceneVerse++ is built upon existing 3D internet videos, each with their own
+  licensing requirements. We've carefully structured our distribution approach
+  to respect all original licenses while making our dataset accessible to the
+  research community.
+
+  Before we are able to offer you access to the SceneVerse++ dataset, please
+  agree that you will use the dataset in accordance with the original
+  licenses/terms.
+  
+  
+  By downloading this dataset you are stating that you have read and agree to the [SceneVerse++ Terms of Use](https://drive.google.com/file/d/1YrH-RPJfB1VLfDWHHAr4hGuGrMGrlvDY/view?usp=drive_link).
+
+extra_gated_fields:
+  Full name: text
+  Current affiliation: text
+  Type of Affiliation:
+    type: select
+    options:
+      - Academia
+      - Industry
+      - label: Other
+        value: other
+  Institutional email: text
+  Please explain your intended research use: text
+  I agree to all the terms outlined by original datasets: checkbox
+  I agree to use this the data for non-commercial, academic purposes only: checkbox
 ---
-# SceneVerse++
+# SceneVerse++: Lifting Unlabeled Internet-level Data for 3D Scene Understanding
 
 <div align="center">
 
 [![Home](https://img.shields.io/badge/Home-SceneVerse++-green)](https://sv-pp.github.io/)
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://sv-pp.github.io/assets/CVPR26_SVPP.pdf)
-[![GitHub](https://img.shields.io/badge/GitHub-SceneVerse++-blue)](https://github.com/sv-pp)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2604.01907)
+[![GitHub](https://img.shields.io/badge/GitHub-SceneVerse++-blue)](https://github.com/sv-pp/SceneVersepp)
 [![Demo](https://img.shields.io/badge/Demo-HuggingFace-yellow)](https://huggingface.co/spaces/bigai/SceneVersepp-Demo)
 
 </div>
 
-Annotated 3D scene data is scarce and expensive to acquire, while abundant unlabeled videos are readily available on the internet. SceneVerse++ demonstrates that carefully designed data engines can leverage web-unlabeled videos to automatically generate training data for 3D scene understanding. The released dataset contains 1019 scenes reconstructed from internet videos, each with instance segmentation and instance-level metadata. For more details, please refer to the [paper](https://sv-pp.github.io/assets/CVPR26_SVPP.pdf).
+Annotated 3D scene data is scarce and expensive to acquire, while abundant unlabeled videos are readily available on the internet. SceneVerse++ demonstrates that carefully designed data engines can leverage web-unlabeled videos to automatically generate training data for 3D scene understanding. 
+
+This release contains 1019 scenes reconstructed from internet videos, each with instance segmentation and instance-level metadata. For more details, please refer to the paper and project page.
 
 ## Demo
 
-You can explore sample scenes in the online demo:
+You can explore sample scenes in the [project page](https://sv-pp.github.io/) or [Huggingface demo](https://huggingface.co/spaces/bigai/SceneVersepp-Demo).
 
-[SceneVerse++ Demo](https://huggingface.co/spaces/bigai/SceneVersepp-Demo)
+## Experiment
+The released data can be used to reproduce the 3D object detection and 3D instance segmentation experiment results below. For more details, refer to [code](https://github.com/sv-pp/SceneVersepp).
 
----
+#### ScanNet 3D Object Detection with SpatialLM 
+
+| training data | evaluation mode | AP25 | AP50 |
+| :--- | :--- | :--- | :--- |
+| SVpp1k | zero-shot | 32.7 | 18.3 |
+| SVpp1k+ScanNet | fintune | 55.2 | 41.0 |
+
+#### ScanNet 3D Instance Segmentation with PQ3D 
+
+| training data | AP25 | AP50 | AP | 
+| :--- | :--- | :--- | :--- |  
+| SVpp1k+ScanNet | 36.0 | 30.1 | 21.3 | 
 
 ## Dataset structure
 
@@ -45,22 +83,15 @@ SceneVersepp/
       ├── instance_seg_mesh.ply
       └── metadata.json
 ```
+Note that the released scenes is refined by [G4Splat](https://github.com/DaLi-Jack/G4Splat), a Gaussian Splatting reconstruction method, to yield smoother geometric surface with less floating artifects.
 
----
+#### File descriptions
 
-## File descriptions
+`mesh.ply`: The original scene mesh.
 
-### `mesh.ply`
+`instance_seg_mesh.ply`: A mesh that shows instance segmentation results.
 
-The original scene mesh.
-
-### `instance_seg_mesh.ply`
-
-A mesh that shows instance segmentation results.
-
-### `metadata.json`
-
-A JSON dictionary describing each predicted instance.
+`metadata.json`: A JSON dictionary describing each predicted instance.
 
 The top level is a dictionary:
 
@@ -87,4 +118,3 @@ Schema for each instance:
   year      = {2026}
 }
 ```
-

@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SceneVerse++ | CVPR 2026</title>
   <meta name="description" content="Lifting Unlabeled Internet-level Data for 3D Scene Understanding">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preconnect" href="https://www.youtube.com">
+  <link rel="preconnect" href="https://i.ytimg.com">
   <script type="importmap">
     {
       "imports": {
-        "three": "https://unpkg.com/three@0.161.0/build/three.module.js",
-        "three/addons/": "https://unpkg.com/three@0.161.0/examples/jsm/"
+        "three": "https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"
       }
     }
   </script>
@@ -320,7 +323,8 @@
       border: 1px solid var(--border);
       background: #000;
     }
-    .vqa-gif-wrap img {
+    .vqa-gif-wrap img,
+    .vqa-gif-wrap video {
       width: 100%;
       display: block;
     }
@@ -349,7 +353,8 @@
       border-radius: var(--radius);
       overflow: hidden;
     }
-    .nav-item-inner img {
+    .nav-item-inner img,
+    .nav-item-inner video {
       width: 100%;
       display: block;
     }
@@ -803,7 +808,7 @@
     <div class="section-label">Demo</div>
     <h2>Video Overview</h2>
     <div class="video-wrapper">
-      <video controls muted playsinline preload="metadata" poster="assets/demo_poster.jpg">
+      <video controls muted playsinline preload="metadata" poster="assets/demo_poster.webp">
         <source src="assets/demo_v3_h264.mp4" type="video/mp4">
       </video>
     </div>
@@ -930,7 +935,7 @@
       </div>
       <div class="vqa-right-col">
         <div class="vqa-gif-wrap">
-          <img id="vqa-gif" src="" alt="Scene preview">
+          <video id="vqa-gif" muted autoplay loop playsinline preload="metadata" aria-label="Scene preview"></video>
         </div>
       </div>
     </div>
@@ -1040,11 +1045,26 @@
   window._ytPlayer = null;
   window._ytReady = false;
 
-  // Load YouTube API
-  const ytTag = document.createElement('script');
-  ytTag.src = 'https://www.youtube.com/iframe_api';
-  document.head.appendChild(ytTag);
+  // Lazy-load YouTube API only once the explorer scrolls near viewport
   window.onYouTubeIframeAPIReady = function () { window._ytReady = true; };
+  let _ytApiRequested = false;
+  window._loadYouTubeAPI = function () {
+    if (_ytApiRequested) return;
+    _ytApiRequested = true;
+    const ytTag = document.createElement('script');
+    ytTag.src = 'https://www.youtube.com/iframe_api';
+    ytTag.async = true;
+    document.head.appendChild(ytTag);
+  };
+  const _ytLazyTarget = document.getElementById('explorer');
+  if (_ytLazyTarget) {
+    const _ytObs = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { _ytObs.disconnect(); window._loadYouTubeAPI(); }
+    }, { rootMargin: '400px' });
+    _ytObs.observe(_ytLazyTarget);
+  } else {
+    window._loadYouTubeAPI();
+  }
 
   // ── Tab switching ──
   document.querySelectorAll('.video-tab').forEach(function(tab) {
@@ -1185,7 +1205,12 @@
 <script type="module">
   import * as THREE from "three";
   import { TrackballControls } from "three/addons/controls/TrackballControls.js";
-  import { PLYLoader } from "three/addons/loaders/PLYLoader.js";
+  import { DRACOLoader } from "three/addons/loaders/DRACOLoader.js";
+
+  const dracoLoader = new DRACOLoader();
+  dracoLoader.setDecoderPath('https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/libs/draco/');
+  dracoLoader.setDecoderConfig({ type: 'wasm' });
+  dracoLoader.preload();
 
   const DATA_ROOT = 'data_sample';
   const sceneSelect = document.getElementById('scene-select');
@@ -1310,12 +1335,11 @@
   leftViewer.controls.addEventListener('change', () => syncViewerState(leftViewer, rightViewer));
   rightViewer.controls.addEventListener('change', () => syncViewerState(rightViewer, leftViewer));
 
-  // ── PLY loader ──
+  // ── Mesh loader (Draco-compressed .drc) ──
   async function loadPlyMesh(url, tint, progressId) {
-    const loader = new PLYLoader();
     const progressBar = document.getElementById(progressId);
     return new Promise((resolve, reject) => {
-      loader.load(
+      dracoLoader.load(
         url,
         (geometry) => {
           geometry.computeVertexNormals();
@@ -1451,8 +1475,8 @@
 
       // Load meshes in parallel
       const [leftMesh, rightMesh] = await Promise.all([
-        loadPlyMesh(sceneDir + '/mesh.ply', leftViewer.meshTint, 'left-progress'),
-        loadPlyMesh(sceneDir + '/instance_seg_mesh.ply', rightViewer.meshTint, 'right-progress'),
+        loadPlyMesh(sceneDir + '/mesh.drc', leftViewer.meshTint, 'left-progress'),
+        loadPlyMesh(sceneDir + '/instance_seg_mesh.drc', rightViewer.meshTint, 'right-progress'),
       ]);
 
       // Bail if user switched scenes while loading
@@ -1565,8 +1589,13 @@
   }
 
   async function loadScene(sample) {
-    gifImg.src = '';
-    gifImg.src = VQA_DIR + '/' + sample.gif + '?t=' + Date.now();
+    const videoFile = sample.gif.replace(/\.gif$/, '.mp4');
+    const newSrc = VQA_DIR + '/' + videoFile;
+    if (gifImg.getAttribute('src') !== newSrc) {
+      gifImg.src = newSrc;
+      gifImg.load();
+      gifImg.play().catch(() => {});
+    }
     const resp = await fetch(VQA_DIR + '/' + sample.qa);
     const HIDDEN_TYPES = new Set(['object_rel_distance_v2', 'object_rel_distance_v3', 'object_rel_direction_v2', 'object_rel_direction_v3']);
     currentQAs = (await resp.json()).filter(q => !HIDDEN_TYPES.has(q.question_type));
@@ -1634,14 +1663,15 @@
     const samples = await resp.json();
     maxOffset = Math.max(0, samples.length - 3);
 
-    track.innerHTML = samples.map(s =>
-      '<div class="nav-item">' +
+    track.innerHTML = samples.map(s => {
+      const mp4 = s.gif.replace(/\.gif$/, '.mp4');
+      return '<div class="nav-item">' +
         '<div class="nav-item-inner">' +
-          '<img src="' + NAV_DIR + '/' + s.gif + '" alt="' + s.name + '" loading="lazy">' +
+          '<video src="' + NAV_DIR + '/' + mp4 + '" muted autoplay loop playsinline preload="metadata" aria-label="' + s.name + '"></video>' +
           '<div class="nav-instruction">' + s.instruction + '</div>' +
         '</div>' +
-      '</div>'
-    ).join('');
+      '</div>';
+    }).join('');
 
     updateButtons();
   }
